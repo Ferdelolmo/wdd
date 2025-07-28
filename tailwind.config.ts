@@ -61,7 +61,27 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
+				},
+				// Wedding-specific colors
+				wedding: {
+					rose: 'hsl(var(--wedding-rose))',
+					sage: 'hsl(var(--wedding-sage))',
+					cream: 'hsl(var(--wedding-cream))',
+					gold: 'hsl(var(--wedding-gold))'
 				}
+			},
+			backgroundImage: {
+				'gradient-romantic': 'var(--gradient-romantic)',
+				'gradient-sage': 'var(--gradient-sage)',
+				'gradient-sunset': 'var(--gradient-sunset)'
+			},
+			boxShadow: {
+				'soft': 'var(--shadow-soft)',
+				'romantic': 'var(--shadow-romantic)'
+			},
+			fontFamily: {
+				'script': ['Dancing Script', 'cursive'],
+				'serif': ['Playfair Display', 'serif']
 			},
 			borderRadius: {
 				lg: 'var(--radius)',

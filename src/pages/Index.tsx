@@ -1,12 +1,40 @@
-// Update this page (the content is just a fallback if you fail to update the page)
+import { useState } from 'react';
+import WeddingNav from '@/components/WeddingNav';
+import AboutSection from '@/components/sections/AboutSection';
+import VenueSection from '@/components/sections/VenueSection';
+import StorySection from '@/components/sections/StorySection';
+import DetailsSection from '@/components/sections/DetailsSection';
+import FAQSection from '@/components/sections/FAQSection';
 
 const Index = () => {
+  const [activeSection, setActiveSection] = useState('about');
+
+  const renderSection = () => {
+    switch (activeSection) {
+      case 'about':
+        return <AboutSection />;
+      case 'venue':
+        return <VenueSection />;
+      case 'story':
+        return <StorySection />;
+      case 'details':
+        return <DetailsSection />;
+      case 'faq':
+        return <FAQSection />;
+      default:
+        return <AboutSection />;
+    }
+  };
+
   return (
-    <div className="min-h-screen flex items-center justify-center bg-background">
-      <div className="text-center">
-        <h1 className="text-4xl font-bold mb-4">Welcome to Your Blank App</h1>
-        <p className="text-xl text-muted-foreground">Start building your amazing project here!</p>
-      </div>
+    <div className="min-h-screen">
+      <WeddingNav 
+        activeSection={activeSection} 
+        onSectionChange={setActiveSection} 
+      />
+      <main className="pt-16">
+        {renderSection()}
+      </main>
     </div>
   );
 };
