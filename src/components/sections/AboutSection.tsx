@@ -1,22 +1,27 @@
 import { Card } from '@/components/ui/card';
+import { useLanguage } from '@/contexts/LanguageContext';
+import { translations } from '@/translations';
 import heroCoupleImage from '@/assets/hero-couple.jpg';
 import coupleCasualImage from '@/assets/couple-casual.jpg';
 
 const AboutSection = () => {
+  const { language } = useLanguage();
+  const t = translations[language];
+
   return (
     <section className="min-h-screen bg-gradient-romantic flex items-center py-20">
       <div className="container mx-auto px-4">
         {/* Hero Content */}
         <div className="text-center mb-16">
           <h1 className="font-script text-6xl md:text-8xl text-primary mb-4">
-            Sarah & James
+            {t.about.title}
           </h1>
           <p className="text-xl md:text-2xl text-foreground mb-8 max-w-3xl mx-auto leading-relaxed">
-            Join us as we celebrate our love and commitment to each other on the most magical day of our lives
+            {t.about.subtitle}
           </p>
           <div className="text-lg text-muted-foreground">
-            <p className="mb-2">Saturday, June 15th, 2024</p>
-            <p>Garden Manor Estate, Napa Valley</p>
+            <p className="mb-2">{t.about.date}</p>
+            <p>{t.about.location}</p>
           </div>
         </div>
 
@@ -39,13 +44,10 @@ const AboutSection = () => {
               <h2 className="font-serif text-3xl text-primary mb-6">About Us</h2>
               <div className="space-y-4 text-muted-foreground leading-relaxed">
                 <p>
-                  We met five years ago at a coffee shop in downtown San Francisco, where James accidentally spilled his latte on Sarah's laptop. What started as an embarrassing moment turned into hours of conversation over replacement coffee.
+                  {t.about.description}
                 </p>
                 <p>
-                  Since then, we've traveled the world together, adopted our beloved golden retriever Max, and built a home filled with laughter, love, and way too many houseplants (according to James).
-                </p>
-                <p>
-                  We can't wait to share this special day with all of you - our family and friends who have supported us through this incredible journey.
+                  {t.about.joinUs}
                 </p>
               </div>
             </Card>

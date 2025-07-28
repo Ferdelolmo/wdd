@@ -1,10 +1,12 @@
 import { Card } from '@/components/ui/card';
-import { 
+import {
   Accordion,
   AccordionContent,
   AccordionItem,
   AccordionTrigger,
 } from '@/components/ui/accordion';
+import { useLanguage } from '@/contexts/LanguageContext';
+import { translations } from '@/translations';
 import { Button } from '@/components/ui/button';
 import { 
   HelpCircle, 
@@ -19,38 +21,33 @@ import {
 } from 'lucide-react';
 
 const FAQSection = () => {
+  const { language } = useLanguage();
+  const t = translations[language];
+  
   const faqs = [
     {
-      question: "What should I wear?",
-      answer: "We've requested cocktail attire! Think elegant garden party vibes. Florals and pastels are encouraged, and comfortable shoes are recommended as part of the celebration will be outdoors on grass."
+      question: t.faq.items.rsvp.question,
+      answer: t.faq.items.rsvp.answer
     },
     {
-      question: "Will the ceremony be outdoors?",
-      answer: "Yes! Our ceremony will take place in the beautiful rose garden. In case of rain, we have a stunning indoor chapel as our backup plan."
+      question: t.faq.items.plusOne.question,
+      answer: t.faq.items.plusOne.answer
     },
     {
-      question: "Is parking available?",
-      answer: "Yes, complimentary valet parking will be provided. We also recommend using Uber or Lyft for evening transportation, especially if you plan to enjoy the open bar!"
+      question: t.faq.items.children.question,
+      answer: t.faq.items.children.answer
     },
     {
-      question: "Are children welcome?",
-      answer: "We love your little ones, but we've decided to have an adults-only celebration to allow our friends and family to relax and enjoy the evening."
+      question: t.faq.items.weather.question,
+      answer: t.faq.items.weather.answer
     },
     {
-      question: "What's the food situation?",
-      answer: "We'll be serving a delicious farm-to-table three-course dinner with vegetarian and vegan options. Please let us know of any specific dietary restrictions when you RSVP."
+      question: t.faq.items.parking.question,
+      answer: t.faq.items.parking.answer
     },
     {
-      question: "Can I take photos during the ceremony?",
-      answer: "We're having an unplugged ceremony! Please put away your phones and cameras during the ceremony so our professional photographer can capture the perfect shots. Feel free to snap away during the reception!"
-    },
-    {
-      question: "Do you have a gift registry?",
-      answer: "Your presence truly is our present! If you'd like to give a gift, we have registries at Williams Sonoma and Crate & Barrel, or contributions to our honeymoon fund are appreciated."
-    },
-    {
-      question: "How do I get to the venue?",
-      answer: "Garden Manor Estate is located at 1234 Vineyard Lane in Napa Valley. It's about 1.5 hours from San Francisco. We'll send detailed directions with your RSVP confirmation."
+      question: t.faq.items.dietary.question,
+      answer: t.faq.items.dietary.answer
     }
   ];
 
@@ -66,10 +63,10 @@ const FAQSection = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="font-script text-5xl md:text-6xl text-primary mb-4">
-            FAQ & Fun Facts
+            {t.faq.title}
           </h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            Your questions answered, plus some fun tidbits about us!
+            {t.faq.subtitle}
           </p>
         </div>
 
@@ -79,7 +76,7 @@ const FAQSection = () => {
             <Card className="p-8 bg-card/80 backdrop-blur-sm shadow-romantic border-0">
               <div className="flex items-center gap-3 mb-6">
                 <HelpCircle className="w-6 h-6 text-primary" />
-                <h3 className="font-serif text-2xl text-primary">Frequently Asked Questions</h3>
+                <h3 className="font-serif text-2xl text-primary">{t.faq.title}</h3>
               </div>
               
               <Accordion type="single" collapsible className="w-full">

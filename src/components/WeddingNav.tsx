@@ -1,6 +1,9 @@
 import { useState } from 'react';
 import { Heart, Menu, X } from 'lucide-react';
 import { Button } from '@/components/ui/button';
+import { useLanguage } from '@/contexts/LanguageContext';
+import { translations } from '@/translations';
+import LanguageSelector from '@/components/LanguageSelector';
 
 interface WeddingNavProps {
   activeSection: string;
@@ -9,13 +12,15 @@ interface WeddingNavProps {
 
 const WeddingNav = ({ activeSection, onSectionChange }: WeddingNavProps) => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const { language } = useLanguage();
+  const t = translations[language];
 
   const sections = [
-    { id: 'about', label: 'About Us' },
-    { id: 'venue', label: 'Venue' },
-    { id: 'story', label: 'Our Story' },
-    { id: 'details', label: 'Wedding Details' },
-    { id: 'faq', label: 'FAQ' }
+    { id: 'about', label: t.nav.aboutUs },
+    { id: 'venue', label: t.nav.venue },
+    { id: 'story', label: t.nav.ourStory },
+    { id: 'details', label: t.nav.weddingDetails },
+    { id: 'faq', label: t.nav.faq }
   ];
 
   return (
@@ -44,17 +49,20 @@ const WeddingNav = ({ activeSection, onSectionChange }: WeddingNavProps) => {
                 {section.label}
               </button>
             ))}
+            <LanguageSelector />
           </div>
 
-          {/* Mobile Menu Button */}
-          <Button
-            variant="ghost"
-            size="sm"
-            className="md:hidden"
-            onClick={() => setIsMenuOpen(!isMenuOpen)}
-          >
-            {isMenuOpen ? <X className="w-5 h-5" /> : <Menu className="w-5 h-5" />}
-          </Button>
+          {/* Mobile Controls */}
+          <div className="md:hidden flex items-center gap-2">
+            <LanguageSelector />
+            <Button
+              variant="ghost"
+              size="sm"
+              onClick={() => setIsMenuOpen(!isMenuOpen)}
+            >
+              {isMenuOpen ? <X className="w-5 h-5" /> : <Menu className="w-5 h-5" />}
+            </Button>
+          </div>
         </div>
 
         {/* Mobile Navigation */}

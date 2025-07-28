@@ -1,37 +1,36 @@
 import { Card } from '@/components/ui/card';
 import { Heart, Coffee, Plane, Home, Gem } from 'lucide-react';
+import { useLanguage } from '@/contexts/LanguageContext';
+import { translations } from '@/translations';
 
 const StorySection = () => {
+  const { language } = useLanguage();
+  const t = translations[language];
+  
   const milestones = [
     {
       icon: Coffee,
-      date: "October 2019",
-      title: "First Meeting",
-      description: "A spilled latte at Blue Bottle Coffee became the beginning of our beautiful story."
+      date: "March 2020",
+      title: t.story.milestones.firstMeet.title,
+      description: t.story.milestones.firstMeet.description
     },
     {
       icon: Heart,
-      date: "February 2020",
-      title: "First Valentine's",
-      description: "James surprised Sarah with a handwritten book of all their coffee shop conversations."
-    },
-    {
-      icon: Plane,
-      date: "Summer 2021",
-      title: "European Adventure",
-      description: "Our first big trip together through Italy, France, and Spain - creating unforgettable memories."
+      date: "April 2020",
+      title: t.story.milestones.firstDate.title,
+      description: t.story.milestones.firstDate.description
     },
     {
       icon: Home,
-      date: "Spring 2022",
-      title: "Moving In Together",
-      description: "We found our perfect little home in Pacific Heights and adopted our golden retriever, Max."
+      date: "January 2022",
+      title: t.story.milestones.moving.title,
+      description: t.story.milestones.moving.description
     },
     {
       icon: Gem,
       date: "December 2023",
-      title: "The Proposal",
-      description: "James proposed at sunset on the beach in Half Moon Bay, the same place we had our first weekend getaway."
+      title: t.story.milestones.proposal.title,
+      description: t.story.milestones.proposal.description
     }
   ];
 
@@ -40,10 +39,10 @@ const StorySection = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="font-script text-5xl md:text-6xl text-primary mb-4">
-            Our Love Story
+            {t.story.title}
           </h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            Every love story is beautiful, but ours is our favorite
+            {t.story.subtitle}
           </p>
         </div>
 
@@ -81,8 +80,7 @@ const StorySection = () => {
               And now...
             </h3>
             <p className="text-lg text-foreground leading-relaxed max-w-2xl mx-auto">
-              We're ready to start the next chapter of our adventure together as husband and wife. 
-              Thank you for being part of our journey and for celebrating this special moment with us!
+              {t.story.conclusion}
             </p>
             <div className="flex justify-center mt-6">
               <Heart className="w-8 h-8 text-primary fill-primary animate-pulse" />
