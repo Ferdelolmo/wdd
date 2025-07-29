@@ -1,7 +1,7 @@
 import { Card } from '@/components/ui/card';
 import { useLanguage } from '@/contexts/LanguageContext';
 import { translations } from '@/translations';
-import heroCoupleImage from '@/assets/hero-couple.jpg';
+const heroCoupleImage = '/lovable-uploads/6e1cb8f6-601c-40bc-a679-97e831040fbc.png';
 import coupleCasualImage from '@/assets/couple-casual.jpg';
 
 const AboutSection = () => {
