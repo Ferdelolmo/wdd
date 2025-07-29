@@ -123,6 +123,12 @@ export const translations = {
         }
       },
       funFacts: 'Datos Curiosos Sobre Nosotros',
+      funFactsList: [
+        'Una de nuestras habilidades es leernos el pensamiento del uno al otro sin mediar palabra',
+        'Tendremos un total de 150 invitados entre familiares y amigos',
+        'Nuestro primer baile fue "(I Just) Died in Your Arms" por Cutting Crew durante una noche de fiesta en Irlanda, bajo la lluvia',
+        'Las islas nos han perseguido durante nuestra vida y forman parte de nosotros, es tanto así que hemos visitado juntos 16 islas diferentes'
+      ],
       cantWait: {
         title: '¡No Podemos Esperar!',
         message: 'Estamos muy emocionados de celebrar con todos vosotros. ¡Nos vemos el 15 de junio!'
@@ -253,6 +259,12 @@ export const translations = {
         }
       },
       funFacts: 'Fatti Divertenti Su Di Noi',
+      funFactsList: [
+        'Una di li nostri abilitati è liggiri li pinzeri l\'unu di l\'autru senza parrari',
+        'Avremu un totali di 150 nvitati ntra famigghiari e amici',
+        'U nostru primu ballu fu "(I Just) Died in Your Arms" di Cutting Crew nta na notti di festa n\'Irlanda, sutta a chiuvuta',
+        'Li isuli ni ànnu pirsugutu durante a nostra vita e fannu parti di nui, è tantu accussì ca abbiamu visitatu nsemi 16 isuli diversi'
+      ],
       cantWait: {
         title: 'Nun Putemu Aspittari!',
         message: 'Simu tantu cuntentu di cilbrari cu tutti vui. Ni videmu u 15 di giugnu!'
@@ -383,6 +395,12 @@ export const translations = {
         }
       },
       funFacts: 'Curiosità Su Di Noi',
+      funFactsList: [
+        'Una delle nostre abilità è leggerci il pensiero a vicenda senza dire una parola',
+        'Avremo un totale di 150 ospiti tra famiglia e amici',
+        'Il nostro primo ballo è stato "(I Just) Died in Your Arms" dei Cutting Crew durante una notte di festa in Irlanda, sotto la pioggia',
+        'Le isole ci hanno perseguito durante la nostra vita e fanno parte di noi, è così tanto che abbiamo visitato insieme 16 isole diverse'
+      ],
       cantWait: {
         title: 'Non Vediamo L\'Ora!',
         message: 'Siamo così entusiasti di celebrare con tutti voi. Ci vediamo il 15 giugno!'
@@ -513,6 +531,12 @@ export const translations = {
         }
       },
       funFacts: 'Fun Facts About Us',
+      funFactsList: [
+        'One of our skills is reading each other\'s minds without saying a word',
+        'We will have a total of 150 guests including family and friends',
+        'Our first dance was "(I Just) Died in Your Arms" by Cutting Crew during a party night in Ireland, under the rain',
+        'Islands have followed us throughout our lives and are part of us, so much so that we have visited 16 different islands together'
+      ],
       cantWait: {
         title: 'Can\'t Wait!',
         message: 'We\'re so excited to celebrate with all of you. See you on June 15th!'

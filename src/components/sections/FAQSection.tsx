@@ -28,19 +28,12 @@ const FAQSection = () => {
     question: t.faq.items.dietary.question,
     answer: t.faq.items.dietary.answer
   }];
-  const funFacts = [{
-    icon: Heart,
-    fact: "Una de nuestras habilidades es leernos el pensamiento del uno al otro sin mediar palabra"
-  }, {
-    icon: Users,
-    fact: "Tendremos un total de 150 invitados entre familiares y amigos"
-  }, {
-    icon: Gift,
-    fact: "Nuestro primer baile fue \"(I Just) Died in Your Arms\" por Cutting Crew durante una noche de fiesta en Irlanda, bajo la lluvia"
-  }, {
-    icon: Camera,
-    fact: "Las islas nos han perseguido durante nuestra vida y forman parte de nosotros, es tanto así que hemos visitado juntos 16 islas diferentes"
-  }];
+  const funFacts = [
+    { icon: Heart, fact: t.faq.funFactsList[0] },
+    { icon: Users, fact: t.faq.funFactsList[1] },
+    { icon: Gift, fact: t.faq.funFactsList[2] },
+    { icon: Camera, fact: t.faq.funFactsList[3] }
+  ];
   return <section className="min-h-screen bg-gradient-romantic py-20">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
