@@ -52,7 +52,7 @@ const FAQSection = () => {
   ];
 
   const funFacts = [
-    { icon: Heart, fact: "James proposed with Sarah's grandmother's ring" },
+    { icon: Heart, fact: "Una de nuestras habilidades es leernos el pensamiento del uno al otro sin mediar palabra" },
     { icon: Users, fact: "We have 150 amazing guests joining us" },
     { icon: Gift, fact: "Our first dance song is 'At Last' by Etta James" },
     { icon: Camera, fact: "We've been to 12 countries together" }
