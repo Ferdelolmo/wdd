@@ -2,7 +2,7 @@ import { Card } from '@/components/ui/card';
 import { useLanguage } from '@/contexts/LanguageContext';
 import { translations } from '@/translations';
 const heroCoupleImage = '/lovable-uploads/6e1cb8f6-601c-40bc-a679-97e831040fbc.png';
-import coupleCasualImage from '@/assets/couple-casual.jpg';
+const coupleCasualImage = '/lovable-uploads/c0585cc7-2ee9-4073-a936-33b84d7c45ff.png';
 
 const AboutSection = () => {
   const { language } = useLanguage();
