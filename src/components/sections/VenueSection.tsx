@@ -36,13 +36,12 @@ const VenueSection = () => {
           {/* Venue Details */}
           <div className="space-y-8">
             <Card className="p-8 bg-gradient-sage text-white shadow-soft border-0">
-              <h3 className="font-serif text-3xl mb-6">Garden Manor Estate</h3>
+              <h3 className="font-serif text-3xl mb-6">Villa Romantica</h3>
               
               <div className="space-y-6">
                 <div className="flex items-start gap-4">
                   <MapPin className="w-5 h-5 mt-1 flex-shrink-0" />
                   <div>
-                    <p className="font-medium mb-1">Address</p>
                     <p className="text-sm opacity-90">
                       {t.venue.address}
                     </p>
@@ -52,7 +51,6 @@ const VenueSection = () => {
                 <div className="flex items-start gap-4">
                   <Clock className="w-5 h-5 mt-1 flex-shrink-0" />
                   <div>
-                    <p className="font-medium mb-1">Timing</p>
                     <p className="text-sm opacity-90">{t.venue.ceremony}</p>
                     <p className="text-sm opacity-90">{t.venue.reception}</p>
                   </div>
@@ -61,7 +59,6 @@ const VenueSection = () => {
                 <div className="flex items-start gap-4">
                   <Phone className="w-5 h-5 mt-1 flex-shrink-0" />
                   <div>
-                    <p className="font-medium mb-1">Contact</p>
                     <p className="text-sm opacity-90">{t.venue.contact}</p>
                   </div>
                 </div>
@@ -80,7 +77,6 @@ const VenueSection = () => {
             </Card>
 
             <Card className="p-8 bg-wedding-cream shadow-soft border-0">
-              <h4 className="font-serif text-2xl text-primary mb-4">About the Venue</h4>
               <p className="text-muted-foreground leading-relaxed">
                 {t.venue.description}
               </p>

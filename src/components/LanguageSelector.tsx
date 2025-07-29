@@ -9,9 +9,10 @@ import {
 import { useLanguage, Language } from '@/contexts/LanguageContext';
 
 const languages = {
-  en: { name: 'English', flag: '🇬🇧' },
   es: { name: 'Español', flag: '🇪🇸' },
-  scn: { name: 'Sicilianu', flag: '🇮🇹' }
+  scn: { name: 'Sicilianu', flag: '🟡🔴' },
+  it: { name: 'Italiano', flag: '🇮🇹' },
+  en: { name: 'English', flag: '🇬🇧' }
 };
 
 const LanguageSelector = () => {

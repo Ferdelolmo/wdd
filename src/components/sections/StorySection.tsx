@@ -48,30 +48,35 @@ const StorySection = () => {
 
         <div className="max-w-4xl mx-auto">
           {/* Story Timeline */}
-          <div className="space-y-12">
-            {milestones.map((milestone, index) => (
-              <Card key={index} className="p-8 bg-card shadow-soft border-0 hover:shadow-romantic transition-shadow duration-300">
-                <div className="flex items-start gap-6">
-                  <div className="flex-shrink-0">
-                    <div className="w-12 h-12 bg-gradient-sunset rounded-full flex items-center justify-center">
+          <div className="relative">
+            {/* Timeline line */}
+            <div className="absolute left-6 md:left-8 top-0 bottom-0 w-px bg-gradient-to-b from-primary via-primary/50 to-transparent"></div>
+            
+            <div className="space-y-12">
+              {milestones.map((milestone, index) => (
+                <div key={index} className="relative flex items-start gap-6">
+                  {/* Timeline dot */}
+                  <div className="relative z-10 flex-shrink-0">
+                    <div className="w-12 h-12 bg-gradient-sunset rounded-full flex items-center justify-center shadow-lg">
                       <milestone.icon className="w-6 h-6 text-white" />
                     </div>
                   </div>
                   
-                  <div className="flex-1">
+                  {/* Content */}
+                  <Card className="flex-1 p-8 bg-card shadow-soft border-0 hover:shadow-romantic transition-shadow duration-300 ml-2">
                     <div className="flex flex-col md:flex-row md:items-center md:justify-between mb-4">
                       <h3 className="font-serif text-2xl text-primary">{milestone.title}</h3>
-                      <span className="text-sm text-wedding-sage font-medium bg-secondary px-3 py-1 rounded-full">
+                      <span className="text-sm text-wedding-sage font-medium bg-secondary px-3 py-1 rounded-full mt-2 md:mt-0">
                         {milestone.date}
                       </span>
                     </div>
                     <p className="text-muted-foreground leading-relaxed">
                       {milestone.description}
                     </p>
-                  </div>
+                  </Card>
                 </div>
-              </Card>
-            ))}
+              ))}
+            </div>
           </div>
 
           {/* Final Message */}

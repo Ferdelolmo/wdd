@@ -1,117 +1,4 @@
 export const translations = {
-  en: {
-    nav: {
-      aboutUs: 'About Us',
-      venue: 'Venue',
-      ourStory: 'Our Story',
-      weddingDetails: 'Wedding Details',
-      faq: 'FAQ'
-    },
-    about: {
-      title: 'Sarah & James',
-      subtitle: 'are getting married!',
-      date: 'June 15, 2024',
-      location: 'Tuscany, Italy',
-      description: 'We are thrilled to share our special day with you. After years of love, laughter, and adventures together, we are ready to begin our next chapter as husband and wife.',
-      joinUs: 'Join us for a celebration of love, family, and the beginning of our forever.'
-    },
-    venue: {
-      title: 'Wedding Venue',
-      subtitle: 'A magical place where our love story continues',
-      description: 'Nestled in the heart of Tuscany, our chosen venue offers breathtaking views of rolling hills and vineyards. This historic estate provides the perfect romantic backdrop for our special day.',
-      address: 'Villa Romantica, Via del Amore 123, 50022 Greve in Chianti, Italy',
-      ceremony: 'Ceremony: 4:00 PM',
-      reception: 'Reception: 6:00 PM',
-      contact: 'Contact: +39 055 123 4567',
-      getDirections: 'Get Directions',
-      viewWebsite: 'View Website'
-    },
-    story: {
-      title: 'Our Love Story',
-      subtitle: 'Every love story is beautiful, but ours is our favorite',
-      milestones: {
-        firstMeet: {
-          title: 'First Meeting',
-          description: 'We met at a coffee shop in downtown. Sarah was reading a book, and James couldn\'t help but start a conversation about it.'
-        },
-        firstDate: {
-          title: 'First Date',
-          description: 'Our first official date was a picnic in the park. We talked for hours and knew there was something special between us.'
-        },
-        moving: {
-          title: 'Moving In Together',
-          description: 'After a year of dating, we decided to take the next step and move in together. Best decision ever!'
-        },
-        proposal: {
-          title: 'The Proposal',
-          description: 'James proposed during a sunset hike at our favorite trail. It was perfect, intimate, and everything Sarah had dreamed of.'
-        }
-      },
-      conclusion: 'And now, we\'re ready to say "I do" and start our forever journey together. Thank you for being part of our story!'
-    },
-    details: {
-      title: 'Wedding Details',
-      subtitle: 'Everything you need to know about our special day',
-      schedule: {
-        title: 'Schedule',
-        items: {
-          arrival: 'Guest Arrival & Welcome Drinks',
-          ceremony: 'Wedding Ceremony',
-          photos: 'Photos & Cocktail Hour',
-          dinner: 'Reception & Dinner',
-          party: 'Dancing & Celebration'
-        }
-      },
-      attire: {
-        title: 'Dress Code',
-        description: 'Semi-formal attire requested. Think garden party elegant - comfortable yet stylish for an outdoor celebration in Tuscany.'
-      },
-      accommodation: {
-        title: 'Accommodation',
-        description: 'We have reserved rooms at nearby hotels. Please see our website for booking details and group discounts.',
-        viewDetails: 'View Details'
-      },
-      transportation: {
-        title: 'Transportation',
-        description: 'Shuttle service will be provided from the main hotels to the venue. The shuttle will run every 30 minutes starting at 3:00 PM.'
-      },
-      gifts: {
-        title: 'Wedding Registry',
-        description: 'Your presence is the only present we need! If you wish to give a gift, we have a small registry available.',
-        viewRegistry: 'View Registry'
-      }
-    },
-    faq: {
-      title: 'Frequently Asked Questions',
-      subtitle: 'Got questions? We\'ve got answers!',
-      items: {
-        rsvp: {
-          question: 'When is the RSVP deadline?',
-          answer: 'Please RSVP by April 15, 2024. You can respond through our wedding website or by calling us directly.'
-        },
-        plusOne: {
-          question: 'Can I bring a plus-one?',
-          answer: 'Plus-ones are specified on your invitation. If you have any questions about your invitation, please reach out to us.'
-        },
-        children: {
-          question: 'Are children welcome?',
-          answer: 'While we love your little ones, we have decided to have an adults-only celebration to allow all our guests to relax and enjoy the evening.'
-        },
-        weather: {
-          question: 'What if it rains?',
-          answer: 'Our venue has beautiful indoor spaces as a backup plan. Don\'t worry, we\'ll still have an amazing celebration regardless of the weather!'
-        },
-        parking: {
-          question: 'Is parking available?',
-          answer: 'Yes, there is complimentary parking available at the venue. Shuttle service is also provided from nearby hotels.'
-        },
-        dietary: {
-          question: 'Do you accommodate dietary restrictions?',
-          answer: 'Absolutely! Please let us know about any dietary restrictions when you RSVP, and our caterer will ensure you have delicious options.'
-        }
-      }
-    }
-  },
   es: {
     nav: {
       aboutUs: 'Sobre Nosotros',
@@ -121,7 +8,7 @@ export const translations = {
       faq: 'Preguntas Frecuentes'
     },
     about: {
-      title: 'Sarah y James',
+      title: 'Fernando & Chiara',
       subtitle: '¡se casan!',
       date: '15 de Junio, 2024',
       location: 'Toscana, Italia',
@@ -145,7 +32,7 @@ export const translations = {
       milestones: {
         firstMeet: {
           title: 'Primer Encuentro',
-          description: 'Nos conocimos en una cafetería del centro. Sarah estaba leyendo un libro y James no pudo evitar iniciar una conversación sobre él.'
+          description: 'Nos conocimos en una cafetería del centro. Chiara estaba leyendo un libro y Fernando no pudo evitar iniciar una conversación sobre él.'
         },
         firstDate: {
           title: 'Primera Cita',
@@ -157,7 +44,7 @@ export const translations = {
         },
         proposal: {
           title: 'La Propuesta',
-          description: 'James propuso durante una caminata al atardecer en nuestro sendero favorito. Fue perfecto, íntimo y todo lo que Sarah había soñado.'
+          description: 'Fernando propuso durante una caminata al atardecer en nuestro sendero favorito. Fue perfecto, íntimo y todo lo que Chiara había soñado.'
         }
       },
       conclusion: 'Y ahora, estamos listos para decir "Acepto" y comenzar nuestro viaje eterno juntos. ¡Gracias por ser parte de nuestra historia!'
@@ -234,7 +121,7 @@ export const translations = {
       faq: 'Dimanndi Frequenti'
     },
     about: {
-      title: 'Sarah e James',
+      title: 'Fernando e Chiara',
       subtitle: 'si maritanu!',
       date: '15 di Giugnu, 2024',
       location: 'Toscana, Italia',
@@ -258,7 +145,7 @@ export const translations = {
       milestones: {
         firstMeet: {
           title: 'Primu Ncuntru',
-          description: 'Ni cunuscimmu nta na caffitteria dû centru. Sarah stava liggennu nu libbru e James nun potti fari a menu di ncuminzari na cunvirsazzioni suprà di iddu.'
+          description: 'Ni cunuscimmu nta na caffitteria dû centru. Chiara stava liggennu nu libbru e Fernando nun potti fari a menu di ncuminzari na cunvirsazzioni suprà di iddu.'
         },
         firstDate: {
           title: 'Prima Appuntamentu',
@@ -270,7 +157,7 @@ export const translations = {
         },
         proposal: {
           title: 'A Pruposta',
-          description: 'James pruposi nta na passeggiata â calutu dû suli nnû nostru senteru prifiritu. Fu pirfettu, ìntimu e tuttu chiddu ca Sarah avia sugnatu.'
+          description: 'Fernando pruposi nta na passeggiata â calutu dû suli nnû nostru senteru prifiritu. Fu pirfettu, ìntimu e tuttu chiddu ca Chiara avia sugnatu.'
         }
       },
       conclusion: 'E ora, simu pronti pi diri "Accettu" e ncuminzari u nostru viaggiu eternu nsemi. Graziu pi èssiri parti dâ nostra storia!'
@@ -334,6 +221,232 @@ export const translations = {
         dietary: {
           question: 'Accummudati ristrizzioni dietetichi?',
           answer: 'Assulutu! Pi favuri fàtinilu sapiri suprà qualsiasi ristrizzioni dietetica quannu cunfirmati a vostra prisenza, e u nostru catering si sicurarà ca aviti opzioni dilizziusi.'
+        }
+      }
+    }
+  },
+  it: {
+    nav: {
+      aboutUs: 'Chi Siamo',
+      venue: 'Luogo',
+      ourStory: 'La Nostra Storia',
+      weddingDetails: 'Dettagli del Matrimonio',
+      faq: 'Domande Frequenti'
+    },
+    about: {
+      title: 'Fernando e Chiara',
+      subtitle: 'si sposano!',
+      date: '15 Giugno, 2024',
+      location: 'Toscana, Italia',
+      description: 'Siamo entusiasti di condividere il nostro giorno speciale con voi. Dopo anni di amore, risate e avventure insieme, siamo pronti per iniziare il nostro prossimo capitolo come marito e moglie.',
+      joinUs: 'Unitevi a noi per celebrare l\'amore, la famiglia e l\'inizio del nostro per sempre.'
+    },
+    venue: {
+      title: 'Luogo del Matrimonio',
+      subtitle: 'Un luogo magico dove la nostra storia d\'amore continua',
+      description: 'Situato nel cuore della Toscana, il nostro luogo scelto offre viste mozzafiato di colline ondulate e vigneti. Questa tenuta storica fornisce lo sfondo romantico perfetto per il nostro giorno speciale.',
+      address: 'Villa Romantica, Via del Amore 123, 50022 Greve in Chianti, Italia',
+      ceremony: 'Cerimonia: 16:00',
+      reception: 'Ricevimento: 18:00',
+      contact: 'Contatto: +39 055 123 4567',
+      getDirections: 'Ottieni Indicazioni',
+      viewWebsite: 'Visualizza Sito Web'
+    },
+    story: {
+      title: 'La Nostra Storia d\'Amore',
+      subtitle: 'Ogni storia d\'amore è bella, ma la nostra è la nostra preferita',
+      milestones: {
+        firstMeet: {
+          title: 'Primo Incontro',
+          description: 'Ci siamo conosciuti in una caffetteria del centro. Chiara stava leggendo un libro e Fernando non riuscì a evitare di iniziare una conversazione su di esso.'
+        },
+        firstDate: {
+          title: 'Primo Appuntamento',
+          description: 'Il nostro primo appuntamento ufficiale è stato un picnic al parco. Abbiamo parlato per ore e sapevamo che c\'era qualcosa di speciale tra noi.'
+        },
+        moving: {
+          title: 'Trasferirsi Insieme',
+          description: 'Dopo un anno di fidanzamento, abbiamo deciso di fare il passo successivo e trasferirci insieme. La migliore decisione di sempre!'
+        },
+        proposal: {
+          title: 'La Proposta',
+          description: 'Fernando ha fatto la proposta durante un\'escursione al tramonto sul nostro sentiero preferito. È stato perfetto, intimo e tutto quello che Chiara aveva sognato.'
+        }
+      },
+      conclusion: 'E ora, siamo pronti a dire "Sì" e iniziare il nostro viaggio eterno insieme. Grazie per essere parte della nostra storia!'
+    },
+    details: {
+      title: 'Dettagli del Matrimonio',
+      subtitle: 'Tutto quello che dovete sapere sul nostro giorno speciale',
+      schedule: {
+        title: 'Programma',
+        items: {
+          arrival: 'Arrivo Ospiti e Aperitivo di Benvenuto',
+          ceremony: 'Cerimonia di Matrimonio',
+          photos: 'Foto e Aperitivo',
+          dinner: 'Ricevimento e Cena',
+          party: 'Ballo e Celebrazione'
+        }
+      },
+      attire: {
+        title: 'Codice di Abbigliamento',
+        description: 'Abbigliamento semi-formale richiesto. Pensate a eleganza da festa in giardino - comodo ma elegante per una celebrazione all\'aperto in Toscana.'
+      },
+      accommodation: {
+        title: 'Alloggio',
+        description: 'Abbiamo riservato camere in hotel vicini. Consultate il nostro sito web per i dettagli delle prenotazioni e sconti di gruppo.',
+        viewDetails: 'Visualizza Dettagli'
+      },
+      transportation: {
+        title: 'Trasporto',
+        description: 'Sarà fornito un servizio navetta dagli hotel principali al luogo. La navetta funzionerà ogni 30 minuti a partire dalle 15:00.'
+      },
+      gifts: {
+        title: 'Lista Nozze',
+        description: 'La vostra presenza è l\'unico regalo di cui abbiamo bisogno! Se desiderate fare un regalo, abbiamo una piccola lista disponibile.',
+        viewRegistry: 'Visualizza Lista'
+      }
+    },
+    faq: {
+      title: 'Domande Frequenti',
+      subtitle: 'Avete domande? Abbiamo le risposte!',
+      items: {
+        rsvp: {
+          question: 'Quando è la scadenza per confermare la presenza?',
+          answer: 'Vi preghiamo di confermare la vostra presenza entro il 15 aprile 2024. Potete rispondere tramite il nostro sito web del matrimonio o chiamandoci direttamente.'
+        },
+        plusOne: {
+          question: 'Posso portare un accompagnatore?',
+          answer: 'Gli accompagnatori sono specificati sul vostro invito. Se avete domande sul vostro invito, vi preghiamo di contattarci.'
+        },
+        children: {
+          question: 'I bambini sono benvenuti?',
+          answer: 'Anche se amiamo i vostri piccoli, abbiamo deciso di avere una celebrazione solo per adulti per permettere a tutti i nostri ospiti di rilassarsi e godersi la serata.'
+        },
+        weather: {
+          question: 'Cosa succede se piove?',
+          answer: 'Il nostro luogo ha bellissimi spazi interni come piano di riserva. Non preoccupatevi, avremo comunque una celebrazione fantastica indipendentemente dal tempo!'
+        },
+        parking: {
+          question: 'È disponibile il parcheggio?',
+          answer: 'Sì, c\'è parcheggio gratuito disponibile presso il luogo. È anche fornito servizio navetta da hotel vicini.'
+        },
+        dietary: {
+          question: 'Vengono accomodate le restrizioni alimentari?',
+          answer: 'Assolutamente! Vi preghiamo di farci sapere eventuali restrizioni alimentari quando confermate la presenza, e il nostro catering si assicurerà che abbiate opzioni deliziose.'
+        }
+      }
+    }
+  },
+  en: {
+    nav: {
+      aboutUs: 'About Us',
+      venue: 'Venue',
+      ourStory: 'Our Story',
+      weddingDetails: 'Wedding Details',
+      faq: 'FAQ'
+    },
+    about: {
+      title: 'Fernando & Chiara',
+      subtitle: 'are getting married!',
+      date: 'June 15, 2024',
+      location: 'Tuscany, Italy',
+      description: 'We are thrilled to share our special day with you. After years of love, laughter, and adventures together, we are ready to begin our next chapter as husband and wife.',
+      joinUs: 'Join us for a celebration of love, family, and the beginning of our forever.'
+    },
+    venue: {
+      title: 'Wedding Venue',
+      subtitle: 'A magical place where our love story continues',
+      description: 'Nestled in the heart of Tuscany, our chosen venue offers breathtaking views of rolling hills and vineyards. This historic estate provides the perfect romantic backdrop for our special day.',
+      address: 'Villa Romantica, Via del Amore 123, 50022 Greve in Chianti, Italy',
+      ceremony: 'Ceremony: 4:00 PM',
+      reception: 'Reception: 6:00 PM',
+      contact: 'Contact: +39 055 123 4567',
+      getDirections: 'Get Directions',
+      viewWebsite: 'View Website'
+    },
+    story: {
+      title: 'Our Love Story',
+      subtitle: 'Every love story is beautiful, but ours is our favorite',
+      milestones: {
+        firstMeet: {
+          title: 'First Meeting',
+          description: 'We met at a coffee shop in downtown. Chiara was reading a book, and Fernando couldn\'t help but start a conversation about it.'
+        },
+        firstDate: {
+          title: 'First Date',
+          description: 'Our first official date was a picnic in the park. We talked for hours and knew there was something special between us.'
+        },
+        moving: {
+          title: 'Moving In Together',
+          description: 'After a year of dating, we decided to take the next step and move in together. Best decision ever!'
+        },
+        proposal: {
+          title: 'The Proposal',
+          description: 'Fernando proposed during a sunset hike at our favorite trail. It was perfect, intimate, and everything Chiara had dreamed of.'
+        }
+      },
+      conclusion: 'And now, we\'re ready to say "I do" and start our forever journey together. Thank you for being part of our story!'
+    },
+    details: {
+      title: 'Wedding Details',
+      subtitle: 'Everything you need to know about our special day',
+      schedule: {
+        title: 'Schedule',
+        items: {
+          arrival: 'Guest Arrival & Welcome Drinks',
+          ceremony: 'Wedding Ceremony',
+          photos: 'Photos & Cocktail Hour',
+          dinner: 'Reception & Dinner',
+          party: 'Dancing & Celebration'
+        }
+      },
+      attire: {
+        title: 'Dress Code',
+        description: 'Semi-formal attire requested. Think garden party elegant - comfortable yet stylish for an outdoor celebration in Tuscany.'
+      },
+      accommodation: {
+        title: 'Accommodation',
+        description: 'We have reserved rooms at nearby hotels. Please see our website for booking details and group discounts.',
+        viewDetails: 'View Details'
+      },
+      transportation: {
+        title: 'Transportation',
+        description: 'Shuttle service will be provided from the main hotels to the venue. The shuttle will run every 30 minutes starting at 3:00 PM.'
+      },
+      gifts: {
+        title: 'Wedding Registry',
+        description: 'Your presence is the only present we need! If you wish to give a gift, we have a small registry available.',
+        viewRegistry: 'View Registry'
+      }
+    },
+    faq: {
+      title: 'Frequently Asked Questions',
+      subtitle: 'Got questions? We\'ve got answers!',
+      items: {
+        rsvp: {
+          question: 'When is the RSVP deadline?',
+          answer: 'Please RSVP by April 15, 2024. You can respond through our wedding website or by calling us directly.'
+        },
+        plusOne: {
+          question: 'Can I bring a plus-one?',
+          answer: 'Plus-ones are specified on your invitation. If you have any questions about your invitation, please reach out to us.'
+        },
+        children: {
+          question: 'Are children welcome?',
+          answer: 'While we love your little ones, we have decided to have an adults-only celebration to allow all our guests to relax and enjoy the evening.'
+        },
+        weather: {
+          question: 'What if it rains?',
+          answer: 'Our venue has beautiful indoor spaces as a backup plan. Don\'t worry, we\'ll still have an amazing celebration regardless of the weather!'
+        },
+        parking: {
+          question: 'Is parking available?',
+          answer: 'Yes, there is complimentary parking available at the venue. Shuttle service is also provided from nearby hotels.'
+        },
+        dietary: {
+          question: 'Do you accommodate dietary restrictions?',
+          answer: 'Absolutely! Please let us know about any dietary restrictions when you RSVP, and our caterer will ensure you have delicious options.'
         }
       }
     }
