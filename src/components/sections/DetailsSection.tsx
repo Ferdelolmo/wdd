@@ -82,12 +82,12 @@ const DetailsSection = () => {
             </Card>
 
             <Card className="p-6 bg-wedding-rose text-center shadow-soft border-0">
-              <h4 className="font-serif text-xl text-primary mb-3">RSVP Required</h4>
-              <p className="text-sm text-muted-foreground mb-4">
-                Please respond by April 15th, 2024
-              </p>
-              <Button className="bg-primary hover:bg-primary/90">
-                RSVP Now
+              <h4 className="font-serif text-xl text-primary mb-3">{t.details.rsvp.title}</h4>
+              <Button 
+                className="bg-primary hover:bg-primary/90"
+                onClick={() => window.open('https://forms.gle/Pu5jfecVs7exJadh7', '_blank')}
+              >
+                {t.details.rsvp.buttonText}
               </Button>
             </Card>
           </div>

@@ -20,6 +20,7 @@ const WeddingNav = ({ activeSection, onSectionChange }: WeddingNavProps) => {
     { id: 'venue', label: t.nav.venue },
     { id: 'story', label: t.nav.ourStory },
     { id: 'details', label: t.nav.weddingDetails },
+    { id: 'gallery', label: t.nav.gallery },
     { id: 'faq', label: t.nav.faq }
   ];
 
@@ -74,7 +75,7 @@ const WeddingNav = ({ activeSection, onSectionChange }: WeddingNavProps) => {
           </div>
 
           {/* Mobile Navigation Buttons */}
-          <div className="grid grid-cols-2 gap-2">
+          <div className="grid grid-cols-3 gap-2">
             {sections.map((section) => (
               <Button
                 key={section.id}

@@ -5,6 +5,7 @@ export const translations = {
       venue: 'Lugar',
       ourStory: 'Nuestra Historia',
       weddingDetails: 'Detalles de la Boda',
+      gallery: 'Galería',
       faq: 'Preguntas Frecuentes'
     },
     about: {
@@ -57,7 +58,7 @@ export const translations = {
       title: 'Detalles de la Boda',
       subtitle: 'Todo lo que necesitas saber sobre nuestro día especial',
       schedule: {
-        title: 'Cronograma',
+        title: 'Plan',
         items: {
           arrival: 'Llegada de Invitados y Bebidas de Bienvenida',
           ceremony: 'Ceremonia de Boda',
@@ -83,7 +84,15 @@ export const translations = {
         title: 'Lista de Regalos',
         description: '¡Tu presencia es el único regalo que necesitamos! Si deseas dar un regalo, tenemos una pequeña lista disponible.',
         viewRegistry: 'Ver Lista'
+      },
+      rsvp: {
+        title: 'Confirmación',
+        buttonText: 'Confirmar asistencia'
       }
+    },
+    gallery: {
+      title: 'Galería',
+      subtitle: 'Momentos especiales juntos'
     },
     faq: {
       title: 'Preguntas Frecuentes',
@@ -127,6 +136,7 @@ export const translations = {
       venue: 'Locu',
       ourStory: 'A Nostra Storia',
       weddingDetails: 'Dittagli dû Matrimoniu',
+      gallery: 'Galleria',
       faq: 'Dimanndi Frequenti'
     },
     about: {
@@ -205,7 +215,15 @@ export const translations = {
         title: 'Lista di Rigali',
         description: 'A vostra prisenza è u sulu rigalu ca ni servi! Si vuliti dari nu rigalu, avemu na piccula lista dispunìbbili.',
         viewRegistry: 'Talìa Lista'
+      },
+      rsvp: {
+        title: 'Conferma',
+        buttonText: 'Cunferma participazzioni'
       }
+    },
+    gallery: {
+      title: 'Galleria',
+      subtitle: 'Mumenti spiciali nsemi'
     },
     faq: {
       title: 'Dimanndi Frequenti',
@@ -249,6 +267,7 @@ export const translations = {
       venue: 'Luogo',
       ourStory: 'La Nostra Storia',
       weddingDetails: 'Dettagli del Matrimonio',
+      gallery: 'Galleria',
       faq: 'Domande Frequenti'
     },
     about: {
@@ -327,7 +346,15 @@ export const translations = {
         title: 'Lista Nozze',
         description: 'La vostra presenza è l\'unico regalo di cui abbiamo bisogno! Se desiderate fare un regalo, abbiamo una piccola lista disponibile.',
         viewRegistry: 'Visualizza Lista'
+      },
+      rsvp: {
+        title: 'Conferma',
+        buttonText: 'Conferma partecipazione'
       }
+    },
+    gallery: {
+      title: 'Galleria',
+      subtitle: 'Momenti speciali insieme'
     },
     faq: {
       title: 'Domande Frequenti',
@@ -371,6 +398,7 @@ export const translations = {
       venue: 'Venue',
       ourStory: 'Our Story',
       weddingDetails: 'Wedding Details',
+      gallery: 'Gallery',
       faq: 'FAQ'
     },
     about: {
@@ -449,7 +477,15 @@ export const translations = {
         title: 'Wedding Registry',
         description: 'Your presence is the only present we need! If you wish to give a gift, we have a small registry available.',
         viewRegistry: 'View Registry'
+      },
+      rsvp: {
+        title: 'RSVP Required',
+        buttonText: 'RSVP Now'
       }
+    },
+    gallery: {
+      title: 'Gallery',
+      subtitle: 'Special moments together'
     },
     faq: {
       title: 'Frequently Asked Questions',
