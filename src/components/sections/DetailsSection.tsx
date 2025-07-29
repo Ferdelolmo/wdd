@@ -11,47 +11,35 @@ import {
   Shirt,
   Car
 } from 'lucide-react';
+import { useLanguage } from '@/contexts/LanguageContext';
+import { translations } from '@/translations';
 
 const DetailsSection = () => {
+  const { language } = useLanguage();
+  const t = translations[language];
   const schedule = [
-    { time: "3:00 PM", event: "Guest Arrival & Cocktails", description: "Welcome drinks in the garden" },
-    { time: "4:00 PM", event: "Wedding Ceremony", description: "Outdoor ceremony by the rose garden" },
-    { time: "4:30 PM", event: "Cocktail Hour", description: "Celebrate with drinks and canapés" },
-    { time: "6:30 PM", event: "Reception Begins", description: "Dinner, dancing, and celebration" },
-    { time: "7:00 PM", event: "First Dance", description: "Our special moment" },
-    { time: "11:00 PM", event: "Last Dance", description: "End the night with sparklers" }
+    { time: "15:00", event: t.details.schedule.items.arrival, description: "" },
+    { time: "16:00", event: t.details.schedule.items.ceremony, description: "" },
+    { time: "16:30", event: t.details.schedule.items.photos, description: "" },
+    { time: "18:30", event: t.details.schedule.items.dinner, description: "" },
+    { time: "19:00", event: t.details.schedule.items.party, description: "" }
   ];
 
   const details = [
     {
       icon: Shirt,
-      title: "Dress Code",
-      description: "Cocktail attire suggested. Think elegant garden party - florals and pastels encouraged!"
-    },
-    {
-      icon: Utensils,
-      title: "Dinner",
-      description: "Farm-to-table three-course meal with vegetarian and vegan options available"
-    },
-    {
-      icon: Music,
-      title: "Entertainment",
-      description: "Live acoustic duo during ceremony, DJ for reception dancing"
-    },
-    {
-      icon: Camera,
-      title: "Photography",
-      description: "Unplugged ceremony requested - our photographer will capture everything!"
+      title: t.details.attire.title,
+      description: t.details.attire.description
     },
     {
       icon: Car,
-      title: "Transportation",
-      description: "Valet parking available. Uber/Lyft recommended for evening transportation"
+      title: t.details.transportation.title,
+      description: t.details.transportation.description
     },
     {
       icon: Gift,
-      title: "Registry",
-      description: "Your presence is our present! Registry available at Williams Sonoma and Crate & Barrel"
+      title: t.details.gifts.title,
+      description: t.details.gifts.description
     }
   ];
 
@@ -60,10 +48,10 @@ const DetailsSection = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="font-script text-5xl md:text-6xl text-primary mb-4">
-            Wedding Details
+            {t.details.title}
           </h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            Everything you need to know for our special day
+            {t.details.subtitle}
           </p>
         </div>
 
@@ -73,7 +61,7 @@ const DetailsSection = () => {
             <Card className="p-8 bg-gradient-sage text-white shadow-soft border-0 mb-8">
               <div className="flex items-center gap-3 mb-6">
                 <Calendar className="w-6 h-6" />
-                <h3 className="font-serif text-2xl">Day Schedule</h3>
+                <h3 className="font-serif text-2xl">{t.details.schedule.title}</h3>
               </div>
               
               <div className="space-y-6">
@@ -87,7 +75,6 @@ const DetailsSection = () => {
                         <span className="font-semibold text-sm">{item.time}</span>
                         <span className="font-medium">{item.event}</span>
                       </div>
-                      <p className="text-sm opacity-90">{item.description}</p>
                     </div>
                   </div>
                 ))}

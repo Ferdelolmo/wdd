@@ -10,7 +10,7 @@ import { useLanguage, Language } from '@/contexts/LanguageContext';
 
 const languages = {
   es: { name: 'Español', flag: '🇪🇸' },
-  scn: { name: 'Sicilianu', flag: '🟡🔴' },
+  scn: { name: 'Sicilianu', flag: '🍋' },
   it: { name: 'Italiano', flag: '🇮🇹' },
   en: { name: 'English', flag: '🇬🇧' }
 };

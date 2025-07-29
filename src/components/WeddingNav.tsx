@@ -24,58 +24,72 @@ const WeddingNav = ({ activeSection, onSectionChange }: WeddingNavProps) => {
   ];
 
   return (
-    <nav className="fixed top-0 w-full bg-card/80 backdrop-blur-md border-b border-border z-50 shadow-soft">
-      <div className="container mx-auto px-4 py-4">
-        <div className="flex items-center justify-between">
-          {/* Logo */}
-          <div 
-            className="flex items-center gap-2 cursor-pointer"
-            onClick={() => onSectionChange('about')}
-          >
-            <Heart className="w-6 h-6 text-primary fill-primary" />
-            <span className="font-script text-2xl text-primary">Fernando & Chiara</span>
-          </div>
+    <>
+      {/* Desktop Navigation */}
+      <nav className="hidden md:block fixed top-0 w-full bg-card/80 backdrop-blur-md border-b border-border z-50 shadow-soft">
+        <div className="container mx-auto px-4 py-4">
+          <div className="flex items-center justify-between">
+            {/* Logo */}
+            <div 
+              className="flex items-center gap-2 cursor-pointer"
+              onClick={() => onSectionChange('about')}
+            >
+              <Heart className="w-6 h-6 text-primary fill-primary" />
+              <span className="font-script text-2xl text-primary">Fernando & Chiara</span>
+            </div>
 
-          {/* Desktop Navigation */}
-          <div className="hidden md:flex items-center gap-8">
-            {sections.map((section) => (
-              <button
-                key={section.id}
-                onClick={() => onSectionChange(section.id)}
-                className={`text-sm font-medium transition-colors duration-200 hover:text-primary ${
-                  activeSection === section.id ? 'text-primary' : 'text-muted-foreground'
-                }`}
-              >
-                {section.label}
-              </button>
-            ))}
-            <LanguageSelector />
-          </div>
-
-          {/* Mobile Controls */}
-          <div className="md:hidden">
-            <LanguageSelector />
+            {/* Desktop Navigation */}
+            <div className="flex items-center gap-8">
+              {sections.map((section) => (
+                <button
+                  key={section.id}
+                  onClick={() => onSectionChange(section.id)}
+                  className={`text-sm font-medium transition-colors duration-200 hover:text-primary ${
+                    activeSection === section.id ? 'text-primary' : 'text-muted-foreground'
+                  }`}
+                >
+                  {section.label}
+                </button>
+              ))}
+              <LanguageSelector />
+            </div>
           </div>
         </div>
+      </nav>
 
-        {/* Mobile Navigation - Always visible on mobile */}
-        <div className="md:hidden mt-4 pb-4 border-t border-border">
-          <div className="grid grid-cols-2 gap-3 pt-4">
+      {/* Mobile Navigation */}
+      <nav className="md:hidden bg-card/95 backdrop-blur-md border-b border-border shadow-soft">
+        <div className="container mx-auto px-4 py-4">
+          <div className="flex items-center justify-between mb-4">
+            {/* Logo */}
+            <div 
+              className="flex items-center gap-2 cursor-pointer"
+              onClick={() => onSectionChange('about')}
+            >
+              <Heart className="w-5 h-5 text-primary fill-primary" />
+              <span className="font-script text-xl text-primary">Fernando & Chiara</span>
+            </div>
+
+            <LanguageSelector />
+          </div>
+
+          {/* Mobile Navigation Buttons */}
+          <div className="grid grid-cols-2 gap-2">
             {sections.map((section) => (
               <Button
                 key={section.id}
                 variant={activeSection === section.id ? "default" : "outline"}
                 size="sm"
                 onClick={() => onSectionChange(section.id)}
-                className="justify-center text-xs font-medium h-10"
+                className="justify-center text-xs font-medium h-9"
               >
                 {section.label}
               </Button>
             ))}
           </div>
         </div>
-      </div>
-    </nav>
+      </nav>
+    </>
   );
 };
 

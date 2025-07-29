@@ -21,6 +21,12 @@ const StorySection = () => {
       description: t.story.milestones.firstDate.description
     },
     {
+      icon: Plane,
+      date: "August 2020",
+      title: t.story.milestones.firstTrip.title,
+      description: t.story.milestones.firstTrip.description
+    },
+    {
       icon: Home,
       date: "January 2022",
       title: t.story.milestones.moving.title,
@@ -35,8 +41,17 @@ const StorySection = () => {
   ];
 
   return (
-    <section className="min-h-screen bg-wedding-cream py-20">
-      <div className="container mx-auto px-4">
+    <section className="min-h-screen bg-wedding-cream py-20 relative overflow-hidden">
+      {/* Background watermarks */}
+      <div className="absolute inset-0 opacity-5 pointer-events-none">
+        <div className="absolute top-20 left-10 text-8xl">🇪🇸</div>
+        <div className="absolute top-40 right-20 text-6xl">🍋</div>
+        <div className="absolute bottom-40 left-20 text-7xl">🇮🇪</div>
+        <div className="absolute bottom-20 right-10 text-8xl">🇪🇸</div>
+        <div className="absolute top-60 left-1/2 text-5xl">🍋</div>
+        <div className="absolute bottom-60 right-1/3 text-6xl">🇮🇪</div>
+      </div>
+      <div className="container mx-auto px-4 relative">
         <div className="text-center mb-16">
           <h2 className="font-script text-5xl md:text-6xl text-primary mb-4">
             {t.story.title}

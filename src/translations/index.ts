@@ -38,6 +38,10 @@ export const translations = {
           title: 'Primera Cita',
           description: 'Nuestra primera cita oficial fue un picnic en el parque. Hablamos durante horas y supimos que había algo especial entre nosotros.'
         },
+        firstTrip: {
+          title: 'Nuestro Primer Viaje Juntos',
+          description: 'Nuestro primer viaje fue a Roma. Exploramos la ciudad eterna juntos y creamos recuerdos que durarán toda la vida.'
+        },
         moving: {
           title: 'Mudándonos Juntos',
           description: 'Después de un año saliendo, decidimos dar el siguiente paso y mudarnos juntos. ¡La mejor decisión de todas!'
@@ -109,6 +113,11 @@ export const translations = {
           question: '¿Acomodan restricciones dietéticas?',
           answer: '¡Absolutamente! Por favor háznoslo saber sobre cualquier restricción dietética cuando confirmes tu asistencia, y nuestro catering se asegurará de que tengas opciones deliciosas.'
         }
+      },
+      funFacts: 'Datos Curiosos Sobre Nosotros',
+      cantWait: {
+        title: '¡No Podemos Esperar!',
+        message: 'Estamos muy emocionados de celebrar con todos vosotros. ¡Nos vemos el 15 de junio!'
       }
     }
   },
@@ -150,6 +159,10 @@ export const translations = {
         firstDate: {
           title: 'Prima Appuntamentu',
           description: 'U nostru primu appuntamentu uficiali fu nu picnic nnû parcu. Parlammu pi uri e sapimu ca cci era quarcosa di spiciali ntra nui.'
+        },
+        firstTrip: {
+          title: 'U Nostru Primu Viaggiu Nsemi',
+          description: 'U nostru primu viaggiu fu a Roma. Splurammu a cità eterna nsemi e criammu ricordi ca durànu tutta a vita.'
         },
         moving: {
           title: 'Traslucannu Nsemi',
@@ -222,6 +235,11 @@ export const translations = {
           question: 'Accummudati ristrizzioni dietetichi?',
           answer: 'Assulutu! Pi favuri fàtinilu sapiri suprà qualsiasi ristrizzioni dietetica quannu cunfirmati a vostra prisenza, e u nostru catering si sicurarà ca aviti opzioni dilizziusi.'
         }
+      },
+      funFacts: 'Fatti Divertenti Su Di Noi',
+      cantWait: {
+        title: 'Nun Putemu Aspittari!',
+        message: 'Simu tantu cuntentu di cilbrari cu tutti vui. Ni videmu u 15 di giugnu!'
       }
     }
   },
@@ -263,6 +281,10 @@ export const translations = {
         firstDate: {
           title: 'Primo Appuntamento',
           description: 'Il nostro primo appuntamento ufficiale è stato un picnic al parco. Abbiamo parlato per ore e sapevamo che c\'era qualcosa di speciale tra noi.'
+        },
+        firstTrip: {
+          title: 'Il Nostro Primo Viaggio Insieme',
+          description: 'Il nostro primo viaggio è stato a Roma. Abbiamo esplorato la città eterna insieme e creato ricordi che dureranno tutta la vita.'
         },
         moving: {
           title: 'Trasferirsi Insieme',
@@ -335,6 +357,11 @@ export const translations = {
           question: 'Vengono accomodate le restrizioni alimentari?',
           answer: 'Assolutamente! Vi preghiamo di farci sapere eventuali restrizioni alimentari quando confermate la presenza, e il nostro catering si assicurerà che abbiate opzioni deliziose.'
         }
+      },
+      funFacts: 'Curiosità Su Di Noi',
+      cantWait: {
+        title: 'Non Vediamo L\'Ora!',
+        message: 'Siamo così entusiasti di celebrare con tutti voi. Ci vediamo il 15 giugno!'
       }
     }
   },
@@ -376,6 +403,10 @@ export const translations = {
         firstDate: {
           title: 'First Date',
           description: 'Our first official date was a picnic in the park. We talked for hours and knew there was something special between us.'
+        },
+        firstTrip: {
+          title: 'Our First Trip Together',
+          description: 'Our first trip was to Rome. We explored the eternal city together and made memories that will last a lifetime.'
         },
         moving: {
           title: 'Moving In Together',
@@ -448,6 +479,11 @@ export const translations = {
           question: 'Do you accommodate dietary restrictions?',
           answer: 'Absolutely! Please let us know about any dietary restrictions when you RSVP, and our caterer will ensure you have delicious options.'
         }
+      },
+      funFacts: 'Fun Facts About Us',
+      cantWait: {
+        title: 'Can\'t Wait!',
+        message: 'We\'re so excited to celebrate with all of you. See you on June 15th!'
       }
     }
   }

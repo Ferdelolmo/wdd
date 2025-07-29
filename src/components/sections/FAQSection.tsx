@@ -97,7 +97,7 @@ const FAQSection = () => {
           {/* Fun Facts & Contact */}
           <div className="space-y-8">
             <Card className="p-6 bg-wedding-cream shadow-soft border-0">
-              <h3 className="font-serif text-xl text-primary mb-6 text-center">Fun Facts About Us</h3>
+              <h3 className="font-serif text-xl text-primary mb-6 text-center">{t.faq.funFacts}</h3>
               <div className="space-y-4">
                 {funFacts.map((fact, index) => (
                   <div key={index} className="flex items-start gap-3">
@@ -108,29 +108,10 @@ const FAQSection = () => {
               </div>
             </Card>
 
-            <Card className="p-6 bg-gradient-sage text-white shadow-soft border-0">
-              <h3 className="font-serif text-xl mb-6 text-center">Questions?</h3>
-              <div className="space-y-4 text-center">
-                <p className="text-sm opacity-90">
-                  Can't find what you're looking for? We're here to help!
-                </p>
-                <div className="space-y-3">
-                  <Button variant="secondary" size="sm" className="w-full justify-center">
-                    <Phone className="w-4 h-4 mr-2" />
-                    Call Us
-                  </Button>
-                  <Button variant="outline" size="sm" className="w-full justify-center border-white text-white hover:bg-white hover:text-primary">
-                    <Mail className="w-4 h-4 mr-2" />
-                    Email Us
-                  </Button>
-                </div>
-              </div>
-            </Card>
-
             <Card className="p-6 bg-wedding-gold text-center shadow-soft border-0">
-              <h4 className="font-script text-2xl text-primary mb-3">Can't Wait!</h4>
+              <h4 className="font-script text-2xl text-primary mb-3">{t.faq.cantWait.title}</h4>
               <p className="text-sm text-muted-foreground">
-                We're so excited to celebrate with all of you. See you on June 15th!
+                {t.faq.cantWait.message}
               </p>
               <Heart className="w-6 h-6 text-primary fill-primary mx-auto mt-4 animate-pulse" />
             </Card>
