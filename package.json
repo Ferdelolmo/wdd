@@ -8,7 +8,10 @@
     "build": "vite build",
     "build:dev": "vite build --mode development",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "postbuild": "cpx dist/index.html dist/404.html",
+    "predeploy": "npm run build",
+    "deploy": "npm run postbuild && gh-pages -d dist"
   },
   "dependencies": {
     "@hookform/resolvers": "^3.9.0",
