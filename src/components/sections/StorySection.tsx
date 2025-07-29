@@ -129,7 +129,7 @@ const StorySection = () => {
           {/* Final Message */}
           <Card className="mt-16 p-8 bg-gradient-romantic text-center shadow-romantic border-0">
             <h3 className="font-script text-3xl text-primary mb-4">
-              And now...
+              {t.story.andNow}
             </h3>
             <p className="text-lg text-foreground leading-relaxed max-w-2xl mx-auto">
               {t.story.conclusion}

@@ -51,7 +51,8 @@ export const translations = {
           description: 'Fernando propuso durante una caminata al atardecer en nuestro sendero favorito. Fue perfecto, íntimo y todo lo que Chiara había soñado.'
         }
       },
-      conclusion: 'Estamos listos para decir "Acepto" y comenzar nuestro viaje eterno juntos. ¡Gracias por ser parte de nuestra historia!'
+      conclusion: 'Estamos listos para decir "Acepto" y comenzar nuestro viaje eterno juntos. ¡Gracias por ser parte de nuestra historia!',
+      andNow: 'Y ahora...'
     },
     details: {
       title: 'Detalles de la Boda',
@@ -187,7 +188,8 @@ export const translations = {
           description: 'Fernando pruposi nta na passeggiata â calutu dû suli nnû nostru senteru prifiritu. Fu pirfettu, ìntimu e tuttu chiddu ca Chiara avia sugnatu.'
         }
       },
-      conclusion: 'Simu pronti pi diri "Accettu" e ncuminzari u nostru viaggiu eternu nsemi. Graziu pi èssiri parti dâ nostra storia!'
+      conclusion: 'Simu pronti pi diri "Accettu" e ncuminzari u nostru viaggiu eternu nsemi. Graziu pi èssiri parti dâ nostra storia!',
+      andNow: 'E ora...'
     },
     details: {
       title: 'Dittagli dû Matrimoniu',
@@ -323,7 +325,8 @@ export const translations = {
           description: 'Fernando ha fatto la proposta durante un\'escursione al tramonto sul nostro sentiero preferito. È stato perfetto, intimo e tutto quello che Chiara aveva sognato.'
         }
       },
-      conclusion: 'Siamo pronti a dire "Sì" e iniziare il nostro viaggio eterno insieme. Grazie per essere parte della nostra storia!'
+      conclusion: 'Siamo pronti a dire "Sì" e iniziare il nostro viaggio eterno insieme. Grazie per essere parte della nostra storia!',
+      andNow: 'E ora...'
     },
     details: {
       title: 'Dettagli del Matrimonio',
@@ -459,7 +462,8 @@ export const translations = {
           description: 'Fernando proposed during a sunset hike at our favorite trail. It was perfect, intimate, and everything Chiara had dreamed of.'
         }
       },
-      conclusion: 'We\'re ready to say "I do" and start our forever journey together. Thank you for being part of our story!'
+      conclusion: 'We\'re ready to say "I do" and start our forever journey together. Thank you for being part of our story!',
+      andNow: 'And now...'
     },
     details: {
       title: 'Wedding Details',
