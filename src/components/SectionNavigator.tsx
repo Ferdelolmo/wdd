@@ -17,8 +17,8 @@ const SectionNavigator = ({ currentSection, onSectionChange }: SectionNavigatorP
     { id: 'venue', label: t.nav.venue },
     { id: 'story', label: t.nav.ourStory },
     { id: 'details', label: t.nav.weddingDetails },
-    { id: 'gallery', label: t.nav.gallery },
-    { id: 'faq', label: t.nav.faq }
+    { id: 'faq', label: t.nav.faq },
+    { id: 'gallery', label: t.nav.gallery }
   ];
 
   const currentIndex = sections.findIndex(section => section.id === currentSection);
