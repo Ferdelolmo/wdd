@@ -53,7 +53,7 @@ const FAQSection = () => {
 
   const funFacts = [
     { icon: Heart, fact: "Una de nuestras habilidades es leernos el pensamiento del uno al otro sin mediar palabra" },
-    { icon: Users, fact: "We have 150 amazing guests joining us" },
+    { icon: Users, fact: "Tendremos un total de 150 invitados entre familiares y amigos" },
     { icon: Gift, fact: "Our first dance song is 'At Last' by Etta James" },
     { icon: Camera, fact: "We've been to 12 countries together" }
   ];
