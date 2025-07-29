@@ -5,12 +5,15 @@ import { Card } from '@/components/ui/card';
 import { useLanguage } from '@/contexts/LanguageContext';
 import { translations } from '@/translations';
 
-// Import gallery images
-import gallery1 from '@/assets/gallery-1.jpg';
-import gallery2 from '@/assets/gallery-2.jpg';
-import gallery3 from '@/assets/gallery-3.jpg';
-import gallery4 from '@/assets/gallery-4.jpg';
-import gallery5 from '@/assets/gallery-5.jpg';
+// Import gallery images - using uploaded images
+const gallery1 = '/lovable-uploads/b9c5a482-533a-4f76-bbe5-d4dc17855a65.png';
+const gallery2 = '/lovable-uploads/465dc03b-e031-4947-aba3-5213137e0770.png';
+const gallery3 = '/lovable-uploads/63e9cd41-f4c3-49bd-9380-4b8514983cfa.png';
+const gallery4 = '/lovable-uploads/2f5fc344-aa25-4a85-865e-ade19aec5b64.png';
+const gallery5 = '/lovable-uploads/0cee5c00-b15c-4242-ba9c-4f1f1702a524.png';
+const gallery6 = '/lovable-uploads/4f79c13f-f8db-484b-ab25-ac0576b61b61.png';
+const gallery7 = '/lovable-uploads/3daa0caa-44b3-4bc3-8d47-1b91ec113a57.png';
+const gallery8 = '/lovable-uploads/09a05c90-ae27-41e7-973e-c33dbba7ca60.png';
 
 const GallerySection = () => {
   const { language } = useLanguage();
@@ -19,11 +22,14 @@ const GallerySection = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
 
   const images = [
-    { src: gallery1, alt: 'Engagement photo in Tuscany' },
-    { src: gallery2, alt: 'Romantic moment in Ireland' },
-    { src: gallery3, alt: 'Adventure in tropical destination' },
-    { src: gallery4, alt: 'Dinner date' },
-    { src: gallery5, alt: 'Hiking together' }
+    { src: gallery1, alt: 'Adventure in tropical destination' },
+    { src: gallery2, alt: 'Romantic dinner date' },
+    { src: gallery3, alt: 'Mountain adventure together' },
+    { src: gallery4, alt: 'Exploring ancient temples' },
+    { src: gallery5, alt: 'City night views' },
+    { src: gallery6, alt: 'Casual day together' },
+    { src: gallery7, alt: 'European city exploration' },
+    { src: gallery8, alt: 'Traditional village visit' }
   ];
 
   const nextImage = () => {
