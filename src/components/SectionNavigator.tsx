@@ -38,35 +38,26 @@ const SectionNavigator = ({ currentSection, onSectionChange }: SectionNavigatorP
   };
 
   return (
-    <div className="fixed bottom-8 left-1/2 transform -translate-x-1/2 z-50">
-      <div className="flex items-center gap-4 bg-card/95 backdrop-blur-sm border border-border rounded-full px-6 py-3 shadow-elegant">
+    <div className="fixed bottom-0 left-0 right-0 z-50">
+      <div className="flex items-center justify-between bg-card/95 backdrop-blur-sm border-t border-border px-6 py-4">
         <Button
           variant="ghost"
           size="sm"
           onClick={goToPrevious}
           disabled={!hasPrevious}
-          className="rounded-full w-10 h-10 p-0 hover:bg-primary/10 disabled:opacity-50 disabled:cursor-not-allowed"
+          className="rounded-full w-12 h-12 p-0 hover:bg-primary/10 disabled:opacity-50 disabled:cursor-not-allowed"
         >
-          <ChevronLeft className="w-5 h-5" />
+          <ChevronLeft className="w-6 h-6" />
         </Button>
-
-        <div className="text-center min-w-[150px]">
-          <p className="text-sm font-medium text-foreground">
-            {sections[currentIndex]?.label}
-          </p>
-          <p className="text-xs text-muted-foreground">
-            {currentIndex + 1} / {sections.length}
-          </p>
-        </div>
 
         <Button
           variant="ghost"
           size="sm"
           onClick={goToNext}
           disabled={!hasNext}
-          className="rounded-full w-10 h-10 p-0 hover:bg-primary/10 disabled:opacity-50 disabled:cursor-not-allowed"
+          className="rounded-full w-12 h-12 p-0 hover:bg-primary/10 disabled:opacity-50 disabled:cursor-not-allowed"
         >
-          <ChevronRight className="w-5 h-5" />
+          <ChevronRight className="w-6 h-6" />
         </Button>
       </div>
     </div>
