@@ -11,7 +11,7 @@ export const translations = {
     about: {
       title: 'Fernando & Chiara',
       subtitle: '¡se casan!',
-      date: '15 de Junio, 2024',
+      date: 'Junio 2026',
       location: 'Toscana, Italia',
       aboutUsTitle: 'Sobre Nosotros',
       description: 'Tuvo que ser en la fría Irlanda donde nuestros caminos se cruzaran para unir nuestras vidas.',
@@ -141,7 +141,7 @@ export const translations = {
     about: {
       title: 'Fernando e Chiara',
       subtitle: 'si maritanu!',
-      date: '15 di Giugnu, 2024',
+      date: 'Giugnu 2026',
       location: 'Toscana, Italia',
       aboutUsTitle: 'Di Nuautri',
       description: 'Fu propriu n\'Irlanda, cu tuttu chiddu friddu, ca i nostri strati s\'attravirsaru pi fari junciri i nostri cori.',
@@ -271,7 +271,7 @@ export const translations = {
     about: {
       title: 'Fernando e Chiara',
       subtitle: 'si sposano!',
-      date: '15 Giugno, 2024',
+      date: 'Giugno 2026',
       location: 'Toscana, Italia',
       aboutUsTitle: 'Chi Siamo',
       description: 'Doveva essere nella fredda Irlanda che i nostri cammini si incrociassero per unire le nostre vite.',
@@ -401,7 +401,7 @@ export const translations = {
     about: {
       title: 'Fernando & Chiara',
       subtitle: 'are getting married!',
-      date: 'June 15, 2024',
+      date: 'June 2026',
       location: 'Tuscany, Italy',
       aboutUsTitle: 'About Us',
       description: 'It had to be in cold, rainy Ireland where our paths crossed and our lives came together.',
