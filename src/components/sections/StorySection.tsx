@@ -50,37 +50,36 @@ const StorySection = () => {
         <div className="absolute bottom-20 right-10 text-8xl">🇪🇸</div>
         <div className="absolute top-60 left-1/2 text-5xl">🍋</div>
         <div className="absolute bottom-60 right-1/3 text-6xl">🇮🇪</div>
-        
         {/* Additional flag watermarks */}
         <img 
           src="/lovable-uploads/4d89bd0a-392c-4f23-be6c-96b30449cc7b.png" 
           alt="" 
-          className="absolute top-32 right-32 w-20 h-14 object-contain opacity-80"
+          className="absolute top-16 right-8 w-12 h-8 object-contain opacity-80"
         />
         <img 
           src="/lovable-uploads/7463b7b7-867a-4aa5-bb03-8b5d896db372.png" 
           alt="" 
-          className="absolute top-72 left-32 w-20 h-14 object-contain opacity-80"
+          className="absolute top-80 left-8 w-12 h-8 object-contain opacity-80"
         />
         <img 
           src="/lovable-uploads/4d89bd0a-392c-4f23-be6c-96b30449cc7b.png" 
           alt="" 
-          className="absolute bottom-80 right-16 w-16 h-12 object-contain opacity-80"
+          className="absolute bottom-72 right-4 w-10 h-7 object-contain opacity-80"
         />
         <img 
           src="/lovable-uploads/7463b7b7-867a-4aa5-bb03-8b5d896db372.png" 
           alt="" 
-          className="absolute bottom-32 left-1/4 w-18 h-13 object-contain opacity-80"
+          className="absolute bottom-16 left-12 w-10 h-7 object-contain opacity-80"
         />
         <img 
           src="/lovable-uploads/4d89bd0a-392c-4f23-be6c-96b30449cc7b.png" 
           alt="" 
-          className="absolute top-96 right-1/4 w-14 h-10 object-contain opacity-80"
+          className="absolute top-[28rem] right-12 w-8 h-6 object-contain opacity-80"
         />
         <img 
           src="/lovable-uploads/7463b7b7-867a-4aa5-bb03-8b5d896db372.png" 
           alt="" 
-          className="absolute bottom-96 left-16 w-16 h-12 object-contain opacity-80"
+          className="absolute bottom-80 left-4 w-8 h-6 object-contain opacity-80"
         />
       </div>
       <div className="container mx-auto px-4 relative">
