@@ -36,7 +36,7 @@ const VenueSection = () => {
           {/* Venue Details */}
           <div className="space-y-8">
             <Card className="p-8 bg-gradient-sage text-white shadow-soft border-0">
-              <h3 className="font-serif text-3xl mb-6">Villa Romantica</h3>
+              <h3 className="font-serif text-3xl mb-6">Dehesa de Pedrosillo</h3>
               
               <div className="space-y-6">
                 <div className="flex items-start gap-4">
@@ -52,26 +52,18 @@ const VenueSection = () => {
                   <Clock className="w-5 h-5 mt-1 flex-shrink-0" />
                   <div>
                     <p className="text-sm opacity-90">{t.venue.ceremony}</p>
-                    <p className="text-sm opacity-90">{t.venue.reception}</p>
-                  </div>
-                </div>
-
-                <div className="flex items-start gap-4">
-                  <Phone className="w-5 h-5 mt-1 flex-shrink-0" />
-                  <div>
-                    <p className="text-sm opacity-90">{t.venue.contact}</p>
                   </div>
                 </div>
               </div>
 
               <div className="flex gap-4 mt-8">
-                <Button variant="secondary" className="flex items-center gap-2">
+                <Button 
+                  variant="secondary" 
+                  className="flex items-center gap-2"
+                  onClick={() => window.open('https://maps.app.goo.gl/umewE5iGsocn5UPh8', '_blank')}
+                >
                   <MapPin className="w-4 h-4" />
                   {t.venue.getDirections}
-                </Button>
-                <Button variant="outline" className="flex items-center gap-2 border-white text-white hover:bg-white hover:text-primary">
-                  <ExternalLink className="w-4 h-4" />
-                  {t.venue.viewWebsite}
                 </Button>
               </div>
             </Card>

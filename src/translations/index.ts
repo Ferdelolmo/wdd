@@ -13,23 +13,21 @@ export const translations = {
       subtitle: '¡se casan!',
       date: '15 de Junio, 2024',
       location: 'Toscana, Italia',
-      description: 'Estamos emocionados de compartir nuestro día especial contigo. Después de años de amor, risas y aventuras juntos, estamos listos para comenzar nuestro próximo capítulo como marido y mujer.',
-      joinUs: 'Únete a nosotros para celebrar el amor, la familia y el comienzo de nuestro para siempre.'
+      description: 'Tuvo que ser en la fría Irlanda donde nuestros caminos se cruzaran para unir nuestras vidas.',
+      joinUs: 'Ahora, lejos de allí, pero siempre con un ojo puesto en la isla esmeralda, estamos muy emocionados de compartir este día con todos vosotros. Después de mucho amor, risas y aventuras compartidas, estamos listos para comenzar nuestro próximo capítulo como marido y mujer.'
     },
     venue: {
       title: 'Lugar de la Boda',
-      subtitle: 'Un lugar mágico donde nuestra historia de amor continúa',
-      description: 'Ubicado en el corazón de la Toscana, nuestro lugar elegido ofrece vistas impresionantes de colinas ondulantes y viñedos. Esta finca histórica proporciona el telón de fondo romántico perfecto para nuestro día especial.',
-      address: 'Villa Romantica, Via del Amore 123, 50022 Greve in Chianti, Italia',
+      subtitle: 'El encanto palaciego',
+      description: 'La Dehesa de Pedrosillo se encuentra en un encinar espectacular con vistas a la Sierra de Gredos. A 5 minutos de Ávila, se encuentra este oasis de tranquilidad y naturaleza. Sumérgete de lleno y disfruta de la historia, del encanto palaciego.',
+      address: 'N-403, 05004, Ávila',
       ceremony: 'Ceremonia: 16:00',
-      reception: 'Recepción: 18:00',
-      contact: 'Contacto: +39 055 123 4567',
       getDirections: 'Obtener Direcciones',
       viewWebsite: 'Ver Sitio Web'
     },
     story: {
       title: 'Nuestra Historia de Amor',
-      subtitle: 'Toda historia de amor es hermosa, pero la nuestra es nuestra favorita',
+      subtitle: '',
       milestones: {
         firstMeet: {
           title: 'Primer Encuentro',
@@ -52,7 +50,7 @@ export const translations = {
           description: 'Fernando propuso durante una caminata al atardecer en nuestro sendero favorito. Fue perfecto, íntimo y todo lo que Chiara había soñado.'
         }
       },
-      conclusion: 'Y ahora, estamos listos para decir "Acepto" y comenzar nuestro viaje eterno juntos. ¡Gracias por ser parte de nuestra historia!'
+      conclusion: 'Estamos listos para decir "Acepto" y comenzar nuestro viaje eterno juntos. ¡Gracias por ser parte de nuestra historia!'
     },
     details: {
       title: 'Detalles de la Boda',
@@ -144,23 +142,21 @@ export const translations = {
       subtitle: 'si maritanu!',
       date: '15 di Giugnu, 2024',
       location: 'Toscana, Italia',
-      description: 'Simu cuntentu di spartiri stu jornu spiciali cu vui. Doppu anni di amuri, risati e avvinturi nsemi, simu pronti pi ncuminzari u nostru prossimu capìtulu comu maritu e mugghieri.',
-      joinUs: 'Jùncitivi a nui pi na cilbrazioni di amuri, famiglia e u ncummenzu dû nostru pi sempri.'
+      description: 'Fu propriu n\'Irlanda, cu tuttu chiddu friddu, ca i nostri strati s\'attravirsaru pi fari junciri i nostri cori.',
+      joinUs: 'Ora semu luntani, ma guardamu sempri cu \'n\'occhiu l\'isula smeralda, cu tanti ricordi e \'na bedda nostalgia. Doppu amuri, risati e assai avventuri nzemi, semu pronti pi cuminciari \'stu novu capitulu comu maritu e mugghieri.'
     },
     venue: {
       title: 'Locu dû Matrimoniu',
-      subtitle: 'Nu locu màgicu unni a nostra storia di amuri cuntinua',
-      description: 'Nnicatu nnû cori dâ Toscana, u nostru locu scigghiutu offri visti miravigghjusi di cullineddi e vigneti. Sta tenuta storica duna u funnu rumanticu pirfettu pû nostru jornu spiciali.',
-      address: 'Villa Romantica, Via del Amore 123, 50022 Greve in Chianti, Italia',
+      subtitle: 'U cantu palazzinu',
+      description: 'A Dehesa de Pedrosillo si trova nta nu liccetu spittaculari cu visti â Sierra de Gredos. A 5 minuti di Ávila, si trova stu oasi di tranquillità e natura. Immèrgiti tuttu e gòditi a storia, dû cantu palazzinu.',
+      address: 'N-403, 05004, Ávila',
       ceremony: 'Cirimonia: 16:00',
-      reception: 'Ricivimentu: 18:00',
-      contact: 'Cuntattu: +39 055 123 4567',
       getDirections: 'Pigghia Dirizzioni',
       viewWebsite: 'Talìa Situ Web'
     },
     story: {
       title: 'A Nostra Storia di Amuri',
-      subtitle: 'Ogni storia di amuri è bedda, ma a nostra è a nostra prifiruta',
+      subtitle: '',
       milestones: {
         firstMeet: {
           title: 'Primu Ncuntru',
@@ -183,7 +179,7 @@ export const translations = {
           description: 'Fernando pruposi nta na passeggiata â calutu dû suli nnû nostru senteru prifiritu. Fu pirfettu, ìntimu e tuttu chiddu ca Chiara avia sugnatu.'
         }
       },
-      conclusion: 'E ora, simu pronti pi diri "Accettu" e ncuminzari u nostru viaggiu eternu nsemi. Graziu pi èssiri parti dâ nostra storia!'
+      conclusion: 'Simu pronti pi diri "Accettu" e ncuminzari u nostru viaggiu eternu nsemi. Graziu pi èssiri parti dâ nostra storia!'
     },
     details: {
       title: 'Dittagli dû Matrimoniu',
@@ -275,23 +271,21 @@ export const translations = {
       subtitle: 'si sposano!',
       date: '15 Giugno, 2024',
       location: 'Toscana, Italia',
-      description: 'Siamo entusiasti di condividere il nostro giorno speciale con voi. Dopo anni di amore, risate e avventure insieme, siamo pronti per iniziare il nostro prossimo capitolo come marito e moglie.',
-      joinUs: 'Unitevi a noi per celebrare l\'amore, la famiglia e l\'inizio del nostro per sempre.'
+      description: 'Doveva essere nella fredda Irlanda che i nostri cammini si incrociassero per unire le nostre vite.',
+      joinUs: 'Ora, lontani da lì ma sempre con un occhio rivolto all\'isola smeraldo, siamo emozionatissimi di poter condividere questo giorno con tutti voi. Dopo tanto amore, risate e avventure vissute insieme, siamo pronti a iniziare il nostro prossimo capitolo come marito e moglie.'
     },
     venue: {
       title: 'Luogo del Matrimonio',
-      subtitle: 'Un luogo magico dove la nostra storia d\'amore continua',
-      description: 'Situato nel cuore della Toscana, il nostro luogo scelto offre viste mozzafiato di colline ondulate e vigneti. Questa tenuta storica fornisce lo sfondo romantico perfetto per il nostro giorno speciale.',
-      address: 'Villa Romantica, Via del Amore 123, 50022 Greve in Chianti, Italia',
+      subtitle: 'Il fascino del palazzo',
+      description: 'La Dehesa de Pedrosillo si trova in un lecceto spettacolare con vista sulla Sierra de Gredos. A 5 minuti da Ávila, si trova questa oasi di tranquillità e natura. Immergiti completamente e goditi la storia, il fascino del palazzo.',
+      address: 'N-403, 05004, Ávila',
       ceremony: 'Cerimonia: 16:00',
-      reception: 'Ricevimento: 18:00',
-      contact: 'Contatto: +39 055 123 4567',
       getDirections: 'Ottieni Indicazioni',
       viewWebsite: 'Visualizza Sito Web'
     },
     story: {
       title: 'La Nostra Storia d\'Amore',
-      subtitle: 'Ogni storia d\'amore è bella, ma la nostra è la nostra preferita',
+      subtitle: '',
       milestones: {
         firstMeet: {
           title: 'Primo Incontro',
@@ -314,7 +308,7 @@ export const translations = {
           description: 'Fernando ha fatto la proposta durante un\'escursione al tramonto sul nostro sentiero preferito. È stato perfetto, intimo e tutto quello che Chiara aveva sognato.'
         }
       },
-      conclusion: 'E ora, siamo pronti a dire "Sì" e iniziare il nostro viaggio eterno insieme. Grazie per essere parte della nostra storia!'
+      conclusion: 'Siamo pronti a dire "Sì" e iniziare il nostro viaggio eterno insieme. Grazie per essere parte della nostra storia!'
     },
     details: {
       title: 'Dettagli del Matrimonio',
@@ -406,23 +400,21 @@ export const translations = {
       subtitle: 'are getting married!',
       date: 'June 15, 2024',
       location: 'Tuscany, Italy',
-      description: 'We are thrilled to share our special day with you. After years of love, laughter, and adventures together, we are ready to begin our next chapter as husband and wife.',
-      joinUs: 'Join us for a celebration of love, family, and the beginning of our forever.'
+      description: 'It had to be in cold, rainy Ireland where our paths crossed and our lives came together.',
+      joinUs: 'Now, far from there—but always keeping an eye out on the Emerald Isle—we\'re excited to share this day with all of you. After so much love, laughter, and adventure together, we\'re ready to begin our next chapter as husband and wife.'
     },
     venue: {
       title: 'Wedding Venue',
-      subtitle: 'A magical place where our love story continues',
-      description: 'Nestled in the heart of Tuscany, our chosen venue offers breathtaking views of rolling hills and vineyards. This historic estate provides the perfect romantic backdrop for our special day.',
-      address: 'Villa Romantica, Via del Amore 123, 50022 Greve in Chianti, Italy',
+      subtitle: 'The palatial charm',
+      description: 'Dehesa de Pedrosillo is located in a spectacular holm oak forest with views of the Sierra de Gredos. 5 minutes from Ávila, this oasis of tranquility and nature can be found. Immerse yourself fully and enjoy the history, the palatial charm.',
+      address: 'N-403, 05004, Ávila',
       ceremony: 'Ceremony: 4:00 PM',
-      reception: 'Reception: 6:00 PM',
-      contact: 'Contact: +39 055 123 4567',
       getDirections: 'Get Directions',
       viewWebsite: 'View Website'
     },
     story: {
       title: 'Our Love Story',
-      subtitle: 'Every love story is beautiful, but ours is our favorite',
+      subtitle: '',
       milestones: {
         firstMeet: {
           title: 'First Meeting',
@@ -445,7 +437,7 @@ export const translations = {
           description: 'Fernando proposed during a sunset hike at our favorite trail. It was perfect, intimate, and everything Chiara had dreamed of.'
         }
       },
-      conclusion: 'And now, we\'re ready to say "I do" and start our forever journey together. Thank you for being part of our story!'
+      conclusion: 'We\'re ready to say "I do" and start our forever journey together. Thank you for being part of our story!'
     },
     details: {
       title: 'Wedding Details',
