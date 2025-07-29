@@ -13,6 +13,7 @@ export const translations = {
       subtitle: '¡se casan!',
       date: '15 de Junio, 2024',
       location: 'Toscana, Italia',
+      aboutUsTitle: 'Sobre Nosotros',
       description: 'Tuvo que ser en la fría Irlanda donde nuestros caminos se cruzaran para unir nuestras vidas.',
       joinUs: 'Ahora, lejos de allí, pero siempre con un ojo puesto en la isla esmeralda, estamos muy emocionados de compartir este día con todos vosotros. Después de mucho amor, risas y aventuras compartidas, estamos listos para comenzar nuestro próximo capítulo como marido y mujer.'
     },
@@ -142,6 +143,7 @@ export const translations = {
       subtitle: 'si maritanu!',
       date: '15 di Giugnu, 2024',
       location: 'Toscana, Italia',
+      aboutUsTitle: 'Di Nuautri',
       description: 'Fu propriu n\'Irlanda, cu tuttu chiddu friddu, ca i nostri strati s\'attravirsaru pi fari junciri i nostri cori.',
       joinUs: 'Ora semu luntani, ma guardamu sempri cu \'n\'occhiu l\'isula smeralda, cu tanti ricordi e \'na bedda nostalgia. Doppu amuri, risati e assai avventuri nzemi, semu pronti pi cuminciari \'stu novu capitulu comu maritu e mugghieri.'
     },
@@ -271,6 +273,7 @@ export const translations = {
       subtitle: 'si sposano!',
       date: '15 Giugno, 2024',
       location: 'Toscana, Italia',
+      aboutUsTitle: 'Chi Siamo',
       description: 'Doveva essere nella fredda Irlanda che i nostri cammini si incrociassero per unire le nostre vite.',
       joinUs: 'Ora, lontani da lì ma sempre con un occhio rivolto all\'isola smeraldo, siamo emozionatissimi di poter condividere questo giorno con tutti voi. Dopo tanto amore, risate e avventure vissute insieme, siamo pronti a iniziare il nostro prossimo capitolo come marito e moglie.'
     },
@@ -400,6 +403,7 @@ export const translations = {
       subtitle: 'are getting married!',
       date: 'June 15, 2024',
       location: 'Tuscany, Italy',
+      aboutUsTitle: 'About Us',
       description: 'It had to be in cold, rainy Ireland where our paths crossed and our lives came together.',
       joinUs: 'Now, far from there—but always keeping an eye out on the Emerald Isle—we\'re excited to share this day with all of you. After so much love, laughter, and adventure together, we\'re ready to begin our next chapter as husband and wife.'
     },

@@ -41,7 +41,7 @@ const AboutSection = () => {
           {/* About Text & Secondary Photo */}
           <div className="space-y-8">
             <Card className="p-8 bg-card/80 backdrop-blur-sm shadow-soft border-0">
-              <h2 className="font-serif text-3xl text-primary mb-6">About Us</h2>
+              <h2 className="font-serif text-3xl text-primary mb-6">{t.about.aboutUsTitle}</h2>
               <div className="space-y-4 text-muted-foreground leading-relaxed">
                 <p>
                   {t.about.description}
