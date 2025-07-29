@@ -38,8 +38,8 @@ const SectionNavigator = ({ currentSection, onSectionChange }: SectionNavigatorP
   };
 
   return (
-    <div className="fixed bottom-0 left-0 right-0 z-50">
-      <div className="flex items-center justify-between bg-card/95 backdrop-blur-sm border-t border-border px-6 py-4">
+    <div className="mt-8 mb-4">
+      <div className="flex items-center justify-between bg-card/95 backdrop-blur-sm border border-border rounded-lg px-6 py-4 mx-4">
         <Button
           variant="ghost"
           size="sm"
