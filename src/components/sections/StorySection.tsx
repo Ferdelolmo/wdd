@@ -25,7 +25,7 @@ const StorySection = () => {
       icon: Plane,
       date: "August 2020",
       title: t.story.milestones.firstTrip.title,
-      description: t.story.milestones.firstTrip.description,
+      description: "Nuestro primer viaje fue a la isla de Tenerife. Era un territorio inexplorado para ambos y una prueba del fuego también, pues ahí pudimos comprobar nuestra afinidad y conocernos más. Exploramos toda la isla y sus rincones y creamos bonitos momentos que nos perseguirán toda la vida.",
       image: tripImage
     },
     {
