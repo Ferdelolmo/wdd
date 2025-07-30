@@ -11,7 +11,7 @@ export const translations = {
     about: {
       title: 'Chiara & Fernando',
       subtitle: '¡se casan!',
-      date: 'Junio 2026',
+      date: '21 de Junio 2026',
       location: 'Ávila, España',
       aboutUsTitle: 'Sobre Nosotros',
       description: 'Tuvo que ser en la fría Irlanda donde nuestros caminos se cruzaran para unir nuestras vidas.',
