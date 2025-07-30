@@ -7,6 +7,8 @@ const StorySection = () => {
   const { language } = useLanguage();
   const t = translations[language];
   
+  const irelandImage = 'https://i.imgur.com/qL66Vcx.jpeg'; // Ireland
+  
   const milestones = [
     {
       icon: Coffee,
@@ -116,6 +118,15 @@ const StorySection = () => {
                         {milestone.date}
                       </span>
                     </div>
+                    {index === 0 && (
+                      <div className="mb-4">
+                        <img 
+                          src={irelandImage} 
+                          alt="First meeting in Ireland" 
+                          className="w-full h-48 object-cover rounded-lg shadow-soft"
+                        />
+                      </div>
+                    )}
                     <p className="text-muted-foreground leading-relaxed">
                       {milestone.description}
                     </p>
