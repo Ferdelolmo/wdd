@@ -9,6 +9,43 @@ const FAQSection = () => {
     language
   } = useLanguage();
   const t = translations[language];
+  // Helper function to render text with multiple links
+  const renderAnswerWithLinks = (answer: string, linkConfigs: {text: string, url: string}[]) => {
+    let parts: (string | React.ReactNode)[] = [answer];
+    
+    linkConfigs.forEach((link, linkIndex) => {
+      const newParts: (string | React.ReactNode)[] = [];
+      parts.forEach((part, partIndex) => {
+        if (typeof part === 'string' && part.includes(link.text)) {
+          const splitParts = part.split(link.text);
+          splitParts.forEach((splitPart, splitIndex) => {
+            if (splitIndex > 0) {
+              newParts.push(
+                <a 
+                  key={`${linkIndex}-${partIndex}-${splitIndex}`}
+                  href={link.url} 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="text-primary hover:text-primary/80 underline"
+                >
+                  {link.text}
+                </a>
+              );
+            }
+            if (splitPart) {
+              newParts.push(splitPart);
+            }
+          });
+        } else {
+          newParts.push(part);
+        }
+      });
+      parts = newParts;
+    });
+    
+    return parts;
+  };
+
   const faqs = [{
     question: t.faq.items.rsvp.question,
     answer: t.faq.items.rsvp.answer,
@@ -81,7 +118,7 @@ const FAQSection = () => {
                     <AccordionContent className="text-muted-foreground leading-relaxed">
                       {faq.hasLink ? (
                         <>
-                          {faq.answer.split(faq.linkText)[0]}
+                          {faq.answer.split(faq.linkText!)[0]}
                           <a 
                             href={faq.linkUrl} 
                             target="_blank" 
@@ -90,49 +127,10 @@ const FAQSection = () => {
                           >
                             {faq.linkText}
                           </a>
-                          {faq.answer.split(faq.linkText)[1]}
+                          {faq.answer.split(faq.linkText!)[1]}
                         </>
                       ) : faq.hasMultipleLinks ? (
-                        <>
-                          {faq.answer.includes('Príncipe Pío') ? (
-                            <>
-                              {faq.answer.split('Príncipe Pío')[0]}
-                              <a href="https://maps.app.goo.gl/iswy9BN6BFcszrQW9" target="_blank" rel="noopener noreferrer" className="text-primary hover:text-primary/80 underline">
-                                Príncipe Pío
-                              </a>
-                              {faq.answer.split('Príncipe Pío')[1].split('esta empresa')[0]}
-                              <a href="https://www.jimenezdorado.com/" target="_blank" rel="noopener noreferrer" className="text-primary hover:text-primary/80 underline">
-                                esta empresa
-                              </a>
-                              {faq.answer.split('esta empresa')[1].split('Estación Sur')[0]}
-                              <a href="https://maps.app.goo.gl/jahHQSus6wzWZivEA" target="_blank" rel="noopener noreferrer" className="text-primary hover:text-primary/80 underline">
-                                Estación Sur
-                              </a>
-                              {faq.answer.split('Estación Sur')[1]}
-                            </>
-                          ) : (
-                            // Handle accommodation links
-                            <>
-                              {faq.answer.split('Exe Reina Isabel')[0]}
-                              <a href="https://maps.app.goo.gl/iSW8nA4xA9MxEbAp9" target="_blank" rel="noopener noreferrer" className="text-primary hover:text-primary/80 underline">
-                                Exe Reina Isabel
-                              </a>
-                              {faq.answer.split('Exe Reina Isabel')[1].split('Hotel ELE Mirador de Santa Ana')[0]}
-                              <a href="https://maps.app.goo.gl/bB1FJeGdnSn4KaGK6" target="_blank" rel="noopener noreferrer" className="text-primary hover:text-primary/80 underline">
-                                Hotel ELE Mirador de Santa Ana
-                              </a>
-                              {faq.answer.split('Hotel ELE Mirador de Santa Ana')[1].split('Hotel Don Carmelo')[0]}
-                              <a href="https://maps.app.goo.gl/qNauHHkZ6yrLMhut8" target="_blank" rel="noopener noreferrer" className="text-primary hover:text-primary/80 underline">
-                                Hotel Don Carmelo
-                              </a>
-                              {faq.answer.split('Hotel Don Carmelo')[1].split('Sofrafa Palacio')[0]}
-                              <a href="https://maps.app.goo.gl/SpZ1Q5LznLsyPJXQ9" target="_blank" rel="noopener noreferrer" className="text-primary hover:text-primary/80 underline">
-                                Sofrafa Palacio
-                              </a>
-                              {faq.answer.split('Sofrafa Palacio')[1]}
-                            </>
-                          )}
-                        </>
+                        renderAnswerWithLinks(faq.answer, faq.links!)
                       ) : (
                         faq.answer
                       )}
