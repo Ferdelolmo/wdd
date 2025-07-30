@@ -68,17 +68,32 @@ const DetailsSection = () => {
               </div>
               
               <div className="space-y-6">
-                {schedule.map((item, index) => <div key={index} className="flex gap-4">
-                    <div className="flex-shrink-0">
-                      <item.icon className="w-5 h-5 mt-1" />
-                    </div>
-                    <div>
-                      <div className="flex items-center gap-3 mb-1">
-                        <span className="font-semibold text-sm">{item.time}</span>
-                        <span className="font-medium">{item.event}</span>
-                      </div>
-                    </div>
-                  </div>)}
+                <div>
+                  <h4 className="text-lg font-medium text-white mb-2">{t.details.schedule.day1}</h4>
+                  <p className="text-white/80">
+                    {t.details.schedule.day1Event}{' '}
+                    <a 
+                      href="https://maps.app.goo.gl/QwW7Gs1HeaWenFcz7" 
+                      target="_blank" 
+                      rel="noopener noreferrer"
+                      className="text-primary hover:text-primary/80 underline"
+                    >
+                      {t.details.schedule.day1Venue}
+                    </a>
+                    {t.details.schedule.day1Description}
+                  </p>
+                </div>
+                <div>
+                  <h4 className="text-lg font-medium text-white mb-2">{t.details.schedule.day2}</h4>
+                  <p className="text-lg font-medium text-primary mb-3">{t.details.schedule.day2Title}</p>
+                  <div className="space-y-2 text-white/80">
+                    <p>{t.details.schedule.pickup}</p>
+                    <p>{t.details.schedule.ceremony}</p>
+                    <p>{t.details.schedule.cocktail}</p>
+                    <p>{t.details.schedule.banquet}</p>
+                    <p>{t.details.schedule.party}</p>
+                  </div>
+                </div>
               </div>
             </Card>
 
