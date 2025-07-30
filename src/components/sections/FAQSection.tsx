@@ -70,8 +70,9 @@ const FAQSection = () => {
     hasMultipleLinks: true,
     links: [
       { text: 'Príncipe Pío', url: 'https://maps.app.goo.gl/iswy9BN6BFcszrQW9' },
-      { text: language === 'en' ? 'this company' : (language === 'it' ? 'questa compagnia' : (language === 'scn' ? 'sta cumpagnìa' : 'esta empresa')), url: 'https://www.jimenezdorado.com/' },
-      { text: 'Estación Sur', url: 'https://maps.app.goo.gl/jahHQSus6wzWZivEA' }
+      { text: 'Jiménez Dorado', url: 'https://www.jimenezdorado.com/' },
+      { text: 'Estación Sur', url: 'https://maps.app.goo.gl/jahHQSus6wzWZivEA' },
+      { text: 'Renfe', url: 'https://www.renfe.com/es/en' }
     ]
   }, {
     question: t.faq.items.accommodation.question,
