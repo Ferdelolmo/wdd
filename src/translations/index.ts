@@ -9,7 +9,7 @@ export const translations = {
       faq: 'Preguntas'
     },
     about: {
-      title: 'Fernando & Chiara',
+      title: 'Chiara & Fernando',
       subtitle: '¡se casan!',
       date: 'Junio 2026',
       location: 'Toscana, Italia',
@@ -67,22 +67,22 @@ export const translations = {
           party: 'Baile y celebración'
         }
       },
+      transportation: {
+        title: 'Transporte',
+        description: 'Shuttle service will be provided from Plaza Santa Ana (https://maps.app.goo.gl/nvdD1tmeA8odpttQ8) and the Bus Station (https://maps.app.goo.gl/NaG1BchK8fRiF3ct6) at 14:00. There will also be hourly buses leaving to Ávila starting at 23:00.'
+      },
       attire: {
         title: 'Código de Vestimenta',
-        description: 'Se solicita vestimenta semi-formal. Piensa en elegancia de fiesta en jardín - cómoda pero elegante para una celebración al aire libre en la Toscana.'
+        description: 'Se solicita vestimenta semi-formal. Piensa en elegancia de fiesta en jardín - cómoda pero elegante para una celebración al aire libre.'
       },
       accommodation: {
         title: 'Alojamiento',
         description: 'Hemos reservado habitaciones en hoteles cercanos. Por favor, consulta nuestro sitio web para detalles de reserva y descuentos grupales.',
         viewDetails: 'Ver Detalles'
       },
-      transportation: {
-        title: 'Transporte',
-        description: 'Se proporcionará servicio de transporte desde los hoteles principales hasta el lugar. El transporte funcionará cada 30 minutos comenzando a las 15:00.'
-      },
       gifts: {
         title: 'Lista de Regalos',
-        description: '¡Tu presencia es el único regalo que necesitamos! Si deseas dar un regalo, tenemos una pequeña lista disponible.',
+        description: 'Your presence is the only present we need! If you wish to give a gift, this is our IBAN and bank account details: IBAN: ES74 1583 0001 1591 7297 2090 BIC / SWIFT: REVOESM2',
         viewRegistry: 'Ver Lista'
       },
       rsvp: {
@@ -146,7 +146,7 @@ export const translations = {
       faq: 'Dimanndi'
     },
     about: {
-      title: 'Fernando e Chiara',
+      title: 'Chiara e Fernando',
       subtitle: 'si maritanu!',
       date: 'Giugnu 2026',
       location: 'Toscana, Italia',
@@ -283,7 +283,7 @@ export const translations = {
       faq: 'Domande'
     },
     about: {
-      title: 'Fernando e Chiara',
+      title: 'Chiara e Fernando',
       subtitle: 'si sposano!',
       date: 'Giugno 2026',
       location: 'Toscana, Italia',
@@ -420,7 +420,7 @@ export const translations = {
       faq: 'FAQ'
     },
     about: {
-      title: 'Fernando & Chiara',
+      title: 'Chiara & Fernando',
       subtitle: 'are getting married!',
       date: 'June 2026',
       location: 'Tuscany, Italy',
@@ -478,22 +478,22 @@ export const translations = {
             party: 'Dancing & Celebration'
           }
         },
+      transportation: {
+        title: 'Transportation',
+        description: 'Shuttle service will be provided from Plaza Santa Ana (https://maps.app.goo.gl/nvdD1tmeA8odpttQ8) and the Bus Station (https://maps.app.goo.gl/NaG1BchK8fRiF3ct6) at 14:00. There will also be hourly buses leaving to Ávila starting at 23:00.'
+      },
       attire: {
         title: 'Dress Code',
-        description: 'Semi-formal attire requested. Think garden party elegant - comfortable yet stylish for an outdoor celebration in Tuscany.'
+        description: 'Semi-formal attire requested. Think garden party elegant - comfortable yet stylish for an outdoor celebration.'
       },
       accommodation: {
         title: 'Accommodation',
         description: 'We have reserved rooms at nearby hotels. Please see our website for booking details and group discounts.',
         viewDetails: 'View Details'
       },
-      transportation: {
-        title: 'Transportation',
-        description: 'Shuttle service will be provided from the main hotels to the venue. The shuttle will run every 30 minutes starting at 3:00 PM.'
-      },
       gifts: {
         title: 'Wedding Registry',
-        description: 'Your presence is the only present we need! If you wish to give a gift, we have a small registry available.',
+        description: 'Your presence is the only present we need! If you wish to give a gift, this is our IBAN and bank account details: IBAN: ES74 1583 0001 1591 7297 2090 BIC / SWIFT: REVOESM2',
         viewRegistry: 'View Registry'
       },
       rsvp: {

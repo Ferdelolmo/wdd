@@ -35,13 +35,13 @@ const DetailsSection = () => {
     description: ""
   }];
   const details = [{
-    icon: Shirt,
-    title: t.details.attire.title,
-    description: t.details.attire.description
-  }, {
     icon: Car,
     title: t.details.transportation.title,
     description: t.details.transportation.description
+  }, {
+    icon: Shirt,
+    title: t.details.attire.title,
+    description: t.details.attire.description
   }, {
     icon: Gift,
     title: t.details.gifts.title,
