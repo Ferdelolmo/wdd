@@ -69,14 +69,14 @@ const DetailsSection = () => {
               
               <div className="space-y-6">
                 <div>
-                  <h4 className="text-lg font-medium text-white mb-2">{t.details.schedule.day1}</h4>
-                  <p className="text-white/80">
+                  <h4 className="text-lg font-bold text-white mb-2">{t.details.schedule.day1}</h4>
+                  <p className="text-white/90 font-bold">
                     {t.details.schedule.day1Event}{' '}
                     <a 
                       href="https://maps.app.goo.gl/QwW7Gs1HeaWenFcz7" 
                       target="_blank" 
                       rel="noopener noreferrer"
-                      className="text-primary hover:text-primary/80 underline"
+                      className="text-white hover:text-white/80 underline font-bold"
                     >
                       {t.details.schedule.day1Venue}
                     </a>
@@ -84,9 +84,9 @@ const DetailsSection = () => {
                   </p>
                 </div>
                 <div>
-                  <h4 className="text-lg font-medium text-white mb-2">{t.details.schedule.day2}</h4>
-                  <p className="text-lg font-medium text-primary mb-3">{t.details.schedule.day2Title}</p>
-                  <div className="space-y-2 text-white/80">
+                  <h4 className="text-lg font-bold text-white mb-2">{t.details.schedule.day2}</h4>
+                  <p className="text-lg font-bold text-white mb-3">{t.details.schedule.day2Title}</p>
+                  <div className="space-y-2 text-white/90 font-bold">
                     <p>{t.details.schedule.pickup}</p>
                     <p>{t.details.schedule.ceremony}</p>
                     <p>{t.details.schedule.cocktail}</p>
