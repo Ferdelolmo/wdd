@@ -105,27 +105,97 @@ const DetailsSection = () => {
                     <div>
                       <h4 className="font-semibold text-lg text-primary mb-2">{detail.title}</h4>
                       {detail.title === t.details.transportation.title ? (
-                        <p className="text-muted-foreground text-sm leading-relaxed">
-                          Shuttle service will be provided from{' '}
-                          <a 
-                            href="https://maps.app.goo.gl/nvdD1tmeA8odpttQ8" 
-                            target="_blank" 
-                            rel="noopener noreferrer"
-                            className="text-primary hover:underline"
-                          >
-                            Plaza Santa Ana
-                          </a>
-                          {' '}and the{' '}
-                          <a 
-                            href="https://maps.app.goo.gl/NaG1BchK8fRiF3ct6" 
-                            target="_blank" 
-                            rel="noopener noreferrer"
-                            className="text-primary hover:underline"
-                          >
-                            Bus Station
-                          </a>
-                          {' '}at 14:00. There will also be hourly buses leaving to Ávila starting at 23:00.
-                        </p>
+                        <div className="text-muted-foreground text-sm leading-relaxed">
+                          {language === 'en' ? (
+                            <>
+                              Shuttle service will be provided from{' '}
+                              <a 
+                                href="https://maps.app.goo.gl/nvdD1tmeA8odpttQ8" 
+                                target="_blank" 
+                                rel="noopener noreferrer"
+                                className="text-primary hover:underline"
+                              >
+                                Plaza Santa Ana
+                              </a>
+                              {' '}and the{' '}
+                              <a 
+                                href="https://maps.app.goo.gl/NaG1BchK8fRiF3ct6" 
+                                target="_blank" 
+                                rel="noopener noreferrer"
+                                className="text-primary hover:underline"
+                              >
+                                Bus Station
+                              </a>
+                              {' '}at 14:00. There will also be hourly buses leaving to Ávila starting at 23:00.
+                            </>
+                          ) : language === 'es' ? (
+                            <>
+                              Se proporcionará servicio de transporte desde{' '}
+                              <a 
+                                href="https://maps.app.goo.gl/nvdD1tmeA8odpttQ8" 
+                                target="_blank" 
+                                rel="noopener noreferrer"
+                                className="text-primary hover:underline"
+                              >
+                                Plaza Santa Ana
+                              </a>
+                              {' '}y la{' '}
+                              <a 
+                                href="https://maps.app.goo.gl/NaG1BchK8fRiF3ct6" 
+                                target="_blank" 
+                                rel="noopener noreferrer"
+                                className="text-primary hover:underline"
+                              >
+                                Estación de Autobuses
+                              </a>
+                              {' '}a las 14:00. También habrá autobuses cada hora saliendo hacia Ávila empezando a las 23:00.
+                            </>
+                          ) : language === 'it' ? (
+                            <>
+                              Sarà fornito un servizio navetta da{' '}
+                              <a 
+                                href="https://maps.app.goo.gl/nvdD1tmeA8odpttQ8" 
+                                target="_blank" 
+                                rel="noopener noreferrer"
+                                className="text-primary hover:underline"
+                              >
+                                Plaza Santa Ana
+                              </a>
+                              {' '}e la{' '}
+                              <a 
+                                href="https://maps.app.goo.gl/NaG1BchK8fRiF3ct6" 
+                                target="_blank" 
+                                rel="noopener noreferrer"
+                                className="text-primary hover:underline"
+                              >
+                                Stazione degli Autobus
+                              </a>
+                              {' '}alle 14:00. Ci saranno anche autobus ogni ora in partenza per Ávila a partire dalle 23:00.
+                            </>
+                          ) : (
+                            <>
+                              Sarà furnutu sirvizziu di trasportu di{' '}
+                              <a 
+                                href="https://maps.app.goo.gl/nvdD1tmeA8odpttQ8" 
+                                target="_blank" 
+                                rel="noopener noreferrer"
+                                className="text-primary hover:underline"
+                              >
+                                Plaza Santa Ana
+                              </a>
+                              {' '}e a{' '}
+                              <a 
+                                href="https://maps.app.goo.gl/NaG1BchK8fRiF3ct6" 
+                                target="_blank" 
+                                rel="noopener noreferrer"
+                                className="text-primary hover:underline"
+                              >
+                                Stazzioni di Autobùs
+                              </a>
+                              {' '}â 14:00. Ci sarannu puru autobùs ogni ora ca partunu versu Ávila ncuminzannu â 23:00.
+                            </>
+                          )}
+                        </div>
                       ) : (
                         <div className="text-muted-foreground text-sm leading-relaxed">
                           {detail.description.split('\n').map((line, index) => (
