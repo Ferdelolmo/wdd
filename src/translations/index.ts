@@ -315,7 +315,7 @@ export const translations = {
     about: {
       title: 'Chiara e Fernando',
       subtitle: 'si sposano!',
-      date: 'Giugno 2026',
+      date: '21 Giugno 2026',
       location: 'Ávila, Spagna',
       aboutUsTitle: 'Chi Siamo',
       description: 'Doveva essere nella fredda Irlanda che i nostri cammini si incrociassero per unire le nostre vite.',
@@ -418,8 +418,8 @@ export const translations = {
           answer: 'Per favore conferma la tua presenza entro il 12 marzo 2026. Puoi rispondere attraverso questo link.'
         },
         weather: {
-          question: 'Che tempo fa a giugno?',
-          answer: 'Giugno in Spagna è solitamente caldo e soleggiato. Ti consigliamo vestiti leggeri e comodi, ma porta una giacca nel caso si rinfreschi la sera.'
+          question: 'Che tempo fa a luglio?',
+          answer: 'Luglio in Spagna è solitamente caldo e soleggiato. Ti consigliamo vestiti leggeri e comodi, ma porta una giacca nel caso si rinfreschi la sera.'
         },
         parking: {
           question: 'È disponibile il parcheggio?',
