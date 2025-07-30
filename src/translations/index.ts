@@ -59,11 +59,11 @@ export const translations = {
       subtitle: 'Todo lo que necesitas saber sobre nuestro día especial',
       schedule: {
         title: 'Programa',
-        day1: '20 Julio 2026',
+        day1: '20 Junio 2026',
         day1Event: '19:00 Preboda en',
         day1Venue: 'Bendita Locura',
         day1Description: ', donde podremos juntarnos y conocernos todos antes de la boda',
-        day2: '21 Julio 2026',
+        day2: '21 Junio 2026',
         day2Title: 'Horario',
         pickup: '14:00 Recogida en autobús',
         ceremony: '15:00 Ceremonia de boda',
@@ -114,8 +114,8 @@ export const translations = {
           answer: 'Por favor confirma tu asistencia antes del 12 de marzo de 2026. Puedes responder a través de este enlace.'
         },
         weather: {
-          question: '¿Qué tiempo hace en julio?',
-          answer: 'Julio en España suele ser cálido y soleado. Te recomendamos ropa ligera y cómoda, pero trae una chaqueta por si refresca por la noche.'
+          question: '¿Qué tiempo hace en junio?',
+          answer: 'Junio en España suele ser cálido y soleado. Te recomendamos ropa ligera y cómoda, pero trae una chaqueta por si refresca por la noche.'
         },
         parking: {
           question: '¿Hay estacionamiento disponible?',
@@ -147,7 +147,7 @@ export const translations = {
       ],
       cantWait: {
         title: '¡No Podemos Esperar!',
-        message: 'Estamos muy emocionados de celebrar con todos vosotros. ¡Nos vemos el 15 de junio!'
+        message: 'Estamos muy emocionados de celebrar con todos vosotros. ¡Nos vemos el 21 de junio!'
       }
     }
   },
@@ -266,8 +266,8 @@ export const translations = {
           answer: 'Pi favuri cunfirma a to prisenza prima di u 12 di marzu 2026. Poi rispònniri attraversu stu culligamentu.'
         },
         weather: {
-          question: 'Chi tempu fici nta lugghiu?',
-          answer: 'Lugghiu nta Spagna soli èssiri caudu e sulanu. Ti cunsiggliamu vistiti liggiri e còmudi, ma porta na giacca si mai rinfresca a sira.'
+          question: 'Chi tempu fici nta giugnu?',
+          answer: 'Giugnu nta Spagna soli èssiri caudu e sulanu. Ti cunsiggliamu vistiti liggiri e còmudi, ma porta na giacca si mai rinfresca a sira.'
         },
         parking: {
           question: 'C\'è parcheggiu dispunìbbili?',
@@ -299,7 +299,7 @@ export const translations = {
       ],
       cantWait: {
         title: 'Nun Putemu Aspittari!',
-        message: 'Simu tantu cuntentu di cilbrari cu tutti vui. Ni videmu u 15 di giugnu!'
+        message: 'Simu tantu cuntentu di cilbrari cu tutti vui. Ni videmu u 21 di giugnu!'
       }
     }
   },
@@ -418,8 +418,8 @@ export const translations = {
           answer: 'Per favore conferma la tua presenza entro il 12 marzo 2026. Puoi rispondere attraverso questo link.'
         },
         weather: {
-          question: 'Che tempo fa a luglio?',
-          answer: 'Luglio in Spagna è solitamente caldo e soleggiato. Ti consigliamo vestiti leggeri e comodi, ma porta una giacca nel caso si rinfreschi la sera.'
+          question: 'Che tempo fa a giugno?',
+          answer: 'Giugno in Spagna è solitamente caldo e soleggiato. Ti consigliamo vestiti leggeri e comodi, ma porta una giacca nel caso si rinfreschi la sera.'
         },
         parking: {
           question: 'È disponibile il parcheggio?',
@@ -451,7 +451,7 @@ export const translations = {
       ],
       cantWait: {
         title: 'Non Vediamo L\'Ora!',
-        message: 'Siamo così entusiasti di celebrare con tutti voi. Ci vediamo il 15 giugno!'
+        message: 'Siamo così entusiasti di celebrare con tutti voi. Ci vediamo il 21 giugno!'
       }
     }
   },
@@ -515,11 +515,11 @@ export const translations = {
       subtitle: 'Everything you need to know about our special day',
         schedule: {
           title: 'Schedule',
-          day1: 'July 20, 2026',
+          day1: 'June 20, 2026',
           day1Event: '19:00 Pre-wedding at',
           day1Venue: 'Bendita Locura',
           day1Description: ', where we can all gather and get to know each other before the wedding',
-          day2: 'July 21, 2026',
+          day2: 'June 21, 2026',
           day2Title: 'Timeline',
           pickup: '14:00 Bus pickup',
           ceremony: '15:00 Wedding ceremony',
@@ -570,8 +570,8 @@ export const translations = {
           answer: 'Please RSVP by March 12, 2026. You can respond through this link.'
         },
         weather: {
-          question: 'What\'s the weather like in July?',
-          answer: 'July in Spain is usually warm and sunny. We recommend light and comfortable clothing, but bring a jacket in case it gets cool in the evening.'
+          question: 'What\'s the weather like in June?',
+          answer: 'June in Spain is usually warm and sunny. We recommend light and comfortable clothing, but bring a jacket in case it gets cool in the evening.'
         },
         parking: {
           question: 'Is parking available?',
@@ -603,7 +603,7 @@ export const translations = {
       ],
       cantWait: {
         title: 'Can\'t Wait!',
-        message: 'We\'re so excited to celebrate with all of you. See you on June 15th!'
+        message: 'We\'re so excited to celebrate with all of you. See you on June 21st!'
       }
     }
   }
