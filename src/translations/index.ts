@@ -60,11 +60,11 @@ export const translations = {
       schedule: {
         title: 'Horario',
         items: {
-          busHop: 'Subida al Autobús',
-          ceremony: 'Ceremonia de Boda',
+          busHop: 'Recogida en autobús',
+          ceremony: 'Ceremonia de boda',
           cocktail: 'Cóctel',
-          reception: 'Recepción y Almuerzo',
-          party: 'Baile y Celebración'
+          reception: 'Banquete',
+          party: 'Baile y celebración'
         }
       },
       attire: {
@@ -197,7 +197,7 @@ export const translations = {
       schedule: {
         title: 'Prugramma',
         items: {
-          busHop: 'Sagghiuta nnû Autobùs',
+          busHop: 'Pigghiata nnû autobùs',
           ceremony: 'Cirimonia di Matrimoniu',
           cocktail: 'Cocktail',
           reception: 'Ricivimentu e Pranzu',

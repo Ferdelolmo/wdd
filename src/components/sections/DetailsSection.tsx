@@ -1,6 +1,6 @@
 import { Card } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
-import { Calendar, Clock, MapPin, Utensils, Music, Camera, Gift, Shirt, Car, Bus } from 'lucide-react';
+import { Calendar, Clock, MapPin, Utensils, Music, Camera, Gift, Shirt, Car, Bus, Heart, Wine } from 'lucide-react';
 import { useLanguage } from '@/contexts/LanguageContext';
 import { translations } from '@/translations';
 const DetailsSection = () => {
@@ -16,17 +16,17 @@ const DetailsSection = () => {
   }, {
     time: "15:00",
     event: t.details.schedule.items.ceremony,
-    icon: Calendar,
+    icon: Heart,
     description: ""
   }, {
     time: "16:00",
     event: t.details.schedule.items.cocktail,
-    icon: Utensils,
+    icon: Wine,
     description: ""
   }, {
     time: "18:00",
     event: t.details.schedule.items.reception,
-    icon: Camera,
+    icon: Utensils,
     description: ""
   }, {
     time: "20:00",
