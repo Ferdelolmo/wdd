@@ -59,11 +59,11 @@ export const translations = {
       subtitle: 'Todo lo que necesitas saber sobre nuestro día especial',
       schedule: {
         title: 'Programa',
-        day1: '20 Junio 2026',
+        day1: '20 Julio 2026',
         day1Event: '19:00 Preboda en',
         day1Venue: 'Bendita Locura',
         day1Description: ', donde podremos juntarnos y conocernos todos antes de la boda',
-        day2: '21 Junio 2026',
+        day2: '21 Julio 2026',
         day2Title: 'Horario',
         pickup: '14:00 Recogida en autobús',
         ceremony: '15:00 Ceremonia de boda',
@@ -114,8 +114,8 @@ export const translations = {
           answer: 'Por favor confirma tu asistencia antes del 12 de marzo de 2026. Puedes responder a través de este enlace.'
         },
         weather: {
-          question: '¿Qué tiempo hace en junio?',
-          answer: 'Junio en España suele ser cálido y soleado. Te recomendamos ropa ligera y cómoda, pero trae una chaqueta por si refresca por la noche.'
+          question: '¿Qué tiempo hace en julio?',
+          answer: 'Julio en España suele ser cálido y soleado. Te recomendamos ropa ligera y cómoda, pero trae una chaqueta por si refresca por la noche.'
         },
         parking: {
           question: '¿Hay estacionamiento disponible?',
@@ -418,8 +418,8 @@ export const translations = {
           answer: 'Per favore conferma la tua presenza entro il 12 marzo 2026. Puoi rispondere attraverso questo link.'
         },
         weather: {
-          question: 'Che tempo fa a luglio?',
-          answer: 'Luglio in Spagna è solitamente caldo e soleggiato. Ti consigliamo vestiti leggeri e comodi, ma porta una giacca nel caso si rinfreschi la sera.'
+          question: 'Che tempo fa a giugno?',
+          answer: 'Giugno in Spagna è solitamente caldo e soleggiato. Ti consigliamo vestiti leggeri e comodi, ma porta una giacca nel caso si rinfreschi la sera.'
         },
         parking: {
           question: 'È disponibile il parcheggio?',
