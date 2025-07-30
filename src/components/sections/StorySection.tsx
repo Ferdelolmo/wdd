@@ -46,7 +46,7 @@ const StorySection = () => {
       icon: Gem,
       date: "December 2023",
       title: t.story.milestones.proposal.title,
-      description: t.story.milestones.proposal.description,
+      description: "Fernando aprovecha la ocasión durante la celebración del 5 aniversario. A pesar de los nervios, durante un atardecer espectacular en lo alto de Puebla de Sanabria, hincó rodilla y titubeante, le propuso a Chiara. Fue un momento idóneo e inesperado para Chiara.",
       image: proposalImage
     }
   ];
