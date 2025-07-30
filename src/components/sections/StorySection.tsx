@@ -8,37 +8,38 @@ const StorySection = () => {
   const t = translations[language];
   
   const irelandImage = 'https://i.imgur.com/qL66Vcx.jpeg'; // Ireland
+  const tripImage = 'https://i.imgur.com/Q5bWK0A.jpeg'; // Trip
+  const barcelonaImage = 'https://i.imgur.com/6kP5JiP.jpeg'; // Barcelona
+  const proposalImage = 'https://i.imgur.com/3DRviHe.jpeg'; // Proposal
   
   const milestones = [
     {
-      icon: Coffee,
-      date: "March 2020",
-      title: t.story.milestones.firstMeet.title,
-      description: t.story.milestones.firstMeet.description
-    },
-    {
       icon: Heart,
-      date: "April 2020",
-      title: t.story.milestones.firstDate.title,
-      description: t.story.milestones.firstDate.description
+      date: "March 2020",
+      title: "How we found each other",
+      description: t.story.milestones.firstMeet.description,
+      image: irelandImage
     },
     {
       icon: Plane,
       date: "August 2020",
       title: t.story.milestones.firstTrip.title,
-      description: t.story.milestones.firstTrip.description
+      description: t.story.milestones.firstTrip.description,
+      image: tripImage
     },
     {
       icon: Home,
       date: "January 2022",
       title: t.story.milestones.moving.title,
-      description: t.story.milestones.moving.description
+      description: t.story.milestones.moving.description,
+      image: barcelonaImage
     },
     {
       icon: Gem,
       date: "December 2023",
       title: t.story.milestones.proposal.title,
-      description: t.story.milestones.proposal.description
+      description: t.story.milestones.proposal.description,
+      image: proposalImage
     }
   ];
 
@@ -118,11 +119,11 @@ const StorySection = () => {
                         {milestone.date}
                       </span>
                     </div>
-                    {index === 0 && (
+                    {milestone.image && (
                       <div className="mb-4">
                         <img 
-                          src={irelandImage} 
-                          alt="First meeting in Ireland" 
+                          src={milestone.image} 
+                          alt={milestone.title} 
                           className="w-full h-48 object-cover rounded-lg shadow-soft"
                         />
                       </div>
