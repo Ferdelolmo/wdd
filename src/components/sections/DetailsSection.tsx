@@ -104,9 +104,33 @@ const DetailsSection = () => {
                     </div>
                     <div>
                       <h4 className="font-semibold text-lg text-primary mb-2">{detail.title}</h4>
-                      <p className="text-muted-foreground text-sm leading-relaxed">
-                        {detail.description}
-                      </p>
+                      {detail.title === t.details.transportation.title ? (
+                        <p className="text-muted-foreground text-sm leading-relaxed">
+                          Shuttle service will be provided from{' '}
+                          <a 
+                            href="https://maps.app.goo.gl/nvdD1tmeA8odpttQ8" 
+                            target="_blank" 
+                            rel="noopener noreferrer"
+                            className="text-primary hover:underline"
+                          >
+                            Plaza Santa Ana
+                          </a>
+                          {' '}and the{' '}
+                          <a 
+                            href="https://maps.app.goo.gl/NaG1BchK8fRiF3ct6" 
+                            target="_blank" 
+                            rel="noopener noreferrer"
+                            className="text-primary hover:underline"
+                          >
+                            Bus Station
+                          </a>
+                          {' '}at 14:00. There will also be hourly buses leaving to Ávila starting at 23:00.
+                        </p>
+                      ) : (
+                        <p className="text-muted-foreground text-sm leading-relaxed">
+                          {detail.description}
+                        </p>
+                      )}
                     </div>
                   </div>
                 </Card>)}

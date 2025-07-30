@@ -69,7 +69,7 @@ export const translations = {
       },
       transportation: {
         title: 'Transporte',
-        description: 'Shuttle service will be provided from Plaza Santa Ana (https://maps.app.goo.gl/nvdD1tmeA8odpttQ8) and the Bus Station (https://maps.app.goo.gl/NaG1BchK8fRiF3ct6) at 14:00. There will also be hourly buses leaving to Ávila starting at 23:00.'
+        description: 'Shuttle service will be provided from Plaza Santa Ana and the Bus Station at 14:00. There will also be hourly buses leaving to Ávila starting at 23:00.'
       },
       attire: {
         title: 'Código de Vestimenta',
@@ -480,7 +480,7 @@ export const translations = {
         },
       transportation: {
         title: 'Transportation',
-        description: 'Shuttle service will be provided from Plaza Santa Ana (https://maps.app.goo.gl/nvdD1tmeA8odpttQ8) and the Bus Station (https://maps.app.goo.gl/NaG1BchK8fRiF3ct6) at 14:00. There will also be hourly buses leaving to Ávila starting at 23:00.'
+        description: 'Shuttle service will be provided from Plaza Santa Ana and the Bus Station at 14:00. There will also be hourly buses leaving to Ávila starting at 23:00.'
       },
       attire: {
         title: 'Dress Code',
