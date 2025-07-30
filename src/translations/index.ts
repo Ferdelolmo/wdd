@@ -12,7 +12,7 @@ export const translations = {
       title: 'Chiara & Fernando',
       subtitle: '¡se casan!',
       date: 'Junio 2026',
-      location: 'Toscana, Italia',
+      location: 'Ávila, España',
       aboutUsTitle: 'Sobre Nosotros',
       description: 'Tuvo que ser en la fría Irlanda donde nuestros caminos se cruzaran para unir nuestras vidas.',
       joinUs: 'Ahora, lejos de allí, pero siempre con un ojo puesto en la isla esmeralda, estamos muy emocionados de compartir este día con todos vosotros. Después de mucho amor, risas y aventuras compartidas, estamos listos para comenzar nuestro próximo capítulo como marido y mujer.'
@@ -149,7 +149,7 @@ export const translations = {
       title: 'Chiara e Fernando',
       subtitle: 'si maritanu!',
       date: 'Giugnu 2026',
-      location: 'Toscana, Italia',
+      location: 'Ávila, Spagna',
       aboutUsTitle: 'Di Nuautri',
       description: 'Fu propriu n\'Irlanda, cu tuttu chiddu friddu, ca i nostri strati s\'attravirsaru pi fari junciri i nostri cori.',
       joinUs: 'Ora semu luntani, ma guardamu sempri cu \'n\'occhiu l\'isula smeralda, cu tanti ricordi e \'na bedda nostalgia. Doppu amuri, risati e assai avventuri nzemi, semu pronti pi cuminciari \'stu novu capitulu comu maritu e mugghieri.'
@@ -206,7 +206,7 @@ export const translations = {
       },
       attire: {
         title: 'Codici di Vistimutu',
-        description: 'Si richiedi vistimutu semi-furmali. Pinsati a eleganza di festa nti jardinu - còmodu ma eleganti pi na cilibrazzioni all\'aria aperta nnâ Toscana.'
+        description: 'Si richiedi vistimutu semi-furmali. Pinsati a eleganza di festa nti jardinu - còmodu ma eleganti pi na cilibrazzioni all\'aria aperta.'
       },
       accommodation: {
         title: 'Alloggiu',
@@ -286,7 +286,7 @@ export const translations = {
       title: 'Chiara e Fernando',
       subtitle: 'si sposano!',
       date: 'Giugno 2026',
-      location: 'Toscana, Italia',
+      location: 'Ávila, Spagna',
       aboutUsTitle: 'Chi Siamo',
       description: 'Doveva essere nella fredda Irlanda che i nostri cammini si incrociassero per unire le nostre vite.',
       joinUs: 'Ora, lontani da lì ma sempre con un occhio rivolto all\'isola smeraldo, siamo emozionatissimi di poter condividere questo giorno con tutti voi. Dopo tanto amore, risate e avventure vissute insieme, siamo pronti a iniziare il nostro prossimo capitolo come marito e moglie.'
@@ -343,7 +343,7 @@ export const translations = {
         },
       attire: {
         title: 'Codice di Abbigliamento',
-        description: 'Abbigliamento semi-formale richiesto. Pensate a eleganza da festa in giardino - comodo ma elegante per una celebrazione all\'aperto in Toscana.'
+        description: 'Abbigliamento semi-formale richiesto. Pensate a eleganza da festa in giardino - comodo ma elegante per una celebrazione all\'aperto.'
       },
       accommodation: {
         title: 'Alloggio',
@@ -423,7 +423,7 @@ export const translations = {
       title: 'Chiara & Fernando',
       subtitle: 'are getting married!',
       date: 'June 2026',
-      location: 'Tuscany, Italy',
+      location: 'Ávila, Spain',
       aboutUsTitle: 'About Us',
       description: 'It had to be in cold, rainy Ireland where our paths crossed and our lives came together.',
       joinUs: 'Now, far from there—but always keeping an eye out on the Emerald Isle—we\'re excited to share this day with all of you. After so much love, laughter, and adventure together, we\'re ready to begin our next chapter as husband and wife.'
