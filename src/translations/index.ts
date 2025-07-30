@@ -111,27 +111,31 @@ export const translations = {
       items: {
         rsvp: {
           question: '¿Cuándo es la fecha límite para confirmar asistencia?',
-          answer: 'Por favor confirma tu asistencia antes del 15 de abril de 2024. Puedes responder a través de nuestro sitio web de bodas o llamándonos directamente.'
-        },
-        plusOne: {
-          question: '¿Puedo traer acompañante?',
-          answer: 'Los acompañantes están especificados en tu invitación. Si tienes alguna pregunta sobre tu invitación, por favor contáctanos.'
-        },
-        children: {
-          question: '¿Son bienvenidos los niños?',
-          answer: 'Aunque amamos a tus pequeños, hemos decidido tener una celebración solo para adultos para permitir que todos nuestros invitados se relajen y disfruten la velada.'
+          answer: 'Por favor confirma tu asistencia antes del 12 de marzo de 2026. Puedes responder a través de este enlace.'
         },
         weather: {
-          question: '¿Qué pasa si llueve?',
-          answer: 'Nuestro lugar tiene hermosos espacios interiores como plan de respaldo. No te preocupes, ¡aún tendremos una celebración increíble sin importar el clima!'
+          question: '¿Qué tiempo hace en julio?',
+          answer: 'Julio en España suele ser cálido y soleado. Te recomendamos ropa ligera y cómoda, pero trae una chaqueta por si refresca por la noche.'
         },
         parking: {
           question: '¿Hay estacionamiento disponible?',
-          answer: 'Sí, hay estacionamiento gratuito disponible en el lugar. También se proporciona servicio de transporte desde hoteles cercanos.'
+          answer: 'Sí, hay estacionamiento disponible en el lugar del evento, sin embargo, proporcionamos un servicio de transporte desde el centro de la ciudad, para que no tengas que preocuparte por conducir.'
         },
         dietary: {
-          question: '¿Acomodan restricciones dietéticas?',
-          answer: '¡Absolutamente! Por favor háznoslo saber sobre cualquier restricción dietética cuando confirmes tu asistencia, y nuestro catering se asegurará de que tengas opciones deliciosas.'
+          question: '¿Tienen opciones para dietas especiales?',
+          answer: '¡Por supuesto! Tendremos opciones vegetarianas, veganas y sin gluten. Por favor menciona cualquier alergia o restricción alimentaria en tu confirmación.'
+        },
+        aboutAvila: {
+          question: '¿Dónde está Ávila y cómo debería llegar allí?',
+          answer: 'Ávila es una joya escondida en el centro de España, alberga mucha historia detrás de las murallas de la ciudad y fue una de las ciudades más importantes del Reino de Castilla en su época y testigo de grandes e importantes eventos en la historia. Hoy en día es una ciudad pequeña, diminuta pero increíblemente hermosa con una gastronomía única y rincones preciosos.'
+        },
+        gettingToAvila: {
+          question: '¿Cómo debería llegar a Ávila?',
+          answer: 'Ávila está a menos de 100km de Madrid. El transporte público funciona bien, dependiendo de dónde llegues, puedes usar Cabify, Uber o Bolt para ir a la estación de tren o autobús. Si quieres ir en tren, la estación es Príncipe Pío. El autobús también es una opción, esta empresa cubre la ruta Madrid - Ávila desde Estación Sur.'
+        },
+        accommodation: {
+          question: '¿Dónde debería alojarme en Ávila?',
+          answer: 'Tenemos un acuerdo con estos 4 hoteles, solo tienes que usar el código de referencia "Boda Fernando y Chiara": Exe Reina Isabel, Hotel ELE Mirador de Santa Ana, Hotel Don Carmelo, Sofrafa Palacio.'
         }
       },
       funFacts: 'Datos Curiosos Sobre Nosotros',
@@ -259,27 +263,31 @@ export const translations = {
       items: {
         rsvp: {
           question: 'Quannu è a data lìmiti pi cunfirmari prisenza?',
-          answer: 'Pi favuri cunfirmati a vostra prisenza prima dû 15 di aprili 2024. Putiti rispùnniri attraversu u nostru situ web di matrimoniu o chiamànnuni direttamenti.'
-        },
-        plusOne: {
-          question: 'Pozzu purtari accumpagnanti?',
-          answer: 'Li accumpagnanti sunnu spicificati nnâ vostra nvitazzioni. Si aviti qualchi dimanna suprà a vostra nvitazzioni, pi favuri cuntattàtini.'
-        },
-        children: {
-          question: 'Sunnu binvinuti li carusi?',
-          answer: 'Macari amamu i vostri picculi, abbiamu dicisu di aviri na cilibrazzioni sulu pi adulti pi pirmèttiri a tutti li nostri nvitati di rilassàrisi e gòdiri a sirata.'
+          answer: 'Pi favuri cunfirma a to prisenza prima di u 12 di marzu 2026. Poi rispònniri attraversu stu culligamentu.'
         },
         weather: {
-          question: 'Chi succedi si chiovi?',
-          answer: 'U nostru locu havi beddi spazzi interni comu pianu di riserva. Nun vi prioccupati, avremu ancora na cilibrazzioni ncrìdibili nun importa u tempu!'
+          question: 'Chi tempu fici nta lugghiu?',
+          answer: 'Lugghiu nta Spagna soli èssiri caudu e sulanu. Ti cunsiggliamu vistiti liggiri e còmudi, ma porta na giacca si mai rinfresca a sira.'
         },
         parking: {
-          question: 'Cci è parcheggio dispunìbbili?',
-          answer: 'Sì, cci è parcheggio gratuitu dispunìbbili nnû locu. È macari furnutu sirvizziu di trasportu di hotel vicini.'
+          question: 'C\'è parcheggiu dispunìbbili?',
+          answer: 'Sì, c\'è parcheggiu dispunìbbili ntu locu di l\'eventu, però damu nu sirvizu di trasportu dû centru città, accussì nun ti havi a prioccupari di guidari.'
         },
         dietary: {
-          question: 'Accummudati ristrizzioni dietetichi?',
-          answer: 'Assulutu! Pi favuri fàtinilu sapiri suprà qualsiasi ristrizzioni dietetica quannu cunfirmati a vostra prisenza, e u nostru catering si sicurarà ca aviti opzioni dilizziusi.'
+          question: 'Aviti opzioni pi dieti spiciali?',
+          answer: 'Sicuramenti! Avremu opzioni vegetariani, vegani e senza glutini. Pi favuri menziona qualsiasi allergia o ristrizioni alimentari nta a to cunfirmazioni.'
+        },
+        aboutAvila: {
+          question: 'Unni è Ávila e comu haju arrivari?',
+          answer: 'Ávila è na perla ammucciat ntu centru di a Spagna, ospit assai storia darreri i mura di a città e fu una di i città cchiù mpurtanti dû Regnu di Castiglia nta u so tempu e testimuni di granni e mpurtanti eventi nta a storia. Oggi è na città nica, minuzza ma incredibilmenti bedda cu na gastronomia unica e cantuni preziusi.'
+        },
+        gettingToAvila: {
+          question: 'Comu haju arrivari a Ávila?',
+          answer: 'Ávila è a menu di 100km di Madrid. U trasportu pùbblicu funziona beni, dipinnennu di unni arrivi, poi usari Cabify, Uber o Bolt pi jiri a stazioni di u trenu o l\'autobus. Si voi jiri cu u trenu, a stazioni è Príncipe Pío. L\'autobus è puru n\'opzioni, sta cumpagnìa copri a rotta Madrid - Ávila dâ Estación Sur.'
+        },
+        accommodation: {
+          question: 'Unni haju stari a Ávila?',
+          answer: 'Avemu n\'accordu cu sti 4 hotel, havi sulu usari u còdici di riferimentu "Boda Fernando y Chiara": Exe Reina Isabel, Hotel ELE Mirador de Santa Ana, Hotel Don Carmelo, Sofrafa Palacio.'
         }
       },
       funFacts: 'Fatti Divertenti Su Di Noi',
@@ -407,27 +415,31 @@ export const translations = {
       items: {
         rsvp: {
           question: 'Quando è la scadenza per confermare la presenza?',
-          answer: 'Vi preghiamo di confermare la vostra presenza entro il 15 aprile 2024. Potete rispondere tramite il nostro sito web del matrimonio o chiamandoci direttamente.'
-        },
-        plusOne: {
-          question: 'Posso portare un accompagnatore?',
-          answer: 'Gli accompagnatori sono specificati sul vostro invito. Se avete domande sul vostro invito, vi preghiamo di contattarci.'
-        },
-        children: {
-          question: 'I bambini sono benvenuti?',
-          answer: 'Anche se amiamo i vostri piccoli, abbiamo deciso di avere una celebrazione solo per adulti per permettere a tutti i nostri ospiti di rilassarsi e godersi la serata.'
+          answer: 'Per favore conferma la tua presenza entro il 12 marzo 2026. Puoi rispondere attraverso questo link.'
         },
         weather: {
-          question: 'Cosa succede se piove?',
-          answer: 'Il nostro luogo ha bellissimi spazi interni come piano di riserva. Non preoccupatevi, avremo comunque una celebrazione fantastica indipendentemente dal tempo!'
+          question: 'Che tempo fa a luglio?',
+          answer: 'Luglio in Spagna è solitamente caldo e soleggiato. Ti consigliamo vestiti leggeri e comodi, ma porta una giacca nel caso si rinfreschi la sera.'
         },
         parking: {
           question: 'È disponibile il parcheggio?',
-          answer: 'Sì, c\'è parcheggio gratuito disponibile presso il luogo. È anche fornito servizio navetta da hotel vicini.'
+          answer: 'Sì, c\'è parcheggio disponibile nel luogo dell\'evento, tuttavia forniamo un servizio navetta dal centro città, così non devi preoccuparti di guidare.'
         },
         dietary: {
-          question: 'Vengono accomodate le restrizioni alimentari?',
-          answer: 'Assolutamente! Vi preghiamo di farci sapere eventuali restrizioni alimentari quando confermate la presenza, e il nostro catering si assicurerà che abbiate opzioni deliziose.'
+          question: 'Avete opzioni per diete speciali?',
+          answer: 'Certamente! Avremo opzioni vegetariane, vegane e senza glutine. Per favore menziona qualsiasi allergia o restrizione alimentare nella tua conferma.'
+        },
+        aboutAvila: {
+          question: 'Dove si trova Ávila e come dovrei arrivarci?',
+          answer: 'Ávila è un gioiello nascosto nel centro della Spagna, ospita molta storia dietro le mura della città ed era una delle città più importanti del Regno di Castiglia ai suoi tempi e testimone di grandi e importanti eventi nella storia. Oggi è una città piccola, minuscola ma incredibilmente bella con una gastronomia unica e angoli preziosi.'
+        },
+        gettingToAvila: {
+          question: 'Come dovrei arrivare a Ávila?',
+          answer: 'Ávila dista meno di 100km da Madrid. I trasporti pubblici funzionano bene, a seconda di dove arrivi, puoi usare Cabify, Uber o Bolt per andare alla stazione del treno o degli autobus. Se vuoi andare in treno, la stazione è Príncipe Pío. L\'autobus è anche un\'opzione, questa compagnia copre la tratta Madrid - Ávila da Estación Sur.'
+        },
+        accommodation: {
+          question: 'Dove dovrei soggiornare a Ávila?',
+          answer: 'Abbiamo un accordo con questi 4 hotel, devi solo usare il codice di riferimento "Boda Fernando y Chiara": Exe Reina Isabel, Hotel ELE Mirador de Santa Ana, Hotel Don Carmelo, Sofrafa Palacio.'
         }
       },
       funFacts: 'Curiosità Su Di Noi',
@@ -555,27 +567,31 @@ export const translations = {
       items: {
         rsvp: {
           question: 'When is the RSVP deadline?',
-          answer: 'Please RSVP by April 15, 2024. You can respond through our wedding website or by calling us directly.'
-        },
-        plusOne: {
-          question: 'Can I bring a plus-one?',
-          answer: 'Plus-ones are specified on your invitation. If you have any questions about your invitation, please reach out to us.'
-        },
-        children: {
-          question: 'Are children welcome?',
-          answer: 'While we love your little ones, we have decided to have an adults-only celebration to allow all our guests to relax and enjoy the evening.'
+          answer: 'Please RSVP by March 12, 2026. You can respond through this link.'
         },
         weather: {
-          question: 'What if it rains?',
-          answer: 'Our venue has beautiful indoor spaces as a backup plan. Don\'t worry, we\'ll still have an amazing celebration regardless of the weather!'
+          question: 'What\'s the weather like in July?',
+          answer: 'July in Spain is usually warm and sunny. We recommend light and comfortable clothing, but bring a jacket in case it gets cool in the evening.'
         },
         parking: {
           question: 'Is parking available?',
-          answer: 'Yes, there is complimentary parking available at the venue. Shuttle service is also provided from nearby hotels.'
+          answer: 'Yes, there is parking available at the venue however we\'re providing a shuttle service from the city center, so you just don\'t have to worry about driving.'
         },
         dietary: {
-          question: 'Do you accommodate dietary restrictions?',
-          answer: 'Absolutely! Please let us know about any dietary restrictions when you RSVP, and our caterer will ensure you have delicious options.'
+          question: 'Do you have options for special diets?',
+          answer: 'Absolutely! We\'ll have vegetarian, vegan, and gluten-free options. Please mention any allergies or dietary restrictions in your confirmation.'
+        },
+        aboutAvila: {
+          question: 'Where is Ávila and how should I get there?',
+          answer: 'Ávila is a hidden gem in the center of Spain, it hosted a lot of history behind the city walls and was one of the most important cities in the Kingdom of Castilla back in the days and witness of big and important events in history. Nowadays it\'s a tiny, small but incredibly gorgeous city with a one-of-a-kind gastronomy and beautiful corners.'
+        },
+        gettingToAvila: {
+          question: 'How should I get to Ávila?',
+          answer: 'Ávila is not even 100km away from Madrid. Public transportation works well, depending where you will arrive, you can use Cabify, Uber or Bolt to go to the train or bus station. If you want to go by train, the train station is Principe Pio. Bus is also an option, this company covers the route Madrid - Avila from Estación Sur.'
+        },
+        accommodation: {
+          question: 'Where should I stay in Ávila?',
+          answer: 'We have an agreement with these 4 hotels, you can just use the referral code "Boda Fernando y Chiara": Exe Reina Isabel, Hotel ELE Mirador de Santa Ana, Hotel Don Carmelo, Sofrafa Palacio.'
         }
       },
       funFacts: 'Fun Facts About Us',

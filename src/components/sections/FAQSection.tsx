@@ -11,13 +11,10 @@ const FAQSection = () => {
   const t = translations[language];
   const faqs = [{
     question: t.faq.items.rsvp.question,
-    answer: t.faq.items.rsvp.answer
-  }, {
-    question: t.faq.items.plusOne.question,
-    answer: t.faq.items.plusOne.answer
-  }, {
-    question: t.faq.items.children.question,
-    answer: t.faq.items.children.answer
+    answer: t.faq.items.rsvp.answer,
+    hasLink: true,
+    linkText: language === 'en' ? 'link' : (language === 'it' ? 'link' : (language === 'scn' ? 'culligamentu' : 'enlace')),
+    linkUrl: 'https://forms.gle/Pu5jfecVs7exJadh7'
   }, {
     question: t.faq.items.weather.question,
     answer: t.faq.items.weather.answer
@@ -27,6 +24,28 @@ const FAQSection = () => {
   }, {
     question: t.faq.items.dietary.question,
     answer: t.faq.items.dietary.answer
+  }, {
+    question: t.faq.items.aboutAvila.question,
+    answer: t.faq.items.aboutAvila.answer
+  }, {
+    question: t.faq.items.gettingToAvila.question,
+    answer: t.faq.items.gettingToAvila.answer,
+    hasMultipleLinks: true,
+    links: [
+      { text: 'Príncipe Pío', url: 'https://maps.app.goo.gl/iswy9BN6BFcszrQW9' },
+      { text: language === 'en' ? 'this company' : (language === 'it' ? 'questa compagnia' : (language === 'scn' ? 'sta cumpagnìa' : 'esta empresa')), url: 'https://www.jimenezdorado.com/' },
+      { text: 'Estación Sur', url: 'https://maps.app.goo.gl/jahHQSus6wzWZivEA' }
+    ]
+  }, {
+    question: t.faq.items.accommodation.question,
+    answer: t.faq.items.accommodation.answer,
+    hasMultipleLinks: true,
+    links: [
+      { text: 'Exe Reina Isabel', url: 'https://maps.app.goo.gl/iSW8nA4xA9MxEbAp9' },
+      { text: 'Hotel ELE Mirador de Santa Ana', url: 'https://maps.app.goo.gl/bB1FJeGdnSn4KaGK6' },
+      { text: 'Hotel Don Carmelo', url: 'https://maps.app.goo.gl/qNauHHkZ6yrLMhut8' },
+      { text: 'Sofrafa Palacio', url: 'https://maps.app.goo.gl/SpZ1Q5LznLsyPJXQ9' }
+    ]
   }];
   const funFacts = [
     { icon: Heart, fact: t.faq.funFactsList[0] },
@@ -54,13 +73,60 @@ const FAQSection = () => {
                 <h3 className="font-serif text-2xl text-primary">{t.faq.title}</h3>
               </div>
               
-              <Accordion type="single" collapsible className="w-full">
+                <Accordion type="single" collapsible className="w-full">
                 {faqs.map((faq, index) => <AccordionItem key={index} value={`item-${index}`}>
                     <AccordionTrigger className="text-left font-medium">
                       {faq.question}
                     </AccordionTrigger>
                     <AccordionContent className="text-muted-foreground leading-relaxed">
-                      {faq.answer}
+                      {faq.hasLink ? (
+                        <>
+                          {faq.answer.split(faq.linkText)[0]}
+                          <a 
+                            href={faq.linkUrl} 
+                            target="_blank" 
+                            rel="noopener noreferrer"
+                            className="text-primary hover:text-primary/80 underline"
+                          >
+                            {faq.linkText}
+                          </a>
+                          {faq.answer.split(faq.linkText)[1]}
+                        </>
+                      ) : faq.hasMultipleLinks ? (
+                        <>
+                          {(() => {
+                            let content = faq.answer;
+                            faq.links.forEach((link) => {
+                              const linkRegex = new RegExp(`(${link.text})`, 'g');
+                              content = content.replace(linkRegex, `<LINK_${link.text}_START>$1<LINK_${link.text}_END>`);
+                            });
+                            
+                            return content.split(/(<LINK_[^>]*>)/g).map((part, index) => {
+                              const linkMatch = part.match(/^<LINK_([^_]+(?:_[^_]+)*)_START>([^<]+)<LINK_\1_END>$/);
+                              if (linkMatch) {
+                                const linkText = linkMatch[2];
+                                const link = faq.links.find(l => l.text === linkText);
+                                if (link) {
+                                  return (
+                                    <a 
+                                      key={index}
+                                      href={link.url} 
+                                      target="_blank" 
+                                      rel="noopener noreferrer"
+                                      className="text-primary hover:text-primary/80 underline"
+                                    >
+                                      {linkText}
+                                    </a>
+                                  );
+                                }
+                              }
+                              return part.replace(/<LINK_[^>]*>/g, '');
+                            });
+                          })()}
+                        </>
+                      ) : (
+                        faq.answer
+                      )}
                     </AccordionContent>
                   </AccordionItem>)}
               </Accordion>
