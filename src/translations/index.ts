@@ -163,7 +163,7 @@ export const translations = {
     about: {
       title: 'Chiara e Fernando',
       subtitle: 'si maritanu!',
-      date: '21 Giugnu 2026',
+      date: 'Giugnu 2026',
       location: 'Ávila, Spagna',
       aboutUsTitle: 'Di Nuautri',
       description: 'Fu propriu n\'Irlanda, cu tuttu chiddu friddu, ca i nostri strati s\'attravirsaru pi fari junciri i nostri cori.',
@@ -299,7 +299,7 @@ export const translations = {
       ],
       cantWait: {
         title: 'Nun Putemu Aspittari!',
-        message: 'Simu tantu cuntentu di cilbrari cu tutti vui. Ni videmu u 15 di giugnu!'
+        message: 'Simu tantu cuntentu di cilbrari cu tutti vui. Ni videmu u 21 di giugnu!'
       }
     }
   },
