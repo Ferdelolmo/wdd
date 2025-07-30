@@ -68,6 +68,17 @@ const VenueSection = () => {
               </div>
             </Card>
 
+            {/* Second Venue Image */}
+            <Card className="overflow-hidden shadow-romantic border-0">
+              <div className="aspect-[4/3] relative">
+                <img 
+                  src="https://i.imgur.com/jRwhFw1.png" 
+                  alt="Pedrosillo2 - Additional venue view"
+                  className="w-full h-full object-cover"
+                />
+              </div>
+            </Card>
+
             <Card className="p-8 bg-wedding-cream shadow-soft border-0">
               <p className="text-muted-foreground leading-relaxed">
                 {t.venue.description}
