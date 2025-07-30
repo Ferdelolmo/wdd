@@ -278,7 +278,7 @@ export const translations = {
       aboutUs: 'Chi Siamo',
       venue: 'Luogo',
       ourStory: 'La Nostra Storia',
-      weddingDetails: 'Dettagli del Matrimonio',
+      weddingDetails: 'Dittagli',
       gallery: 'Galleria',
       faq: 'Domande Frequenti'
     },
