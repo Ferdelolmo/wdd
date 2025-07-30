@@ -32,7 +32,7 @@ export const translations = {
       milestones: {
         firstMeet: {
           title: 'Cómo nos encontramos',
-          description: 'Tuvo que ser en la fría Irlanda donde nuestros caminos se cruzaran para unir nuestras vidas.'
+          description: 'Nuestros caminos se cruzaron en la isla verde en el verano de 2020. Después de nuestra primera cita en el parque St.Stephen con un cannolo siciliano, nos volvimos inseparables'
         },
         firstTrip: {
           title: 'Nuestro Primer Viaje Juntos',
@@ -130,8 +130,8 @@ export const translations = {
           answer: 'Ávila es una joya escondida en el centro de España, alberga mucha historia detrás de las murallas de la ciudad y fue una de las ciudades más importantes del Reino de Castilla en su época y testigo de grandes e importantes eventos en la historia. Hoy en día es una ciudad pequeña, diminuta pero increíblemente hermosa con una gastronomía única y rincones preciosos.'
         },
         gettingToAvila: {
-          question: '¿Cómo debería llegar a Ávila?',
-          answer: 'Ávila está a menos de 100km de Madrid. El transporte público funciona bien, dependiendo de dónde llegues, puedes usar Cabify, Uber o Bolt para ir a la estación de tren o autobús. Si quieres ir en tren, la estación es Príncipe Pío. El autobús también es una opción, esta empresa cubre la ruta Madrid - Ávila desde Estación Sur.'
+          question: '¿Cómo llegar a Ávila?',
+          answer: 'Ávila está a menos de 100km de Madrid por lo tanto si llegáis en avión, el aeropuerto más cercano es Madrid Barajas. Para llegar desde Madrid a Ávila, hay opciones como el autobús Jiménez Dorado desde la Estación Sur o el tren Renfe desde la estación de tren Príncipe Pío. En Madrid, tanto Cabify, Uber como Bolt funcionan de maravilla para transporte desde el aeropuerto hasta la estación de tren o autobús.'
         },
         accommodation: {
           question: '¿Dónde debería alojarme en Ávila?',
@@ -184,7 +184,7 @@ export const translations = {
       milestones: {
         firstMeet: {
           title: 'Comu ni Truvammu',
-          description: 'Fu propriu n\'Irlanda, cu tuttu chiddu friddu, ca i nostri strati s\'attravirsaru pi fari junciri i nostri cori.'
+          description: 'I nostri strati s\'ncruciaru nta l\'isula virdi nta l\'astati dû 2020. Doppu a nostra prima appuntamentu ntu parcu St.Stephen cu nu cannolu sicilianu, diventammu nseparàbbili'
         },
         firstTrip: {
           title: 'U Nostru Primu Viaggiu Nsemi',
@@ -282,8 +282,8 @@ export const translations = {
           answer: 'Ávila è na perla ammucciat ntu centru di a Spagna, ospit assai storia darreri i mura di a città e fu una di i città cchiù mpurtanti dû Regnu di Castiglia nta u so tempu e testimuni di granni e mpurtanti eventi nta a storia. Oggi è na città nica, minuzza ma incredibilmenti bedda cu na gastronomia unica e cantuni preziusi.'
         },
         gettingToAvila: {
-          question: 'Comu haju arrivari a Ávila?',
-          answer: 'Ávila è a menu di 100km di Madrid. U trasportu pùbblicu funziona beni, dipinnennu di unni arrivi, poi usari Cabify, Uber o Bolt pi jiri a stazioni di u trenu o l\'autobus. Si voi jiri cu u trenu, a stazioni è Príncipe Pío. L\'autobus è puru n\'opzioni, sta cumpagnìa copri a rotta Madrid - Ávila dâ Estación Sur.'
+          question: 'Comu arrivari a Ávila?',
+          answer: 'Ávila sta a menu di 100km di Madrid pi cui si arrivati ni aereu, l\'aeroportu cchiù vicinu è Madrid Barajas. Pi arrivari di Madrid a Ávila, ci sunnu opzioni comu l\'autobùs Jiménez Dorado dâ Estación Sur o u trenu Renfe dâ stazioni di u trenu Príncipe Pío. A Madrid, Cabify, Uber e Bolt funzìonanu maravigghiusamenti pi u trasportu di l\'aeroportu â stazioni di u trenu o l\'autobùs.'
         },
         accommodation: {
           question: 'Unni haju stari a Ávila?',
@@ -299,7 +299,7 @@ export const translations = {
       ],
       cantWait: {
         title: 'Nun Putemu Aspittari!',
-        message: 'Simu tantu cuntentu di cilbrari cu tutti vui. Ni videmu u 21 di giugnu!'
+        message: 'Simu tantu cuntentu di cilbrari cu tutti vui. Ni videmu u 15 di giugnu!'
       }
     }
   },
@@ -336,7 +336,7 @@ export const translations = {
       milestones: {
         firstMeet: {
           title: 'Come ci siamo trovati',
-          description: 'È dovuto essere nella fredda Irlanda dove i nostri percorsi si sono incrociati per unire le nostre vite.'
+          description: 'I nostri percorsi si sono incrociati nell\'isola verde nel estate 2020. Dopo nostro primo appuntamento nel parco St.Stephen con un cannolo siciliano, siamo diventati inseparabili'
         },
         firstTrip: {
           title: 'Il Nostro Primo Viaggio Insieme',
@@ -434,8 +434,8 @@ export const translations = {
           answer: 'Ávila è un gioiello nascosto nel centro della Spagna, ospita molta storia dietro le mura della città ed era una delle città più importanti del Regno di Castiglia ai suoi tempi e testimone di grandi e importanti eventi nella storia. Oggi è una città piccola, minuscola ma incredibilmente bella con una gastronomia unica e angoli preziosi.'
         },
         gettingToAvila: {
-          question: 'Come dovrei arrivare a Ávila?',
-          answer: 'Ávila dista meno di 100km da Madrid. I trasporti pubblici funzionano bene, a seconda di dove arrivi, puoi usare Cabify, Uber o Bolt per andare alla stazione del treno o degli autobus. Se vuoi andare in treno, la stazione è Príncipe Pío. L\'autobus è anche un\'opzione, questa compagnia copre la tratta Madrid - Ávila da Estación Sur.'
+          question: 'Come arrivare a Ávila?',
+          answer: 'Ávila dista meno di 100km da Madrid quindi se arrivate in aereo, l\'aeroporto più vicino è Madrid Barajas. Per arrivare da Madrid a Ávila, ci sono opzioni come l\'autobus Jiménez Dorado dalla Estación Sur o il treno Renfe dalla stazione ferroviaria Príncipe Pío. A Madrid, Cabify, Uber e Bolt funzionano meravigliosamente per il trasporto dall\'aeroporto alla stazione ferroviaria o degli autobus.'
         },
         accommodation: {
           question: 'Dove dovrei soggiornare a Ávila?',
@@ -488,7 +488,7 @@ export const translations = {
       milestones: {
         firstMeet: {
           title: 'How we found each other',
-          description: 'It had to be in cold Ireland where our paths crossed to unite our lives.'
+          description: 'Our paths crossed in the green island in the summer of 2020. After our first date in St.Stephen park with a Sicilian cannolo, we became inseparable'
         },
         firstTrip: {
           title: 'Our First Trip Together',
@@ -586,8 +586,8 @@ export const translations = {
           answer: 'Ávila is a hidden gem in the center of Spain, it hosted a lot of history behind the city walls and was one of the most important cities in the Kingdom of Castilla back in the days and witness of big and important events in history. Nowadays it\'s a tiny, small but incredibly gorgeous city with a one-of-a-kind gastronomy and beautiful corners.'
         },
         gettingToAvila: {
-          question: 'How should I get to Ávila?',
-          answer: 'Ávila is not even 100km away from Madrid. Public transportation works well, depending where you will arrive, you can use Cabify, Uber or Bolt to go to the train or bus station. If you want to go by train, the train station is Principe Pio. Bus is also an option, this company covers the route Madrid - Avila from Estación Sur.'
+          question: 'How to get to Ávila?',
+          answer: 'Ávila is less than 100km from Madrid so if you arrive by plane, the nearest airport is Madrid Barajas. To get from Madrid to Ávila, there are options like the Jiménez Dorado bus from Estación Sur or the Renfe train from Príncipe Pío train station. In Madrid, Cabify, Uber and Bolt work wonderfully for transport from the airport to the train or bus station.'
         },
         accommodation: {
           question: 'Where should I stay in Ávila?',
