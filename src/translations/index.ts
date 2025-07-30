@@ -163,7 +163,7 @@ export const translations = {
     about: {
       title: 'Chiara e Fernando',
       subtitle: 'si maritanu!',
-      date: '21 Giugnu 2026',
+      date: 'Giugnu 2026',
       location: 'Ávila, Spagna',
       aboutUsTitle: 'Di Nuautri',
       description: 'Fu propriu n\'Irlanda, cu tuttu chiddu friddu, ca i nostri strati s\'attravirsaru pi fari junciri i nostri cori.',
@@ -266,8 +266,8 @@ export const translations = {
           answer: 'Pi favuri cunfirma a to prisenza prima di u 12 di marzu 2026. Poi rispònniri attraversu stu culligamentu.'
         },
         weather: {
-          question: 'Chi tempu fici nta lugghiu?',
-          answer: 'Lugghiu nta Spagna soli èssiri caudu e sulanu. Ti cunsiggliamu vistiti liggiri e còmudi, ma porta na giacca si mai rinfresca a sira.'
+          question: 'Chi tempu fici nta giugnu?',
+          answer: 'Giugnu nta Ávila soli èssiri caudu e sulanu. Ti cunsiggliamu vistiti liggiri e còmudi, ma porta na giacca si mai rinfresca a sira.'
         },
         parking: {
           question: 'C\'è parcheggiu dispunìbbili?',
