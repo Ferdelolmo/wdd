@@ -127,9 +127,11 @@ const DetailsSection = () => {
                           {' '}at 14:00. There will also be hourly buses leaving to Ávila starting at 23:00.
                         </p>
                       ) : (
-                        <p className="text-muted-foreground text-sm leading-relaxed">
-                          {detail.description}
-                        </p>
+                        <div className="text-muted-foreground text-sm leading-relaxed">
+                          {detail.description.split('\n').map((line, index) => (
+                            <div key={index}>{line}</div>
+                          ))}
+                        </div>
                       )}
                     </div>
                   </div>

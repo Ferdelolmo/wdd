@@ -82,7 +82,7 @@ export const translations = {
       },
       gifts: {
         title: 'Lista de Regalos',
-        description: 'Your presence is the only present we need! If you wish to give a gift, this is our IBAN and bank account details: IBAN: ES74 1583 0001 1591 7297 2090 BIC / SWIFT: REVOESM2',
+        description: 'Tu presencia es nuestro regalo, sin embargo, si deseas dar un obsequio, estos son los datos de nuestra cuenta bancaria:\\nIBAN: ES74 1583 0001 1591 7297 2090\\nBIC / SWIFT: REVOESM2',
         viewRegistry: 'Ver Lista'
       },
       rsvp: {
@@ -219,7 +219,7 @@ export const translations = {
       },
       gifts: {
         title: 'Lista di Rigali',
-        description: 'A vostra prisenza è u sulu rigalu ca ni servi! Si vuliti dari nu rigalu, avemu na piccula lista dispunìbbili.',
+        description: 'A vostra prisenza è u nostru rigalu, tuttavia si vuliti dari nu rigalu, chistu sunnu i dati dâ nostra cuntu bancaria:\\nIBAN: ES74 1583 0001 1591 7297 2090\\nBIC / SWIFT: REVOESM2',
         viewRegistry: 'Talìa Lista'
       },
       rsvp: {
@@ -356,7 +356,7 @@ export const translations = {
       },
       gifts: {
         title: 'Lista Nozze',
-        description: 'La vostra presenza è l\'unico regalo di cui abbiamo bisogno! Se desiderate fare un regalo, abbiamo una piccola lista disponibile.',
+        description: 'La vostra presenza è il nostro regalo, tuttavia se desiderate fare un dono, questi sono i dati del nostro conto bancario:\\nIBAN: ES74 1583 0001 1591 7297 2090\\nBIC / SWIFT: REVOESM2',
         viewRegistry: 'Visualizza Lista'
       },
       rsvp: {
@@ -493,7 +493,7 @@ export const translations = {
       },
       gifts: {
         title: 'Wedding Registry',
-        description: 'Your presence is the only present we need! If you wish to give a gift, this is our IBAN and bank account details: IBAN: ES74 1583 0001 1591 7297 2090 BIC / SWIFT: REVOESM2',
+        description: 'Your presence is our present, however if you wish to give a gift, these are our bank account details:\\nIBAN: ES74 1583 0001 1591 7297 2090\\nBIC / SWIFT: REVOESM2',
         viewRegistry: 'View Registry'
       },
       rsvp: {
