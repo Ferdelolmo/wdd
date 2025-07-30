@@ -1,5 +1,5 @@
 import { Card } from '@/components/ui/card';
-import { Heart, Coffee, Plane, Home, Gem } from 'lucide-react';
+import { Heart, Coffee, Plane, Home, Gem, Users } from 'lucide-react';
 import { useLanguage } from '@/contexts/LanguageContext';
 import { translations } from '@/translations';
 
@@ -10,6 +10,7 @@ const StorySection = () => {
   const irelandImage = 'https://i.imgur.com/qL66Vcx.jpeg'; // Ireland
   const tripImage = 'https://i.imgur.com/Q5bWK0A.jpeg'; // Trip
   const barcelonaImage = 'https://i.imgur.com/6kP5JiP.jpeg'; // Barcelona
+  const cordobaImage = 'https://imgur.com/lNUlBAD.jpeg'; // Cordoba
   const proposalImage = 'https://i.imgur.com/3DRviHe.jpeg'; // Proposal
   
   const milestones = [
@@ -33,6 +34,13 @@ const StorySection = () => {
       title: t.story.milestones.moving.title,
       description: t.story.milestones.moving.description,
       image: barcelonaImage
+    },
+    {
+      icon: Users,
+      date: "September 2023",
+      title: "Our families met each other",
+      description: "A magical trip to Córdoba where both our families finally came together. It was the perfect setting for everyone to meet, share stories, and see how much love surrounded us. Watching our parents laugh together and our siblings bond made us realize we weren't just joining two hearts, but two beautiful families.",
+      image: cordobaImage
     },
     {
       icon: Gem,
