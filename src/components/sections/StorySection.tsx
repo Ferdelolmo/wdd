@@ -39,7 +39,7 @@ const StorySection = () => {
       icon: Users,
       date: "September 2023",
       title: "Our families met each other",
-      description: "A magical trip to Córdoba where both our families finally came together. It was the perfect setting for everyone to meet, share stories, and see how much love surrounded us. Watching our parents laugh together and our siblings bond made us realize we weren't just joining two hearts, but two beautiful families.",
+      description: "Las familias se iban a conocer en tierras lejanas para ambas, la ciudad de la Torre del Oro, Plaza España y el Guadalquivir. Fue el momento y lugar perfecto para conocerse, compartir historias e improvisar una mezcla entre lenguas. Ver como nuestras familias reían y compartían nos hizo darnos cuenta de que no iba a ser solo nuestra unión sino también la mezcla de dos preciosas familias.",
       image: cordobaImage
     },
     {
