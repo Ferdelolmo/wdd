@@ -70,13 +70,13 @@ const DetailsSection = () => {
               <div className="space-y-6">
                 <div>
                   <h4 className="text-lg font-bold text-white mb-2">{t.details.schedule.day1}</h4>
-                  <p className="text-white/90 font-bold">
-                    {t.details.schedule.day1Event}{' '}
+                  <p className="text-white/90">
+                    <span className="font-bold">{t.details.schedule.day1Event.split(' ')[0]}</span> {t.details.schedule.day1Event.substring(t.details.schedule.day1Event.indexOf(' ') + 1)}{' '}
                     <a 
                       href="https://maps.app.goo.gl/QwW7Gs1HeaWenFcz7" 
                       target="_blank" 
                       rel="noopener noreferrer"
-                      className="text-white hover:text-white/80 underline font-bold"
+                      className="text-white hover:text-white/80 underline"
                     >
                       {t.details.schedule.day1Venue}
                     </a>
@@ -86,12 +86,12 @@ const DetailsSection = () => {
                 <div>
                   <h4 className="text-lg font-bold text-white mb-2">{t.details.schedule.day2}</h4>
                   <p className="text-lg font-bold text-white mb-3">{t.details.schedule.day2Title}</p>
-                  <div className="space-y-2 text-white/90 font-bold">
-                    <p>{t.details.schedule.pickup}</p>
-                    <p>{t.details.schedule.ceremony}</p>
-                    <p>{t.details.schedule.cocktail}</p>
-                    <p>{t.details.schedule.banquet}</p>
-                    <p>{t.details.schedule.party}</p>
+                  <div className="space-y-2 text-white/90">
+                    <p><span className="font-bold">{t.details.schedule.pickup.split(' ')[0]}</span> {t.details.schedule.pickup.substring(t.details.schedule.pickup.indexOf(' ') + 1)}</p>
+                    <p><span className="font-bold">{t.details.schedule.ceremony.split(' ')[0]}</span> {t.details.schedule.ceremony.substring(t.details.schedule.ceremony.indexOf(' ') + 1)}</p>
+                    <p><span className="font-bold">{t.details.schedule.cocktail.split(' ')[0]}</span> {t.details.schedule.cocktail.substring(t.details.schedule.cocktail.indexOf(' ') + 1)}</p>
+                    <p><span className="font-bold">{t.details.schedule.banquet.split(' ')[0]}</span> {t.details.schedule.banquet.substring(t.details.schedule.banquet.indexOf(' ') + 1)}</p>
+                    <p><span className="font-bold">{t.details.schedule.party.split(' ')[0]}</span> {t.details.schedule.party.substring(t.details.schedule.party.indexOf(' ') + 1)}</p>
                   </div>
                 </div>
               </div>
