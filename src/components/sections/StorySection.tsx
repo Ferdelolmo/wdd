@@ -17,7 +17,7 @@ const StorySection = () => {
     {
       icon: Heart,
       date: "March 2020",
-      title: "How we found each other",
+      title: t.story.milestones.firstMeet.title,
       description: t.story.milestones.firstMeet.description,
       image: irelandImage
     },
@@ -38,7 +38,7 @@ const StorySection = () => {
     {
       icon: Users,
       date: "September 2023",
-      title: "Our families met each other",
+      title: t.story.milestones.familiesMeet.title,
       description: "Las familias se iban a conocer en tierras lejanas para ambas, la ciudad de la Torre del Oro, Plaza España y el Guadalquivir. Fue el momento y lugar perfecto para conocerse, compartir historias e improvisar una mezcla entre lenguas. Ver como nuestras familias reían y compartían nos hizo darnos cuenta de que no iba a ser solo nuestra unión sino también la mezcla de dos preciosas familias.",
       image: cordobaImage
     },

@@ -31,7 +31,7 @@ export const translations = {
       subtitle: '',
       milestones: {
         firstMeet: {
-          title: 'Primer Encuentro',
+          title: 'Cómo nos encontramos',
           description: 'Nos conocimos en una cafetería del centro. Chiara estaba leyendo un libro y Fernando no pudo evitar iniciar una conversación sobre él.'
         },
         firstDate: {
@@ -45,6 +45,10 @@ export const translations = {
         moving: {
           title: 'Mudándonos Juntos',
           description: 'Después de un año saliendo, decidimos dar el siguiente paso y mudarnos juntos. ¡La mejor decisión de todas!'
+        },
+        familiesMeet: {
+          title: 'Nuestras familias se conocieron',
+          description: 'Las familias se iban a conocer en tierras lejanas para ambas, la ciudad de la Torre del Oro, Plaza España y el Guadalquivir. Fue el momento y lugar perfecto para conocerse, compartir historias e improvisar una mezcla entre lenguas.'
         },
         proposal: {
           title: 'La Propuesta',
@@ -168,7 +172,7 @@ export const translations = {
       subtitle: '',
       milestones: {
         firstMeet: {
-          title: 'Primu Ncuntru',
+          title: 'Comu ni Truvammu',
           description: 'Ni cunuscimmu nta na caffitteria dû centru. Chiara stava liggennu nu libbru e Fernando nun potti fari a menu di ncuminzari na cunvirsazzioni suprà di iddu.'
         },
         firstDate: {
@@ -182,6 +186,10 @@ export const translations = {
         moving: {
           title: 'Traslucannu Nsemi',
           description: 'Doppu n\'annu ca niscìamu, dicidimmu di fari u prossimu passu e traslucari nsemi. A megghiu dicisioni di tutti!'
+        },
+        familiesMeet: {
+          title: 'I Nostri Famigghii si Cunuscìru',
+          description: 'I famigghii si devìanu cunòsciri nti terri luntani pi tutti e dui, a cità dâ Torri di l\'Oru, Piazza Spagna e u Guadalquivir. Fu u mumentu e u locu pirfettu pi cunòscirisi, sparticari stori e mpruvisari na mistura tra lingui.'
         },
         proposal: {
           title: 'A Pruposta',
@@ -305,7 +313,7 @@ export const translations = {
       subtitle: '',
       milestones: {
         firstMeet: {
-          title: 'Primo Incontro',
+          title: 'Come ci siamo trovati',
           description: 'Ci siamo conosciuti in una caffetteria del centro. Chiara stava leggendo un libro e Fernando non riuscì a evitare di iniziare una conversazione su di esso.'
         },
         firstDate: {
@@ -319,6 +327,10 @@ export const translations = {
         moving: {
           title: 'Trasferirsi Insieme',
           description: 'Dopo un anno di fidanzamento, abbiamo deciso di fare il passo successivo e trasferirci insieme. La migliore decisione di sempre!'
+        },
+        familiesMeet: {
+          title: 'Le nostre famiglie si sono conosciute',
+          description: 'Le famiglie si sarebbero conosciute in terre lontane per entrambe, la città della Torre del Oro, Plaza España e il Guadalquivir. È stato il momento e il luogo perfetto per conoscersi, condividere storie e improvvisare un mix tra le lingue.'
         },
         proposal: {
           title: 'La Proposta',
@@ -456,6 +468,10 @@ export const translations = {
         moving: {
           title: 'Moving In Together',
           description: 'After a year of dating, we decided to take the next step and move in together. Best decision ever!'
+        },
+        familiesMeet: {
+          title: 'Our families met each other',
+          description: 'The families were going to meet in distant lands for both, the city of the Torre del Oro, Plaza España and the Guadalquivir. It was the perfect time and place to meet, share stories and improvise a mixture between languages.'
         },
         proposal: {
           title: 'The Proposal',
