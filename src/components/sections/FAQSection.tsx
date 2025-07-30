@@ -105,7 +105,7 @@ const FAQSection = () => {
                               const linkMatch = part.match(/^<LINK_([^_]+(?:_[^_]+)*)_START>([^<]+)<LINK_\1_END>$/);
                               if (linkMatch) {
                                 const linkText = linkMatch[2];
-                                const link = faq.links.find(l => l.text === linkText);
+                                const link = faq.links?.find(l => l.text === linkText);
                                 if (link) {
                                   return (
                                     <a 
