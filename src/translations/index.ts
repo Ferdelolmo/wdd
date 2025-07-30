@@ -51,7 +51,7 @@ export const translations = {
           description: 'Fernando aprovecha la ocasión durante la celebración del 5 aniversario. A pesar de los nervios, durante un atardecer espectacular en lo alto de Puebla de Sanabria, hincó rodilla y titubeante, le propuso a Chiara. Fue un momento idóneo e inesperado para Chiara.'
         }
       },
-      conclusion: 'Estamos listos para decir "Acepto" y comenzar nuestro viaje eterno juntos. ¡Gracias por ser parte de nuestra historia!',
+      conclusion: 'Estamos listos para decir "Sí, quiero" y continuar nuestro viaje juntos. ¡Gracias por ser parte de nuestra historia!',
       andNow: 'Y ahora...'
     },
     details: {
@@ -203,7 +203,7 @@ export const translations = {
           description: 'Fernando appruvitta l\'occasioni nta a cilibrazzioni dû 5 anniversariu. Malgrado i nirvi, nta nu calutu spittaculari nti l\'autu di Puebla de Sanabria, si nnicò e titubannu, ci pruposi a Chiara. Fu nu mumentu idòneu e naspittatu pi Chiara.'
         }
       },
-      conclusion: 'Simu pronti pi diri "Accettu" e ncuminzari u nostru viaggiu eternu nsemi. Graziu pi èssiri parti dâ nostra storia!',
+      conclusion: 'Simu pronti pi diri "Sì, lu vogghiu" e affilari u nostru viaggiu eternu nsemi. Graziu pi èssiri parti dâ nostra storia!',
       andNow: 'E ora...'
     },
     details: {
@@ -355,7 +355,7 @@ export const translations = {
           description: 'Fernando approfitta dell\'occasione durante la celebrazione del 5° anniversario. Nonostante i nervi, durante un tramonto spettacolare in cima a Puebla de Sanabria, si è inginocchiato e titubante, ha fatto la proposta a Chiara. È stato un momento ideale e inaspettato per Chiara.'
         }
       },
-      conclusion: 'Siamo pronti a dire "Sì" e iniziare il nostro viaggio eterno insieme. Grazie per essere parte della nostra storia!',
+      conclusion: 'Siamo pronti a dire "Sì, lo voglio" e continuare il viaggio insieme. Grazie per essere parte della nostra storia!',
       andNow: 'E ora...'
     },
     details: {
@@ -507,7 +507,7 @@ export const translations = {
           description: 'Fernando takes advantage of the occasion during the celebration of the 5th anniversary. Despite the nerves, during a spectacular sunset at the top of Puebla de Sanabria, he knelt down and hesitantly proposed to Chiara. It was an ideal and unexpected moment for Chiara.'
         }
       },
-      conclusion: 'We\'re ready to say "I do" and start our forever journey together. Thank you for being part of our story!',
+      conclusion: 'We\'re ready to say "I do" and continue our journey together. Thank you for being part of our story!',
       andNow: 'And now...'
     },
     details: {
