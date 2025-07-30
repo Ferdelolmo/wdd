@@ -1,8 +1,8 @@
 import { Card } from '@/components/ui/card';
 import { useLanguage } from '@/contexts/LanguageContext';
 import { translations } from '@/translations';
-const heroCoupleImage = '/lovable-uploads/6e1cb8f6-601c-40bc-a679-97e831040fbc.png';
-const coupleCasualImage = '/lovable-uploads/c0585cc7-2ee9-4073-a936-33b84d7c45ff.png';
+const heroCoupleImage = 'https://i.imgur.com/NMWlDc8.jpeg'; // Puebla
+const coupleCasualImage = 'https://i.imgur.com/vCo3YSx.jpeg'; // Alberca
 
 const AboutSection = () => {
   const { language } = useLanguage();

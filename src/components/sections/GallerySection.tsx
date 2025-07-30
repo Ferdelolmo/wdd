@@ -6,14 +6,14 @@ import { useLanguage } from '@/contexts/LanguageContext';
 import { translations } from '@/translations';
 
 // Import gallery images - using uploaded images
-const gallery1 = '/lovable-uploads/b9c5a482-533a-4f76-bbe5-d4dc17855a65.png';
-const gallery2 = '/lovable-uploads/465dc03b-e031-4947-aba3-5213137e0770.png';
-const gallery3 = '/lovable-uploads/63e9cd41-f4c3-49bd-9380-4b8514983cfa.png';
-const gallery4 = '/lovable-uploads/2f5fc344-aa25-4a85-865e-ade19aec5b64.png';
-const gallery5 = '/lovable-uploads/0cee5c00-b15c-4242-ba9c-4f1f1702a524.png';
-const gallery6 = '/lovable-uploads/4f79c13f-f8db-484b-ab25-ac0576b61b61.png';
-const gallery7 = '/lovable-uploads/3daa0caa-44b3-4bc3-8d47-1b91ec113a57.png';
-const gallery8 = '/lovable-uploads/09a05c90-ae27-41e7-973e-c33dbba7ca60.png';
+const gallery1 = 'https://i.imgur.com/HzABhvA.jpeg'; // Rupit
+const gallery2 = 'https://i.imgur.com/tU5SEYi.jpeg'; // Indonesia
+const gallery3 = 'https://i.imgur.com/GIFLuyd.jpeg'; // Figon
+const gallery4 = 'https://i.imgur.com/oEAAeCe.jpeg'; // Templo
+const gallery5 = 'https://i.imgur.com/tPV3MUZ.jpeg'; // Singapur
+const gallery6 = 'https://i.imgur.com/Q4kEVhH.jpeg'; // SuperIlla
+const gallery7 = 'https://i.imgur.com/q4vh5Li.jpeg'; // Lisboa
+const gallery8 = 'https://i.imgur.com/0Mmh0ij.jpeg'; // Madeira
 
 const GallerySection = () => {
   const { language } = useLanguage();

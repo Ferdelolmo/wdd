@@ -3,7 +3,7 @@ import { Button } from '@/components/ui/button';
 import { MapPin, ExternalLink, Phone, Clock } from 'lucide-react';
 import { useLanguage } from '@/contexts/LanguageContext';
 import { translations } from '@/translations';
-import weddingVenueImage from '@/assets/wedding-venue.jpg';
+const weddingVenueImage = 'https://i.imgur.com/AsQFO6F.png'; // Pedrosillo
 
 const VenueSection = () => {
   const { language } = useLanguage();
