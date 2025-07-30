@@ -163,7 +163,7 @@ export const translations = {
     about: {
       title: 'Chiara e Fernando',
       subtitle: 'si maritanu!',
-      date: 'Giugnu 2026',
+      date: '21 Giugnu 2026',
       location: 'Ávila, Spagna',
       aboutUsTitle: 'Di Nuautri',
       description: 'Fu propriu n\'Irlanda, cu tuttu chiddu friddu, ca i nostri strati s\'attravirsaru pi fari junciri i nostri cori.',
@@ -315,7 +315,7 @@ export const translations = {
     about: {
       title: 'Chiara e Fernando',
       subtitle: 'si sposano!',
-      date: '21 Giugno 2026',
+      date: 'Giugno 2026',
       location: 'Ávila, Spagna',
       aboutUsTitle: 'Chi Siamo',
       description: 'Doveva essere nella fredda Irlanda che i nostri cammini si incrociassero per unire le nostre vite.',
