@@ -4,9 +4,9 @@ export const translations = {
       aboutUs: 'Sobre Nosotros',
       venue: 'Lugar',
       ourStory: 'Nuestra Historia',
-      weddingDetails: 'Detalles de la Boda',
+      weddingDetails: 'Detalles',
       gallery: 'Galería',
-      faq: 'Preguntas Frecuentes'
+      faq: 'Preguntas'
     },
     about: {
       title: 'Fernando & Chiara',
@@ -140,10 +140,10 @@ export const translations = {
     nav: {
       aboutUs: 'Di Nuiautri',
       venue: 'Locu',
-      ourStory: 'A Nostra Storia',
-      weddingDetails: 'Dittagli dû Matrimoniu',
+      ourStory: 'Nostra Storia',
+      weddingDetails: 'Dittagli',
       gallery: 'Galleria',
-      faq: 'Dimanndi Frequenti'
+      faq: 'Dimanndi'
     },
     about: {
       title: 'Fernando e Chiara',
@@ -277,10 +277,10 @@ export const translations = {
     nav: {
       aboutUs: 'Chi Siamo',
       venue: 'Luogo',
-      ourStory: 'La Nostra Storia',
+      ourStory: 'Nostra Storia',
       weddingDetails: 'Dittagli',
       gallery: 'Galleria',
-      faq: 'Domande Frequenti'
+      faq: 'Domande'
     },
     about: {
       title: 'Fernando e Chiara',
