@@ -163,7 +163,7 @@ export const translations = {
     about: {
       title: 'Chiara e Fernando',
       subtitle: 'si maritanu!',
-      date: 'Giugnu 2026',
+      date: '21 Giugnu 2026',
       location: 'Ávila, Spagna',
       aboutUsTitle: 'Di Nuautri',
       description: 'Fu propriu n\'Irlanda, cu tuttu chiddu friddu, ca i nostri strati s\'attravirsaru pi fari junciri i nostri cori.',
@@ -467,7 +467,7 @@ export const translations = {
     about: {
       title: 'Chiara & Fernando',
       subtitle: 'are getting married!',
-      date: '21 June 2026',
+      date: 'June 2026',
       location: 'Ávila, Spain',
       aboutUsTitle: 'About Us',
       description: 'It had to be in cold, rainy Ireland where our paths crossed and our lives came together.',
@@ -515,11 +515,11 @@ export const translations = {
       subtitle: 'Everything you need to know about our special day',
         schedule: {
           title: 'Schedule',
-          day1: 'June 21, 2026',
+          day1: 'July 20, 2026',
           day1Event: '19:00 Pre-wedding at',
           day1Venue: 'Bendita Locura',
           day1Description: ', where we can all gather and get to know each other before the wedding',
-          day2: 'June 21, 2026',
+          day2: 'July 21, 2026',
           day2Title: 'Timeline',
           pickup: '14:00 Bus pickup',
           ceremony: '15:00 Wedding ceremony',
@@ -603,7 +603,7 @@ export const translations = {
       ],
       cantWait: {
         title: 'Can\'t Wait!',
-        message: 'We\'re so excited to celebrate with all of you. See you on June 21st!'
+        message: 'We\'re so excited to celebrate with all of you. See you on June 15th!'
       }
     }
   }
