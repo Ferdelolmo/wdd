@@ -1,6 +1,6 @@
 import { Card } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
-import { Calendar, Clock, MapPin, Utensils, Music, Camera, Gift, Shirt, Car, Bus, Heart, Wine } from 'lucide-react';
+import { Calendar, Clock, MapPin, Utensils, Music, Camera, Gift, Shirt, Car, Bus, Heart, Wine, Beer } from 'lucide-react';
 import { useLanguage } from '@/contexts/LanguageContext';
 import { translations } from '@/translations';
 const DetailsSection = () => {
@@ -70,28 +70,45 @@ const DetailsSection = () => {
               <div className="space-y-6">
                 <div>
                   <h4 className="text-lg font-bold text-white mb-2">{t.details.schedule.day1}</h4>
-                  <p className="text-white/90">
-                    <span className="font-bold">{t.details.schedule.day1Event.split(' ')[0]}</span> {t.details.schedule.day1Event.substring(t.details.schedule.day1Event.indexOf(' ') + 1)}{' '}
-                    <a 
-                      href="https://maps.app.goo.gl/QwW7Gs1HeaWenFcz7" 
-                      target="_blank" 
-                      rel="noopener noreferrer"
-                      className="text-white hover:text-white/80 underline"
-                    >
-                      {t.details.schedule.day1Venue}
-                    </a>
-                    {t.details.schedule.day1Description}
-                  </p>
+                  <div className="flex items-center gap-3 text-white/90">
+                    <Beer className="w-5 h-5 text-white" />
+                    <p>
+                      <span className="font-bold">{t.details.schedule.day1Event.split(' ')[0]}</span> {t.details.schedule.day1Event.substring(t.details.schedule.day1Event.indexOf(' ') + 1)}{' '}
+                      <a 
+                        href="https://maps.app.goo.gl/QwW7Gs1HeaWenFcz7" 
+                        target="_blank" 
+                        rel="noopener noreferrer"
+                        className="text-white hover:text-white/80 underline"
+                      >
+                        {t.details.schedule.day1Venue}
+                      </a>
+                      {t.details.schedule.day1Description}
+                    </p>
+                  </div>
                 </div>
                 <div>
                   <h4 className="text-lg font-bold text-white mb-2">{t.details.schedule.day2}</h4>
-                  <p className="text-lg font-bold text-white mb-3">{t.details.schedule.day2Title}</p>
-                  <div className="space-y-2 text-white/90">
-                    <p><span className="font-bold">{t.details.schedule.pickup.split(' ')[0]}</span> {t.details.schedule.pickup.substring(t.details.schedule.pickup.indexOf(' ') + 1)}</p>
-                    <p><span className="font-bold">{t.details.schedule.ceremony.split(' ')[0]}</span> {t.details.schedule.ceremony.substring(t.details.schedule.ceremony.indexOf(' ') + 1)}</p>
-                    <p><span className="font-bold">{t.details.schedule.cocktail.split(' ')[0]}</span> {t.details.schedule.cocktail.substring(t.details.schedule.cocktail.indexOf(' ') + 1)}</p>
-                    <p><span className="font-bold">{t.details.schedule.banquet.split(' ')[0]}</span> {t.details.schedule.banquet.substring(t.details.schedule.banquet.indexOf(' ') + 1)}</p>
-                    <p><span className="font-bold">{t.details.schedule.party.split(' ')[0]}</span> {t.details.schedule.party.substring(t.details.schedule.party.indexOf(' ') + 1)}</p>
+                  <div className="space-y-3 text-white/90">
+                    <div className="flex items-center gap-3">
+                      <Bus className="w-5 h-5 text-white" />
+                      <p><span className="font-bold">{t.details.schedule.pickup.split(' ')[0]}</span> {t.details.schedule.pickup.substring(t.details.schedule.pickup.indexOf(' ') + 1)}</p>
+                    </div>
+                    <div className="flex items-center gap-3">
+                      <Heart className="w-5 h-5 text-white" />
+                      <p><span className="font-bold">{t.details.schedule.ceremony.split(' ')[0]}</span> {t.details.schedule.ceremony.substring(t.details.schedule.ceremony.indexOf(' ') + 1)}</p>
+                    </div>
+                    <div className="flex items-center gap-3">
+                      <Wine className="w-5 h-5 text-white" />
+                      <p><span className="font-bold">{t.details.schedule.cocktail.split(' ')[0]}</span> {t.details.schedule.cocktail.substring(t.details.schedule.cocktail.indexOf(' ') + 1)}</p>
+                    </div>
+                    <div className="flex items-center gap-3">
+                      <Utensils className="w-5 h-5 text-white" />
+                      <p><span className="font-bold">{t.details.schedule.banquet.split(' ')[0]}</span> {t.details.schedule.banquet.substring(t.details.schedule.banquet.indexOf(' ') + 1)}</p>
+                    </div>
+                    <div className="flex items-center gap-3">
+                      <Music className="w-5 h-5 text-white" />
+                      <p><span className="font-bold">{t.details.schedule.party.split(' ')[0]}</span> {t.details.schedule.party.substring(t.details.schedule.party.indexOf(' ') + 1)}</p>
+                    </div>
                   </div>
                 </div>
               </div>
