@@ -1,6 +1,6 @@
 import { Card } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
-import { Calendar, Clock, MapPin, Utensils, Music, Camera, Gift, Shirt, Car } from 'lucide-react';
+import { Calendar, Clock, MapPin, Utensils, Music, Camera, Gift, Shirt, Car, Bus } from 'lucide-react';
 import { useLanguage } from '@/contexts/LanguageContext';
 import { translations } from '@/translations';
 const DetailsSection = () => {
@@ -9,24 +9,29 @@ const DetailsSection = () => {
   } = useLanguage();
   const t = translations[language];
   const schedule = [{
+    time: "14:00",
+    event: t.details.schedule.items.busHop,
+    icon: Bus,
+    description: ""
+  }, {
     time: "15:00",
-    event: t.details.schedule.items.arrival,
+    event: t.details.schedule.items.ceremony,
+    icon: Calendar,
     description: ""
   }, {
     time: "16:00",
-    event: t.details.schedule.items.ceremony,
+    event: t.details.schedule.items.cocktail,
+    icon: Utensils,
     description: ""
   }, {
-    time: "16:30",
-    event: t.details.schedule.items.photos,
+    time: "18:00",
+    event: t.details.schedule.items.reception,
+    icon: Camera,
     description: ""
   }, {
-    time: "18:30",
-    event: t.details.schedule.items.dinner,
-    description: ""
-  }, {
-    time: "19:00",
+    time: "20:00",
     event: t.details.schedule.items.party,
+    icon: Music,
     description: ""
   }];
   const details = [{
@@ -65,7 +70,7 @@ const DetailsSection = () => {
               <div className="space-y-6">
                 {schedule.map((item, index) => <div key={index} className="flex gap-4">
                     <div className="flex-shrink-0">
-                      <Clock className="w-5 h-5 mt-1" />
+                      <item.icon className="w-5 h-5 mt-1" />
                     </div>
                     <div>
                       <div className="flex items-center gap-3 mb-1">

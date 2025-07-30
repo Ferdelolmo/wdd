@@ -58,12 +58,12 @@ export const translations = {
       title: 'Detalles de la Boda',
       subtitle: 'Todo lo que necesitas saber sobre nuestro día especial',
       schedule: {
-        title: 'Plan',
+        title: 'Horario',
         items: {
-          arrival: 'Llegada de Invitados y Bebidas de Bienvenida',
+          busHop: 'Subida al Autobús',
           ceremony: 'Ceremonia de Boda',
-          photos: 'Fotos y Hora del Cóctel',
-          dinner: 'Recepción y Cena',
+          cocktail: 'Cóctel',
+          reception: 'Recepción y Almuerzo',
           party: 'Baile y Celebración'
         }
       },
@@ -197,10 +197,10 @@ export const translations = {
       schedule: {
         title: 'Prugramma',
         items: {
-          arrival: 'Arrivu di Nvitati e Vìviri di Binvinuta',
+          busHop: 'Sagghiuta nnû Autobùs',
           ceremony: 'Cirimonia di Matrimoniu',
-          photos: 'Fotu e Ora dû Cocktail',
-          dinner: 'Ricivimentu e Cina',
+          cocktail: 'Cocktail',
+          reception: 'Ricivimentu e Pranzu',
           party: 'Ballu e Cilibrazzioni'
         }
       },
@@ -331,16 +331,16 @@ export const translations = {
     details: {
       title: 'Dettagli del Matrimonio',
       subtitle: 'Tutto quello che dovete sapere sul nostro giorno speciale',
-      schedule: {
-        title: 'Programma',
-        items: {
-          arrival: 'Arrivo Ospiti e Aperitivo di Benvenuto',
-          ceremony: 'Cerimonia di Matrimonio',
-          photos: 'Foto e Aperitivo',
-          dinner: 'Ricevimento e Cena',
-          party: 'Ballo e Celebrazione'
-        }
-      },
+        schedule: {
+          title: 'Programma',
+          items: {
+            busHop: 'Salita sull\'Autobus',
+            ceremony: 'Cerimonia di Matrimonio',
+            cocktail: 'Cocktail',
+            reception: 'Ricevimento e Pranzo',
+            party: 'Ballo e Celebrazione'
+          }
+        },
       attire: {
         title: 'Codice di Abbigliamento',
         description: 'Abbigliamento semi-formale richiesto. Pensate a eleganza da festa in giardino - comodo ma elegante per una celebrazione all\'aperto in Toscana.'
@@ -468,16 +468,16 @@ export const translations = {
     details: {
       title: 'Wedding Details',
       subtitle: 'Everything you need to know about our special day',
-      schedule: {
-        title: 'Schedule',
-        items: {
-          arrival: 'Guest Arrival & Welcome Drinks',
-          ceremony: 'Wedding Ceremony',
-          photos: 'Photos & Cocktail Hour',
-          dinner: 'Reception & Dinner',
-          party: 'Dancing & Celebration'
-        }
-      },
+        schedule: {
+          title: 'Schedule',
+          items: {
+            busHop: 'Bus Hop In',
+            ceremony: 'Wedding Ceremony',
+            cocktail: 'Cocktail',
+            reception: 'Reception & Lunch',
+            party: 'Dancing & Celebration'
+          }
+        },
       attire: {
         title: 'Dress Code',
         description: 'Semi-formal attire requested. Think garden party elegant - comfortable yet stylish for an outdoor celebration in Tuscany.'
