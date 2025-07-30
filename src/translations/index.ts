@@ -33,7 +33,7 @@ export const translations = {
         firstMeet: {
           title: 'Cómo nos encontramos',
           date: 'Junio 2020',
-          description: 'Nuestros caminos se cruzaron en la isla verde en el verano de 2020. Después de nuestra primera cita en el parque St.Stephen con un cannolo siciliano, nos volvimos inseparables'
+          description: 'Nuestros caminos se cruzaron en la isla esmeralda en el verano de 2020. Después de nuestra primera cita en el parque St.Stephen con un cannolo siciliano, nos volvimos inseparables'
         },
         firstTrip: {
           title: 'Nuestro Primer Viaje Juntos',
@@ -347,7 +347,7 @@ export const translations = {
         firstMeet: {
           title: 'Come ci siamo trovati',
           date: 'Giugno 2020',
-          description: 'I nostri percorsi si sono incrociati nell\'isola verde nel estate 2020. Dopo nostro primo appuntamento nel parco St.Stephen con un cannolo siciliano, siamo diventati inseparabili'
+          description: 'I nostri percorsi si sono incrociati nell\'isola smeralda nel estate 2020. Dopo nostro primo appuntamento nel parco St.Stephen con un cannolo siciliano, siamo diventati inseparabili'
         },
         firstTrip: {
           title: 'Il Nostro Primo Viaggio Insieme',
@@ -504,7 +504,7 @@ export const translations = {
         firstMeet: {
           title: 'How we found each other',
           date: 'June 2020',
-          description: 'Our paths crossed in the green island in the summer of 2020. After our first date in St.Stephen park with a Sicilian cannolo, we became inseparable'
+          description: 'Our paths crossed in the emerald island in the summer of 2020. After our first date in St.Stephen park with a Sicilian cannolo, we became inseparable'
         },
         firstTrip: {
           title: 'Our First Trip Together',
