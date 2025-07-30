@@ -336,7 +336,7 @@ export const translations = {
       milestones: {
         firstMeet: {
           title: 'Come ci siamo trovati',
-          description: 'È dovuto essere nella fredda Irlanda dove i nostri percorsi si sono incrociati per unire le nostre vite.'
+          description: 'I nostri percorsi si sono incrociati nell\'isola verde nel estate 2020. Dopo nostro primo appuntamento nel parco St.Stephen con un cannolo siciliano, siamo diventati inseparabili'
         },
         firstTrip: {
           title: 'Il Nostro Primo Viaggio Insieme',
