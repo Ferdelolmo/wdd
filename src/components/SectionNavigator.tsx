@@ -38,36 +38,35 @@ const SectionNavigator = ({ currentSection, onSectionChange }: SectionNavigatorP
   };
 
   return (
-    <div className="fixed bottom-6 left-1/2 transform -translate-x-1/2 z-50">
-      <div className="flex items-center gap-6 bg-background/90 backdrop-blur-md border-2 border-primary/20 rounded-full px-8 py-3 shadow-lg shadow-primary/10">
-        <Button
-          variant="outline"
-          size="lg"
-          onClick={goToPrevious}
-          disabled={!hasPrevious}
-          className="rounded-full w-14 h-14 p-0 border-2 border-primary/30 bg-gradient-to-r from-primary/5 to-primary/10 hover:from-primary/10 hover:to-primary/20 hover:border-primary/50 disabled:opacity-30 disabled:cursor-not-allowed transition-all duration-300 hover:scale-110 hover:shadow-lg hover:shadow-primary/20"
-        >
-          <ChevronLeft className="w-7 h-7 text-primary" />
-        </Button>
+    <div className="mt-8 mb-4">
+      <div className="flex items-center justify-center">
+        <div className="flex items-center gap-4 bg-background/90 backdrop-blur-md border-2 border-primary/20 rounded-full px-6 py-2 shadow-lg shadow-primary/10">
+          <Button
+            variant="outline"
+            size="sm"
+            onClick={goToPrevious}
+            disabled={!hasPrevious}
+            className="rounded-full w-10 h-10 p-0 border-2 border-primary/30 bg-gradient-to-r from-primary/5 to-primary/10 hover:from-primary/10 hover:to-primary/20 hover:border-primary/50 disabled:opacity-30 disabled:cursor-not-allowed transition-all duration-300 hover:scale-110 hover:shadow-lg hover:shadow-primary/20"
+          >
+            <ChevronLeft className="w-5 h-5 text-primary" />
+          </Button>
 
-        <div className="text-center min-w-[120px]">
-          <div className="text-xs text-muted-foreground uppercase tracking-wide mb-1">
-            {currentIndex + 1} / {sections.length}
+          <div className="text-center min-w-[100px]">
+            <div className="text-sm font-medium text-foreground">
+              {sections[currentIndex]?.label}
+            </div>
           </div>
-          <div className="text-sm font-medium text-foreground">
-            {sections[currentIndex]?.label}
-          </div>
+
+          <Button
+            variant="outline"
+            size="sm"
+            onClick={goToNext}
+            disabled={!hasNext}
+            className="rounded-full w-10 h-10 p-0 border-2 border-primary/30 bg-gradient-to-r from-primary/5 to-primary/10 hover:from-primary/10 hover:to-primary/20 hover:border-primary/50 disabled:opacity-30 disabled:cursor-not-allowed transition-all duration-300 hover:scale-110 hover:shadow-lg hover:shadow-primary/20"
+          >
+            <ChevronRight className="w-5 h-5 text-primary" />
+          </Button>
         </div>
-
-        <Button
-          variant="outline"
-          size="lg"
-          onClick={goToNext}
-          disabled={!hasNext}
-          className="rounded-full w-14 h-14 p-0 border-2 border-primary/30 bg-gradient-to-r from-primary/5 to-primary/10 hover:from-primary/10 hover:to-primary/20 hover:border-primary/50 disabled:opacity-30 disabled:cursor-not-allowed transition-all duration-300 hover:scale-110 hover:shadow-lg hover:shadow-primary/20"
-        >
-          <ChevronRight className="w-7 h-7 text-primary" />
-        </Button>
       </div>
     </div>
   );
