@@ -266,8 +266,8 @@ export const translations = {
           answer: 'Pi favuri cunfirma a to prisenza prima di u 12 di marzu 2026. Poi rispònniri attraversu stu culligamentu.'
         },
         weather: {
-          question: 'Chi tempu fici nta giugnu?',
-          answer: 'Giugnu nta Ávila soli èssiri caudu e sulanu. Ti cunsiggliamu vistiti liggiri e còmudi, ma porta na giacca si mai rinfresca a sira.'
+          question: 'Chi tempu fici nta lugghiu?',
+          answer: 'Lugghiu nta Spagna soli èssiri caudu e sulanu. Ti cunsiggliamu vistiti liggiri e còmudi, ma porta na giacca si mai rinfresca a sira.'
         },
         parking: {
           question: 'C\'è parcheggiu dispunìbbili?',
@@ -515,11 +515,11 @@ export const translations = {
       subtitle: 'Everything you need to know about our special day',
         schedule: {
           title: 'Schedule',
-          day1: 'July 20, 2026',
+          day1: 'June 20, 2026',
           day1Event: '19:00 Pre-wedding at',
           day1Venue: 'Bendita Locura',
           day1Description: ', where we can all gather and get to know each other before the wedding',
-          day2: 'July 21, 2026',
+          day2: 'June 21, 2026',
           day2Title: 'Timeline',
           pickup: '14:00 Bus pickup',
           ceremony: '15:00 Wedding ceremony',
@@ -570,8 +570,8 @@ export const translations = {
           answer: 'Please RSVP by March 12, 2026. You can respond through this link.'
         },
         weather: {
-          question: 'What\'s the weather like in July?',
-          answer: 'July in Spain is usually warm and sunny. We recommend light and comfortable clothing, but bring a jacket in case it gets cool in the evening.'
+          question: 'What\'s the weather like in June?',
+          answer: 'June in Spain is usually warm and sunny. We recommend light and comfortable clothing, but bring a jacket in case it gets cool in the evening.'
         },
         parking: {
           question: 'Is parking available?',
