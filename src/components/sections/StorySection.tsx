@@ -32,7 +32,7 @@ const StorySection = () => {
       icon: Home,
       date: "January 2022",
       title: t.story.milestones.moving.title,
-      description: t.story.milestones.moving.description,
+      description: "Después de un tiempo juntos, decidimos dar el paso y mudarnos juntos. Fue en la ciudad de Barcelona, ¡sin duda una de las mejores decisiones que tomamos!",
       image: barcelonaImage
     },
     {
