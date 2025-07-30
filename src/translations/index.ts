@@ -32,27 +32,23 @@ export const translations = {
       milestones: {
         firstMeet: {
           title: 'Cómo nos encontramos',
-          description: 'Nos conocimos en una cafetería del centro. Chiara estaba leyendo un libro y Fernando no pudo evitar iniciar una conversación sobre él.'
-        },
-        firstDate: {
-          title: 'Primera Cita',
-          description: 'Nuestra primera cita oficial fue un picnic en el parque. Hablamos durante horas y supimos que había algo especial entre nosotros.'
+          description: 'Tuvo que ser en la fría Irlanda donde nuestros caminos se cruzaran para unir nuestras vidas.'
         },
         firstTrip: {
           title: 'Nuestro Primer Viaje Juntos',
-          description: 'Nuestro primer viaje fue a Roma. Exploramos la ciudad eterna juntos y creamos recuerdos que durarán toda la vida.'
+          description: 'Nuestro primer viaje fue a la isla de Tenerife. Era un territorio inexplorado para ambos y una prueba del fuego también, pues ahí pudimos comprobar nuestra afinidad y conocernos más. Exploramos toda la isla y sus rincones y creamos bonitos momentos que nos perseguirán toda la vida.'
         },
         moving: {
           title: 'Mudándonos Juntos',
-          description: 'Después de un año saliendo, decidimos dar el siguiente paso y mudarnos juntos. ¡La mejor decisión de todas!'
+          description: 'Después de un tiempo juntos, decidimos dar el paso y mudarnos juntos. Fue en la ciudad de Barcelona, ¡sin duda una de las mejores decisiones que tomamos!'
         },
         familiesMeet: {
           title: 'Nuestras familias se conocieron',
-          description: 'Las familias se iban a conocer en tierras lejanas para ambas, la ciudad de la Torre del Oro, Plaza España y el Guadalquivir. Fue el momento y lugar perfecto para conocerse, compartir historias e improvisar una mezcla entre lenguas.'
+          description: 'Las familias se iban a conocer en tierras lejanas para ambas, la ciudad de la Torre del Oro, Plaza España y el Guadalquivir. Fue el momento y lugar perfecto para conocerse, compartir historias e improvisar una mezcla entre lenguas. Ver como nuestras familias reían y compartían nos hizo darnos cuenta de que no iba a ser solo nuestra unión sino también la mezcla de dos preciosas familias.'
         },
         proposal: {
           title: 'La Propuesta',
-          description: 'Fernando propuso durante una caminata al atardecer en nuestro sendero favorito. Fue perfecto, íntimo y todo lo que Chiara había soñado.'
+          description: 'Fernando aprovecha la ocasión durante la celebración del 5 aniversario. A pesar de los nervios, durante un atardecer espectacular en lo alto de Puebla de Sanabria, hincó rodilla y titubeante, le propuso a Chiara. Fue un momento idóneo e inesperado para Chiara.'
         }
       },
       conclusion: 'Estamos listos para decir "Acepto" y comenzar nuestro viaje eterno juntos. ¡Gracias por ser parte de nuestra historia!',
@@ -173,27 +169,23 @@ export const translations = {
       milestones: {
         firstMeet: {
           title: 'Comu ni Truvammu',
-          description: 'Ni cunuscimmu nta na caffitteria dû centru. Chiara stava liggennu nu libbru e Fernando nun potti fari a menu di ncuminzari na cunvirsazzioni suprà di iddu.'
-        },
-        firstDate: {
-          title: 'Prima Appuntamentu',
-          description: 'U nostru primu appuntamentu uficiali fu nu picnic nnû parcu. Parlammu pi uri e sapimu ca cci era quarcosa di spiciali ntra nui.'
+          description: 'Fu propriu n\'Irlanda, cu tuttu chiddu friddu, ca i nostri strati s\'attravirsaru pi fari junciri i nostri cori.'
         },
         firstTrip: {
           title: 'U Nostru Primu Viaggiu Nsemi',
-          description: 'U nostru primu viaggiu fu a Roma. Splurammu a cità eterna nsemi e criammu ricordi ca durànu tutta a vita.'
+          description: 'U nostru primu viaggiu fu â isula di Tenerife. Era nu territoriu nisplurato pi tutti e dui e na prova dû focu puru, picchì addà putimmu virificari a nostra afinità e cunòscirini cchiù. Spluramu tutta l\'isula e i sò cantuna e criamu beddi mumenti ca ni pirseguitarannu tutta a vita.'
         },
         moving: {
           title: 'Traslucannu Nsemi',
-          description: 'Doppu n\'annu ca niscìamu, dicidimmu di fari u prossimu passu e traslucari nsemi. A megghiu dicisioni di tutti!'
+          description: 'Doppu nu tempu nsemi, dicidimmu di fari u passu e traslucarini nsemi. Fu nnâ cità di Barcellona, senza dubbiu una di i megghiu dicisioni ca facimmu!'
         },
         familiesMeet: {
           title: 'I Nostri Famigghii si Cunuscìru',
-          description: 'I famigghii si devìanu cunòsciri nti terri luntani pi tutti e dui, a cità dâ Torri di l\'Oru, Piazza Spagna e u Guadalquivir. Fu u mumentu e u locu pirfettu pi cunòscirisi, sparticari stori e mpruvisari na mistura tra lingui.'
+          description: 'I famigghii si devìanu cunòsciri nti terri luntani pi tutti e dui, a cità dâ Torri di l\'Oru, Piazza Spagna e u Guadalquivir. Fu u mumentu e u locu pirfettu pi cunòscirisi, sparticari stori e mpruvisari na mistura tra lingui. Vìdiri comu i nostri famigghii rìdìanu e sparticìanu ni fici rèndiri cuntu ca nun iva a èssiri sulu a nostra unioni ma puru a mistura di dui famigghii prizzusi.'
         },
         proposal: {
           title: 'A Pruposta',
-          description: 'Fernando pruposi nta na passeggiata â calutu dû suli nnû nostru senteru prifiritu. Fu pirfettu, ìntimu e tuttu chiddu ca Chiara avia sugnatu.'
+          description: 'Fernando appruvitta l\'occasioni nta a cilibrazzioni dû 5 anniversariu. Malgrado i nirvi, nta nu calutu spittaculari nti l\'autu di Puebla de Sanabria, si nnicò e titubannu, ci pruposi a Chiara. Fu nu mumentu idòneu e naspittatu pi Chiara.'
         }
       },
       conclusion: 'Simu pronti pi diri "Accettu" e ncuminzari u nostru viaggiu eternu nsemi. Graziu pi èssiri parti dâ nostra storia!',
@@ -314,27 +306,23 @@ export const translations = {
       milestones: {
         firstMeet: {
           title: 'Come ci siamo trovati',
-          description: 'Ci siamo conosciuti in una caffetteria del centro. Chiara stava leggendo un libro e Fernando non riuscì a evitare di iniziare una conversazione su di esso.'
-        },
-        firstDate: {
-          title: 'Primo Appuntamento',
-          description: 'Il nostro primo appuntamento ufficiale è stato un picnic al parco. Abbiamo parlato per ore e sapevamo che c\'era qualcosa di speciale tra noi.'
+          description: 'È dovuto essere nella fredda Irlanda dove i nostri percorsi si sono incrociati per unire le nostre vite.'
         },
         firstTrip: {
           title: 'Il Nostro Primo Viaggio Insieme',
-          description: 'Il nostro primo viaggio è stato a Roma. Abbiamo esplorato la città eterna insieme e creato ricordi che dureranno tutta la vita.'
+          description: 'Il nostro primo viaggio è stato all\'isola di Tenerife. Era un territorio inesplorato per entrambi e anche una prova del fuoco, perché lì abbiamo potuto verificare la nostra affinità e conoscerci di più. Abbiamo esplorato tutta l\'isola e i suoi angoli e creato bei momenti che ci perseguiteranno per tutta la vita.'
         },
         moving: {
           title: 'Trasferirsi Insieme',
-          description: 'Dopo un anno di fidanzamento, abbiamo deciso di fare il passo successivo e trasferirci insieme. La migliore decisione di sempre!'
+          description: 'Dopo un po\' di tempo insieme, abbiamo deciso di fare il passo e trasferirci insieme. È stato nella città di Barcellona, senza dubbio una delle migliori decisioni che abbiamo preso!'
         },
         familiesMeet: {
           title: 'Le nostre famiglie si sono conosciute',
-          description: 'Le famiglie si sarebbero conosciute in terre lontane per entrambe, la città della Torre del Oro, Plaza España e il Guadalquivir. È stato il momento e il luogo perfetto per conoscersi, condividere storie e improvvisare un mix tra le lingue.'
+          description: 'Le famiglie si sarebbero conosciute in terre lontane per entrambe, la città della Torre del Oro, Plaza España e il Guadalquivir. È stato il momento e il luogo perfetto per conoscersi, condividere storie e improvvisare un mix tra le lingue. Vedere come le nostre famiglie ridevano e condividevano ci ha fatto rendere conto che non sarebbe stata solo la nostra unione ma anche la fusione di due belle famiglie.'
         },
         proposal: {
           title: 'La Proposta',
-          description: 'Fernando ha fatto la proposta durante un\'escursione al tramonto sul nostro sentiero preferito. È stato perfetto, intimo e tutto quello che Chiara aveva sognato.'
+          description: 'Fernando approfitta dell\'occasione durante la celebrazione del 5° anniversario. Nonostante i nervi, durante un tramonto spettacolare in cima a Puebla de Sanabria, si è inginocchiato e titubante, ha fatto la proposta a Chiara. È stato un momento ideale e inaspettato per Chiara.'
         }
       },
       conclusion: 'Siamo pronti a dire "Sì" e iniziare il nostro viaggio eterno insieme. Grazie per essere parte della nostra storia!',
@@ -454,28 +442,24 @@ export const translations = {
       subtitle: '',
       milestones: {
         firstMeet: {
-          title: 'First Meeting',
-          description: 'We met at a coffee shop in downtown. Chiara was reading a book, and Fernando couldn\'t help but start a conversation about it.'
-        },
-        firstDate: {
-          title: 'First Date',
-          description: 'Our first official date was a picnic in the park. We talked for hours and knew there was something special between us.'
+          title: 'How we found each other',
+          description: 'It had to be in cold Ireland where our paths crossed to unite our lives.'
         },
         firstTrip: {
           title: 'Our First Trip Together',
-          description: 'Our first trip was to Rome. We explored the eternal city together and made memories that will last a lifetime.'
+          description: 'Our first trip was to the island of Tenerife. It was unexplored territory for both of us and also a trial by fire, because there we could verify our affinity and get to know each other better. We explored the entire island and its corners and created beautiful moments that will haunt us for life.'
         },
         moving: {
           title: 'Moving In Together',
-          description: 'After a year of dating, we decided to take the next step and move in together. Best decision ever!'
+          description: 'After some time together, we decided to take the step and move in together. It was in the city of Barcelona, without a doubt one of the best decisions we made!'
         },
         familiesMeet: {
           title: 'Our families met each other',
-          description: 'The families were going to meet in distant lands for both, the city of the Torre del Oro, Plaza España and the Guadalquivir. It was the perfect time and place to meet, share stories and improvise a mixture between languages.'
+          description: 'The families were going to meet in distant lands for both, the city of the Torre del Oro, Plaza España and the Guadalquivir. It was the perfect time and place to meet, share stories and improvise a mixture between languages. Seeing how our families laughed and shared made us realize that it was not going to be just our union but also the blending of two beautiful families.'
         },
         proposal: {
           title: 'The Proposal',
-          description: 'Fernando proposed during a sunset hike at our favorite trail. It was perfect, intimate, and everything Chiara had dreamed of.'
+          description: 'Fernando takes advantage of the occasion during the celebration of the 5th anniversary. Despite the nerves, during a spectacular sunset at the top of Puebla de Sanabria, he knelt down and hesitantly proposed to Chiara. It was an ideal and unexpected moment for Chiara.'
         }
       },
       conclusion: 'We\'re ready to say "I do" and start our forever journey together. Thank you for being part of our story!',

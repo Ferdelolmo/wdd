@@ -25,28 +25,28 @@ const StorySection = () => {
       icon: Plane,
       date: "August 2020",
       title: t.story.milestones.firstTrip.title,
-      description: "Nuestro primer viaje fue a la isla de Tenerife. Era un territorio inexplorado para ambos y una prueba del fuego también, pues ahí pudimos comprobar nuestra afinidad y conocernos más. Exploramos toda la isla y sus rincones y creamos bonitos momentos que nos perseguirán toda la vida.",
+      description: t.story.milestones.firstTrip.description,
       image: tripImage
     },
     {
       icon: Home,
       date: "January 2022",
       title: t.story.milestones.moving.title,
-      description: "Después de un tiempo juntos, decidimos dar el paso y mudarnos juntos. Fue en la ciudad de Barcelona, ¡sin duda una de las mejores decisiones que tomamos!",
+      description: t.story.milestones.moving.description,
       image: barcelonaImage
     },
     {
       icon: Users,
       date: "September 2023",
       title: t.story.milestones.familiesMeet.title,
-      description: "Las familias se iban a conocer en tierras lejanas para ambas, la ciudad de la Torre del Oro, Plaza España y el Guadalquivir. Fue el momento y lugar perfecto para conocerse, compartir historias e improvisar una mezcla entre lenguas. Ver como nuestras familias reían y compartían nos hizo darnos cuenta de que no iba a ser solo nuestra unión sino también la mezcla de dos preciosas familias.",
+      description: t.story.milestones.familiesMeet.description,
       image: cordobaImage
     },
     {
       icon: Gem,
       date: "December 2023",
       title: t.story.milestones.proposal.title,
-      description: "Fernando aprovecha la ocasión durante la celebración del 5 aniversario. A pesar de los nervios, durante un atardecer espectacular en lo alto de Puebla de Sanabria, hincó rodilla y titubeante, le propuso a Chiara. Fue un momento idóneo e inesperado para Chiara.",
+      description: t.story.milestones.proposal.description,
       image: proposalImage
     }
   ];
