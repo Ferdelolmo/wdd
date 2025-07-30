@@ -16,35 +16,35 @@ const StorySection = () => {
   const milestones = [
     {
       icon: Heart,
-      date: "June 2020",
+      date: t.story.milestones.firstMeet.date,
       title: t.story.milestones.firstMeet.title,
       description: t.story.milestones.firstMeet.description,
       image: irelandImage
     },
     {
       icon: Plane,
-      date: "October 2020",
+      date: t.story.milestones.firstTrip.date,
       title: t.story.milestones.firstTrip.title,
       description: t.story.milestones.firstTrip.description,
       image: tripImage
     },
     {
       icon: Home,
-      date: "March 2022",
+      date: t.story.milestones.moving.date,
       title: t.story.milestones.moving.title,
       description: t.story.milestones.moving.description,
       image: barcelonaImage
     },
     {
       icon: Users,
-      date: "May 2023",
+      date: t.story.milestones.familiesMeet.date,
       title: t.story.milestones.familiesMeet.title,
       description: t.story.milestones.familiesMeet.description,
       image: cordobaImage
     },
     {
       icon: Gem,
-      date: "June 2025",
+      date: t.story.milestones.proposal.date,
       title: t.story.milestones.proposal.title,
       description: t.story.milestones.proposal.description,
       image: proposalImage

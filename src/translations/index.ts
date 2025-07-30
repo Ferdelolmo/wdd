@@ -32,22 +32,27 @@ export const translations = {
       milestones: {
         firstMeet: {
           title: 'Cómo nos encontramos',
+          date: 'Junio 2020',
           description: 'Nuestros caminos se cruzaron en la isla verde en el verano de 2020. Después de nuestra primera cita en el parque St.Stephen con un cannolo siciliano, nos volvimos inseparables'
         },
         firstTrip: {
           title: 'Nuestro Primer Viaje Juntos',
+          date: 'Octubre 2020',
           description: 'Nuestro primer viaje fue a la isla de Tenerife. Era un territorio inexplorado para ambos y una prueba del fuego también, pues ahí pudimos comprobar nuestra afinidad y conocernos más. Exploramos toda la isla y sus rincones y creamos bonitos momentos que nos perseguirán toda la vida.'
         },
         moving: {
           title: 'Mudándonos Juntos',
+          date: 'Marzo 2022',
           description: 'Después de un tiempo juntos, decidimos dar el paso y mudarnos juntos. Fue en la ciudad de Barcelona, ¡sin duda una de las mejores decisiones que tomamos!'
         },
         familiesMeet: {
           title: 'Nuestras familias se conocieron',
+          date: 'Mayo 2023',
           description: 'Las familias se iban a conocer en tierras lejanas para ambas, la ciudad de la Torre del Oro, Plaza España y el Guadalquivir. Fue el momento y lugar perfecto para conocerse, compartir historias e improvisar una mezcla entre lenguas. Ver como nuestras familias reían y compartían nos hizo darnos cuenta de que no iba a ser solo nuestra unión sino también la mezcla de dos preciosas familias.'
         },
         proposal: {
           title: 'La Propuesta',
+          date: 'Junio 2025',
           description: 'Fernando aprovecha la ocasión durante la celebración del 5 aniversario. A pesar de los nervios, durante un atardecer espectacular en lo alto de Puebla de Sanabria, hincó rodilla y titubeante, le propuso a Chiara. Fue un momento idóneo e inesperado para Chiara.'
         }
       },
@@ -184,22 +189,27 @@ export const translations = {
       milestones: {
         firstMeet: {
           title: 'Comu ni Truvammu',
+          date: 'Giugnu 2020',
           description: 'I nostri strati s\'ncruciaru nta l\'isula virdi nta l\'astati dû 2020. Doppu a nostra prima appuntamentu ntu parcu St.Stephen cu nu cannolu sicilianu, diventammu nseparàbbili'
         },
         firstTrip: {
           title: 'U Nostru Primu Viaggiu Nsemi',
+          date: 'Ottubru 2020',
           description: 'U nostru primu viaggiu fu â isula di Tenerife. Era nu territoriu nisplurato pi tutti e dui e na prova dû focu puru, picchì addà putimmu virificari a nostra afinità e cunòscirini cchiù. Spluramu tutta l\'isula e i sò cantuna e criamu beddi mumenti ca ni pirseguitarannu tutta a vita.'
         },
         moving: {
           title: 'Traslucannu Nsemi',
+          date: 'Marzu 2022',
           description: 'Doppu nu tempu nsemi, dicidimmu di fari u passu e traslucarini nsemi. Fu nnâ cità di Barcellona, senza dubbiu una di i megghiu dicisioni ca facimmu!'
         },
         familiesMeet: {
           title: 'I Nostri Famigghii si Cunuscìru',
+          date: 'Maiu 2023',
           description: 'I famigghii si devìanu cunòsciri nti terri luntani pi tutti e dui, a cità dâ Torri di l\'Oru, Piazza Spagna e u Guadalquivir. Fu u mumentu e u locu pirfettu pi cunòscirisi, sparticari stori e mpruvisari na mistura tra lingui. Vìdiri comu i nostri famigghii rìdìanu e sparticìanu ni fici rèndiri cuntu ca nun iva a èssiri sulu a nostra unioni ma puru a mistura di dui famigghii prizzusi.'
         },
         proposal: {
           title: 'A Pruposta',
+          date: 'Giugnu 2025',
           description: 'Fernando appruvitta l\'occasioni nta a cilibrazzioni dû 5 anniversariu. Malgrado i nirvi, nta nu calutu spittaculari nti l\'autu di Puebla de Sanabria, si nnicò e titubannu, ci pruposi a Chiara. Fu nu mumentu idòneu e naspittatu pi Chiara.'
         }
       },
@@ -336,22 +346,27 @@ export const translations = {
       milestones: {
         firstMeet: {
           title: 'Come ci siamo trovati',
+          date: 'Giugno 2020',
           description: 'I nostri percorsi si sono incrociati nell\'isola verde nel estate 2020. Dopo nostro primo appuntamento nel parco St.Stephen con un cannolo siciliano, siamo diventati inseparabili'
         },
         firstTrip: {
           title: 'Il Nostro Primo Viaggio Insieme',
+          date: 'Ottobre 2020',
           description: 'Il nostro primo viaggio è stato all\'isola di Tenerife. Era un territorio inesplorato per entrambi e anche una prova del fuoco, perché lì abbiamo potuto verificare la nostra affinità e conoscerci di più. Abbiamo esplorato tutta l\'isola e i suoi angoli e creato bei momenti che ci perseguiteranno per tutta la vita.'
         },
         moving: {
           title: 'Trasferirsi Insieme',
+          date: 'Marzo 2022',
           description: 'Dopo un po\' di tempo insieme, abbiamo deciso di fare il passo e trasferirci insieme. È stato nella città di Barcellona, senza dubbio una delle migliori decisioni che abbiamo preso!'
         },
         familiesMeet: {
           title: 'Le nostre famiglie si sono conosciute',
+          date: 'Maggio 2023',
           description: 'Le famiglie si sarebbero conosciute in terre lontane per entrambe, la città della Torre del Oro, Plaza España e il Guadalquivir. È stato il momento e il luogo perfetto per conoscersi, condividere storie e improvvisare un mix tra le lingue. Vedere come le nostre famiglie ridevano e condividevano ci ha fatto rendere conto che non sarebbe stata solo la nostra unione ma anche la fusione di due belle famiglie.'
         },
         proposal: {
           title: 'La Proposta',
+          date: 'Giugno 2025',
           description: 'Fernando approfitta dell\'occasione durante la celebrazione del 5° anniversario. Nonostante i nervi, durante un tramonto spettacolare in cima a Puebla de Sanabria, si è inginocchiato e titubante, ha fatto la proposta a Chiara. È stato un momento ideale e inaspettato per Chiara.'
         }
       },
@@ -488,22 +503,27 @@ export const translations = {
       milestones: {
         firstMeet: {
           title: 'How we found each other',
+          date: 'June 2020',
           description: 'Our paths crossed in the green island in the summer of 2020. After our first date in St.Stephen park with a Sicilian cannolo, we became inseparable'
         },
         firstTrip: {
           title: 'Our First Trip Together',
+          date: 'October 2020',
           description: 'Our first trip was to the island of Tenerife. It was unexplored territory for both of us and also a trial by fire, because there we could verify our affinity and get to know each other better. We explored the entire island and its corners and created beautiful moments that will haunt us for life.'
         },
         moving: {
           title: 'Moving In Together',
+          date: 'March 2022',
           description: 'After some time together, we decided to take the step and move in together. It was in the city of Barcelona, without a doubt one of the best decisions we made!'
         },
         familiesMeet: {
           title: 'Our families met each other',
+          date: 'May 2023',
           description: 'The families were going to meet in distant lands for both, the city of the Torre del Oro, Plaza España and the Guadalquivir. It was the perfect time and place to meet, share stories and improvise a mixture between languages. Seeing how our families laughed and shared made us realize that it was not going to be just our union but also the blending of two beautiful families.'
         },
         proposal: {
           title: 'The Proposal',
+          date: 'June 2025',
           description: 'Fernando takes advantage of the occasion during the celebration of the 5th anniversary. Despite the nerves, during a spectacular sunset at the top of Puebla de Sanabria, he knelt down and hesitantly proposed to Chiara. It was an ideal and unexpected moment for Chiara.'
         }
       },
