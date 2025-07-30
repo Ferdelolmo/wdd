@@ -467,7 +467,7 @@ export const translations = {
     about: {
       title: 'Chiara & Fernando',
       subtitle: 'are getting married!',
-      date: 'June 2026',
+      date: '21 June 2026',
       location: 'Ávila, Spain',
       aboutUsTitle: 'About Us',
       description: 'It had to be in cold, rainy Ireland where our paths crossed and our lives came together.',
@@ -515,7 +515,7 @@ export const translations = {
       subtitle: 'Everything you need to know about our special day',
         schedule: {
           title: 'Schedule',
-          day1: 'June 20, 2026',
+          day1: 'June 21, 2026',
           day1Event: '19:00 Pre-wedding at',
           day1Venue: 'Bendita Locura',
           day1Description: ', where we can all gather and get to know each other before the wedding',
@@ -570,8 +570,8 @@ export const translations = {
           answer: 'Please RSVP by March 12, 2026. You can respond through this link.'
         },
         weather: {
-          question: 'What\'s the weather like in June?',
-          answer: 'June in Spain is usually warm and sunny. We recommend light and comfortable clothing, but bring a jacket in case it gets cool in the evening.'
+          question: 'What\'s the weather like in July?',
+          answer: 'July in Spain is usually warm and sunny. We recommend light and comfortable clothing, but bring a jacket in case it gets cool in the evening.'
         },
         parking: {
           question: 'Is parking available?',
@@ -603,7 +603,7 @@ export const translations = {
       ],
       cantWait: {
         title: 'Can\'t Wait!',
-        message: 'We\'re so excited to celebrate with all of you. See you on June 15th!'
+        message: 'We\'re so excited to celebrate with all of you. See you on June 21st!'
       }
     }
   }
