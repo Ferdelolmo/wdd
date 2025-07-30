@@ -32,7 +32,7 @@ export const translations = {
       milestones: {
         firstMeet: {
           title: 'Cómo nos encontramos',
-          description: 'Tuvo que ser en la fría Irlanda donde nuestros caminos se cruzaran para unir nuestras vidas.'
+          description: 'Nuestros caminos se cruzaron en la isla verde en el verano de 2020. Después de nuestra primera cita en el parque St.Stephen con un cannolo siciliano, nos volvimos inseparables'
         },
         firstTrip: {
           title: 'Nuestro Primer Viaje Juntos',
@@ -184,7 +184,7 @@ export const translations = {
       milestones: {
         firstMeet: {
           title: 'Comu ni Truvammu',
-          description: 'Fu propriu n\'Irlanda, cu tuttu chiddu friddu, ca i nostri strati s\'attravirsaru pi fari junciri i nostri cori.'
+          description: 'I nostri strati s\'ncruciaru nta l\'isula virdi nta l\'astati dû 2020. Doppu a nostra prima appuntamentu ntu parcu St.Stephen cu nu cannolu sicilianu, diventammu nseparàbbili'
         },
         firstTrip: {
           title: 'U Nostru Primu Viaggiu Nsemi',
@@ -488,7 +488,7 @@ export const translations = {
       milestones: {
         firstMeet: {
           title: 'How we found each other',
-          description: 'It had to be in cold Ireland where our paths crossed to unite our lives.'
+          description: 'Our paths crossed in the green island in the summer of 2020. After our first date in St.Stephen park with a Sicilian cannolo, we became inseparable'
         },
         firstTrip: {
           title: 'Our First Trip Together',
