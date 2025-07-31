@@ -84,6 +84,18 @@ const FAQSection = () => {
       { text: 'Hotel Don Carmelo', url: 'https://maps.app.goo.gl/qNauHHkZ6yrLMhut8' },
       { text: 'Sofrafa Palacio', url: 'https://maps.app.goo.gl/SpZ1Q5LznLsyPJXQ9' }
     ]
+  }, {
+    question: t.faq.items.speeches.question,
+    answer: t.faq.items.speeches.answer,
+    hasLink: true,
+    linkText: language === 'en' ? 'this link' : (language === 'it' ? 'questo link' : (language === 'scn' ? 'stu culligamentu' : 'este enlace')),
+    linkUrl: 'https://form.typeform.com/to/fQ9PWPCK'
+  }, {
+    question: t.faq.items.music.question,
+    answer: t.faq.items.music.answer,
+    hasLink: true,
+    linkText: language === 'en' ? 'here' : (language === 'it' ? 'qui' : (language === 'scn' ? 'ccà' : 'por aquí')),
+    linkUrl: 'https://form.typeform.com/to/hj7Tz81R'
   }];
   const funFacts = [
     { icon: Heart, fact: t.faq.funFactsList[0] },

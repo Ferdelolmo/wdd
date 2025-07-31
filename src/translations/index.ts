@@ -141,6 +141,14 @@ export const translations = {
         accommodation: {
           question: '¿Dónde debería alojarme en Ávila?',
           answer: 'Tenemos un acuerdo con estos 4 hoteles, solo tienes que usar el código de referencia "Boda Fernando y Chiara": Exe Reina Isabel, Hotel ELE Mirador de Santa Ana, Hotel Don Carmelo, Sofrafa Palacio.'
+        },
+        speeches: {
+          question: '¿Se aceptan discursos?',
+          answer: 'Sí, háznoslo saber en este enlace y nos pondremos en contacto contigo'
+        },
+        music: {
+          question: '¿Puedo pedir canciones para la boda?',
+          answer: '¡Claro! Dínoslo por aquí y le haremos saber al DJ'
         }
       },
       funFacts: 'Datos Curiosos Sobre Nosotros',
@@ -333,6 +341,14 @@ export const translations = {
         accommodation: {
           question: 'Unni haju stari a Ávila?',
           answer: 'Avemu n\'accordu cu sti 4 hotel, havi sulu usari u còdici di riferimentu "Boda Fernando y Chiara": Exe Reina Isabel, Hotel ELE Mirador de Santa Ana, Hotel Don Carmelo, Sofrafa Palacio.'
+        },
+        speeches: {
+          question: 'S\'accettanu discursi?',
+          answer: 'Sì, fatìnillu sapiri ntô stu culligamentu e ni cuntattamu cu vuiautri'
+        },
+        music: {
+          question: 'Pozzu dumandari canzuna pâ boda?',
+          answer: 'Sicuramenti! Dìtillu ccà e ni lu facemu sapiri ô DJ'
         }
       },
       funFacts: 'Fatti Divertenti Su Di Noi',
@@ -525,6 +541,14 @@ export const translations = {
         accommodation: {
           question: 'Dove dovrei soggiornare a Ávila?',
           answer: 'Abbiamo un accordo con questi 4 hotel, devi solo usare il codice di riferimento "Boda Fernando y Chiara": Exe Reina Isabel, Hotel ELE Mirador de Santa Ana, Hotel Don Carmelo, Sofrafa Palacio.'
+        },
+        speeches: {
+          question: 'Si accettano discorsi?',
+          answer: 'Sì, fatecelo sapere in questo link e vi contatteremo'
+        },
+        music: {
+          question: 'Posso richiedere canzoni per il matrimonio?',
+          answer: 'Certo! Dicci qui e lo faremo sapere al DJ'
         }
       },
       funFacts: 'Curiosità Su Di Noi',
@@ -717,6 +741,14 @@ export const translations = {
         accommodation: {
           question: 'Where should I stay in Ávila?',
           answer: 'We have an agreement with these 4 hotels, you can just use the referral code "Boda Fernando y Chiara": Exe Reina Isabel, Hotel ELE Mirador de Santa Ana, Hotel Don Carmelo, Sofrafa Palacio.'
+        },
+        speeches: {
+          question: 'Are speeches accepted?',
+          answer: 'Yes, let us know in this link and we will contact you'
+        },
+        music: {
+          question: 'Can I request songs for the wedding?',
+          answer: 'Of course! Tell us here and we will let the DJ know'
         }
       },
       funFacts: 'Fun Facts About Us',
