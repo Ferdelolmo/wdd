@@ -169,7 +169,7 @@ export const translations = {
           },
           {
             title: '🌋 Tiene el volcán activo más alto de Europa.',
-            content: 'El Etna no solo impone a la vista—sigue muy activo (aunque tranquilo, normalmente se porta bien).'
+            content: 'El Etna no es solo una postal impresionante—es un volcán vivo que de vez en cuando lanza lava y ceniza, e incluso puede hacer que cierren el aeropuerto. Aun así, los sicilianos lo miran con respeto. Para ellos, la \'Muntagna\' no es una amenaza, sino una presencia poderosa y benévola que forma parte de su identidad.'
           },
           {
             title: '🏛️ Es más antigua que Italia.',
@@ -369,7 +369,7 @@ export const translations = {
           },
           {
             title: '🌋 Teniri lu vulcanu attivu cchiù autu d\'Europa.',
-            content: 'L\'Etna nun è sulu beddu a vidiri—è vivu ancora (ma stai tranquillu, di solitu è bonu e pacenzusu).'
+            content: 'L\'Etna nun è sulu na cosa bedda a taliari—è vivu e quarchi vota sputazza lava e cinniri, e pò fari firmari puru l\'aeroportu. Ma li siciliani ci tenunu rispiettu. Pi iddi, la Muntagna nun fa paura: è \'na forza ca cummanna, ma è bona. Fa parti di cui semu'
           },
           {
             title: '🏛️ È cchiù vecchia di l\'Italia.',
@@ -569,7 +569,7 @@ export const translations = {
           },
           {
             title: '🌋 Ha il vulcano attivo più alto d\'Europa.',
-            content: 'L\'Etna non è solo scenografico—è anche molto vivo (ma tranquilli, per lo più si comporta bene).'
+            content: 'L\'Etna non è solo uno spettacolo per gli occhi: è un vulcano vivo, che ogni tanto sputa lava e cenere, e può persino far chiudere l\'aeroporto. Eppure, i siciliani lo guardano con rispetto. Per loro, la \'Muntagna\' non è una minaccia, ma una presenza potente e benevola, parte dell\'identità dell\'isola.'
           },
           {
             title: '🏛️ È più antica dell\'Italia stessa.',
@@ -769,7 +769,7 @@ export const translations = {
           },
           {
             title: '🌋 It has Europe\'s tallest active volcano.',
-            content: 'Mount Etna isn\'t just dramatic to look at—it\'s still very much alive (but don\'t worry, it\'s mostly well-behaved).'
+            content: 'Mount Etna isn\'t just stunning to look at—it\'s alive, and occasionally throws out lava and ash, sometimes even closing the airport. Still, Sicilians regard it with deep respect. For them, la Muntagna is not a threat, but a powerful and benevolent force that\'s part of who they are.'
           },
           {
             title: '🏛️ It\'s older than Italy itself.',
