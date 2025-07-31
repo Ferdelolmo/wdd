@@ -150,6 +150,41 @@ export const translations = {
         'Nuestro primer baile fue "More than this" de Roxy durante una noche de fiesta en Irlanda, bajo la lluvia en medio de la calle',
         'Las islas nos han perseguido durante nuestra vida y forman parte de nosotros, es tanto así que hemos visitado juntos 16 islas diferentes'
       ],
+      sicilyFacts: {
+        title: '🌟 Datos Curiosos Sobre Sicilia',
+        description: 'Aunque la ceremonia se celebrará en Ávila, no queremos olvidar el lugar de origen de Chiara y sus profundas raíces sicilianas. Aunque no estarán presentes los atardeceres rojos, los paisajes de naranjos y limoneros, la brisa mediterránea ni la gastronomía inolvidable, esperamos que disfrutes de los pequeños detalles sicilianos que hemos querido incluir con cariño.\nAun así, te animamos a visitar la isla y vivir una experiencia única en un lugar lleno de historia y tradición. Es una tierra que vive en el corazón de Chiara—y ahora también en el nuestro.',
+        linkText: 'vivir una experiencia única en un lugar lleno de historia y tradición',
+        items: [
+          {
+            title: '🍋 Los limones crecen como hierba.',
+            content: 'Sicilia es uno de los mayores productores de limones del mundo—tanto que los verás en postres, platos típicos ¡y hasta en la decoración de bodas!'
+          },
+          {
+            title: '🌋 Tiene el volcán activo más alto de Europa.',
+            content: 'El Etna no solo impone a la vista—sigue muy activo (aunque tranquilo, normalmente se porta bien).'
+          },
+          {
+            title: '🏛️ Es más antigua que Italia.',
+            content: 'Sicilia fue griega, romana, árabe, normanda… y estuvo bajo dominio aragonés y español durante 321 años. Aún hoy se notan esos toques hispanos en sus nombres, su comida, su arquitectura y su gente.'
+          },
+          {
+            title: '🍝 ¿Arancini o arancine?',
+            content: 'Ni los propios sicilianos se ponen de acuerdo. En el este dicen "arancini", en el oeste "arancine". No importa cómo lo llames: están buenísimos.'
+          },
+          {
+            title: '🎭 Sicilia tiene su propio idioma.',
+            content: 'El siciliano no es solo un dialecto, es una lengua completa con siglos de influencias árabes, griegas, latinas y españolas. (Sí, así de antigua… y cool.)'
+          },
+          {
+            title: '🏺 Las "Teste di Moro" cuentan una historia oscura de amor.',
+            content: 'Estas cabezas de cerámica tan típicas de Sicilia vienen de una leyenda llena de amor, celos… y una decapitación. ¿Romántico? Tal vez. ¿Apasionante? Sin duda.'
+          },
+          {
+            title: '🏛️ Fue una de las regiones más ricas del mundo.',
+            content: 'Por su posición en el corazón del Mediterráneo, Sicilia fue durante siglos un centro clave de comercio, cultura y poder. Lo que pasaba en Sicilia… se notaba en todo el mundo.'
+          }
+        ]
+      },
       cantWait: {
         title: '¡No Podemos Esperar!',
         message: 'Estamos muy emocionados de celebrar con todos vosotros. ¡Nos vemos el 21 de junio!'
@@ -307,6 +342,41 @@ export const translations = {
         'U nostru primu ballu fu "More than this" di Roxy nta na notti di festa n\'Irlanda, sutta a chiuvuta nnâ menzzu dâ strada',
         'Li isuli ni ànnu pirsugutu durante a nostra vita e fannu parti di nui, è tantu accussì ca abbiamu visitatu nsemi 16 isuli diversi'
       ],
+      sicilyFacts: {
+        title: '🌟 Fatti Divertenti Su Sicilia',
+        description: 'Pur si a cirimunìa si fa n\'Ávila, nun vulemu scurdarinni dâ terra natali di Chiara e di li soi radichi siciliani. Forse nun ci sarà lu suli russu, li limunara, lu mari dû Mediterraneu o la cucina chi fa veniri l\'acquaricogna, ma speramu ca vi piàcinu li picciuli tocchi di Sicilia ca mettimu cu amuri.\nN\'cugghiamu a tutti a fari \'na visita a l\'isula e a viviri st\'esperienza unica ntra \'na terra china di storia e tradizzioni. Sta terra è sempri n\'cori di Chiara—e ormai puru ntô nostru.',
+        linkText: 'viviri st\'esperienza unica ntra \'na terra china di storia e tradizzioni',
+        items: [
+          {
+            title: '🍋 I limuna spuntunu comu l\'erbaccia.',
+            content: 'A Sicilia è una di li cchiù granni produttrici di limuna ô munnu—ci sunnu ntô cannolu, ntê piatti, e puru \'ntra li decorazzioni dî matrimoni.'
+          },
+          {
+            title: '🌋 Teniri lu vulcanu attivu cchiù autu d\'Europa.',
+            content: 'L\'Etna nun è sulu beddu a vidiri—è vivu ancora (ma stai tranquillu, di solitu è bonu e pacenzusu).'
+          },
+          {
+            title: '🏛️ È cchiù vecchia di l\'Italia.',
+            content: 'Sicilia fu greca, rumana, araba, normanna… e stetti sutta l\'Aragunesi e li Spagnoli pi 321 anni. L\'influenza spagnola si vidi ancora ntê nomi, ntê sapuri, ntê chiesi e ntê tradizzioni.'
+          },
+          {
+            title: '🍝 Arancini o arancine?',
+            content: 'Mancu li siciliani si mettunu d\'accordu! A livanti dicinu "arancini", a punenti "arancine". Comu si chiamunu? N\'casa fini sutta l\'ogghiu e sutta i denti!'
+          },
+          {
+            title: '🎭 Lu sicilianu è \'na lingua, no \'n dialettu.',
+            content: 'Cu paroli grechi, arabi, latini e spagnoli, lu sicilianu è \'na lingua vera e viva. (E s\'usa ancora… specialmenti quannu s\'arraggia!)'
+          },
+          {
+            title: '🏺 Li Testi di Moro cuntunu \'na storia d\'amuri scura.',
+            content: 'Sti famusi vasi cu la facci, ca si vìdunu supra a li balconi, nascinu di \'na leggenda china d\'amuri, gelusia… e \'na testa tagghiata. Romànticu? Mah. Ma di sicuru cchiù d\'un Netflix.'
+          },
+          {
+            title: '🏛️ Sicilia era \'na ricchizza pi tutti.',
+            content: 'Pusata ntra tri cuntinenti, Sicilia era na cruci vera di scambiu, putenza e cultura. Quannu succedia quacchi cosa ccà… u restu dû munnu si girava a taliari.'
+          }
+        ]
+      },
       cantWait: {
         title: 'Nun Putemu Aspittari!',
         message: 'Simu tantu cuntentu di cilbrari cu tutti vui. Ni videmu u 21 di giugnu!'
@@ -464,6 +534,41 @@ export const translations = {
         'Il nostro primo ballo è stato "More than this" di Roxy durante una notte di festa in Irlanda, sotto la pioggia in mezzo alla strada',
         'Le isole ci hanno perseguito durante la nostra vita e fanno parte di noi, è così tanto che abbiamo visitato insieme 16 isole diverse'
       ],
+      sicilyFacts: {
+        title: '🌟 Curiosità Su Sicilia',
+        description: 'Anche se la cerimonia si terrà ad Ávila, non vogliamo dimenticare la città natale di Chiara e le sue profonde radici siciliane. Anche se i tramonti rossi, i paesaggi di limoni, la brezza mediterranea e la cucina indimenticabile non saranno fisicamente presenti al matrimonio, speriamo che possiate apprezzare i piccoli tocchi di Sicilia che abbiamo voluto includere con affetto.\nVi invitiamo con il cuore a visitare quest\'isola e a vivere un\'esperienza unica in un luogo ricco di storia e fascino. È un luogo che vive nel cuore di Chiara—e ora anche nel nostro.',
+        linkText: 'vivere un\'esperienza unica in un luogo ricco di storia e fascino',
+        items: [
+          {
+            title: '🍋 I limoni crescono ovunque.',
+            content: 'La Sicilia è uno dei maggiori produttori di limoni al mondo—tanto che li trovi ovunque: nei dolci, nei piatti tipici e persino nelle decorazioni di matrimonio.'
+          },
+          {
+            title: '🌋 Ha il vulcano attivo più alto d\'Europa.',
+            content: 'L\'Etna non è solo scenografico—è anche molto vivo (ma tranquilli, per lo più si comporta bene).'
+          },
+          {
+            title: '🏛️ È più antica dell\'Italia stessa.',
+            content: 'La Sicilia è stata greca, romana, araba, normanna… e sotto dominio aragonese e spagnolo per ben 321 anni. L\'influenza spagnola è ancora visibile nei nomi, nella cucina, nell\'architettura e nelle tradizioni.'
+          },
+          {
+            title: '🍝 Arancini o arancine?',
+            content: 'Anche i siciliani discutono su come chiamare le loro famose palline di riso fritte. A est "arancini", a ovest "arancine". Due nomi, un solo amore: il cibo.'
+          },
+          {
+            title: '🎭 La Sicilia ha una lingua tutta sua.',
+            content: 'Il siciliano non è un semplice dialetto: è una vera e propria lingua con influenze arabe, greche, latine e spagnole. (Sì, è così cool e antica.)'
+          },
+          {
+            title: '🏺 Le Teste di Moro raccontano una storia d\'amore oscura.',
+            content: 'Queste iconiche teste di ceramica, presenti su balconi e nei giardini siciliani, nascono da una leggenda fatta di amore, gelosia… e decapitazione. Romantico? Forse. Affascinante? Sicuramente.'
+          },
+          {
+            title: '🏛️ Un tempo era una delle terre più ricche al mondo.',
+            content: 'Grazie alla sua posizione strategica nel cuore del Mediterraneo, la Sicilia fu per secoli un centro ambito di commercio, potere e cultura. Quello che succedeva in Sicilia influenzava spesso il resto del mondo.'
+          }
+        ]
+      },
       cantWait: {
         title: 'Non Vediamo L\'Ora!',
         message: 'Siamo così entusiasti di celebrare con tutti voi. Ci vediamo il 21 giugno!'
@@ -621,6 +726,41 @@ export const translations = {
         'Our first dance was "More than this" by Roxy during a party night in Ireland, under the rain in the middle of the street',
         'Islands have followed us throughout our lives and are part of us, so much so that we have visited 16 different islands together'
       ],
+      sicilyFacts: {
+        title: '🌟 Fun Facts About Sicily',
+        description: 'While the ceremony will take place in Ávila, we don\'t want to forget Chiara\'s hometown and her deep Sicilian roots. Although the vibrant red sunsets, lemon-filled landscapes, Mediterranean breeze, and unforgettable cuisine won\'t be physically present at the wedding, we hope you\'ll enjoy the small touches of Sicily we\'ve lovingly included.\nThat said, we truly encourage you to visit the island and live the one-of-a-kind experience of this island with extensive heritage. It\'s a place that lives in Chiara\'s heart—and now, in ours too.',
+        linkText: 'one-of-a-kind experience of this island with extensive heritage',
+        items: [
+          {
+            title: '🍋 Lemons grow like weeds.',
+            content: 'Sicily is one of the world\'s largest producers of lemons—so much so, they show up in everything from desserts to wedding décor.'
+          },
+          {
+            title: '🌋 It has Europe\'s tallest active volcano.',
+            content: 'Mount Etna isn\'t just dramatic to look at—it\'s still very much alive (but don\'t worry, it\'s mostly well-behaved).'
+          },
+          {
+            title: '🏛️ It\'s older than Italy itself.',
+            content: 'Sicily was once Greek, Roman, Arab, Norman… and was under Aragonese and Spanish rule for 321 years. You can still see the Spanish influence in its names, food, architecture, and traditions.'
+          },
+          {
+            title: '🍝 Arancini vs. arancine?',
+            content: 'Even Sicilians argue about the name of their famous fried rice balls. East says "arancini," west says "arancine." Either way—delicious.'
+          },
+          {
+            title: '🎭 Sicily has its own language.',
+            content: 'Sicilian isn\'t just a dialect—it\'s a full-fledged language with Arabic, Greek, Latin, and Spanish influence. (Yes, it\'s that old-school cool.)'
+          },
+          {
+            title: '🏺 The "Teste di Moro" tell a dark love story.',
+            content: 'These iconic ceramic heads, found on balconies and in gardens across Sicily, come from a legend of love, jealousy… and beheading. Romantic? Debatable. Fascinating? Absolutely.'
+          },
+          {
+            title: '🏛️ A Crossland of civilisations',
+            content: 'It was once one of the richest places on Earth. Thanks to its location in the heart of the Mediterranean, Sicily was a prized hub for the Mediterranean civilizations. For centuries, it was a crossroads of trade, power, and culture—what happened in Sicily often shaped the world around it.'
+          }
+        ]
+      },
       cantWait: {
         title: 'Can\'t Wait!',
         message: 'We\'re so excited to celebrate with all of you. See you on June 21st!'

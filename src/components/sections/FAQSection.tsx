@@ -153,6 +153,35 @@ const FAQSection = () => {
               </div>
             </Card>
 
+            <Card className="p-6 bg-wedding-cream shadow-soft border-0">
+              <h3 className="font-serif text-xl text-primary mb-6 text-center">{t.faq.sicilyFacts.title}</h3>
+              <div className="text-sm text-muted-foreground leading-relaxed mb-6">
+                {t.faq.sicilyFacts.description.split(t.faq.sicilyFacts.linkText)[0]}
+                <a 
+                  href="https://www.italia.it/es/sicilia" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="text-primary hover:text-primary/80 underline"
+                >
+                  {t.faq.sicilyFacts.linkText}
+                </a>
+                {t.faq.sicilyFacts.description.split(t.faq.sicilyFacts.linkText)[1]}
+              </div>
+              
+              <Accordion type="single" collapsible className="w-full">
+                {t.faq.sicilyFacts.items.map((item, index) => (
+                  <AccordionItem key={index} value={`sicily-${index}`}>
+                    <AccordionTrigger className="text-left font-medium text-sm">
+                      {item.title}
+                    </AccordionTrigger>
+                    <AccordionContent className="text-muted-foreground text-sm leading-relaxed">
+                      {item.content}
+                    </AccordionContent>
+                  </AccordionItem>
+                ))}
+              </Accordion>
+            </Card>
+
             <Card className="p-6 bg-wedding-gold text-center shadow-soft border-0">
               
               <p className="text-sm text-muted-foreground">
