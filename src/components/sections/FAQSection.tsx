@@ -89,13 +89,13 @@ const FAQSection = () => {
     answer: t.faq.items.speeches.answer,
     hasLink: true,
     linkText: language === 'en' ? 'this link' : (language === 'it' ? 'questo link' : (language === 'scn' ? 'stu culligamentu' : 'este enlace')),
-    linkUrl: 'https://form.typeform.com/to/fQ9PWPCK'
+    linkUrl: 'https://form.typeform.com/to/hj7Tz81R'
   }, {
     question: t.faq.items.music.question,
     answer: t.faq.items.music.answer,
     hasLink: true,
     linkText: language === 'en' ? 'here' : (language === 'it' ? 'qui' : (language === 'scn' ? 'ccà' : 'por aquí')),
-    linkUrl: 'https://form.typeform.com/to/hj7Tz81R'
+    linkUrl: 'https://form.typeform.com/to/fQ9PWPCK'
   }];
   const funFacts = [
     { icon: Heart, fact: t.faq.funFactsList[0] },
