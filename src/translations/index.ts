@@ -131,7 +131,7 @@ export const translations = {
           answer: '¡Por supuesto! Tendremos opciones vegetarianas, veganas y sin gluten. Por favor menciona cualquier alergia o restricción alimentaria en tu confirmación.'
         },
         aboutAvila: {
-          question: '¿Dónde está Ávila y cómo debería llegar allí?',
+          question: '¿Dónde está Ávila?',
           answer: 'Ávila es una joya escondida en el centro de España, alberga mucha historia detrás de las murallas de la ciudad y fue una de las ciudades más importantes del Reino de Castilla en su época y testigo de grandes e importantes eventos en la historia. Hoy en día es una ciudad pequeña, diminuta pero increíblemente hermosa con una gastronomía única y rincones preciosos.'
         },
         gettingToAvila: {
@@ -288,7 +288,7 @@ export const translations = {
           answer: 'Sicuramenti! Avremu opzioni vegetariani, vegani e senza glutini. Pi favuri menziona qualsiasi allergia o ristrizioni alimentari nta a to cunfirmazioni.'
         },
         aboutAvila: {
-          question: 'Unni è Ávila e comu haju arrivari?',
+          question: 'Unni è Ávila?',
           answer: 'Ávila è na perla ammucciat ntu centru di a Spagna, ospit assai storia darreri i mura di a città e fu una di i città cchiù mpurtanti dû Regnu di Castiglia nta u so tempu e testimuni di granni e mpurtanti eventi nta a storia. Oggi è na città nica, minuzza ma incredibilmenti bedda cu na gastronomia unica e cantuni preziusi.'
         },
         gettingToAvila: {
@@ -445,7 +445,7 @@ export const translations = {
           answer: 'Certamente! Avremo opzioni vegetariane, vegane e senza glutine. Per favore menziona qualsiasi allergia o restrizione alimentare nella tua conferma.'
         },
         aboutAvila: {
-          question: 'Dove si trova Ávila e come dovrei arrivarci?',
+          question: 'Dove si trova Ávila?',
           answer: 'Ávila è un gioiello nascosto nel centro della Spagna, ospita molta storia dietro le mura della città ed era una delle città più importanti del Regno di Castiglia ai suoi tempi e testimone di grandi e importanti eventi nella storia. Oggi è una città piccola, minuscola ma incredibilmente bella con una gastronomia unica e angoli preziosi.'
         },
         gettingToAvila: {
@@ -602,7 +602,7 @@ export const translations = {
           answer: 'Absolutely! We\'ll have vegetarian, vegan, and gluten-free options. Please mention any allergies or dietary restrictions in your confirmation.'
         },
         aboutAvila: {
-          question: 'Where is Ávila and how should I get there?',
+          question: 'Where is Ávila?',
           answer: 'Ávila is a hidden gem in the center of Spain, it hosted a lot of history behind the city walls and was one of the most important cities in the Kingdom of Castilla back in the days and witness of big and important events in history. Nowadays it\'s a tiny, small but incredibly gorgeous city with a one-of-a-kind gastronomy and beautiful corners.'
         },
         gettingToAvila: {
