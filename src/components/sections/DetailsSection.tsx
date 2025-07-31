@@ -71,7 +71,7 @@ const DetailsSection = () => {
                 <div>
                   <h4 className="text-lg font-bold text-white mb-2">{t.details.schedule.day1}</h4>
                   <div className="space-y-3 text-white/90">
-                    <p>
+                    <p className="ml-8">
                       <span className="font-bold">{t.details.schedule.day1Event.split(' ')[0]}</span> {t.details.schedule.day1Event.substring(t.details.schedule.day1Event.indexOf(' ') + 1)}{' '}
                       <a 
                         href="https://maps.app.goo.gl/QwW7Gs1HeaWenFcz7" 
