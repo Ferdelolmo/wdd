@@ -39,7 +39,7 @@ export const InvitationCard = ({ guest }: InvitationCardProps) => {
       <div 
         className="w-full max-w-sm bg-white rounded-lg shadow-2xl overflow-hidden"
         style={{
-          backgroundImage: `url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 100 100"><rect width="100" height="100" fill="%23f9fafb"/><circle cx="50" cy="50" r="30" fill="%23fce7f3" opacity="0.3"/></svg>')`,
+          backgroundImage: `url('https://i.imgur.com/5zWPP8m.png')`,
           backgroundSize: 'cover',
           backgroundPosition: 'center'
         }}
