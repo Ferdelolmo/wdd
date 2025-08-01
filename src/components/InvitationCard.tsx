@@ -35,43 +35,55 @@ export const InvitationCard = ({ guest }: InvitationCardProps) => {
   const text = invitationTexts[guest.language];
   
   return (
-    <div className="min-h-screen bg-gradient-to-br from-rose-100 to-pink-50 flex items-center justify-center p-4">
-      <div 
-        className="w-full max-w-sm bg-white rounded-lg shadow-2xl overflow-hidden"
-        style={{
-          backgroundImage: `url('https://i.imgur.com/5zWPP8m.png')`,
-          backgroundSize: 'cover',
-          backgroundPosition: 'center'
-        }}
-      >
-        <div className="p-8 text-center space-y-6 bg-white/90 backdrop-blur-sm">
-          <div className="space-y-4">
-            <h1 className="text-2xl font-bold text-gray-800 leading-tight">
+    <div 
+      className="fixed inset-0 w-full h-full"
+      style={{
+        backgroundImage: `url('https://i.imgur.com/5zWPP8m.png')`,
+        backgroundSize: 'cover',
+        backgroundPosition: 'center',
+        backgroundRepeat: 'no-repeat',
+        backgroundAttachment: 'fixed'
+      }}
+    >
+      {/* Dark overlay */}
+      <div className="absolute inset-0 bg-black/50 flex items-center justify-center p-6">
+        {/* Glass container */}
+        <div className="bg-white/10 backdrop-blur-lg rounded-3xl p-8 max-w-md w-full text-center text-white">
+          <div className="space-y-6">
+            <h1 className="text-3xl font-bold leading-tight">
               {text.title}
             </h1>
             
-            <div className="space-y-3">
-              <p className="text-lg font-medium text-gray-700">
+            <div className="space-y-4">
+              <p className="text-xl font-medium">
                 {text.greeting(guest.name)}
               </p>
               
-              <p className="text-gray-600 leading-relaxed">
+              <p className="text-lg leading-relaxed opacity-90">
                 {text.message}
               </p>
             </div>
             
-            <div className="border-t border-gray-200 pt-4 space-y-2">
-              <p className="text-lg font-semibold text-gray-800">
+            <div className="space-y-3 pt-4">
+              <p className="text-lg font-semibold">
                 {text.date}
               </p>
               
-              <p className="text-gray-600">
-                {text.rsvp}
-              </p>
-              
-              <p className="text-sm font-medium text-rose-600">
-                {text.website}
-              </p>
+              <div className="space-y-2">
+                <a 
+                  href="https://www.chiaraefer.com" 
+                  className="block text-lg hover:underline transition-all duration-300"
+                >
+                  {text.rsvp}
+                </a>
+                
+                <a 
+                  href="https://www.chiaraefer.com"
+                  className="inline-block mt-4 bg-yellow-200/90 text-black px-6 py-3 rounded-xl font-semibold text-base hover:bg-yellow-300/90 transition-all duration-300"
+                >
+                  {text.website}
+                </a>
+              </div>
             </div>
           </div>
         </div>
