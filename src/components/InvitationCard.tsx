@@ -16,15 +16,15 @@ const invitationTexts = {
   ES: {
     title: "💍 Chiara y Fernando se casan 💫",
     greeting: (name: string) => `Hola ${name},`,
-    message: "¡Estamos encantados 🎉 de invitarte a nuestra boda! Estamos contando los días para celebrar este momento.",
+    message: "¡Estamos encantados 🎉 de invitaros a nuestra boda! Estamos contando los días para celebrar este momento ❤️.",
     date: "📅 21 Junio 2026 · 📍 Ávila, Spain", 
-    rsvp: "👉 Por favor, confirma tu asistencia 🙏",
+    rsvp: "👉 Por favor, confirmar asistencia 🙏",
     website: "www.chiaraefer.com"
   },
   IT: {
     title: "💍 Chiara & Fernando si sposano 💫",
     greeting: (name: string) => `Ciao ${name},`,
-    message: "Siamo felicissimi 🎉 di invitarti al nostro matrimonio! Non vediamo l'ora di festeggiare insieme questo momento speciale ❤️",
+    message: "Siamo felicissimi 🎉 di invitarvi al nostro matrimonio! Non vediamo l'ora di festeggiare insieme questo momento speciale ❤️",
     date: "📅 21 Giugno 2026 · 📍 Ávila, Spagna",
     rsvp: "👉 È gradita conferma 🙏", 
     website: "www.chiaraefer.com"

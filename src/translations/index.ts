@@ -404,7 +404,7 @@ export const translations = {
       aboutUs: 'Chi Siamo',
       venue: 'Luogo',
       ourStory: 'Nostra Storia',
-      weddingDetails: 'Dittagli',
+      weddingDetails: 'Dettagli',
       gallery: 'Galleria',
       faq: 'Domande'
     },
