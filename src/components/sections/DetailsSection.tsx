@@ -126,16 +126,18 @@ const DetailsSection = () => {
               </div>
             </Card>
 
-            <div 
-              onClick={handleAddToCalendar}
-              className="inline-flex items-center gap-2 text-lg text-muted-foreground bg-card/50 backdrop-blur-sm px-6 py-3 rounded-lg border border-border/50 hover:bg-card/70 hover:border-primary/30 cursor-pointer transition-all duration-200 hover:scale-105 group"
-            >
-              <Calendar className="w-5 h-5 text-primary group-hover:text-primary/80" />
-              <div>
-                <p className="mb-1 font-medium">{t.about.date}</p>
-                <p className="text-sm">{t.about.location}</p>
+            <Card className="p-6 bg-card/50 backdrop-blur-sm shadow-soft border-0">
+              <div 
+                onClick={handleAddToCalendar}
+                className="flex items-center gap-2 text-lg text-muted-foreground hover:bg-card/70 hover:border-primary/30 cursor-pointer transition-all duration-200 hover:scale-105 group p-2 rounded-lg"
+              >
+                <Calendar className="w-5 h-5 text-primary group-hover:text-primary/80" />
+                <div>
+                  <p className="mb-1 font-medium">{t.about.date}</p>
+                  <p className="text-sm">{t.about.location}</p>
+                </div>
               </div>
-            </div>
+            </Card>
           </div>
 
           {/* Important Details */}

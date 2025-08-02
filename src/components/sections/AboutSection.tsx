@@ -22,7 +22,12 @@ const AboutSection = () => {
             {t.about.subtitle}
           </p>
           <Card className="p-6 bg-wedding-rose text-center shadow-soft border-0 px-[22px] py-[22px] inline-block">
-            <h4 className="font-serif text-xl text-primary mb-3">{t.details.rsvp.title}</h4>
+            <h4 className="font-serif text-xl text-primary mb-3">
+              {language === 'es' ? '📅 21 Junio 2026' : 
+               language === 'it' ? '📅 21 Giugno 2026' : 
+               language === 'scn' ? '📅 21 Giugnu 2026' : 
+               '📅 21 June 2026'}
+            </h4>
             <Button className="bg-primary hover:bg-primary/90" onClick={() => window.open('https://forms.gle/Pu5jfecVs7exJadh7', '_blank')}>
               {t.details.rsvp.buttonText}
             </Button>
