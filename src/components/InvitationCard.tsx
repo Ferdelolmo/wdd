@@ -6,27 +6,27 @@ interface InvitationCardProps {
 
 const invitationTexts = {
   EN: {
-    title: "Chiara & Fernando are getting married",
+    title: "💍 Chiara & Fernando are getting married 💫",
     greeting: (name: string) => `Dear ${name},`,
-    message: "We are thrilled to invite you to our wedding! We can't wait to celebrate this special moment with you.",
-    date: "21 June 2026 · Ávila, Spain",
-    rsvp: "Please RSVP",
+    message: "We are thrilled 🎉 to invite you to our wedding! We can't wait to celebrate this special moment with you ❤️",
+    date: "📅 21 June 2026 · 📍 Ávila, Spain",
+    rsvp: "👉 Please RSVP below 🙏",
     website: "www.chiaraefer.com"
   },
   ES: {
-    title: "¡Chiara y Fernando se casan!",
+    title: "💍 Chiara y Fernando se casan 💫",
     greeting: (name: string) => `Hola ${name},`,
-    message: "¡Estamos encantados de invitarte a nuestra boda! No podemos esperar para celebrar este momento especial contigo.",
-    date: "21 Junio 2026 · Ávila, Spain", 
-    rsvp: "Por favor, confirma tu asistencia",
+    message: "¡Estamos encantados 🎉 de invitarte a nuestra boda! Estamos contando los días para celebrar este momento.",
+    date: "📅 21 Junio 2026 · 📍 Ávila, Spain", 
+    rsvp: "👉 Por favor, confirma tu asistencia 🙏",
     website: "www.chiaraefer.com"
   },
   IT: {
-    title: "Chiara & Fernando si sposano",
+    title: "💍 Chiara & Fernando si sposano 💫",
     greeting: (name: string) => `Ciao ${name},`,
-    message: "Siamo felicissimi di invitarti al nostro matrimonio! Non vediamo l'ora di festeggiare insieme questo momento speciale.",
-    date: "21 Giugno 2026 · Ávila, Spagna",
-    rsvp: "È gradita conferma", 
+    message: "Siamo felicissimi 🎉 di invitarti al nostro matrimonio! Non vediamo l'ora di festeggiare insieme questo momento speciale ❤️",
+    date: "📅 21 Giugno 2026 · 📍 Ávila, Spagna",
+    rsvp: "👉 È gradita conferma 🙏", 
     website: "www.chiaraefer.com"
   }
 };
