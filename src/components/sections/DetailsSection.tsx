@@ -1,5 +1,4 @@
 import { Card } from '@/components/ui/card';
-import { Button } from '@/components/ui/button';
 import { Calendar, Clock, MapPin, Utensils, Music, Camera, Gift, Shirt, Car, Bus, Heart, Wine, Beer } from 'lucide-react';
 import { useLanguage } from '@/contexts/LanguageContext';
 import { translations } from '@/translations';
@@ -8,6 +7,20 @@ const DetailsSection = () => {
     language
   } = useLanguage();
   const t = translations[language];
+
+  const handleAddToCalendar = () => {
+    // Google Calendar URL with event details
+    // June 21, 2026, 14:00-24:00 CEST (12:00-22:00 UTC)
+    const startDate = '20260621T120000Z';
+    const endDate = '20260621T220000Z';
+    const title = 'Wedding Chiara & Fernando';
+    const location = 'Dehesa de Pedrosillo, N-403, 05004 Ávila, Spain';
+    const details = 'Wedding celebration of Chiara and Fernando';
+    
+    const googleCalendarUrl = `https://calendar.google.com/calendar/render?action=TEMPLATE&text=${encodeURIComponent(title)}&dates=${startDate}/${endDate}&details=${encodeURIComponent(details)}&location=${encodeURIComponent(location)}`;
+    
+    window.open(googleCalendarUrl, '_blank');
+  };
   const schedule = [{
     time: "14:00",
     event: t.details.schedule.items.busHop,
@@ -113,12 +126,16 @@ const DetailsSection = () => {
               </div>
             </Card>
 
-            <Card className="p-6 bg-wedding-rose text-center shadow-soft border-0 px-[22px] py-[22px]">
-              <h4 className="font-serif text-xl text-primary mb-3">{t.details.rsvp.title}</h4>
-              <Button className="bg-primary hover:bg-primary/90" onClick={() => window.open('https://forms.gle/Pu5jfecVs7exJadh7', '_blank')}>
-                {t.details.rsvp.buttonText}
-              </Button>
-            </Card>
+            <div 
+              onClick={handleAddToCalendar}
+              className="inline-flex items-center gap-2 text-lg text-muted-foreground bg-card/50 backdrop-blur-sm px-6 py-3 rounded-lg border border-border/50 hover:bg-card/70 hover:border-primary/30 cursor-pointer transition-all duration-200 hover:scale-105 group"
+            >
+              <Calendar className="w-5 h-5 text-primary group-hover:text-primary/80" />
+              <div>
+                <p className="mb-1 font-medium">{t.about.date}</p>
+                <p className="text-sm">{t.about.location}</p>
+              </div>
+            </div>
           </div>
 
           {/* Important Details */}
