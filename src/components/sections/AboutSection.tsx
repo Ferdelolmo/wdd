@@ -1,5 +1,5 @@
 import { Card } from '@/components/ui/card';
-import { Calendar } from 'lucide-react';
+import { Button } from '@/components/ui/button';
 import { useLanguage } from '@/contexts/LanguageContext';
 import { translations } from '@/translations';
 const heroCoupleImage = 'https://i.imgur.com/NMWlDc8.jpeg'; // Puebla
@@ -9,19 +9,6 @@ const AboutSection = () => {
   const { language } = useLanguage();
   const t = translations[language];
 
-  const handleAddToCalendar = () => {
-    // Google Calendar URL with event details
-    // June 21, 2026, 14:00-24:00 CEST (12:00-22:00 UTC)
-    const startDate = '20260621T120000Z';
-    const endDate = '20260621T220000Z';
-    const title = 'Wedding Chiara & Fernando';
-    const location = 'Dehesa de Pedrosillo, N-403, 05004 Ávila, Spain';
-    const details = 'Wedding celebration of Chiara and Fernando';
-    
-    const googleCalendarUrl = `https://calendar.google.com/calendar/render?action=TEMPLATE&text=${encodeURIComponent(title)}&dates=${startDate}/${endDate}&details=${encodeURIComponent(details)}&location=${encodeURIComponent(location)}`;
-    
-    window.open(googleCalendarUrl, '_blank');
-  };
 
   return (
     <section className="min-h-screen bg-gradient-romantic flex items-center py-20">
@@ -34,16 +21,17 @@ const AboutSection = () => {
           <p className="text-xl md:text-2xl text-foreground mb-8 max-w-3xl mx-auto leading-relaxed">
             {t.about.subtitle}
           </p>
-          <div 
-            onClick={handleAddToCalendar}
-            className="inline-flex items-center gap-2 text-lg text-muted-foreground bg-card/50 backdrop-blur-sm px-6 py-3 rounded-lg border border-border/50 hover:bg-card/70 hover:border-primary/30 cursor-pointer transition-all duration-200 hover:scale-105 group"
-          >
-            <Calendar className="w-5 h-5 text-primary group-hover:text-primary/80" />
-            <div>
-              <p className="mb-1 font-medium">{t.about.date}</p>
-              <p className="text-sm">{t.about.location}</p>
-            </div>
-          </div>
+          <Card className="p-6 bg-wedding-rose text-center shadow-soft border-0 px-[22px] py-[22px] inline-block">
+            <h4 className="font-serif text-xl text-primary mb-3">
+              {language === 'es' ? '📅 21 Junio 2026' : 
+               language === 'it' ? '📅 21 Giugno 2026' : 
+               language === 'scn' ? '📅 21 Giugnu 2026' : 
+               '📅 21 June 2026'}
+            </h4>
+            <Button className="bg-primary hover:bg-primary/90" onClick={() => window.open('https://forms.gle/Pu5jfecVs7exJadh7', '_blank')}>
+              {t.details.rsvp.buttonText}
+            </Button>
+          </Card>
         </div>
 
         {/* About Cards */}
