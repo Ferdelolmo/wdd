@@ -97,7 +97,13 @@ export const guests: Guest[] = [
   { name: "Miguel & Nuri", language: "ES", slug: "miguel", plusOne: "Nuri" },
   { name: "Mari Cruz & José Carlos", language: "ES", slug: "maricruz", plusOne: "José Carlos" },
   { name: "Basi & Nono", language: "ES", slug: "basi", plusOne: "Nono" },
-  { name: "Hannah & Tom", language: "EN", slug: "hannah", plusOne: "Tom" }
+  { name: "Mari Pili & Miguel", language: "ES", slug: "maripili", plusOne: "Miguel" },
+  { name: "Ignacio", language: "ES", slug: "ignacio" },
+  { name: "Jessica & Matthijs", language: "ES", slug: "jessica", plusOne: "Matthijs" },
+  { name: "Timothe", language: "ES", slug: "timothe" },
+  { name: "Greg", language: "EN", slug: "greg" },
+  { name: "Tamara & Niall", language: "EN", slug: "tamara", plusOne: "Niall" },
+  { name: "Hannah", language: "EN", slug: "hannah" }
 ];
 
 export const getGuestBySlug = (slug: string): Guest | undefined => {
