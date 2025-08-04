@@ -22,7 +22,7 @@ export const translations = {
       subtitle: 'El encanto palaciego',
       description: 'La Dehesa de Pedrosillo se encuentra en un encinar espectacular con vistas a la Sierra de Gredos. A 5 minutos de Ávila, se encuentra este oasis de tranquilidad y naturaleza. Sumérgete de lleno y disfruta de la historia, del encanto palaciego.',
       address: 'N-403, 05004, Ávila',
-      ceremony: 'Ceremonia: 16:00',
+      ceremony: 'Ceremonia: 15:00',
       getDirections: 'Obtener Direcciones',
       viewWebsite: 'Ver Sitio Web'
     },
@@ -222,7 +222,7 @@ export const translations = {
       subtitle: 'U cantu palazzinu',
       description: 'A Dehesa de Pedrosillo si trova nta nu liccetu spittaculari cu visti â Sierra de Gredos. A 5 minuti di Ávila, si trova stu oasi di tranquillità e natura. Immèrgiti tuttu e gòditi a storia, dû cantu palazzinu.',
       address: 'N-403, 05004, Ávila',
-      ceremony: 'Cirimonia: 16:00',
+      ceremony: 'Cirimonia: 15:00',
       getDirections: 'Pigghia Dirizzioni',
       viewWebsite: 'Talìa Situ Web'
     },
@@ -422,7 +422,7 @@ export const translations = {
       subtitle: 'Il fascino del palazzo',
       description: 'La Dehesa de Pedrosillo si trova in un lecceto spettacolare con vista sulla Sierra de Gredos. A 5 minuti da Ávila, si trova questa oasi di tranquillità e natura. Immergiti completamente e goditi la storia, il fascino del palazzo.',
       address: 'N-403, 05004, Ávila',
-      ceremony: 'Cerimonia: 16:00',
+      ceremony: 'Cerimonia: 15:00',
       getDirections: 'Ottieni Indicazioni',
       viewWebsite: 'Visualizza Sito Web'
     },
@@ -622,7 +622,7 @@ export const translations = {
       subtitle: 'The palatial charm',
       description: 'Dehesa de Pedrosillo is located in a spectacular holm oak forest with views of the Sierra de Gredos. 5 minutes from Ávila, this oasis of tranquility and nature can be found. Immerse yourself fully and enjoy the history, the palatial charm.',
       address: 'N-403, 05004, Ávila',
-      ceremony: 'Ceremony: 4:00 PM',
+      ceremony: 'Ceremony: 3:00 PM',
       getDirections: 'Get Directions',
       viewWebsite: 'View Website'
     },
