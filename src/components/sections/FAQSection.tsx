@@ -95,7 +95,7 @@ const FAQSection = () => {
     answer: t.faq.items.music.answer,
     hasLink: true,
     linkText: language === 'en' ? 'here' : (language === 'it' ? 'qui' : (language === 'scn' ? 'ccà' : 'por aquí')),
-    linkUrl: 'https://form.typeform.com/to/fQ9PWPCK'
+    linkUrl: 'https://form.jotform.com/252126974853061'
   }];
   const funFacts = [
     { icon: Heart, fact: t.faq.funFactsList[0] },
