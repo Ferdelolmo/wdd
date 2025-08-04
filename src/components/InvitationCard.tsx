@@ -8,7 +8,8 @@ const invitationTexts = {
   EN: {
     title: "💍 Chiara & Fernando are getting married 💫",
     greeting: (name: string) => `Dear ${name},`,
-    message: "We are thrilled 🎉 to invite you to our wedding! We can't wait to celebrate this special moment with you ❤️",
+    messageSingle: "We are thrilled 🎉 to invite you to our wedding! We can't wait to celebrate this special moment with you ❤️",
+    messageCouple: "We are thrilled 🎉 to invite you both to our wedding! We can't wait to celebrate this special moment with you ❤️",
     date: "📅 21 June 2026 · 📍 Ávila, Spain",
     rsvp: "👉 Please RSVP below 🙏",
     website: "www.chiaraefer.com"
@@ -16,15 +17,17 @@ const invitationTexts = {
   ES: {
     title: "💍 Chiara y Fernando se casan 💫",
     greeting: (name: string) => `Hola ${name},`,
-    message: "¡Estamos encantados 🎉 de invitaros a nuestra boda! Estamos contando los días para celebrar este momento ❤️.",
+    messageSingle: "¡Estamos encantados 🎉 de invitarte a nuestra boda! Estamos contando los días para celebrar este momento ❤️",
+    messageCouple: "¡Estamos encantados 🎉 de invitaros a nuestra boda! Estamos contando los días para celebrar este momento ❤️",
     date: "📅 21 Junio 2026 · 📍 Ávila, Spain", 
-    rsvp: "👉 Por favor, confirmar asistencia 🙏",
+    rsvp: "👉 Por favor, confirma tu asistencia 🙏",
     website: "www.chiaraefer.com"
   },
   IT: {
     title: "💍 Chiara & Fernando si sposano 💫",
     greeting: (name: string) => `Ciao ${name},`,
-    message: "Siamo felicissimi 🎉 di invitarvi al nostro matrimonio! Non vediamo l'ora di festeggiare insieme questo momento speciale ❤️",
+    messageSingle: "Siamo felicissimi 🎉 di invitarti al nostro matrimonio! Non vediamo l'ora di festeggiare insieme questo momento speciale ❤️",
+    messageCouple: "Siamo felicissimi 🎉 di invitarvi al nostro matrimonio! Non vediamo l'ora di festeggiare insieme questo momento speciale ❤️",
     date: "📅 21 Giugno 2026 · 📍 Ávila, Spagna",
     rsvp: "👉 È gradita conferma 🙏", 
     website: "www.chiaraefer.com"
@@ -60,7 +63,7 @@ export const InvitationCard = ({ guest }: InvitationCardProps) => {
               </p>
               
               <p className="text-lg leading-relaxed opacity-90">
-                {text.message}
+                {guest.plusOne ? text.messageCouple : text.messageSingle}
               </p>
             </div>
             
