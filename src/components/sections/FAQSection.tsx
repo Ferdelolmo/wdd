@@ -82,7 +82,7 @@ const FAQSection = () => {
       { text: 'Exe Reina Isabel', url: 'https://maps.app.goo.gl/iSW8nA4xA9MxEbAp9' },
       { text: 'Hotel ELE Mirador de Santa Ana', url: 'https://maps.app.goo.gl/bB1FJeGdnSn4KaGK6' },
       { text: 'Hotel Don Carmelo', url: 'https://maps.app.goo.gl/qNauHHkZ6yrLMhut8' },
-      { text: 'Sofrafa Palacio', url: 'https://maps.app.goo.gl/SpZ1Q5LznLsyPJXQ9' }
+      { text: 'Sofraga Palacio', url: 'https://maps.app.goo.gl/SpZ1Q5LznLsyPJXQ9' }
     ]
   }, {
     question: t.faq.items.speeches.question,
