@@ -340,7 +340,7 @@ export const translations = {
         },
         accommodation: {
           question: 'Unni haju stari a Ávila?',
-          answer: 'Chisti sunnu sulu quarchi unu di li bbutì centralizzati, ma certu ca ci sù autri opzioni ca poi truvari facirmenti ntê siti web cchiù cunnuti: Exe Reina Isabel, Hotel ELE Mirador di Santa Ana, Hotel Don Carmelo, Sofraga Palacio. Pì aviri nu scontu a l\'hotel Exe Reina Isabel e Don Carmelo, usa u còdici di rifirimentu "Boda Fernando y Chiara".'
+          answer: 'Chisti sunnu sulu quarchi unu di li bbutì centralizzati, ma certu ca ci sù autri opzioni ca poi truvari facirmenti ntê siti web cchiù cunnuti: Exe Reina Isabel, Hotel ELE Mirador di Santa Ana, Hotel Don Carmelo, Sofrafa Palacio. Pì aviri nu scontu a l\'hotel Exe Reina Isabel e Don Carmelo, usa u còdici di rifirimentu "Boda Fernando y Chiara".'
         },
         speeches: {
           question: 'S\'accettanu discursi?',
