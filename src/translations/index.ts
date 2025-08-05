@@ -540,7 +540,7 @@ export const translations = {
         },
         accommodation: {
           question: 'Dove dovrei soggiornare a Ávila?',
-          answer: 'Questi sono solo alcuni degli hotel centrali, ma naturalmente ci sono molte altre opzioni che potrai facilmente trovare sui consueti siti di prenotazione: Exe Reina Isabel, Hotel ELE Mirador de Santa Ana, Hotel Don Carmelo, Sofraga Palacio. Per ottenere uno sconto negli hotel Exe Reina Isabel e Don Carmelo, utilizza il codice di riferimento "Boda Fernando y Chiara".'
+          answer: 'Questi sono solo alcuni degli hotel centrali, ma naturalmente ci sono molte altre opzioni che potrai facilmente trovare sui consueti siti di prenotazione: Exe Reina Isabel, Hotel ELE Mirador de Santa Ana, Hotel Don Carmelo, Sofrafa Palacio. Per ottenere uno sconto negli hotel Exe Reina Isabel e Don Carmelo, utilizza il codice di riferimento "Boda Fernando y Chiara".'
         },
         speeches: {
           question: 'Si accettano discorsi?',
@@ -740,7 +740,7 @@ export const translations = {
         },
         accommodation: {
           question: 'Where should I stay in Ávila?',
-          answer: 'These are just some of the central hotels, but of course there are more options that you can easily find on the usual booking websites: Exe Reina Isabel, Hotel ELE Mirador de Santa Ana, Hotel Don Carmelo, Sofraga Palacio. To benefit from a discount at the Exe Reina Isabel and Don Carmelo hotels, use the reference code "Boda Fernando y Chiara".'
+          answer: 'These are just some of the central hotels, but of course there are more options that you can easily find on the usual booking websites: Exe Reina Isabel, Hotel ELE Mirador de Santa Ana, Hotel Don Carmelo, Sofrafa Palacio. To benefit from a discount at the Exe Reina Isabel and Don Carmelo hotels, use the reference code "Boda Fernando y Chiara".'
         },
         speeches: {
           question: 'Are speeches accepted?',
