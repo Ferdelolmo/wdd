@@ -85,7 +85,7 @@ export const translations = {
       },
       transportation: {
         title: 'Transporte',
-        description: 'Se proporcionará servicio de transporte desde Plaza Santa Ana y la Estación de Autobuses a las 14:00. También habrá autobuses cada hora saliendo hacia Ávila empezando a las 23:00.'
+        description: 'Se proporcionará servicio de transporte desde el Centro de Recepción de Visitantes y también en frente de la Estación de Autobuses a las 14:00. También habrá autobuses cada hora saliendo hacia Ávila empezando a las 23:00.'
       },
       attire: {
         title: 'Código de Vestimenta',
@@ -294,7 +294,7 @@ export const translations = {
       },
       transportation: {
         title: 'Trasportu',
-        description: 'Sarà furnutu sirvizziu di trasportu di Plaza Santa Ana e a Stazzioni di Autobùs â 14:00. Ci sarannu puru autobùs ogni ora ca partunu versu Ávila ncuminzannu â 23:00.'
+        description: 'Sarà furnutu sirvizziu di trasportu ca parti do Centro de Recepción de Visitantes e pure davanti a Stazzioni di Autobùs â 14:00. Ci sarannu puru autobùs ogni ora ca partunu versu Ávila ncuminzannu â 23:00.'
       },
       gifts: {
         title: 'Lista di Rigali',
@@ -494,7 +494,7 @@ export const translations = {
       },
       transportation: {
         title: 'Trasporto',
-        description: 'Sarà fornito un servizio navetta da Plaza Santa Ana e la Stazione degli Autobus alle 14:00. Ci saranno anche autobus ogni ora in partenza per Ávila a partire dalle 23:00.'
+        description: 'Sarà fornito un servizio navetta da Centro de Recepción de Visitantes e di fronte alla Stazione degli Autobus alle 14:00. Ci saranno anche autobus ogni ora in partenza per Ávila a partire dalle 23:00.'
       },
       gifts: {
         title: 'Lista Regali',
@@ -685,7 +685,7 @@ export const translations = {
         },
       transportation: {
         title: 'Transportation',
-        description: 'Shuttle service will be provided from Plaza Santa Ana and the Bus Station at 14:00. There will also be hourly buses leaving to Ávila starting at 23:00.'
+        description: 'Shuttle service will be provided from Centro de Recepción de Visitantes and also in front of the bus station at 14:00. There will also be hourly buses leaving to Ávila starting at 23:00.'
       },
       attire: {
         title: 'Dress Code',

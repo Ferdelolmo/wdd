@@ -160,21 +160,21 @@ const DetailsSection = () => {
                             <>
                               Shuttle service will be provided from{' '}
                               <a 
-                                href="https://maps.app.goo.gl/nvdD1tmeA8odpttQ8" 
+                                href="https://maps.app.goo.gl/PVvh7divSqqKRZky7" 
                                 target="_blank" 
                                 rel="noopener noreferrer"
                                 className="text-primary hover:underline"
                               >
-                                Plaza Santa Ana
+                                Centro de Recepción de Visitantes
                               </a>
                               {' '}and the{' '}
                               <a 
-                                href="https://maps.app.goo.gl/NaG1BchK8fRiF3ct6" 
+                                href="https://maps.app.goo.gl/oRWeUqTWPiRmNBSC8" 
                                 target="_blank" 
                                 rel="noopener noreferrer"
                                 className="text-primary hover:underline"
                               >
-                                Bus Station
+                                lane in front of the bus station
                               </a>
                               {' '}at 14:00. There will also be hourly buses leaving to Ávila starting at 23:00.
                             </>
@@ -182,21 +182,21 @@ const DetailsSection = () => {
                             <>
                               Se proporcionará servicio de transporte desde{' '}
                               <a 
-                                href="https://maps.app.goo.gl/nvdD1tmeA8odpttQ8" 
+                                href="https://maps.app.goo.gl/PVvh7divSqqKRZky7" 
                                 target="_blank" 
                                 rel="noopener noreferrer"
                                 className="text-primary hover:underline"
                               >
-                                Plaza Santa Ana
+                                Centro de Recepción de Visitantes
                               </a>
                               {' '}y la{' '}
                               <a 
-                                href="https://maps.app.goo.gl/NaG1BchK8fRiF3ct6" 
+                                href="https://maps.app.goo.gl/oRWeUqTWPiRmNBSC8" 
                                 target="_blank" 
                                 rel="noopener noreferrer"
                                 className="text-primary hover:underline"
                               >
-                                Estación de Autobuses
+                                vía de servicio en frente de la Estación de Autobuses
                               </a>
                               {' '}a las 14:00. También habrá autobuses cada hora saliendo hacia Ávila empezando a las 23:00.
                             </>
@@ -204,21 +204,21 @@ const DetailsSection = () => {
                             <>
                               Sarà fornito un servizio navetta da{' '}
                               <a 
-                                href="https://maps.app.goo.gl/nvdD1tmeA8odpttQ8" 
+                                href="https://maps.app.goo.gl/PVvh7divSqqKRZky7" 
                                 target="_blank" 
                                 rel="noopener noreferrer"
                                 className="text-primary hover:underline"
                               >
-                                Plaza Santa Ana
+                                Centro de Recepción de Visitantes
                               </a>
                               {' '}e la{' '}
                               <a 
-                                href="https://maps.app.goo.gl/NaG1BchK8fRiF3ct6" 
+                                href="https://maps.app.goo.gl/oRWeUqTWPiRmNBSC8" 
                                 target="_blank" 
                                 rel="noopener noreferrer"
                                 className="text-primary hover:underline"
                               >
-                                Stazione degli Autobus
+                                corsia di fronte alla Stazione degli Autobus
                               </a>
                               {' '}alle 14:00. Ci saranno anche autobus ogni ora in partenza per Ávila a partire dalle 23:00.
                             </>
@@ -226,21 +226,21 @@ const DetailsSection = () => {
                             <>
                               Sarà furnutu sirvizziu di trasportu di{' '}
                               <a 
-                                href="https://maps.app.goo.gl/nvdD1tmeA8odpttQ8" 
+                                href="https://maps.app.goo.gl/PVvh7divSqqKRZky7" 
                                 target="_blank" 
                                 rel="noopener noreferrer"
                                 className="text-primary hover:underline"
                               >
-                                Plaza Santa Ana
+                                Centro de Recepción de Visitantes
                               </a>
                               {' '}e a{' '}
                               <a 
-                                href="https://maps.app.goo.gl/NaG1BchK8fRiF3ct6" 
+                                href="https://maps.app.goo.gl/oRWeUqTWPiRmNBSC8" 
                                 target="_blank" 
                                 rel="noopener noreferrer"
                                 className="text-primary hover:underline"
                               >
-                                Stazzioni di Autobùs
+                                corsia davanti a Stazzioni di Autobùs
                               </a>
                               {' '}â 14:00. Ci sarannu puru autobùs ogni ora ca partunu versu Ávila ncuminzannu â 23:00.
                             </>
