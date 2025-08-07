@@ -19,7 +19,7 @@ const invitationTexts = {
     greeting: (name: string) => `Hola ${name},`,
     messageSingle: "¡Estamos encantados 🎉 de invitarte a nuestra boda! Estamos contando los días para celebrar este momento ❤️",
     messageCouple: "¡Estamos encantados 🎉 de invitaros a nuestra boda! Estamos contando los días para celebrar este momento ❤️",
-    date: "📅 21 Junio 2026 · 📍 Ávila, Spain", 
+    date: "📅 21 Junio 2026 · 📍 Ávila, España", 
     rsvp: "👉 Por favor, confirma tu asistencia 🙏",
     website: "www.chiaraefer.com"
   },
