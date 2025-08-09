@@ -414,13 +414,13 @@ export const translations = {
       date: '21 Giugno 2026',
       location: 'Ávila, Spagna',
       aboutUsTitle: 'Chi Siamo',
-      description: 'Doveva essere nella fredda Irlanda che i nostri cammini si incrociassero per unire le nostre vite.',
-      joinUs: 'Ora, lontani da lì ma sempre con un occhio rivolto all\'isola smeraldo, siamo emozionatissimi di poter condividere questo giorno con tutti voi. Dopo tanto amore, risate e avventure vissute insieme, siamo pronti a iniziare il nostro prossimo capitolo come marito e moglie.'
+      description: 'È stato nella fredda e uggiosa Irlanda che i nostri cammini si sono incrociati, unendo per sempre le nostre vite.',
+      joinUs: 'Ora, anche se lontani da quella terra, ma con il cuore sempre rivolto all\'isola smeraldo, siamo emozionati di poter condividere questo giorno con tutti voi. Dopo tanto amore, risate, avventure e momenti indimenticabili insieme, siamo pronti a scrivere il prossimo capitolo della nostra vita come marito e moglie.'
     },
     venue: {
-      title: 'Luogo del Matrimonio',
+      title: 'Dove',
       subtitle: 'Il fascino del palazzo',
-      description: 'La Dehesa de Pedrosillo si trova in un lecceto spettacolare con vista sulla Sierra de Gredos. A 5 minuti da Ávila, si trova questa oasi di tranquillità e natura. Immergiti completamente e goditi la storia, il fascino del palazzo.',
+      description: 'La Dehesa de Pedrosillo è immersa in un suggestivo bosco di lecci, con una splendida vista sulla Sierra de Gredos. A soli 5 minuti da Ávila, questa location rappresenta un\'oasi di pace e natura, dove poter vivere appieno la storia e il fascino di un palazzo unico.',
       address: 'N-403, 05004, Ávila',
       ceremony: 'Cerimonia: 16:00',
       getDirections: 'Ottieni Indicazioni',
@@ -431,24 +431,24 @@ export const translations = {
       subtitle: '',
       milestones: {
         firstMeet: {
-          title: 'Come ci siamo trovati',
+          title: 'Come ci siamo incontrati',
           date: 'Giugno 2020',
           description: 'I nostri percorsi si sono incrociati nell\'isola smeralda nel estate 2020. Dopo nostro primo appuntamento nel parco St.Stephen con un cannolo siciliano, siamo diventati inseparabili'
         },
         firstTrip: {
           title: 'Il Nostro Primo Viaggio Insieme',
           date: 'Ottobre 2020',
-          description: 'Il nostro primo viaggio è stato all\'isola di Tenerife. Era un territorio inesplorato per entrambi e anche una prova del fuoco, perché lì abbiamo potuto verificare la nostra affinità e conoscerci di più. Abbiamo esplorato tutta l\'isola e i suoi angoli e creato bei momenti che ci perseguiteranno per tutta la vita.'
+          description: 'Il nostro primo viaggio insieme ci ha portati a Tenerife, a bordo di un camper e con lo spirito pronto all\'avventura… e anche a qualche imprevisto! Quell\'isola, allora sconosciuta, si è trasformata presto nella patria dei nostri primi ricordi condivisi: tra sentieri spettacolari, spiagge mozzafiato e la scoperta della cucina locale, ci siamo innamorati non solo l\'uno dell\'altra, ma anche della natura selvaggia delle Canarie. Da allora, il desiderio di esplorare ci ha accompagnati in tutte le isole dell\'arcipelago, regalandoci emozioni e momenti indimenticabili che porteremo sempre nel cuore.'
         },
         moving: {
           title: 'Trasferirsi Insieme',
           date: 'Marzo 2022',
-          description: 'Dopo un po\' di tempo insieme, abbiamo deciso di fare il passo e trasferirci insieme. È stato nella città di Barcellona, senza dubbio una delle migliori decisioni che abbiamo preso!'
+          description: 'Dopo un po\' di tempo insieme, abbiamo deciso di fare un passo importante: andare a vivere insieme. Barcellona è diventata la nostra casa, il nostro rifugio, e senza dubbio una delle scelte migliori che abbiamo fatto.'
         },
         familiesMeet: {
           title: 'Le nostre famiglie si sono conosciute',
           date: 'Maggio 2023',
-          description: 'Le famiglie si sarebbero conosciute in terre lontane per entrambe, la città della Torre del Oro, Plaza España e il Guadalquivir. È stato il momento e il luogo perfetto per conoscersi, condividere storie e improvvisare un mix tra le lingue. Vedere come le nostre famiglie ridevano e condividevano ci ha fatto rendere conto che non sarebbe stata solo la nostra unione ma anche la fusione di due belle famiglie.'
+          description: 'Le nostre famiglie si sono conosciute in una terra nuova per entrambe: Siviglia, con la sua Torre del Oro, Plaza de España e il Guadalquivir. È stato un momento magico, fatto di storie condivise, risate, e un affettuoso miscuglio di lingue. In quell\'incontro abbiamo capito che non stavamo solo unendo due persone, ma due bellissime famiglie.'
         },
         proposal: {
           title: 'La Proposta',
@@ -456,7 +456,7 @@ export const translations = {
           description: 'Fernando approfitta dell\'occasione durante la celebrazione del 5° anniversario. Nonostante i nervi, durante un tramonto spettacolare in cima a Puebla de Sanabria, si è inginocchiato e titubante, ha fatto la proposta a Chiara. È stato un momento ideale e inaspettato per Chiara.'
         }
       },
-      conclusion: 'Siamo pronti a dire "Sì, lo voglio" e continuare il viaggio insieme. Grazie per essere parte della nostra storia!',
+      conclusion: 'Siamo pronti a dirci "Sì, lo voglio" e a continuare il nostro viaggio insieme. Grazie di cuore per essere parte della nostra storia!',
       andNow: 'E ora...'
     },
     details: {
