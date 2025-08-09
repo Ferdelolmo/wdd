@@ -11,7 +11,7 @@ const invitationTexts = {
     messageSingle: "We are thrilled 🎉 to invite you to our wedding! We can't wait to celebrate this special moment with you ❤️",
     messageCouple: "We are thrilled 🎉 to invite you both to our wedding! We can't wait to celebrate this special moment with you ❤️",
     date: "📅 21 June 2026 · 📍 Ávila, Spain",
-    rsvp: "👉 Please RSVP below 🙏",
+    rsvp: "👉 Please visit our website and RSVP below 🙏",
     website: "www.chiaraefer.com"
   },
   ES: {
@@ -20,7 +20,7 @@ const invitationTexts = {
     messageSingle: "¡Estamos encantados 🎉 de invitarte a nuestra boda! Estamos contando los días para celebrar este momento ❤️",
     messageCouple: "¡Estamos encantados 🎉 de invitaros a nuestra boda! Estamos contando los días para celebrar este momento ❤️",
     date: "📅 21 Junio 2026 · 📍 Ávila, España", 
-    rsvp: "👉 Por favor, confirma tu asistencia 🙏",
+    rsvp: "👉 Por favor, visita nuestra web y confirma tu asistencia 🙏",
     website: "www.chiaraefer.com"
   },
   IT: {
@@ -29,7 +29,7 @@ const invitationTexts = {
     messageSingle: "Siamo felicissimi 🎉 di invitarti al nostro matrimonio! Non vediamo l'ora di festeggiare insieme questo momento speciale ❤️",
     messageCouple: "Siamo felicissimi 🎉 di invitarvi al nostro matrimonio! Non vediamo l'ora di festeggiare insieme questo momento speciale ❤️",
     date: "📅 21 Giugno 2026 · 📍 Ávila, Spagna",
-    rsvp: "👉 È gradita conferma 🙏", 
+    rsvp: "👉 Visita qui il nostro sito web. È gradita conferma 🙏", 
     website: "www.chiaraefer.com"
   }
 };
