@@ -85,27 +85,28 @@ const Avila = () => {
         title: "🗺 Lugares que no te deberías perder",
         places: [
           { name: "Murallas de Ávila 🏰", description: "Paseo de adarve y vistas 360°" },
-          { name: "Monasterio de Santo Tomás ⛪", description: "Claustros góticos; sepulcro del Príncipe Juan" },
-          { name: "Basílica de San Vicente 🕍", description: "Románico mayor castellano" },
-          { name: "Basílica de Santa Teresa ✝", description: "Sobre la casa natal de la santa" },
-          { name: "Catedral de Ávila 🏛", description: "Primera gótica de España, integrada en la muralla" },
+          { name: "Monasterio de Santo Tomás ⛪", description: "Es Patrimonio de la Humanidad y una joya del patrimonio abulense. Fue escogido por los Reyes Católicos como residencia de verano y lugar de enterramiento del príncipe Juan, su hijo fallecido. Destaca por sus tres claustros y su retablo de Pedro Berruguete, y alberga un Museo de Arte Oriental. " },
+          { name: "Basílica de San Vicente 🕍", description: "Es un templo románico-gótico del siglo XII dedicado a los mártires Vicente, Sabina y Cristeta, famoso por su cenotafio policromado y su imponente arquitectura en piedra caleña, parte del Patrimonio de la Humanidad." },
+          { name: "Basílica de Santa Teresa ✝", description: "Fue construida en el siglo XVII sobre la casa natal de Santa Teresa de Jesús. Es un templo barroco carmelitano de planta de cruz latina con capillas laterales, conocido por su fachada a modo de retablo con la imagen de la santa y escudos familiares." },
+          { name: "Catedral de Ávila 🏛", description: "La Catedral de Ávila, iniciada en el siglo XII, es la primera catedral gótica de España y también una fortaleza integrada en la muralla, destacando por su ábside defensivo y su mezcla de estilos románico y gótico." },
           { name: "Puerta del Alcázar 🛡", description: "Entrada monumental al casco histórico" },
-          { name: "Plaza del Mercado Chico 🏘", description: "Corazón municipal desde la Edad Media" },
-          { name: "Plaza del Mercado Grande 🌟", description: "Gran explanada de ferias y reuniones" },
-          { name: "Cuatro Postes 🌅", description: "Mirador icónico al atardecer" }
+          { name: "Plaza del Mercado Chico 🏘", description: "Tradicionalmente un centro de comercio y encuentro en la ciudad medieval, especialmente para productos locales y artesanías." },
+          { name: "Plaza del Mercado Grande 🌟", description: "Servía como epicentro de las ferias y mercados mayores de Ávila en la Edad Media. Hoy es un lugar vivo y frecuentado, que mantiene su función de espacio público donde se celebran eventos culturales y mercadillos." },
+          { name: "Cuatro Postes 🌅", description: "Monumento emblemático consta de cuatro pilares que sustentan una pequeña cruz. Es un lugar de descanso y reflexión para los peregrinos y visitantes, desde donde se obtiene una vista panorámica del recinto amurallado de Ávila." }
         ]
       },
       restaurants: {
         title: "🍽 Prueba nuestra gastronomía",
+        content: "Una de las cosas que te sorprenderán de Ávila, es que cuando pidas una bebida, te pondrán un pincho sin haberlo pedirlo. Sí, tenemos esta cultura como otras ciudades en España, así que aprovechalo 😋",
         places: [
-          { name: "El Pórtico 🍲", description: "Sopa castellana, patatas revolconas, espárragos" },
-          { name: "Venus Café Bar 🥘", description: "Raciones generosas; callos" },
-          { name: "La Oca Cocktail Bar 🍸", description: "Gastro‑coctelería; tapa \"Cod&Pop\"" },
+          { name: "El Pórtico 🍲", description: "Lugar que destaca por sus tapas variadas, entre ellas: Combinado, lomo adobado o champiñón, además de su bocadillo de calamares." },
+          { name: "Venus Café Bar 🥘", description: "Destaca por su pincho de secreto y su chipirón" },
+          { name: "La Oca Cocktail Bar 🍸", description: "Gastro coctelería y tapas variadas"" },
           { name: "La Rotonda del Ancla 🥟", description: "Croquetas, clásicos bien hechos" },
-          { name: "Palacio de los Sofraga 🍖", description: "Chuletón, arroces; junto a muralla" },
+          { name: "Palacio de los Sofraga 🍖", description: "Destaca más bien por su lugar y sus vistas a la muralla" },
           { name: "La Lola Gastrobar 🍤", description: "Tapas caseras con toque moderno" },
-          { name: "El Almacén 🥚", description: "Huevos fritos con carabineros; cocina creativa" },
-          { name: "Bococo 🥩", description: "Judiones, revolconas, chuletón" },
+          { name: "El Almacén 🥚", description: "Ya estamos hablando de restaurantes, aquí vas a encontrar un producto de calidad a precios no exageradamente altos. Muy recomendable" },
+          { name: "Bococo 🥩", description: "Uno de los lugares más populares últimamente, con una cocina que mezcla tradición e innovación" },
           { name: "Los Candiles 🍗", description: "Tradición castellana cuidada" }
         ]
       }
