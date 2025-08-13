@@ -65,19 +65,19 @@ const Avila = () => {
         sections: {
           fuero: {
             title: "⚖️ Fuero Medieval",
-            content: "Conjunto de leyes y privilegios reales tras la repoblación: autonomía judicial local, franquicias fiscales y autogobierno concejil. Atraía vecinos, protegía rutas y consolidaba poder municipal."
+            content: "Concedido por el rey Alfonso VII durante la reconquista en 1256 fue un conjunto de leyes y privilegios reales tras la repoblación: autonomía judicial local, franquicias fiscales y autogobierno concejil. Este pacto, cimentó la libertad, el autogobierno y el estatus privilegiado de sus caballeros y vecinos, sustentando su importancia estratégica y su autonomía desde la Edad Media."
           },
           farsa: {
             title: "🎭 Farsa de Ávila (1465)",
-            content: "Ceremonia pública en la que nobles destronaron en efigie a Enrique IV y proclamaron a Alfonso. Teatro político con efectos reales."
+            content: "Avila ha sido primer testigo de grandes cambios a lo largo de la historia. Uno de estos acontecimientos fue la llamada Farsa de Ávila, en el año 1465. Esto fue un acto político celebrado cerca de las murallas de Ávila, en el que una coalición de nobles castellanos, enfrentados al rey Enrique IV de Castilla (“el Impotente”), lo depusieron simbólicamente al grito de “¡al suelo puto!”, mediante una ceremonia cargada de rituales y teatralidad. No se trató de una batalla, sino de una puesta en escena polémica y muy recordada."
           },
           guerra: {
             title: "⚔️ Guerra de las Comunidades (1520–1521)",
-            content: "Levantamiento urbano contra Carlos V. De queja fiscal pasó a movimiento pluriclase por gobierno representativo. A menudo vista como precedente de revoluciones modernas."
+            content: "Otro evento que tuvo sus primeros pasos en Ávila, donde se consituyó la Santa Sede. La Guerra de las Comunidades fue un levantamiento armado ocurrido entre 1520 y 1522, durante el reinado de Carlos V del Sacro Imperio Romano Germánico. El conflicto surgió como reacción al creciente descontento social y político hacia el rey Carlos V, quien llegó desde Flandes con una corte extranjera, enfrentado a su madre Juana y apenas hablando el castellano, lo que generó recelos en la nobleza y los estamentos sociales locales. El levantamiento, a pesar de haber juntado a diversos estamentos y estratos sociales, influenciados por las ideas humanistas de la Universidad de Salamanca, fracasó y sus líderes Bravo, Padilla, Francisco y Javier de Maldonado fueron ejecutados tras la derrota de Villalar. El 23 de Abril, es una fecha marcado entre los castellanos, pues aunque supuso la derrota por el ejército imperial, rememora el espíritu de rebeldía y de valentía frente a las injusticias, que supusieron un árduo dolor de cabeza para el emperador."
           },
           suarez: {
             title: "🇪🇸 Adolfo Suárez, hijo ilustre",
-            content: "Nacido en Cebreros (Ávila). Primer presidente de la democracia y artífice de la Transición española."
+            content: "Nacido en Cebreros (Ávila). Primer presidente de la democracia y artífice de la Transición española. Adolfo Suárez fue el motor político de la Transición española, conduciendo el paso de un régimen autoritario a una democracia plural y constitucional en un período breve pero lleno de retos, logrando una transición pacífica y consensuada que aún hoy es referencia histórica."
           }
         }
       },
