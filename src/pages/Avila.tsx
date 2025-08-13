@@ -101,7 +101,7 @@ const Avila = () => {
         places: [
           { name: "El Pórtico 🍲", description: "Lugar que destaca por sus tapas variadas, entre ellas: Combinado, lomo adobado o champiñón, además de su bocadillo de calamares." },
           { name: "Venus Café Bar 🥘", description: "Destaca por su pincho de secreto y su chipirón" },
-          { name: "La Oca Cocktail Bar 🍸", description: "Gastro coctelería y tapas variadas"" },
+          { name: "La Oca Cocktail Bar 🍸", description: "Gastro coctelería y tapas variadas" },
           { name: "La Rotonda del Ancla 🥟", description: "Croquetas, clásicos bien hechos" },
           { name: "Palacio de los Sofraga 🍖", description: "Destaca más bien por su lugar y sus vistas a la muralla" },
           { name: "La Lola Gastrobar 🍤", description: "Tapas caseras con toque moderno" },
