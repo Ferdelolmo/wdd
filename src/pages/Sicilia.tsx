@@ -59,6 +59,34 @@ const Sicilia = () => {
           "La isla tiene tres puntas que le dan forma triangular: Cabo Peloro, Cabo Passero y Cabo Lilibeo.",
           "Arquímedes, el gran matemático, nació en Siracusa en el 287 a.C."
         ]
+      },
+      culturalHeritage: {
+        title: "🌴 Encanto Mediterráneo",
+        intro: "Sicilia, la isla más grande del Mediterráneo, fue hogar de fenicios, griegos, romanos, árabes, normandos, aragoneses y españoles. Esa mezcla late en sus templos, plazas, palabras y sabores.",
+        iconicPlaces: {
+          title: "🏛 Pueblos y rincones icónicos",
+          places: [
+            { name: "Noto 🏰", description: "Barroco dorado, fachadas teatrales" },
+            { name: "Taormina 🎭", description: "Teatro griego con vistas al mar y al Etna" },
+            { name: "Giardini Naxos 🌊", description: "Primer asentamiento griego de Sicilia" },
+            { name: "Islas Eolias 🌋", description: "Volcanes, calas y senderos (UNESCO)" },
+            { name: "Cefalù 🐚", description: "Catedral normanda junto a la playa" },
+            { name: "Agrigento 🏛", description: "Valle de los Templos, Grecia eterna" },
+            { name: "Ragusa 🧱", description: "Barroco tardío entre callejuelas" },
+            { name: "Catania 🐘", description: "Piedra de lava y vida universitaria" },
+            { name: "Marsala 🍷", description: "Ciudad del vino y salinas rosadas" },
+            { name: "Palermo 🕌", description: "Mezcla árabe‑normanda, mercados vivos" },
+            { name: "Favignana 🐠", description: "Aguas turquesa, cuevas y bici" }
+          ]
+        },
+        etna: {
+          title: "🌋 El Etna",
+          content: "Volcán activo y \"vecino\" respetado: a veces ceniza, siempre vida. Fertiliza suelos, define vinos y marca el horizonte."
+        },
+        flavors: {
+          title: "🍝 Sabores sicilianos",
+          content: "Arancini, pasta alla norma, cuscús trapanese, cannoli y granita al limón. Cocina de producto, especias árabes y memoria española."
+        }
       }
     },
     en: {
@@ -111,6 +139,34 @@ const Sicilia = () => {
           "The island has three points that give it a triangular shape: Cape Peloro, Cape Passero and Cape Lilibeo.",
           "Archimedes, the great mathematician, was born in Syracuse in 287 BC."
         ]
+      },
+      culturalHeritage: {
+        title: "🌴 Mediterranean Magic",
+        intro: "Sicily, the Mediterranean's largest island, is a living tapestry of Phoenician, Greek, Roman, Arab, Norman, Aragonese and Spanish heritage—visible in stones, streets and flavors.",
+        iconicPlaces: {
+          title: "🏛 Iconic Towns & Spots",
+          places: [
+            { name: "Noto 🏰", description: "Golden Baroque, theatrical facades" },
+            { name: "Taormina 🎭", description: "Greek theatre + Etna views" },
+            { name: "Giardini Naxos 🌊", description: "First Greek colony" },
+            { name: "Aeolian Islands 🌋", description: "Volcanoes, coves and trails (UNESCO)" },
+            { name: "Cefalù 🐚", description: "Norman cathedral by the beach" },
+            { name: "Agrigento 🏛", description: "Valley of Temples, eternal Greece" },
+            { name: "Ragusa 🧱", description: "Late Baroque among alleys" },
+            { name: "Catania 🐘", description: "Lava stone and university life" },
+            { name: "Marsala 🍷", description: "Wine city and pink salt pans" },
+            { name: "Palermo 🕌", description: "Arab‑Norman mix, living markets" },
+            { name: "Favignana 🐠", description: "Turquoise waters, caves and bikes" }
+          ]
+        },
+        etna: {
+          title: "🌋 Mount Etna",
+          content: "An active, respected \"neighbor\": sometimes ash, always life. It enriches soils and shapes distinctive wines."
+        },
+        flavors: {
+          title: "🍝 Sicilian Flavors",
+          content: "Arancini, pasta alla norma, Trapani couscous, cannoli, lemon granita—produce‑driven cuisine with Arab spices and Spanish echoes."
+        }
       }
     },
     it: {
@@ -163,6 +219,34 @@ const Sicilia = () => {
           "L'isola ha tre punte che le danno forma triangolare: Capo Peloro, Capo Passero e Capo Lilibeo.",
           "Archimede, il grande matematico, nacque a Siracusa nel 287 a.C."
         ]
+      },
+      culturalHeritage: {
+        title: "🌴 Incanto Mediterraneo",
+        intro: "La Sicilia, l'isola più grande del Mediterraneo, è un mosaico vivo di fenici, greci, romani, arabi, normanni, aragonesi e spagnoli: tutto si riflette in monumenti, parole e sapori.",
+        iconicPlaces: {
+          title: "🏛 Borghi e luoghi iconici",
+          places: [
+            { name: "Noto 🏰", description: "Barocco dorato" },
+            { name: "Taormina 🎭", description: "Teatro greco e vista Etna" },
+            { name: "Giardini Naxos 🌊", description: "Prima colonia greca" },
+            { name: "Isole Eolie 🌋", description: "UNESCO" },
+            { name: "Cefalù 🐚", description: "Cattedrale normanna" },
+            { name: "Agrigento 🏛", description: "Valle dei Templi" },
+            { name: "Ragusa 🧱", description: "Barroco tardivo" },
+            { name: "Catania 🐘", description: "Pietra lavica" },
+            { name: "Marsala 🍷", description: "Città del vino" },
+            { name: "Palermo 🕌", description: "Mescolanza arabo-normanna" },
+            { name: "Favignana 🐠", description: "Acque turchesi" }
+          ]
+        },
+        etna: {
+          title: "🌋 L'Etna",
+          content: "Vulcano attivo e \"vicino\" rispettato: a volte cenere, sempre vita. Suoli fertili e vini dal carattere unico."
+        },
+        flavors: {
+          title: "🍝 Sapori siciliani",
+          content: "Arancini, pasta alla norma, cuscus trapanese, cannoli, granita al limone. Cucina di prodotto, spezie arabe e memoria spagnola."
+        }
       }
     },
     scn: {
@@ -215,6 +299,34 @@ const Sicilia = () => {
           "L'isula havi tri punti chi li dannu forma triangulari: Capu Peloro, Capu Passero e Capu Lilibeo.",
           "Archimedi, lu granni matematicu, nasciu a Siracusa nto 287 a.C."
         ]
+      },
+      culturalHeritage: {
+        title: "🌴 'Ncantu di lu Mediterraneu",
+        intro: "Sicilia è 'na cruci di strati: fenici, greci, rumani, arabi, nurmanni, aragunesi e spagnoli lassaru a so stampa 'ntra petri, vuci e sapuri.",
+        iconicPlaces: {
+          title: "🏛 Paisi e biddizzi",
+          places: [
+            { name: "Noto 🏰", description: "Baroccu di oru" },
+            { name: "Taormina 🎭", description: "Teatru grecu, vista Etna" },
+            { name: "Giardini Naxos 🌊", description: "Prima colonia greca" },
+            { name: "Isole Eolie 🌋", description: "UNESCO" },
+            { name: "Cefalù 🐚", description: "Cattidrali nurmanna" },
+            { name: "Agrigentu 🏛", description: "Vaddi dî Templi" },
+            { name: "Ragusa 🧱", description: "Baroccu tardiu" },
+            { name: "Catania 🐘", description: "Petra di lava" },
+            { name: "Marsala 🍷", description: "Città dû vinu" },
+            { name: "Palermu 🕌", description: "Mischiu àravu-nurmannu" },
+            { name: "Favignana 🐠", description: "Acchi turchisi" }
+          ]
+        },
+        etna: {
+          title: "🌋 L'Etna",
+          content: "Vulcanu vivu e rispittatu: a voti ceniri, sempri fruttu. Fa ricchi i tìrimi e duna caràttiri a li vigna."
+        },
+        flavors: {
+          title: "🍝 Sapuri siciliani",
+          content: "Arancini, pasta 'a norma, cùscusu trapanisi, cannola, granita di limuni. Cucina schietta, spizi arabi e ricordu spagnolu."
+        }
       }
     }
   };
@@ -280,6 +392,57 @@ const Sicilia = () => {
                 </CardContent>
               </Card>
             ))}
+
+            {/* Cultural Heritage Section */}
+            {currentContent.culturalHeritage && (
+              <Card className="hover:shadow-lg transition-shadow bg-card/80 backdrop-blur-sm">
+                <CardHeader>
+                  <CardTitle className="flex items-center gap-2">
+                    <Palette className="h-5 w-5 text-primary" />
+                    {currentContent.culturalHeritage.title}
+                  </CardTitle>
+                </CardHeader>
+                <CardContent>
+                  <p className="text-muted-foreground leading-relaxed mb-6">
+                    {currentContent.culturalHeritage.intro}
+                  </p>
+                  
+                  <Accordion type="single" collapsible className="w-full">
+                    <AccordionItem value="iconic-places">
+                      <AccordionTrigger className="text-left font-medium">
+                        {currentContent.culturalHeritage.iconicPlaces.title}
+                      </AccordionTrigger>
+                      <AccordionContent className="text-muted-foreground leading-relaxed">
+                        <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
+                          {currentContent.culturalHeritage.iconicPlaces.places.map((place, index) => (
+                            <div key={index} className="border rounded-lg p-3">
+                              <h4 className="font-medium text-foreground">{place.name}</h4>
+                              <p className="text-sm">{place.description}</p>
+                            </div>
+                          ))}
+                        </div>
+                      </AccordionContent>
+                    </AccordionItem>
+                    <AccordionItem value="etna">
+                      <AccordionTrigger className="text-left font-medium">
+                        {currentContent.culturalHeritage.etna.title}
+                      </AccordionTrigger>
+                      <AccordionContent className="text-muted-foreground leading-relaxed">
+                        {currentContent.culturalHeritage.etna.content}
+                      </AccordionContent>
+                    </AccordionItem>
+                    <AccordionItem value="flavors">
+                      <AccordionTrigger className="text-left font-medium">
+                        {currentContent.culturalHeritage.flavors.title}
+                      </AccordionTrigger>
+                      <AccordionContent className="text-muted-foreground leading-relaxed">
+                        {currentContent.culturalHeritage.flavors.content}
+                      </AccordionContent>
+                    </AccordionItem>
+                  </Accordion>
+                </CardContent>
+              </Card>
+            )}
           </div>
 
           {/* Sidebar */}

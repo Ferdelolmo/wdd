@@ -59,6 +59,55 @@ const Avila = () => {
           "Santa Teresa de Jesús reformó la orden carmelita desde esta ciudad.",
           "El casco histórico mantiene el trazado urbano medieval original."
         ]
+      },
+      historicalDetails: {
+        title: "Historia y Memoria",
+        sections: {
+          fuero: {
+            title: "⚖️ Fuero Medieval",
+            content: "Conjunto de leyes y privilegios reales tras la repoblación: autonomía judicial local, franquicias fiscales y autogobierno concejil. Atraía vecinos, protegía rutas y consolidaba poder municipal."
+          },
+          farsa: {
+            title: "🎭 Farsa de Ávila (1465)",
+            content: "Ceremonia pública en la que nobles destronaron en efigie a Enrique IV y proclamaron a Alfonso. Teatro político con efectos reales."
+          },
+          guerra: {
+            title: "⚔️ Guerra de las Comunidades (1520–1521)",
+            content: "Levantamiento urbano contra Carlos V. De queja fiscal pasó a movimiento pluriclase por gobierno representativo. A menudo vista como precedente de revoluciones modernas."
+          },
+          suarez: {
+            title: "🇪🇸 Adolfo Suárez, hijo ilustre",
+            content: "Nacido en Cebreros (Ávila). Primer presidente de la democracia y artífice de la Transición española."
+          }
+        }
+      },
+      mustSee: {
+        title: "🗺 Lugares que no te deberías perder",
+        places: [
+          { name: "Murallas de Ávila 🏰", description: "Paseo de adarve y vistas 360°" },
+          { name: "Monasterio de Santo Tomás ⛪", description: "Claustros góticos; sepulcro del Príncipe Juan" },
+          { name: "Basílica de San Vicente 🕍", description: "Románico mayor castellano" },
+          { name: "Basílica de Santa Teresa ✝", description: "Sobre la casa natal de la santa" },
+          { name: "Catedral de Ávila 🏛", description: "Primera gótica de España, integrada en la muralla" },
+          { name: "Puerta del Alcázar 🛡", description: "Entrada monumental al casco histórico" },
+          { name: "Plaza del Mercado Chico 🏘", description: "Corazón municipal desde la Edad Media" },
+          { name: "Plaza del Mercado Grande 🌟", description: "Gran explanada de ferias y reuniones" },
+          { name: "Cuatro Postes 🌅", description: "Mirador icónico al atardecer" }
+        ]
+      },
+      restaurants: {
+        title: "🍽 Prueba nuestra gastronomía",
+        places: [
+          { name: "El Pórtico 🍲", description: "Sopa castellana, patatas revolconas, espárragos" },
+          { name: "Venus Café Bar 🥘", description: "Raciones generosas; callos" },
+          { name: "La Oca Cocktail Bar 🍸", description: "Gastro‑coctelería; tapa \"Cod&Pop\"" },
+          { name: "La Rotonda del Ancla 🥟", description: "Croquetas, clásicos bien hechos" },
+          { name: "Palacio de los Sofraga 🍖", description: "Chuletón, arroces; junto a muralla" },
+          { name: "La Lola Gastrobar 🍤", description: "Tapas caseras con toque moderno" },
+          { name: "El Almacén 🥚", description: "Huevos fritos con carabineros; cocina creativa" },
+          { name: "Bococo 🥩", description: "Judiones, revolconas, chuletón" },
+          { name: "Los Candiles 🍗", description: "Tradición castellana cuidada" }
+        ]
       }
     },
     en: {
@@ -110,6 +159,55 @@ const Avila = () => {
           "The walls are visible from space due to their perfect conservation.",
           "Saint Teresa of Jesus reformed the Carmelite order from this city.",
           "The historic center maintains the original medieval urban layout."
+        ]
+      },
+      historicalDetails: {
+        title: "History & Memory",
+        sections: {
+          fuero: {
+            title: "⚖️ Medieval Fuero",
+            content: "Royal charter of laws & privileges after repopulation: local judicial autonomy, tax reliefs and council self‑government—boosting settlement, trade and municipal power."
+          },
+          farsa: {
+            title: "🎭 Farce of Ávila (1465)",
+            content: "Public ceremony: Henry IV symbolically deposed in effigy; Alfonso proclaimed king. Political theatre with real consequences."
+          },
+          guerra: {
+            title: "⚔️ War of the Communities (1520–1521)",
+            content: "Urban uprising against Charles V—evolving from tax protest to cross‑class push for representative government; often seen as a forerunner of modern revolutions."
+          },
+          suarez: {
+            title: "🇪🇸 Adolfo Suárez",
+            content: "From Cebreros (Ávila). Spain's first democratic Prime Minister and architect of the Transition."
+          }
+        }
+      },
+      mustSee: {
+        title: "🗺 Must‑see Places",
+        places: [
+          { name: "Ávila Walls 🏰", description: "Rampart walk and 360° views" },
+          { name: "Monastery of Santo Tomás ⛪", description: "Gothic cloisters; tomb of Prince Juan" },
+          { name: "Basilica of San Vicente 🕍", description: "Masterpiece of Spanish Romanesque" },
+          { name: "Basilica of Santa Teresa ✝", description: "Built over the saint's birthplace" },
+          { name: "Ávila Cathedral 🏛", description: "First Gothic cathedral in Spain, integrated into the wall" },
+          { name: "Gate of the Alcázar 🛡", description: "Monumental entrance to the historic center" },
+          { name: "Plaza del Mercado Chico 🏘", description: "Municipal heart since the Middle Ages" },
+          { name: "Plaza del Mercado Grande 🌟", description: "Great esplanade for fairs and meetings" },
+          { name: "Four Posts Hermitage 🌅", description: "Iconic sunset viewpoint" }
+        ]
+      },
+      restaurants: {
+        title: "🍽 Taste Our Gastronomy",
+        places: [
+          { name: "El Pórtico 🍲", description: "Castilian soup, revolconas potatoes, asparagus" },
+          { name: "Venus Café Bar 🥘", description: "Generous portions; tripe" },
+          { name: "La Oca Cocktail Bar 🍸", description: "Gastro‑cocktails; \"Cod&Pop\" tapa" },
+          { name: "La Rotonda del Ancla 🥟", description: "Croquettes, well-made classics" },
+          { name: "Palacio de los Sofraga 🍖", description: "T-bone steak, rice dishes; next to the wall" },
+          { name: "La Lola Gastrobar 🍤", description: "Homemade tapas with modern touch" },
+          { name: "El Almacén 🥚", description: "Fried eggs with prawns; creative cuisine" },
+          { name: "Bococo 🥩", description: "Large beans, revolconas, T-bone steak" },
+          { name: "Los Candiles 🍗", description: "Careful Castilian tradition" }
         ]
       }
     },
@@ -163,6 +261,55 @@ const Avila = () => {
           "Santa Teresa di Gesù riformò l'ordine carmelitano da questa città.",
           "Il centro storico mantiene la disposizione urbana medievale originale."
         ]
+      },
+      historicalDetails: {
+        title: "Storia e Memoria",
+        sections: {
+          fuero: {
+            title: "⚖️ Fuero Medievale",
+            content: "Sistema di leggi e privilegi reali per la ripopolazione: autonomia giudiziaria locale, agevolazioni fiscali e autogoverno del consiglio cittadino."
+          },
+          farsa: {
+            title: "🎭 La Farsa di Ávila (1465)",
+            content: "Atto pubblico: Enrico IV deposto in effigie e proclamazione di Alfonso. Teatro con effetti reali."
+          },
+          guerra: {
+            title: "⚔️ Guerra delle Comunità (1520–1521)",
+            content: "Sollevazione urbana contro Carlo V, da protesta fiscale a movimento interclassista per un governo più rappresentativo; spesso vista come antecedente di rivoluzioni moderne."
+          },
+          suarez: {
+            title: "🇪🇸 Adolfo Suárez",
+            content: "Di Cebreros (Ávila). Primo presidente della democrazia e architetto della Transición."
+          }
+        }
+      },
+      mustSee: {
+        title: "🗺 Luoghi da Non Perdere",
+        places: [
+          { name: "Mura di Ávila 🏰", description: "Passeggiata di ronda e viste a 360°" },
+          { name: "Monastero di San Tommaso ⛪", description: "Chiostri gotici; sepolcro del Principe Juan" },
+          { name: "Basilica di San Vincenzo 🕍", description: "Romanico maggiore castigliano" },
+          { name: "Basilica di Santa Teresa ✝", description: "Sulla casa natale della santa" },
+          { name: "Cattedrale di Ávila 🏛", description: "Prima gotica di Spagna, integrata nelle mura" },
+          { name: "Porta dell'Alcázar 🛡", description: "Ingresso monumentale al centro storico" },
+          { name: "Plaza del Mercado Chico 🏘", description: "Cuore municipale dal Medioevo" },
+          { name: "Plaza del Mercado Grande 🌟", description: "Grande spianata di fiere e riunioni" },
+          { name: "Quattro Pali 🌅", description: "Belvedere iconico al tramonto" }
+        ]
+      },
+      restaurants: {
+        title: "🍽 Assaggia la Nostra Cucina",
+        places: [
+          { name: "El Pórtico 🍲", description: "Zuppa castigliana, patate revolconas, asparagi" },
+          { name: "Venus Café Bar 🥘", description: "Porzioni generose; trippa" },
+          { name: "La Oca Cocktail Bar 🍸", description: "Gastro-cocktail; tapa \"Cod&Pop\"" },
+          { name: "La Rotonda del Ancla 🥟", description: "Crocchette, classici ben fatti" },
+          { name: "Palacio de los Sofraga 🍖", description: "Bistecca, risotti; vicino alle mura" },
+          { name: "La Lola Gastrobar 🍤", description: "Tapas casalinghe con tocco moderno" },
+          { name: "El Almacén 🥚", description: "Uova fritte con scampi; cucina creativa" },
+          { name: "Bococo 🥩", description: "Fagioli grandi, revolconas, bistecca" },
+          { name: "Los Candiles 🍗", description: "Tradizione castigliana curata" }
+        ]
       }
     },
     scn: {
@@ -214,6 +361,55 @@ const Avila = () => {
           "Li mura sunnu visìbbili dû spazziu grazii â so perfetta cunsirvazioni.",
           "Santa Teresa di Gesù riformau l'ordini carmelitanu di sta città.",
           "Lu centru storicu manteni la dispusizioni urbana medievali originali."
+        ]
+      },
+      historicalDetails: {
+        title: "Storia e Memoria",
+        sections: {
+          fuero: {
+            title: "⚖️ U fuoru",
+            content: "Liggì e privìligi ri lu rè: autunumìa giudiziaria, scansiuni fiscali e autugovernu dû cunsigghiu pi 'mpupari a citati."
+          },
+          farsa: {
+            title: "🎭 Farsa di Ávila (1465)",
+            content: "Atto pupblicu: 'nni càvanu a Enrico IV 'n effiggi e fìciru rè Alfonso."
+          },
+          guerra: {
+            title: "⚔️ Guerra di li Cumunità (1520–1521)",
+            content: "Ribbillioni di cità contra Carlu V: di tassi a muvimentu di ceti mischiati pi guvernu cchiù rapprisintativu; vista comu antinati di rivuluzioni muderni."
+          },
+          suarez: {
+            title: "🇪🇸 Adolfo Suárez",
+            content: "Di Cebreros (Ávila): primu prisidenti dâ dimucrazia, architettu dâ Transición."
+          }
+        }
+      },
+      mustSee: {
+        title: "🗺 Così ca nun ti poi pèrdiri",
+        places: [
+          { name: "Mura 🏰", description: "Passiaggìata e vista di tutti li lati" },
+          { name: "Munasteru di Santu Tomasu ⛪", description: "Chiostri gotici; sepulcru dû Prìncipi Juan" },
+          { name: "Basilica di San Vinçenzu 🕍", description: "Capulavuru dû rumanicu spagnolu" },
+          { name: "Basilica di Santa Teresa ✝", description: "Supra la casa unni nasciu" },
+          { name: "Cattidrali di Ávila 🏛", description: "Prima gotica di Spagna, ntâ muraglia" },
+          { name: "Porta dû Alcázar 🛡", description: "Ntranzata monumentali ô centru storicu" },
+          { name: "Piazza dû Mercatu Nicu 🏘", description: "Cori municipali dû Mediuevu" },
+          { name: "Piazza dû Mercatu Granni 🌟", description: "Granni spianata di fieri e riunioni" },
+          { name: "Quattru Pusti 🌅", description: "Miradori ô caliduni" }
+        ]
+      },
+      restaurants: {
+        title: "🍽 Assaggia 'a cucina",
+        places: [
+          { name: "El Pórtico 🍲", description: "Zuppa castigliana, patati revolconas, sparaci" },
+          { name: "Venus Café Bar 🥘", description: "Purziuni gennerusi; trippa" },
+          { name: "La Oca Cocktail Bar 🍸", description: "Gastru-cocktail; tapa \"Cod&Pop\"" },
+          { name: "La Rotonda dû Àncila 🥟", description: "Cruchetti, classici beni fatti" },
+          { name: "Palacio di li Sofraga 🍖", description: "Bistecca, risotti; vicinu â muraglia" },
+          { name: "La Lola Gastrobar 🍤", description: "Tapas casalinghi cu toccu mudernu" },
+          { name: "El Almacén 🥚", description: "Ova fritti cu scampi; cucina creiativa" },
+          { name: "Bococo 🥩", description: "Fasola grandi, revolconas, bistecca" },
+          { name: "Los Candiles 🍗", description: "Tradizioni castigliana curata" }
         ]
       }
     }
@@ -280,6 +476,78 @@ const Avila = () => {
                 </CardContent>
               </Card>
             ))}
+
+            {/* Historical Details Section */}
+            <Card className="hover:shadow-lg transition-shadow bg-card/80 backdrop-blur-sm">
+              <CardHeader>
+                <CardTitle className="flex items-center gap-2">
+                  <Crown className="h-5 w-5 text-primary" />
+                  {currentContent.historicalDetails.title}
+                </CardTitle>
+              </CardHeader>
+              <CardContent>
+                <Accordion type="single" collapsible className="w-full">
+                  {Object.entries(currentContent.historicalDetails.sections).map(([key, section]) => (
+                    <AccordionItem key={key} value={`historical-${key}`}>
+                      <AccordionTrigger className="text-left font-medium">
+                        {section.title}
+                      </AccordionTrigger>
+                      <AccordionContent className="text-muted-foreground leading-relaxed">
+                        {section.content}
+                      </AccordionContent>
+                    </AccordionItem>
+                  ))}
+                </Accordion>
+              </CardContent>
+            </Card>
+
+            {/* Must See Places */}
+            <Card className="hover:shadow-lg transition-shadow bg-card/80 backdrop-blur-sm">
+              <CardHeader>
+                <CardTitle className="flex items-center gap-2">
+                  <MapPin className="h-5 w-5 text-primary" />
+                  {currentContent.mustSee.title}
+                </CardTitle>
+              </CardHeader>
+              <CardContent>
+                <Accordion type="single" collapsible className="w-full">
+                  {currentContent.mustSee.places.map((place, index) => (
+                    <AccordionItem key={index} value={`place-${index}`}>
+                      <AccordionTrigger className="text-left font-medium">
+                        {place.name}
+                      </AccordionTrigger>
+                      <AccordionContent className="text-muted-foreground leading-relaxed">
+                        {place.description}
+                      </AccordionContent>
+                    </AccordionItem>
+                  ))}
+                </Accordion>
+              </CardContent>
+            </Card>
+
+            {/* Restaurants */}
+            <Card className="hover:shadow-lg transition-shadow bg-card/80 backdrop-blur-sm">
+              <CardHeader>
+                <CardTitle className="flex items-center gap-2">
+                  <Utensils className="h-5 w-5 text-primary" />
+                  {currentContent.restaurants.title}
+                </CardTitle>
+              </CardHeader>
+              <CardContent>
+                <Accordion type="single" collapsible className="w-full">
+                  {currentContent.restaurants.places.map((restaurant, index) => (
+                    <AccordionItem key={index} value={`restaurant-${index}`}>
+                      <AccordionTrigger className="text-left font-medium">
+                        {restaurant.name}
+                      </AccordionTrigger>
+                      <AccordionContent className="text-muted-foreground leading-relaxed">
+                        {restaurant.description}
+                      </AccordionContent>
+                    </AccordionItem>
+                  ))}
+                </Accordion>
+              </CardContent>
+            </Card>
           </div>
 
           {/* Sidebar */}
