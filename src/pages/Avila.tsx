@@ -117,16 +117,24 @@ const Avila = () => {
         },
         traditionalDishes: {
           title: "🍽 Gastronomía Tradicional",
-          dishes: {
-            chuleton: {
+          dishes: [
+            {
               title: "Chuletón de Ávila 🥩",
               content: "Marca emblema gastronómico de la ciudad. Carne de ternera de calidad excepcional de la zona."
             },
-            revolconas: {
-              title: "Patatas revolconas 🥔🔥",
+            {
+              title: "Patatas revolconas 🥔🔥", 
               content: "Un puré de patatas con pimentón, ajo y coronado con torreznos crujientes. Plato humilde y típico de Ávila, perfecto para días fríos."
+            },
+            {
+              title: "Judías del Barco 🫘",
+              content: "Legumbres con Denominación de Origen, famosas por su textura y sabor únicos."
+            },
+            {
+              title: "Yemas de Santa Teresa 🍮",
+              content: "Dulce tradicional hecho con yema de huevo y azúcar desde el siglo XVI."
             }
-          }
+          ]
         }
     },
     en: {
@@ -236,16 +244,24 @@ const Avila = () => {
       },
       traditionalDishes: {
         title: "🍽 Traditional Gastronomy",
-        dishes: {
-          chuleton: {
+        dishes: [
+          {
             title: "Ávila T-bone Steak 🥩",
-            content: "Gastronomic emblem of the city. Exceptional quality beef from the region."
+            content: "Emblematic gastronomic brand of the city. Exceptional quality beef from the area."
           },
-          revolconas: {
-            title: "Revolconas Potatoes 🥔🔥",
-            content: "A potato puree with paprika, garlic and crowned with crispy pork cracklings. A humble and typical dish from Ávila, perfect for cold days."
+          {
+            title: "Patatas revolconas 🥔🔥",
+            content: "A potato puree with paprika, garlic and topped with crispy pork cracklings. Humble and typical dish from Ávila, perfect for cold days."
+          },
+          {
+            title: "Barco Beans 🫘",
+            content: "Legumes with Designation of Origin, famous for their unique texture and flavor."
+          },
+          {
+            title: "Yemas de Santa Teresa 🍮",
+            content: "Traditional sweet made with egg yolk and sugar since the 16th century."
           }
-        }
+        ]
       }
     },
     it: {
@@ -355,16 +371,24 @@ const Avila = () => {
       },
       traditionalDishes: {
         title: "🍽 Gastronomia Tradizionale",
-        dishes: {
-          chuleton: {
+        dishes: [
+          {
             title: "Bistecca di Ávila 🥩",
             content: "Emblema gastronomico della città. Carne bovina di qualità eccezionale della zona."
           },
-          revolconas: {
+          {
             title: "Patate revolconas 🥔🔥",
             content: "Un purè di patate con paprika, aglio e coronato con ciccioli croccanti. Piatto umile e tipico di Ávila, perfetto per i giorni freddi."
+          },
+          {
+            title: "Fagioli del Barco 🫘",
+            content: "Legumi con Denominazione d'Origine, famosi per la loro consistenza e sapore unici."
+          },
+          {
+            title: "Yemas de Santa Teresa 🍮",
+            content: "Dolce tradizionale fatto con tuorlo d'uovo e zucchero dal XVI secolo."
           }
-        }
+        ]
       }
     },
     scn: {
@@ -474,16 +498,24 @@ const Avila = () => {
       },
       traditionalDishes: {
         title: "🍽 Gastronomia Tradiziunali",
-        dishes: {
-          chuleton: {
+        dishes: [
+          {
             title: "Bistecca di Ávila 🥩",
             content: "Emblema gastronomicu dâ città. Carni di vitellu di qualità eccezziunali dâ zona."
           },
-          revolconas: {
+          {
             title: "Patati revolconas 🥔🔥",
             content: "Nu purè di patati cu paprica, agghiu e curunatu cu ciccioli croccanti. Chibbu umili e tipicu di Ávila, perfettu pi li jorna friddi."
+          },
+          {
+            title: "Fasola dû Barco 🫘",
+            content: "Ligumi cu Dinuminazioni d'Origini, famusi pi la so cunsistenza e sapuri unichi."
+          },
+          {
+            title: "Yemas de Santa Teresa 🍮",
+            content: "Durci tradiziunali fattu cu rùsulu d'ovu e zuccaru dû XVI sèculu."
           }
-        }
+        ]
       }
     }
   };
@@ -609,8 +641,8 @@ const Avila = () => {
                 </CardHeader>
                 <CardContent>
                   <Accordion type="single" collapsible className="w-full">
-                    {Object.entries(currentContent.traditionalDishes.dishes).map(([key, dish]) => (
-                      <AccordionItem key={key} value={`dish-${key}`}>
+                    {currentContent.traditionalDishes.dishes.map((dish, index) => (
+                      <AccordionItem key={index} value={`dish-${index}`}>
                         <AccordionTrigger className="text-left font-medium">
                           {dish.title}
                         </AccordionTrigger>
