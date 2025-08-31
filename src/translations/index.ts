@@ -154,7 +154,7 @@ export const translations = {
       funFacts: 'Datos Curiosos Sobre Nosotros',
       funFactsList: [
         'Una de nuestras habilidades es leernos el pensamiento del uno al otro sin mediar palabra',
-        'Tendremos un total de 150 invitados entre familiares y amigos',
+        'Tendremos un total de 20 nacionalidades diferentes en la boda entre familia y amigos',
         'Nuestro primer baile fue "More than this" de Roxy durante una noche de fiesta en Irlanda, bajo la lluvia en medio de la calle',
         'Las islas nos han perseguido durante nuestra vida y forman parte de nosotros, es tanto así que hemos visitado juntos 16 islas diferentes'
       ],
@@ -354,7 +354,7 @@ export const translations = {
       funFacts: 'Fatti divertenti su di nuautri',
       funFactsList: [
         'Una di li nostri abilitati è liggiri li pinzeri l\'unu di l\'autru senza parrari',
-        'Avremu un totali di 150 nvitati ntra famigghiari e amici',
+        'Avremu n tutali di 20 nazziunalità diffirenti ntra famigghiari e amici',
         'U nostru primu ballu fu "More than this" di Roxy nta na notti di festa n\'Irlanda, sutta a chiuvuta nnâ menzzu dâ strada',
         'Li isuli ni ànnu pirsugutu durante a nostra vita e fannu parti di nui, è tantu accussì ca abbiamu visitatu nsemi 16 isuli divessi'
       ],
@@ -554,7 +554,7 @@ export const translations = {
       funFacts: 'Curiosità su di noi',
       funFactsList: [
         'Una delle nostre abilità è leggerci il pensiero a vicenda senza dire una parola',
-        'Avremo un totale di 150 ospiti tra famiglia e amici',
+        'Al matrimonio ci saranno oltre 20 diverse nazionalità tra familiari e amici',
         'Il nostro primo ballo è stato "More than this" di Roxy durante una notte di festa in Irlanda, sotto la pioggia in mezzo alla strada',
         'Le isole ci hanno perseguito durante la nostra vita e fanno parte di noi, è così tanto che abbiamo visitato insieme 16 isole diverse'
       ],
@@ -754,7 +754,7 @@ export const translations = {
       funFacts: 'Fun facts about us',
       funFactsList: [
         'One of our skills is reading each other\'s minds without saying a word',
-        'We will have a total of 150 guests including family and friends',
+        'We will have a total of 20 different nationalities at the wedding among family and friends',
         'Our first dance was "More than this" by Roxy during a party night in Ireland, under the rain in the middle of the street',
         'Islands have followed us throughout our lives and are part of us, so much so that we have visited 16 different islands together'
       ],
