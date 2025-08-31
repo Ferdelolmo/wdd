@@ -51,8 +51,8 @@ export const guests: Guest[] = [
   { name: "Amparo & Fernando", language: "ES", slug: "amparo", plusOne: "Fernando" },
   { name: "David & Angy", language: "ES", slug: "david", plusOne: "Angy" },
   { name: "Esther & Javi", language: "ES", slug: "esther", plusOne: "Javi" },
-  { name: "Sonia & Kike", language: "ES", slug: "soniagil", plusOne: "Kike" },
-  { name: "Esperanza & Julian", language: "ES", slug: "esperanza", plusOne: "Julian" },
+  { name: "Sonia & Quique", language: "ES", slug: "soniagil", plusOne: "Quique" },
+  { name: "Esperanza & Julián", language: "ES", slug: "esperanza", plusOne: "Julian" },
   { name: "Tomás", language: "ES", slug: "tomas" },
   { name: "Víctor & Cristina", language: "ES", slug: "victor", plusOne: "Cristina" },
   { name: "Henar & Gonzalo", language: "ES", slug: "henar", plusOne: "Gonzalo" },
@@ -83,7 +83,7 @@ export const guests: Guest[] = [
   { name: "Elvira & Isaac", language: "ES", slug: "elvira", plusOne: "Isaac" },
   { name: "Ivana & Àlex", language: "ES", slug: "ivana", plusOne: "Àlex" },
   { name: "Dani", language: "ES", slug: "dani" },
-  { name: "Gonçalo", language: "ES", slug: "goncalo" },
+  { name: "Gonçalo & Nian Yi Keng", language: "ES", slug: "goncalo", plusOne: "Nian Yi Keng" },
   { name: "Raúl & Verónica", language: "ES", slug: "raul", plusOne: "Verónica" },
   { name: "José", language: "ES", slug: "jose" },
   { name: "Leo & Ana", language: "ES", slug: "leo", plusOne: "Ana" },  
@@ -121,8 +121,11 @@ export const guests: Guest[] = [
   { name: "Rosella", language: "IT", slug: "rosella" },
   { name: "Diego & Claudia", language: "IT", slug: "diegoc", plusOne: "Claudia" },
   { name: "Liliana", language: "ES", slug: "sisi" },
-  { name: "Nicolas", language: "ES", slug: "nico" },
-  { name: "Luisito", language: "ES", slug: "luisito" }
+  { name: "Nico", language: "ES", slug: "nico" },
+  { name: "Luisito", language: "ES", slug: "luisito" },
+  { name: "Clara & Sergi", language: "ES", slug: "clara", plusOne: "Sergi" },
+  { name: "Emily & Daniel", language: "ES", slug: "emily", plusOne: "Daniel" },
+  { name: "Virginia & Jandro", language: "ES", slug: "virginia", plusOne: "Jandro" }
 ];
 
 export const getGuestBySlug = (slug: string): Guest | undefined => {
