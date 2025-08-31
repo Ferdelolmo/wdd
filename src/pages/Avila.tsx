@@ -4,6 +4,7 @@ import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from '@/
 import { MapPin, Mountain, Clock, Camera, Utensils, Church, Crown, TreePine } from 'lucide-react';
 import avilaWallsImage from '@/assets/avila-walls.jpg';
 import avilaCuisineImage from '@/assets/avila-cuisine.jpg';
+import avilaHeroImg from '@/assets/avila-hero-new.jpg';
 
 const Avila = () => {
   const { language } = useLanguage();
@@ -78,6 +79,10 @@ const Avila = () => {
           suarez: {
             title: "🇪🇸 Adolfo Suárez, hijo ilustre",
             content: "Nacido en Cebreros (Ávila). Primer presidente de la democracia y artífice de la Transición española. Adolfo Suárez fue el motor político de la Transición española, conduciendo el paso de un régimen autoritario a una democracia plural y constitucional en un período breve pero lleno de retos, logrando una transición pacífica y consensuada que aún hoy es referencia histórica."
+          },
+          ximena: {
+            title: "Ximena de Ávila",
+            content: "Protagonista de una legendaria defensa de la ciudad durante el siglo XII, en tiempos convulsos de constantes enfrentamientos entre musulmanes y cristianos. Ante la ausencia de los hombres de la ciudad, organizó a mujeres y ancianos para simular una gran defensa desde las murallas y así evitar un ataque musulmán. Puedes visitar su estatua homenaje en la Calle San Miguel."
           }
         }
       },
@@ -98,18 +103,31 @@ const Avila = () => {
       restaurants: {
         title: "🍽 Prueba nuestra gastronomía",
         content: "Una de las cosas que te sorprenderán de Ávila, es que cuando pidas una bebida, te pondrán un pincho sin haberlo pedirlo. Sí, tenemos esta cultura como otras ciudades en España, así que aprovechalo 😋",
-        places: [
-          { name: "El Pórtico 🍲", description: "Lugar que destaca por sus tapas variadas, entre ellas: Combinado, lomo adobado o champiñón, además de su bocadillo de calamares." },
-          { name: "Venus Café Bar 🥘", description: "Destaca por su pincho de secreto y su chipirón" },
-          { name: "La Oca Cocktail Bar 🍸", description: "Gastro coctelería y tapas variadas" },
-          { name: "La Rotonda del Ancla 🥟", description: "Croquetas, clásicos bien hechos" },
-          { name: "Palacio de los Sofraga 🍖", description: "Destaca más bien por su lugar y sus vistas a la muralla" },
-          { name: "La Lola Gastrobar 🍤", description: "Tapas caseras con toque moderno" },
-          { name: "El Almacén 🥚", description: "Ya estamos hablando de restaurantes, aquí vas a encontrar un producto de calidad a precios no exageradamente altos. Muy recomendable" },
-          { name: "Bococo 🥩", description: "Uno de los lugares más populares últimamente, con una cocina que mezcla tradición e innovación" },
-          { name: "Los Candiles 🍗", description: "Tradición castellana cuidada" }
-        ]
-      }
+          places: [
+            { name: "El Pórtico 🍲", description: "Lugar que destaca por sus tapas variadas, entre ellas: Combinado, lomo adobado o champiñón, además de su bocadillo de calamares." },
+            { name: "Venus Café Bar 🥘", description: "Destaca por su pincho de secreto y su chipirón" },
+            { name: "La Oca Cocktail Bar 🍸", description: "Gastro coctelería y tapas variadas" },
+            { name: "La Rotonda del Ancla 🥟", description: "Croquetas, clásicos bien hechos" },
+            { name: "Palacio de los Sofraga 🍖", description: "Destaca más bien por su lugar y sus vistas a la muralla" },
+            { name: "La Lola Gastrobar 🍤", description: "Tapas caseras con toque moderno" },
+            { name: "El Almacén 🥚", description: "Ya estamos hablando de restaurantes, aquí vas a encontrar un producto de calidad a precios no exageradamente altos. Muy recomendable" },
+            { name: "Bococo 🥩", description: "Uno de los lugares más populares últimamente, con una cocina que mezcla tradición e innovación" },
+            { name: "Los Candiles 🍗", description: "Tradición castellana cuidada" }
+          ]
+        },
+        traditionalDishes: {
+          title: "🍽 Gastronomía Tradicional",
+          dishes: {
+            chuleton: {
+              title: "Chuletón de Ávila 🥩",
+              content: "Marca emblema gastronómico de la ciudad. Carne de ternera de calidad excepcional de la zona."
+            },
+            revolconas: {
+              title: "Patatas revolconas 🥔🔥",
+              content: "Un puré de patatas con pimentón, ajo y coronado con torreznos crujientes. Plato humilde y típico de Ávila, perfecto para días fríos."
+            }
+          }
+        }
     },
     en: {
       title: "Ávila - City of Walls",
@@ -180,6 +198,10 @@ const Avila = () => {
           suarez: {
             title: "🇪🇸 Adolfo Suárez",
             content: "From Cebreros (Ávila). Spain's first democratic Prime Minister and architect of the Transition."
+          },
+          ximena: {
+            title: "Ximena de Ávila",
+            content: "Protagonist of a legendary defense of the city during the 12th century, in turbulent times of constant confrontations between Muslims and Christians. In the absence of the city's men, she organized women and elderly people to simulate a great defense from the walls and thus avoid a Muslim attack. You can visit her commemorative statue on Calle San Miguel."
           }
         }
       },
@@ -199,6 +221,7 @@ const Avila = () => {
       },
       restaurants: {
         title: "🍽 Taste Our Gastronomy",
+        content: "When you order a drink in Ávila, you'll be surprised that they'll bring you a small tapa without asking for it. Yes, we have this culture like other cities in Spain, so enjoy it! 😋",
         places: [
           { name: "El Pórtico 🍲", description: "Castilian soup, revolconas potatoes, asparagus" },
           { name: "Venus Café Bar 🥘", description: "Generous portions; tripe" },
@@ -210,6 +233,19 @@ const Avila = () => {
           { name: "Bococo 🥩", description: "Large beans, revolconas, T-bone steak" },
           { name: "Los Candiles 🍗", description: "Careful Castilian tradition" }
         ]
+      },
+      traditionalDishes: {
+        title: "🍽 Traditional Gastronomy",
+        dishes: {
+          chuleton: {
+            title: "Ávila T-bone Steak 🥩",
+            content: "Gastronomic emblem of the city. Exceptional quality beef from the region."
+          },
+          revolconas: {
+            title: "Revolconas Potatoes 🥔🔥",
+            content: "A potato puree with paprika, garlic and crowned with crispy pork cracklings. A humble and typical dish from Ávila, perfect for cold days."
+          }
+        }
       }
     },
     it: {
@@ -281,6 +317,10 @@ const Avila = () => {
           suarez: {
             title: "🇪🇸 Adolfo Suárez",
             content: "Di Cebreros (Ávila). Primo presidente della democrazia e architetto della Transición."
+          },
+          ximena: {
+            title: "Ximena de Ávila",
+            content: "Protagonista di una leggendaria difesa della città durante il XII secolo, in tempi turbolenti di costanti scontri tra musulmani e cristiani. In assenza degli uomini della città, organizzò donne e anziani per simulare una grande difesa dalle mura e così evitare un attacco musulmano. Puoi visitare la sua statua commemorativa in Calle San Miguel."
           }
         }
       },
@@ -300,6 +340,7 @@ const Avila = () => {
       },
       restaurants: {
         title: "🍽 Assaggia la Nostra Cucina",
+        content: "Una cosa che ti sorprenderà di Ávila è che quando ordini una bevanda, ti porteranno un pincho senza averlo chiesto. Sì, abbiamo questa cultura come altre città in Spagna, quindi approfittane! 😋",
         places: [
           { name: "El Pórtico 🍲", description: "Zuppa castigliana, patate revolconas, asparagi" },
           { name: "Venus Café Bar 🥘", description: "Porzioni generose; trippa" },
@@ -311,6 +352,19 @@ const Avila = () => {
           { name: "Bococo 🥩", description: "Fagioli grandi, revolconas, bistecca" },
           { name: "Los Candiles 🍗", description: "Tradizione castigliana curata" }
         ]
+      },
+      traditionalDishes: {
+        title: "🍽 Gastronomia Tradizionale",
+        dishes: {
+          chuleton: {
+            title: "Bistecca di Ávila 🥩",
+            content: "Emblema gastronomico della città. Carne bovina di qualità eccezionale della zona."
+          },
+          revolconas: {
+            title: "Patate revolconas 🥔🔥",
+            content: "Un purè di patate con paprika, aglio e coronato con ciccioli croccanti. Piatto umile e tipico di Ávila, perfetto per i giorni freddi."
+          }
+        }
       }
     },
     scn: {
@@ -382,6 +436,10 @@ const Avila = () => {
           suarez: {
             title: "🇪🇸 Adolfo Suárez",
             content: "Di Cebreros (Ávila): primu prisidenti dâ dimucrazia, architettu dâ Transición."
+          },
+          ximena: {
+            title: "Ximena de Ávila",
+            content: "Prutagunista di na difisa liggendaria dâ città duranti lu XII sèculu, nti tempi turbulinzi di custanti scontri tra musulmani e cristiani. Nâ assenza di l'omini dâ città, urganizzau fimmini e ancianu pi simulari na grandi difisa di li mura e accussì evitari n'attaccu musulmanu. Poi visitari la so statua cummimuratìva nâ Calle San Miguel."
           }
         }
       },
@@ -401,6 +459,7 @@ const Avila = () => {
       },
       restaurants: {
         title: "🍽 Assaggia 'a cucina",
+        content: "Na cosa ca ti maravigghierà di Ávila è ca quannu addumanni na vivanda, ti portanu nu pinchu senza averlu addumandatu. Sì, avemu sta cultura comu autri città di Spagna, accussì approfittanu! 😋",
         places: [
           { name: "El Pórtico 🍲", description: "Zuppa castigliana, patati revolconas, sparaci" },
           { name: "Venus Café Bar 🥘", description: "Purziuni gennerusi; trippa" },
@@ -412,6 +471,19 @@ const Avila = () => {
           { name: "Bococo 🥩", description: "Fasola grandi, revolconas, bistecca" },
           { name: "Los Candiles 🍗", description: "Tradizioni castigliana curata" }
         ]
+      },
+      traditionalDishes: {
+        title: "🍽 Gastronomia Tradiziunali",
+        dishes: {
+          chuleton: {
+            title: "Bistecca di Ávila 🥩",
+            content: "Emblema gastronomicu dâ città. Carni di vitellu di qualità eccezziunali dâ zona."
+          },
+          revolconas: {
+            title: "Patati revolconas 🥔🔥",
+            content: "Nu purè di patati cu paprica, agghiu e curunatu cu ciccioli croccanti. Chibbu umili e tipicu di Ávila, perfettu pi li jorna friddi."
+          }
+        }
       }
     }
   };
@@ -423,7 +495,7 @@ const Avila = () => {
       {/* Hero Section */}
       <div className="relative h-96 overflow-hidden">
         <img 
-          src={avilaWallsImage} 
+          src={avilaHeroImg} 
           alt="Ávila Walls" 
           className="w-full h-full object-cover"
         />
@@ -526,6 +598,32 @@ const Avila = () => {
               </CardContent>
             </Card>
 
+            {/* Traditional Dishes Section */}
+            {currentContent.traditionalDishes && (
+              <Card className="hover:shadow-lg transition-shadow bg-card/80 backdrop-blur-sm">
+                <CardHeader>
+                  <CardTitle className="flex items-center gap-2">
+                    <Utensils className="h-5 w-5 text-primary" />
+                    {currentContent.traditionalDishes.title}
+                  </CardTitle>
+                </CardHeader>
+                <CardContent>
+                  <Accordion type="single" collapsible className="w-full">
+                    {Object.entries(currentContent.traditionalDishes.dishes).map(([key, dish]) => (
+                      <AccordionItem key={key} value={`dish-${key}`}>
+                        <AccordionTrigger className="text-left font-medium">
+                          {dish.title}
+                        </AccordionTrigger>
+                        <AccordionContent className="text-muted-foreground leading-relaxed">
+                          {dish.content}
+                        </AccordionContent>
+                      </AccordionItem>
+                    ))}
+                  </Accordion>
+                </CardContent>
+              </Card>
+            )}
+
             {/* Restaurants */}
             <Card className="hover:shadow-lg transition-shadow bg-card/80 backdrop-blur-sm">
               <CardHeader>
@@ -535,6 +633,7 @@ const Avila = () => {
                 </CardTitle>
               </CardHeader>
               <CardContent>
+                <p className="text-muted-foreground mb-4">{currentContent.restaurants.content}</p>
                 <Accordion type="single" collapsible className="w-full">
                   {currentContent.restaurants.places.map((restaurant, index) => (
                     <AccordionItem key={index} value={`restaurant-${index}`}>
