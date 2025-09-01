@@ -659,7 +659,7 @@ const Avila = () => {
               <img 
                 src="https://i.imgur.com/3PyxBPS.jpeg" 
                 alt="Gastronomía abulense - platos típicos de Ávila" 
-                className="w-full h-48 object-contain object-top sm:object-cover sm:object-center"
+                className="w-full h-48 object-cover object-top"
               />
               <CardContent className="p-4">
                 <h3 className="font-semibold text-lg mb-2">
