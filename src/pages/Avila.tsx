@@ -117,6 +117,7 @@ const Avila = () => {
         },
         traditionalDishes: {
           title: "🍽 Gastronomía Tradicional",
+          content: "La cocina abulense destaca por sus carnes de ternera y cordero, las judías del Barco de Ávila, y las famosas yemas de Santa Teresa. Los vinos de la región complementan perfectamente esta rica tradición culinaria.",
           dishes: [
             {
               title: "Chuletón de Ávila 🥩",
@@ -242,9 +243,10 @@ const Avila = () => {
           { name: "Los Candiles 🍗", description: "Careful Castilian tradition" }
         ]
       },
-      traditionalDishes: {
-        title: "🍽 Traditional Gastronomy",
-        dishes: [
+        traditionalDishes: {
+          title: "🍽 Traditional Gastronomy", 
+          content: "Abulense cuisine stands out for its beef and lamb, the beans from Barco de Ávila, and the famous yemas de Santa Teresa. Regional wines perfectly complement this rich culinary tradition.",
+          dishes: [
           {
             title: "Ávila T-bone Steak 🥩",
             content: "Emblematic gastronomic brand of the city. Exceptional quality beef from the area."
@@ -369,9 +371,10 @@ const Avila = () => {
           { name: "Los Candiles 🍗", description: "Tradizione castigliana curata" }
         ]
       },
-      traditionalDishes: {
-        title: "🍽 Gastronomia Tradizionale",
-        dishes: [
+        traditionalDishes: {
+          title: "🍽 Gastronomia Tradizionale",
+          content: "La cucina abulense si distingue per le sue carni di vitello e agnello, i fagioli del Barco de Ávila, e i famosi yemas de Santa Teresa. I vini della regione completano perfettamente questa ricca tradizione culinaria.",
+          dishes: [
           {
             title: "Bistecca di Ávila 🥩",
             content: "Emblema gastronomico della città. Carne bovina di qualità eccezionale della zona."
@@ -496,9 +499,10 @@ const Avila = () => {
           { name: "Los Candiles 🍗", description: "Tradizioni castigliana curata" }
         ]
       },
-      traditionalDishes: {
-        title: "🍽 Gastronomia Tradiziunali",
-        dishes: [
+        traditionalDishes: {
+          title: "🍽 Gastronomia Tradiziunali", 
+          content: "La cucina abulensi si distingui pi li so carni di vitellu e agnellu, li fasola dû Barco de Ávila, e li famusi yemas de Santa Teresa. Li vini dâ riggioni cumplitanu perfettamenti sta ricca tradizioni culinaria.",
+          dishes: [
           {
             title: "Bistecca di Ávila 🥩",
             content: "Emblema gastronomicu dâ città. Carni di vitellu di qualità eccezziunali dâ zona."
@@ -582,6 +586,35 @@ const Avila = () => {
               </Card>
             ))}
 
+            {/* Traditional Dishes Section */}
+            {currentContent.traditionalDishes && (
+              <Card className="hover:shadow-lg transition-shadow bg-card/80 backdrop-blur-sm">
+                <CardHeader>
+                  <CardTitle className="flex items-center gap-2">
+                    <Utensils className="h-5 w-5 text-primary" />
+                    {currentContent.traditionalDishes.title}
+                  </CardTitle>
+                </CardHeader>
+                <CardContent>
+                  <p className="text-muted-foreground leading-relaxed mb-6">
+                    {currentContent.traditionalDishes.content}
+                  </p>
+                  <Accordion type="single" collapsible className="w-full">
+                    {currentContent.traditionalDishes.dishes.map((dish, index) => (
+                      <AccordionItem key={index} value={`dish-${index}`}>
+                        <AccordionTrigger className="text-left font-medium">
+                          {dish.title}
+                        </AccordionTrigger>
+                        <AccordionContent className="text-muted-foreground leading-relaxed">
+                          {dish.content}
+                        </AccordionContent>
+                      </AccordionItem>
+                    ))}
+                  </Accordion>
+                </CardContent>
+              </Card>
+            )}
+
             {/* Historical Details Section */}
             <Card className="hover:shadow-lg transition-shadow bg-card/80 backdrop-blur-sm">
               <CardHeader>
@@ -630,31 +663,6 @@ const Avila = () => {
               </CardContent>
             </Card>
 
-            {/* Traditional Dishes Section */}
-            {currentContent.traditionalDishes && (
-              <Card className="hover:shadow-lg transition-shadow bg-card/80 backdrop-blur-sm">
-                <CardHeader>
-                  <CardTitle className="flex items-center gap-2">
-                    <Utensils className="h-5 w-5 text-primary" />
-                    {currentContent.traditionalDishes.title}
-                  </CardTitle>
-                </CardHeader>
-                <CardContent>
-                  <Accordion type="single" collapsible className="w-full">
-                    {currentContent.traditionalDishes.dishes.map((dish, index) => (
-                      <AccordionItem key={index} value={`dish-${index}`}>
-                        <AccordionTrigger className="text-left font-medium">
-                          {dish.title}
-                        </AccordionTrigger>
-                        <AccordionContent className="text-muted-foreground leading-relaxed">
-                          {dish.content}
-                        </AccordionContent>
-                      </AccordionItem>
-                    ))}
-                  </Accordion>
-                </CardContent>
-              </Card>
-            )}
 
             {/* Restaurants */}
             <Card className="hover:shadow-lg transition-shadow bg-card/80 backdrop-blur-sm">
