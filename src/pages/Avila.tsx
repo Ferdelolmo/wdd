@@ -3,7 +3,7 @@ import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from '@/components/ui/accordion';
 import { MapPin, Mountain, Clock, Camera, Utensils, Church, Crown, TreePine } from 'lucide-react';
 import avilaWallsImage from '@/assets/avila-walls.jpg';
-import avilaCuisineImage from '@/assets/avila-cuisine.jpg';
+import avilaGastronomyImage from '@/assets/avila-gastronomy.jpg';
 import avilaHeroImg from '@/assets/avila-hero-new.jpg';
 
 const Avila = () => {
@@ -40,15 +40,6 @@ const Avila = () => {
             { title: "Basílica de San Vicente", content: "Obra maestra del románico español del siglo XII." },
             { title: "Catedral de Ávila", content: "Primera catedral gótica de España, construida en el siglo XII." },
             { title: "Monasterio de la Encarnación", content: "Donde vivió Santa Teresa durante 27 años de su vida." }
-          ]
-        },
-        gastronomy: {
-          title: "Gastronomía Tradicional",
-          content: "La cocina abulense destaca por sus carnes de ternera y cordero, las judías del Barco de Ávila, y las famosas yemas de Santa Teresa. Los vinos de la región complementan perfectamente esta rica tradición culinaria.",
-          details: [
-            { title: "Chuletón de Ávila", content: "Carne de ternera de la mejor calidad, criada en los pastos de la provincia." },
-            { title: "Judías del Barco", content: "Legumbres con Denominación de Origen, famosas por su textura y sabor." },
-            { title: "Yemas de Santa Teresa", content: "Dulce tradicional hecho con yema de huevo y azúcar desde el siglo XVI." }
           ]
         }
       },
@@ -169,15 +160,6 @@ const Avila = () => {
             { title: "Ávila Cathedral", content: "First Gothic cathedral in Spain, built in the 12th century." },
             { title: "Monastery of the Incarnation", content: "Where Saint Teresa lived for 27 years of her life." }
           ]
-        },
-        gastronomy: {
-          title: "Traditional Gastronomy",
-          content: "Abulense cuisine stands out for its beef and lamb, the beans from Barco de Ávila, and the famous yemas de Santa Teresa. Regional wines perfectly complement this rich culinary tradition.",
-          details: [
-            { title: "Ávila Steak", content: "Top quality beef raised in the province's pastures." },
-            { title: "Barco Beans", content: "Legumes with Designation of Origin, famous for their texture and flavor." },
-            { title: "Yemas de Santa Teresa", content: "Traditional sweet made with egg yolk and sugar since the 16th century." }
-          ]
         }
       },
       funFacts: {
@@ -297,15 +279,6 @@ const Avila = () => {
             { title: "Cattedrale di Ávila", content: "Prima cattedrale gotica di Spagna, costruita nel XII secolo." },
             { title: "Monastero dell'Incarnazione", content: "Dove visse Santa Teresa per 27 anni della sua vita." }
           ]
-        },
-        gastronomy: {
-          title: "Gastronomia Tradizionale",
-          content: "La cucina abulense si distingue per le sue carni di vitello e agnello, i fagioli del Barco de Ávila, e le famose yemas de Santa Teresa. I vini della regione completano perfettamente questa ricca tradizione culinaria.",
-          details: [
-            { title: "Bistecca di Ávila", content: "Carne di vitello di prima qualità, allevata nei pascoli della provincia." },
-            { title: "Fagioli del Barco", content: "Legumi con Denominazione d'Origine, famosi per la loro consistenza e sapore." },
-            { title: "Yemas de Santa Teresa", content: "Dolce tradizionale fatto con tuorlo d'uovo e zucchero dal XVI secolo." }
-          ]
         }
       },
       funFacts: {
@@ -424,15 +397,6 @@ const Avila = () => {
             { title: "Basilica di San Vicente", content: "Capulavuru dû rumanicu spagnolu dû XII sèculu." },
             { title: "Cattidrali di Ávila", content: "Prima cattidrali gotica di Spagna, custruita nto XII sèculu." },
             { title: "Munasteru di l'Incarnazioni", content: "Unni vìssiru Santa Teresa pi 27 anni dâ so vita." }
-          ]
-        },
-        gastronomy: {
-          title: "Gastronomia Tradiziunali",
-          content: "La cucina abulensi si distingui pi li so carni di vitellu e agnellu, li fasola dû Barco de Ávila, e li famusi yemas de Santa Teresa. Li vini dâ riggioni cumplitanu perfettamenti sta ricca tradizioni culinaria.",
-          details: [
-            { title: "Bistecca di Ávila", content: "Carni di vitellu di prima qualità, allivata nti pasculi dâ pruvincia." },
-            { title: "Fasola dû Barco", content: "Ligumi cu Dinuminazioni d'Origini, famusi pi la so cunsistenza e sapuri." },
-            { title: "Yemas de Santa Teresa", content: "Durci tradiziunali fattu cu rùsulu d'ovu e zuccaru dû XVI sèculu." }
           ]
         }
       },
@@ -695,7 +659,7 @@ const Avila = () => {
             {/* Cuisine Image */}
             <Card className="overflow-hidden bg-card/80 backdrop-blur-sm">
               <img 
-                src={avilaCuisineImage} 
+                src={avilaGastronomyImage} 
                 alt="Ávila Cuisine" 
                 className="w-full h-48 object-cover"
               />
