@@ -661,7 +661,7 @@ const Avila = () => {
               <img 
                 src={avilaGastronomyImage} 
                 alt="Ávila Cuisine" 
-                className="w-full h-48 object-cover"
+                className="w-full h-48 object-cover object-center"
               />
               <CardContent className="p-4">
                 <h3 className="font-semibold text-lg mb-2">
