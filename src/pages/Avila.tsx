@@ -2,8 +2,6 @@ import { useLanguage } from '@/contexts/LanguageContext';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from '@/components/ui/accordion';
 import { MapPin, Mountain, Clock, Camera, Utensils, Church, Crown, TreePine } from 'lucide-react';
-import avilaWallsImage from '@/assets/avila-walls.jpg';
-import avilaGastronomyImage from '@/assets/avila-gastronomy.jpg';
 import avilaHeroImg from '@/assets/avila-hero-new.jpg';
 
 const Avila = () => {
@@ -659,9 +657,9 @@ const Avila = () => {
             {/* Cuisine Image */}
             <Card className="overflow-hidden bg-card/80 backdrop-blur-sm">
               <img 
-                src={avilaGastronomyImage} 
-                alt="Ávila Cuisine" 
-                className="w-full h-48 object-cover object-center"
+                src="https://i.imgur.com/3PyxBPS.jpeg" 
+                alt="Gastronomía abulense - platos típicos de Ávila" 
+                className="w-full h-48 object-contain object-top sm:object-cover sm:object-center"
               />
               <CardContent className="p-4">
                 <h3 className="font-semibold text-lg mb-2">
