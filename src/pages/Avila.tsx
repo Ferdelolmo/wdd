@@ -23,8 +23,8 @@ const Avila = () => {
           ]
         },
         walls: {
-          title: "Las Murallas Medievales",
-          content: "Con más de 2.5 kilómetros de longitud, las murallas de Ávila rodean completamente el casco histórico. Construidas entre los siglos XI y XIV, cuentan con 88 torres y 9 puertas que han resistido el paso del tiempo.",
+          title: "Las Murallas Medievales", 
+          content: "La muralla de Ávila, construida en el siglo XI, es uno de los recintos amurallados medievales mejor conservados de Europa. Rodea completamente el casco histórico con más de 2,5 km de perímetro, 88 torreones y 9 puertas monumentales. Declarada Patrimonio de la Humanidad por la UNESCO, es el símbolo indiscutible de la ciudad y un recordatorio de su importancia estratégica en la Edad Media.",
           details: [
             { title: "Dimensiones", content: "2.516 metros de perímetro, 12 metros de altura media y 3 metros de grosor." },
             { title: "Torres", content: "88 torres semicirculares que refuerzan la estructura defensiva." },
