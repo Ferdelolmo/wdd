@@ -516,25 +516,22 @@ const Avila = () => {
         <div className="grid lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
           {/* Main Content */}
           <div className="lg:col-span-2 space-y-8">
-            {Object.entries(currentContent.sections).map(([key, section], index) => (
-              <Card key={key} className="hover:shadow-lg transition-shadow bg-card/80 backdrop-blur-sm">
+            {/* 1. Historia milenaria */}
+            {currentContent.sections.history && (
+              <Card className="hover:shadow-lg transition-shadow bg-card/80 backdrop-blur-sm">
                 <CardHeader>
                   <CardTitle className="flex items-center gap-2">
-                    {key === 'history' && <Clock className="h-5 w-5 text-primary" />}
-                    {key === 'walls' && <Mountain className="h-5 w-5 text-primary" />}
-                    {key === 'culture' && <Church className="h-5 w-5 text-primary" />}
-                    {key === 'gastronomy' && <Utensils className="h-5 w-5 text-primary" />}
-                    {section.title}
+                    <Clock className="h-5 w-5 text-primary" />
+                    {currentContent.sections.history.title}
                   </CardTitle>
                 </CardHeader>
                 <CardContent>
                   <p className="text-muted-foreground leading-relaxed mb-6">
-                    {section.content}
+                    {currentContent.sections.history.content}
                   </p>
-                  
                   <Accordion type="single" collapsible className="w-full">
-                    {section.details.map((detail, detailIndex) => (
-                      <AccordionItem key={detailIndex} value={`${key}-${detailIndex}`}>
+                    {currentContent.sections.history.details.map((detail, detailIndex) => (
+                      <AccordionItem key={detailIndex} value={`history-${detailIndex}`}>
                         <AccordionTrigger className="text-left font-medium">
                           {detail.title}
                         </AccordionTrigger>
@@ -546,9 +543,141 @@ const Avila = () => {
                   </Accordion>
                 </CardContent>
               </Card>
-            ))}
+            )}
 
-            {/* Traditional Dishes Section */}
+            {/* 2. Historia y memoria */}
+            <Card className="hover:shadow-lg transition-shadow bg-card/80 backdrop-blur-sm">
+              <CardHeader>
+                <CardTitle className="flex items-center gap-2">
+                  <Crown className="h-5 w-5 text-primary" />
+                  {currentContent.historicalDetails.title}
+                </CardTitle>
+              </CardHeader>
+              <CardContent>
+                <Accordion type="single" collapsible className="w-full">
+                  {Object.entries(currentContent.historicalDetails.sections).map(([key, section]) => (
+                    <AccordionItem key={key} value={`historical-${key}`}>
+                      <AccordionTrigger className="text-left font-medium">
+                        {section.title}
+                      </AccordionTrigger>
+                      <AccordionContent className="text-muted-foreground leading-relaxed">
+                        {section.content}
+                      </AccordionContent>
+                    </AccordionItem>
+                  ))}
+                </Accordion>
+              </CardContent>
+            </Card>
+
+            {/* 3. Las murallas medievales */}
+            {currentContent.sections.walls && (
+              <Card className="hover:shadow-lg transition-shadow bg-card/80 backdrop-blur-sm">
+                <CardHeader>
+                  <CardTitle className="flex items-center gap-2">
+                    <Mountain className="h-5 w-5 text-primary" />
+                    {currentContent.sections.walls.title}
+                  </CardTitle>
+                </CardHeader>
+                <CardContent>
+                  <p className="text-muted-foreground leading-relaxed mb-6">
+                    {currentContent.sections.walls.content}
+                  </p>
+                  <Accordion type="single" collapsible className="w-full">
+                    {currentContent.sections.walls.details.map((detail, detailIndex) => (
+                      <AccordionItem key={detailIndex} value={`walls-${detailIndex}`}>
+                        <AccordionTrigger className="text-left font-medium">
+                          {detail.title}
+                        </AccordionTrigger>
+                        <AccordionContent className="text-muted-foreground leading-relaxed">
+                          {detail.content}
+                        </AccordionContent>
+                      </AccordionItem>
+                    ))}
+                  </Accordion>
+                </CardContent>
+              </Card>
+            )}
+
+            {/* 4. Patrimonio cultural */}
+            {currentContent.sections.culture && (
+              <Card className="hover:shadow-lg transition-shadow bg-card/80 backdrop-blur-sm">
+                <CardHeader>
+                  <CardTitle className="flex items-center gap-2">
+                    <Church className="h-5 w-5 text-primary" />
+                    {currentContent.sections.culture.title}
+                  </CardTitle>
+                </CardHeader>
+                <CardContent>
+                  <p className="text-muted-foreground leading-relaxed mb-6">
+                    {currentContent.sections.culture.content}
+                  </p>
+                  <Accordion type="single" collapsible className="w-full">
+                    {currentContent.sections.culture.details.map((detail, detailIndex) => (
+                      <AccordionItem key={detailIndex} value={`culture-${detailIndex}`}>
+                        <AccordionTrigger className="text-left font-medium">
+                          {detail.title}
+                        </AccordionTrigger>
+                        <AccordionContent className="text-muted-foreground leading-relaxed">
+                          {detail.content}
+                        </AccordionContent>
+                      </AccordionItem>
+                    ))}
+                  </Accordion>
+                </CardContent>
+              </Card>
+            )}
+
+            {/* 5. Lugares que no te deberías perder */}
+            <Card className="hover:shadow-lg transition-shadow bg-card/80 backdrop-blur-sm">
+              <CardHeader>
+                <CardTitle className="flex items-center gap-2">
+                  <MapPin className="h-5 w-5 text-primary" />
+                  {currentContent.mustSee.title}
+                </CardTitle>
+              </CardHeader>
+              <CardContent>
+                <Accordion type="single" collapsible className="w-full">
+                  {currentContent.mustSee.places.map((place, index) => (
+                    <AccordionItem key={index} value={`place-${index}`}>
+                      <AccordionTrigger className="text-left font-medium">
+                        {place.name}
+                      </AccordionTrigger>
+                      <AccordionContent className="text-muted-foreground leading-relaxed">
+                        {place.description}
+                      </AccordionContent>
+                    </AccordionItem>
+                  ))}
+                </Accordion>
+              </CardContent>
+            </Card>
+
+            {/* 6. Gastronomía Abulense */}
+            <Card className="hover:shadow-lg transition-shadow bg-card/80 backdrop-blur-sm">
+              <div className="overflow-hidden">
+                <img 
+                  src="https://i.imgur.com/7VByEbi.png" 
+                  alt="Gastronomía abulense - platos típicos de Ávila" 
+                  className="w-full h-48 object-cover object-top"
+                />
+              </div>
+              <CardHeader>
+                <CardTitle className="flex items-center gap-2">
+                  <Utensils className="h-5 w-5 text-primary" />
+                  {language === 'es' ? 'Gastronomía Abulense' : 
+                   language === 'en' ? 'Abulense Cuisine' :
+                   language === 'it' ? 'Cucina Abulense' : 'Cucina Abulensi'}
+                </CardTitle>
+              </CardHeader>
+              <CardContent>
+                <p className="text-muted-foreground leading-relaxed">
+                  {language === 'es' ? 'Descubre los sabores únicos de la cocina tradicional de Ávila.' :
+                   language === 'en' ? 'Discover the unique flavors of Ávila\'s traditional cuisine.' :
+                   language === 'it' ? 'Scopri i sapori unici della cucina tradizionale di Ávila.' : 'Scopri li sapuri unici dâ cucina tradiziunali di Ávila.'}
+                </p>
+              </CardContent>
+            </Card>
+
+            {/* 7. Gastronomia tradicional */}
             {currentContent.traditionalDishes && (
               <Card className="hover:shadow-lg transition-shadow bg-card/80 backdrop-blur-sm">
                 <CardHeader>
@@ -577,56 +706,7 @@ const Avila = () => {
               </Card>
             )}
 
-            {/* Historical Details Section */}
-            <Card className="hover:shadow-lg transition-shadow bg-card/80 backdrop-blur-sm">
-              <CardHeader>
-                <CardTitle className="flex items-center gap-2">
-                  <Crown className="h-5 w-5 text-primary" />
-                  {currentContent.historicalDetails.title}
-                </CardTitle>
-              </CardHeader>
-              <CardContent>
-                <Accordion type="single" collapsible className="w-full">
-                  {Object.entries(currentContent.historicalDetails.sections).map(([key, section]) => (
-                    <AccordionItem key={key} value={`historical-${key}`}>
-                      <AccordionTrigger className="text-left font-medium">
-                        {section.title}
-                      </AccordionTrigger>
-                      <AccordionContent className="text-muted-foreground leading-relaxed">
-                        {section.content}
-                      </AccordionContent>
-                    </AccordionItem>
-                  ))}
-                </Accordion>
-              </CardContent>
-            </Card>
-
-            {/* Must See Places */}
-            <Card className="hover:shadow-lg transition-shadow bg-card/80 backdrop-blur-sm">
-              <CardHeader>
-                <CardTitle className="flex items-center gap-2">
-                  <MapPin className="h-5 w-5 text-primary" />
-                  {currentContent.mustSee.title}
-                </CardTitle>
-              </CardHeader>
-              <CardContent>
-                <Accordion type="single" collapsible className="w-full">
-                  {currentContent.mustSee.places.map((place, index) => (
-                    <AccordionItem key={index} value={`place-${index}`}>
-                      <AccordionTrigger className="text-left font-medium">
-                        {place.name}
-                      </AccordionTrigger>
-                      <AccordionContent className="text-muted-foreground leading-relaxed">
-                        {place.description}
-                      </AccordionContent>
-                    </AccordionItem>
-                  ))}
-                </Accordion>
-              </CardContent>
-            </Card>
-
-
-            {/* Restaurants */}
+            {/* 8. Prueba nuestra gastronomia */}
             <Card className="hover:shadow-lg transition-shadow bg-card/80 backdrop-blur-sm">
               <CardHeader>
                 <CardTitle className="flex items-center gap-2">
@@ -654,26 +734,6 @@ const Avila = () => {
 
           {/* Sidebar */}
           <div className="space-y-8">
-            {/* Cuisine Image */}
-            <Card className="overflow-hidden bg-card/80 backdrop-blur-sm">
-              <img 
-                src="https://i.imgur.com/7VByEbi.png" 
-                alt="Gastronomía abulense - platos típicos de Ávila" 
-                className="w-full h-48 object-cover object-top"
-              />
-              <CardContent className="p-4">
-                <h3 className="font-semibold text-lg mb-2">
-                  {language === 'es' ? 'Gastronomía Abulense' : 
-                   language === 'en' ? 'Abulense Cuisine' :
-                   language === 'it' ? 'Cucina Abulense' : 'Cucina Abulensi'}
-                </h3>
-                <p className="text-sm text-muted-foreground">
-                  {language === 'es' ? 'Descubre los sabores únicos de la cocina tradicional de Ávila.' :
-                   language === 'en' ? 'Discover the unique flavors of Ávila\'s traditional cuisine.' :
-                   language === 'it' ? 'Scopri i sapori unici della cucina tradizionale di Ávila.' : 'Scopri li sapuri unici dâ cucina tradiziunali di Ávila.'}
-                </p>
-              </CardContent>
-            </Card>
 
             {/* Fun Facts */}
             <Card className="p-6 bg-wedding-cream shadow-soft border-0">
