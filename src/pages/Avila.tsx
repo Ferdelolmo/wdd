@@ -35,9 +35,15 @@ const Avila = () => {
           title: "Patrimonio Cultural",
           content: "Ávila conserva un rico patrimonio religioso y cultural, con numerosos conventos, iglesias y palacios que narran siglos de historia cristiana y noble.",
           details: [
-            { title: "Basílica de San Vicente", content: "Obra maestra del románico español del siglo XII." },
-            { title: "Catedral de Ávila", content: "Primera catedral gótica de España, construida en el siglo XII." },
-            { title: "Monasterio de la Encarnación", content: "Donde vivió Santa Teresa durante 27 años de su vida." }
+            { title: "Murallas de Ávila 🏰", content: "Paseo de adarve y vistas 360°" },
+            { title: "Monasterio de Santo Tomás ⛪", content: "Es Patrimonio de la Humanidad y una joya del patrimonio abulense. Fue escogido por los Reyes Católicos como residencia de verano y lugar de enterramiento del príncipe Juan, su hijo fallecido. Destaca por sus tres claustros y su retablo de Pedro Berruguete, y alberga un Museo de Arte Oriental." },
+            { title: "Basílica de San Vicente 🕍", content: "Es un templo románico-gótico del siglo XII dedicado a los mártires Vicente, Sabina y Cristeta, famoso por su cenotafio policromado y su imponente arquitectura en piedra caleña, parte del Patrimonio de la Humanidad." },
+            { title: "Basílica de Santa Teresa ✝", content: "Fue construida en el siglo XVII sobre la casa natal de Santa Teresa de Jesús. Es un templo barroco carmelitano de planta de cruz latina con capillas laterales, conocido por su fachada a modo de retablo con la imagen de la santa y escudos familiares." },
+            { title: "Catedral de Ávila 🏛", content: "La Catedral de Ávila, iniciada en el siglo XII, es la primera catedral gótica de España y también una fortaleza integrada en la muralla, destacando por su ábside defensivo y su mezcla de estilos románico y gótico." },
+            { title: "Puerta del Alcázar 🛡", content: "Entrada monumental al casco histórico" },
+            { title: "Plaza del Mercado Chico 🏘", content: "Tradicionalmente un centro de comercio y encuentro en la ciudad medieval, especialmente para productos locales y artesanías." },
+            { title: "Plaza del Mercado Grande 🌟", content: "Servía como epicentro de las ferias y mercados mayores de Ávila en la Edad Media. Hoy es un lugar vivo y frecuentado, que mantiene su función de espacio público donde se celebran eventos culturales y mercadillos." },
+            { title: "Cuatro Postes 🌅", content: "Monumento emblemático consta de cuatro pilares que sustentan una pequeña cruz. Es un lugar de descanso y reflexión para los peregrinos y visitantes, desde donde se obtiene una vista panorámica del recinto amurallado de Ávila." }
           ]
         }
       },
@@ -154,9 +160,15 @@ const Avila = () => {
           title: "Cultural Heritage",
           content: "Ávila preserves a rich religious and cultural heritage, with numerous convents, churches and palaces that tell centuries of Christian and noble history.",
           details: [
-            { title: "Basilica of San Vicente", content: "Masterpiece of Spanish Romanesque architecture from the 12th century." },
-            { title: "Ávila Cathedral", content: "First Gothic cathedral in Spain, built in the 12th century." },
-            { title: "Monastery of the Incarnation", content: "Where Saint Teresa lived for 27 years of her life." }
+            { title: "Ávila Walls 🏰", content: "Rampart walk and 360° views" },
+            { title: "Monastery of Santo Tomás ⛪", content: "Gothic cloisters; tomb of Prince Juan" },
+            { title: "Basilica of San Vicente 🕍", content: "Masterpiece of Spanish Romanesque" },
+            { title: "Basilica of Santa Teresa ✝", content: "Built over the saint's birthplace" },
+            { title: "Ávila Cathedral 🏛", content: "First Gothic cathedral in Spain, integrated into the wall" },
+            { title: "Gate of the Alcázar 🛡", content: "Monumental entrance to the historic center" },
+            { title: "Plaza del Mercado Chico 🏘", content: "Municipal heart since the Middle Ages" },
+            { title: "Plaza del Mercado Grande 🌟", content: "Great esplanade for fairs and meetings" },
+            { title: "Four Posts Hermitage 🌅", content: "Iconic sunset viewpoint" }
           ]
         }
       },
@@ -392,9 +404,15 @@ const Avila = () => {
           title: "Patrimoniu Culturali",
           content: "Ávila cunserva nu riccu patrimoniu religiosu e culturali, cu numerusi cunventi, chiesi e palazzi chi narranu sèculi di storia cristiana e nubiliari.",
           details: [
-            { title: "Basilica di San Vicente", content: "Capulavuru dû rumanicu spagnolu dû XII sèculu." },
-            { title: "Cattidrali di Ávila", content: "Prima cattidrali gotica di Spagna, custruita nto XII sèculu." },
-            { title: "Munasteru di l'Incarnazioni", content: "Unni vìssiru Santa Teresa pi 27 anni dâ so vita." }
+            { title: "Mura 🏰", content: "Passiaggìata e vista di tutti li lati" },
+            { title: "Munasteru di Santu Tomasu ⛪", content: "Chiostri gotici; sepulcru dû Prìncipi Juan" },
+            { title: "Basilica di San Vinçenzu 🕍", content: "Capulavuru dû rumanicu spagnolu" },
+            { title: "Basilica di Santa Teresa ✝", content: "Supra la casa unni nasciu" },
+            { title: "Cattidrali di Ávila 🏛", content: "Prima gotica di Spagna, ntâ muraglia" },
+            { title: "Porta dû Alcázar 🛡", content: "Ntranzata monumentali ô centru storicu" },
+            { title: "Piazza dû Mercatu Nicu 🏘", content: "Cori municipali dû Mediuevu" },
+            { title: "Piazza dû Mercatu Granni 🌟", content: "Granni spianata di fieri e riunioni" },
+            { title: "Quattru Pusti 🌅", content: "Miradori ô caliduni" }
           ]
         }
       },
@@ -627,31 +645,7 @@ const Avila = () => {
               </Card>
             )}
 
-            {/* 5. Lugares que no te deberías perder */}
-            <Card className="hover:shadow-lg transition-shadow bg-card/80 backdrop-blur-sm">
-              <CardHeader>
-                <CardTitle className="flex items-center gap-2">
-                  <MapPin className="h-5 w-5 text-primary" />
-                  {currentContent.mustSee.title}
-                </CardTitle>
-              </CardHeader>
-              <CardContent>
-                <Accordion type="single" collapsible className="w-full">
-                  {currentContent.mustSee.places.map((place, index) => (
-                    <AccordionItem key={index} value={`place-${index}`}>
-                      <AccordionTrigger className="text-left font-medium">
-                        {place.name}
-                      </AccordionTrigger>
-                      <AccordionContent className="text-muted-foreground leading-relaxed">
-                        {place.description}
-                      </AccordionContent>
-                    </AccordionItem>
-                  ))}
-                </Accordion>
-              </CardContent>
-            </Card>
-
-            {/* 6. Gastronomía Abulense */}
+            {/* Gastronomía Abulense */}
             <Card className="hover:shadow-lg transition-shadow bg-card/80 backdrop-blur-sm">
               <div className="overflow-hidden">
                 <img 
