@@ -2,6 +2,7 @@ import { useLanguage } from '@/contexts/LanguageContext';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from '@/components/ui/accordion';
 import { MapPin, Mountain, Clock, Camera, Utensils, Church, Crown, TreePine } from 'lucide-react';
+import LanguageSelector from '@/components/LanguageSelector';
 import avilaHeroImg from '@/assets/avila-hero-new.jpg';
 
 const Avila = () => {
@@ -516,6 +517,9 @@ const Avila = () => {
           className="w-full h-full object-cover"
         />
         <div className="absolute inset-0 bg-black/40 flex items-center justify-center">
+          <div className="absolute top-4 right-4 z-10">
+            <LanguageSelector />
+          </div>
           <div className="text-center text-white">
             <h1 className="text-4xl md:text-6xl font-bold mb-4">
               {currentContent.title}
