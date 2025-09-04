@@ -187,19 +187,19 @@ const Avila = () => {
         sections: {
           fuero: {
             title: "⚖️ Medieval Fuero",
-            content: "Royal charter of laws & privileges after repopulation: local judicial autonomy, tax reliefs and council self‑government—boosting settlement, trade and municipal power."
+            content: "Granted by King Alfonso VII during the reconquest in 1256, it was a set of royal laws and privileges after repopulation: local judicial autonomy, tax exemptions and council self-government. This pact cemented freedom, self-government and the privileged status of its knights and neighbors, sustaining its strategic importance and autonomy since the Middle Ages."
           },
           farsa: {
             title: "🎭 Farce of Ávila (1465)",
-            content: "Public ceremony: Henry IV symbolically deposed in effigy; Alfonso proclaimed king. Political theatre with real consequences."
+            content: "Ávila has been the first witness to great changes throughout history. One of these events was the so-called Farce of Ávila, in the year 1465. This was a political act held near the walls of Ávila, in which a coalition of Castilian nobles, opposed to King Henry IV of Castile ('the Impotent'), symbolically deposed him to the cry of 'to the ground, bastard!', through a ceremony charged with rituals and theatricality. It was not a battle, but a controversial and well-remembered staging."
           },
           guerra: {
             title: "⚔️ War of the Communities (1520–1521)",
-            content: "Urban uprising against Charles V—evolving from tax protest to cross‑class push for representative government; often seen as a forerunner of modern revolutions."
+            content: "Another event that had its first steps in Ávila, where the Holy See was established. The War of the Communities was an armed uprising that occurred between 1520 and 1522, during the reign of Charles V of the Holy Roman Empire. The conflict arose as a reaction to growing social and political discontent towards King Charles V, who came from Flanders with a foreign court, confronted with his mother Juana and barely speaking Castilian, which generated suspicions in the nobility and local social estates. The uprising, despite having brought together various estates and social strata, influenced by humanist ideas from the University of Salamanca, failed and its leaders Bravo, Padilla, Francisco and Javier de Maldonado were executed after the defeat of Villalar. April 23 is a marked date among Castilians, because although it meant defeat by the imperial army, it commemorates the spirit of rebellion and courage against injustices, which caused an arduous headache for the emperor."
           },
           suarez: {
-            title: "🇪🇸 Adolfo Suárez",
-            content: "From Cebreros (Ávila). Spain's first democratic Prime Minister and architect of the Transition."
+            title: "🇪🇸 Adolfo Suárez, illustrious son",
+            content: "Born in Cebreros (Ávila). First president of democracy and architect of the Spanish Transition. Adolfo Suárez was the political engine of the Spanish Transition, leading the transition from an authoritarian regime to a plural and constitutional democracy in a brief but challenging period, achieving a peaceful and consensual transition that is still a historical reference today."
           },
           ximena: {
             title: "Ximena de Ávila",
@@ -268,14 +268,14 @@ const Avila = () => {
           title: "Storia Millenaria",
           content: "Ávila, conosciuta come la 'Città delle Mura', è un gioiello medievale situato in Castiglia e León. Le sue mura dell'XI secolo sono le meglio conservate di Spagna e sono state dichiarate Patrimonio dell'Umanità dall'UNESCO nel 1985.",
           details: [
-            { title: "Fondazione", content: "Fondata nell'XI secolo per ordine del re Alfonso VI dopo la riconquista cristiana." },
-            { title: "Santa Teresa", content: "Culla di Santa Teresa di Gesù (1515-1582), mistica e dottore della Chiesa." },
-            { title: "Patrimonio UNESCO", content: "Dichiarata Patrimonio dell'Umanità nel 1985 per il suo valore storico unico." }
+            { title: "Fondazione", content: "Fondata nell'XI secolo per ordine del re Alfonso VI dopo la riconquista cristiana, si eresse come città fortificata per difendere la frontiera del Regno di Castiglia contro i musulmani. Le sue mura, costruite in quell'epoca, riflettono il suo carattere militare e strategico. La sua eredità medievale vive ancora in ogni angolo della città murata." },
+            { title: "Santa Teresa", content: "Culla di Santa Teresa di Gesù (1515-1582), mistica, scrittrice e riformatrice dell'ordine carmelitano. La sua influenza spirituale ha oltrepassato i confini e oggi è considerata Dottore della Chiesa, un titolo unico per il suo tempo." },
+            { title: "Patrimonio UNESCO", content: "Nel 1985, la Città Vecchia di Ávila e le sue chiese extramurarie furono dichiarate Patrimonio dell'Umanità dall'UNESCO. La muraglia romanica, i suoi templi e conventi, insieme al tracciato medievale della città, rappresentano un esempio eccezionale dell'architettura difensiva e religiosa del Medioevo in Spagna." }
           ]
         },
         walls: {
           title: "Le Mura Medievali",
-          content: "Con più di 2,5 chilometri di lunghezza, le mura di Ávila circondano completamente il centro storico. Costruite tra l'XI e il XIV secolo, contano 88 torri e 9 porte che hanno resistito al passare del tempo.",
+          content: "La muraglia di Ávila, costruita nell'XI secolo, è uno dei recinti murari medievali meglio conservati d'Europa. Circonda completamente il centro storico con più di 2,5 km di perimetro, 88 torrioni e 9 porte monumentali. Dichiarata Patrimonio dell'Umanità dall'UNESCO, è il simbolo indiscusso della città e un ricordo della sua importanza strategica nel Medioevo.",
           details: [
             { title: "Dimensioni", content: "2.516 metri di perimetro, 12 metri di altezza media e 3 metri di spessore." },
             { title: "Torri", content: "88 torri semicircolari che rafforzano la struttura difensiva." },
@@ -286,9 +286,15 @@ const Avila = () => {
           title: "Patrimonio Culturale",
           content: "Ávila conserva un ricco patrimonio religioso e culturale, con numerosi conventi, chiese e palazzi che narrano secoli di storia cristiana e nobiliare.",
           details: [
-            { title: "Basilica di San Vicente", content: "Capolavoro del romanico spagnolo del XII secolo." },
-            { title: "Cattedrale di Ávila", content: "Prima cattedrale gotica di Spagna, costruita nel XII secolo." },
-            { title: "Monastero dell'Incarnazione", content: "Dove visse Santa Teresa per 27 anni della sua vita." }
+            { title: "Mura di Ávila 🏰", content: "Passeggiata di ronda e viste a 360°" },
+            { title: "Monastero di Santo Tomás ⛪", content: "È Patrimonio dell'Umanità e un gioiello del patrimonio abulense. Fu scelto dai Re Cattolici come residenza estiva e luogo di sepoltura del principe Juan, il loro figlio defunto. Si distingue per i suoi tre chiostri e la sua pala d'altare di Pedro Berruguete, e ospita un Museo d'Arte Orientale." },
+            { title: "Basilica di San Vicente 🕍", content: "È un tempio romanico-gotico del XII secolo dedicato ai martiri Vicente, Sabina e Cristeta, famoso per il suo cenotafio policromo e la sua imponente architettura in pietra caleña, parte del Patrimonio dell'Umanità." },
+            { title: "Basilica di Santa Teresa ✝", content: "Fu costruita nel XVII secolo sulla casa natale di Santa Teresa di Gesù. È un tempio barocco carmelitano a pianta a croce latina con cappelle laterali, noto per la sua facciata come una pala d'altare con l'immagine della santa e stemmi familiari." },
+            { title: "Cattedrale di Ávila 🏛", content: "La Cattedrale di Ávila, iniziata nel XII secolo, è la prima cattedrale gotica di Spagna e anche una fortezza integrata nella muraglia, che si distingue per la sua abside difensiva e la sua mescolanza di stili romanico e gotico." },
+            { title: "Porta dell'Alcázar 🛡", content: "Ingresso monumentale al centro storico" },
+            { title: "Plaza del Mercado Chico 🏘", content: "Tradizionalmente un centro di commercio e incontro nella città medievale, specialmente per prodotti locali e artigianato." },
+            { title: "Plaza del Mercado Grande 🌟", content: "Serviva come epicentro delle fiere e mercati maggiori di Ávila nel Medioevo. Oggi è un luogo vivace e frequentato, che mantiene la sua funzione di spazio pubblico dove si celebrano eventi culturali e mercatini." },
+            { title: "Quattro Pali 🌅", content: "Monumento emblematico composto da quattro pilastri che sostengono una piccola croce. È un luogo di riposo e riflessione per pellegrini e visitatori, da dove si ottiene una vista panoramica del recinto murato di Ávila." }
           ]
         }
       },
@@ -306,19 +312,19 @@ const Avila = () => {
         sections: {
           fuero: {
             title: "⚖️ Fuero Medievale",
-            content: "Sistema di leggi e privilegi reali per la ripopolazione: autonomia giudiziaria locale, agevolazioni fiscali e autogoverno del consiglio cittadino."
+            content: "Concesso dal re Alfonso VII durante la riconquista nel 1256, fu un insieme di leggi e privilegi reali dopo il ripopolamento: autonomia giudiziaria locale, esenzioni fiscali e autogoverno del consiglio. Questo patto cementò la libertà, l'autogoverno e lo status privilegiato dei suoi cavalieri e vicini, sostenendo la sua importanza strategica e la sua autonomia sin dal Medioevo."
           },
           farsa: {
             title: "🎭 La Farsa di Ávila (1465)",
-            content: "Atto pubblico: Enrico IV deposto in effigie e proclamazione di Alfonso. Teatro con effetti reali."
+            content: "Ávila è stata la prima testimone di grandi cambiamenti nella storia. Uno di questi eventi fu la cosiddetta Farsa di Ávila, nell'anno 1465. Questo fu un atto politico celebrato vicino alle mura di Ávila, in cui una coalizione di nobili castigliani, contraria al re Enrico IV di Castiglia ('l'Impotente'), lo depose simbolicamente al grido di 'a terra bastardo!', attraverso una cerimonia carica di rituali e teatralità. Non si trattò di una battaglia, ma di una messa in scena controversa e molto ricordata."
           },
           guerra: {
             title: "⚔️ Guerra delle Comunità (1520–1521)",
-            content: "Sollevazione urbana contro Carlo V, da protesta fiscale a movimento interclassista per un governo più rappresentativo; spesso vista come antecedente di rivoluzioni moderne."
+            content: "Un altro evento che ebbe i suoi primi passi ad Ávila, dove si costituì la Santa Sede. La Guerra delle Comunità fu un sollevamento armato avvenuto tra il 1520 e il 1522, durante il regno di Carlo V del Sacro Romano Impero. Il conflitto sorse come reazione al crescente malcontento sociale e politico verso il re Carlo V, che arrivò dalle Fiandre con una corte straniera, in conflitto con sua madre Giovanna e parlando appena il castigliano, il che generò sospetti nella nobiltà e negli stati sociali locali. Il sollevamento, nonostante avesse riunito diversi stati e strati sociali, influenzati dalle idee umanistiche dell'Università di Salamanca, fallì e i suoi leader Bravo, Padilla, Francisco e Javier de Maldonado furono giustiziati dopo la sconfitta di Villalar. Il 23 aprile è una data segnata tra i castigliani, perché anche se significò la sconfitta da parte dell'esercito imperiale, commemora lo spirito di ribellione e coraggio contro le ingiustizie, che causarono un arduo mal di testa all'imperatore."
           },
           suarez: {
-            title: "🇪🇸 Adolfo Suárez",
-            content: "Di Cebreros (Ávila). Primo presidente della democrazia e architetto della Transición."
+            title: "🇪🇸 Adolfo Suárez, figlio illustre",
+            content: "Nato a Cebreros (Ávila). Primo presidente della democrazia e architetto della Transizione spagnola. Adolfo Suárez fu il motore politico della Transizione spagnola, conducendo il passaggio da un regime autoritario a una democrazia plurale e costituzionale in un periodo breve ma pieno di sfide, ottenendo una transizione pacifica e consensuale che è ancora oggi un riferimento storico."
           },
           ximena: {
             title: "Ximena de Ávila",
@@ -330,28 +336,28 @@ const Avila = () => {
         title: "🗺 Luoghi da Non Perdere",
         places: [
           { name: "Mura di Ávila 🏰", description: "Passeggiata di ronda e viste a 360°" },
-          { name: "Monastero di San Tommaso ⛪", description: "Chiostri gotici; sepolcro del Principe Juan" },
-          { name: "Basilica di San Vincenzo 🕍", description: "Romanico maggiore castigliano" },
-          { name: "Basilica di Santa Teresa ✝", description: "Sulla casa natale della santa" },
-          { name: "Cattedrale di Ávila 🏛", description: "Prima gotica di Spagna, integrata nelle mura" },
+          { name: "Monastero di Santo Tomás ⛪", description: "È Patrimonio dell'Umanità e un gioiello del patrimonio abulense. Fu scelto dai Re Cattolici come residenza estiva e luogo di sepoltura del principe Juan, il loro figlio defunto. Si distingue per i suoi tre chiostri e la sua pala d'altare di Pedro Berruguete, e ospita un Museo d'Arte Orientale." },
+          { name: "Basilica di San Vicente 🕍", description: "È un tempio romanico-gotico del XII secolo dedicato ai martiri Vicente, Sabina e Cristeta, famoso per il suo cenotafio policromo e la sua imponente architettura in pietra caleña, parte del Patrimonio dell'Umanità." },
+          { name: "Basilica di Santa Teresa ✝", description: "Fu costruita nel XVII secolo sulla casa natale di Santa Teresa di Gesù. È un tempio barocco carmelitano a pianta a croce latina con cappelle laterali, noto per la sua facciata come una pala d'altare con l'immagine della santa e stemmi familiari." },
+          { name: "Cattedrale di Ávila 🏛", description: "La Cattedrale di Ávila, iniziata nel XII secolo, è la prima cattedrale gotica di Spagna e anche una fortezza integrata nella muraglia, che si distingue per la sua abside difensiva e la sua mescolanza di stili romanico e gotico." },
           { name: "Porta dell'Alcázar 🛡", description: "Ingresso monumentale al centro storico" },
-          { name: "Plaza del Mercado Chico 🏘", description: "Cuore municipale dal Medioevo" },
-          { name: "Plaza del Mercado Grande 🌟", description: "Grande spianata di fiere e riunioni" },
-          { name: "Quattro Pali 🌅", description: "Belvedere iconico al tramonto" }
+          { name: "Plaza del Mercado Chico 🏘", description: "Tradizionalmente un centro di commercio e incontro nella città medievale, specialmente per prodotti locali e artigianato." },
+          { name: "Plaza del Mercado Grande 🌟", description: "Serviva come epicentro delle fiere e mercati maggiori di Ávila nel Medioevo. Oggi è un luogo vivace e frequentato, che mantiene la sua funzione di spazio pubblico dove si celebrano eventi culturali e mercatini." },
+          { name: "Quattro Pali 🌅", description: "Monumento emblematico composto da quattro pilastri che sostengono una piccola croce. È un luogo di riposo e riflessione per pellegrini e visitatori, da dove si ottiene una vista panoramica del recinto murato di Ávila." }
         ]
       },
       restaurants: {
-        title: "🍽 Assaggia la Nostra Cucina",
+        title: "🍽 Assaggia la Nostra Gastronomia",
         content: "Una cosa che ti sorprenderà di Ávila è che quando ordini una bevanda, ti porteranno un pincho senza averlo chiesto. Sì, abbiamo questa cultura come altre città in Spagna, quindi approfittane! 😋",
         places: [
-          { name: "El Pórtico 🍲", description: "Zuppa castigliana, patate revolconas, asparagi" },
-          { name: "Venus Café Bar 🥘", description: "Porzioni generose; trippa" },
-          { name: "La Oca Cocktail Bar 🍸", description: "Gastro-cocktail; tapa \"Cod&Pop\"" },
+          { name: "El Pórtico 🍲", description: "Locale che si distingue per le sue tapas varie, tra cui: Combinado, lonza marinata o funghi, oltre al suo panino ai calamari." },
+          { name: "Venus Café Bar 🥘", description: "Si distingue per il suo pincho segreto e il suo piccolo calamaro" },
+          { name: "La Oca Cocktail Bar 🍸", description: "Gastro cocktail e tapas varie" },
           { name: "La Rotonda del Ancla 🥟", description: "Crocchette, classici ben fatti" },
-          { name: "Palacio de los Sofraga 🍖", description: "Bistecca, risotti; vicino alle mura" },
+          { name: "Palacio de los Sofraga 🍖", description: "Si distingue più per il suo luogo e le sue viste sulla muraglia" },
           { name: "La Lola Gastrobar 🍤", description: "Tapas casalinghe con tocco moderno" },
-          { name: "El Almacén 🥚", description: "Uova fritte con scampi; cucina creativa" },
-          { name: "Bococo 🥩", description: "Fagioli grandi, revolconas, bistecca" },
+          { name: "El Almacén 🥚", description: "Stiamo già parlando di ristoranti, qui troverai un prodotto di qualità a prezzi non eccessivamente alti. Molto raccomandabile" },
+          { name: "Bococo 🥩", description: "Uno dei posti più popolari ultimamente, con una cucina che mescola tradizione e innovazione" },
           { name: "Los Candiles 🍗", description: "Tradizione castigliana curata" }
         ]
       },
@@ -387,14 +393,14 @@ const Avila = () => {
           title: "Storia Millenaria",
           content: "Ávila, canusciuta comu la 'Città di li Mura', è na gioia medievali situata in Castiglia e León. Li so mura di l'XI sèculu sunnu li megghiu cunsirvati di Spagna e furunu dichiarati Patrimoniu di l'Umanità di l'UNESCO nto 1985.",
           details: [
-            { title: "Fundazioni", content: "Fundata nto XI sèculu pi ordini dû re Alfonso VI doppu la ricunquista cristiana." },
-            { title: "Santa Teresa", content: "Culluzza di Santa Teresa di Gesù (1515-1582), mistica e dutturi dâ Chiesa." },
-            { title: "Patrimoniu UNESCO", content: "Dichiarata Patrimoniu di l'Umanità nto 1985 pi lu so valuri storicu unicu." }
+            { title: "Fundazioni", content: "Fundata nto XI sèculu pi ordini dû re Alfonso VI doppu la ricunquista cristiana, si erigiu comu città furtificata pi diffènniri la fruntiera dû Regnu di Castiglia contra i musulmani. Li so mura, livati 'n chidda epuca, riflèttinu lu so caràttiri militari e stratègicu. Lu so ligatu medievali è ancora vivu 'n ogni cantunera dâ città murata." },
+            { title: "Santa Teresa", content: "Culluzza di Santa Teresa di Gesù (1515-1582), mistica, scrittora e riformatora di l'òrdini carmelitanu. La so 'nfluenza spirituali trapassau li cunfini e oji è cunsidirata Dutturi dâ Chiesa, nu tìtulu unicu pi lu so tempu." },
+            { title: "Patrimoniu UNESCO", content: "Nto 1985, la Città Vecchia di Ávila e li so chiesi extramuralii furunu dichiarati Patrimoniu di l'Umanità di l'UNESCO. La muraglia rumanica, li so tempî e cunventi, 'nsèmi ô tracciatu medievali dâ città, rapprisèntanu n'esèmpiu eccezziunali di l'architettura difensiva e religgijusa dû Mediuevu 'n Spagna." }
           ]
         },
         walls: {
           title: "Li Mura Medievali",
-          content: "Cu cchiù di 2,5 chilometri di lunghizza, li mura di Ávila circundanu cumpletamenti lu centru storicu. Custruite tra l'XI e lu XIV sèculu, hannu 88 turri e 9 porti chi hannu resistutu ô passari dû tempu.",
+          content: "La muraglia di Ávila, custruita nto XI sèculu, è unu di li ricinti murati medievali megghiu cunsirvati d'Europa. Circunda cumpletamenti lu centru storicu cu cchiù di 2,5 km di perimetru, 88 turriuni e 9 porti monumentali. Dichiarata Patrimoniu di l'Umanità di l'UNESCO, è lu sìmbulu 'ndiscutìbbili dâ città e nu ricordu dâ so 'mpurtanza stratègica nto Mediuevu.",
           details: [
             { title: "Dimensioni", content: "2.516 metri di perimetru, 12 metri di altizza media e 3 metri di spissuri." },
             { title: "Turri", content: "88 turri semicirculari chi rinforzanu la struttura difensiva." },
@@ -405,15 +411,15 @@ const Avila = () => {
           title: "Patrimoniu Culturali",
           content: "Ávila cunserva nu riccu patrimoniu religiosu e culturali, cu numerusi cunventi, chiesi e palazzi chi narranu sèculi di storia cristiana e nubiliari.",
           details: [
-            { title: "Mura 🏰", content: "Passiaggìata e vista di tutti li lati" },
-            { title: "Munasteru di Santu Tomasu ⛪", content: "Chiostri gotici; sepulcru dû Prìncipi Juan" },
-            { title: "Basilica di San Vinçenzu 🕍", content: "Capulavuru dû rumanicu spagnolu" },
-            { title: "Basilica di Santa Teresa ✝", content: "Supra la casa unni nasciu" },
-            { title: "Cattidrali di Ávila 🏛", content: "Prima gotica di Spagna, ntâ muraglia" },
+            { title: "Mura di Ávila 🏰", content: "Passiaggìata e vista di tutti li lati" },
+            { title: "Munasteru di Santu Tomasu ⛪", content: "È Patrimoniu di l'Umanità e na gioia dû patrimoniu abulensi. Fu scigghiutu di li Re Cattòlici comu residenza estiva e locu di sippillitura dû prìncipi Juan, lu so figghiu mortu. Si distingui pi li so tri chiostri e la so pala d'autari di Pedro Berruguete, e òspita nu Museu d'Arti Orientali." },
+            { title: "Basilica di San Vinçenzu 🕍", content: "È nu tempiu rumànicu-gòticu dû XII sèculu dicatu â màrtiri Vicente, Sabina e Cristeta, famusu pi lu so cenotafiu policròmu e la so 'mpunenti architettura 'n petra caleña, parti dû Patrimoniu di l'Umanità." },
+            { title: "Basilica di Santa Teresa ✝", content: "Fu custruita nto XVII sèculu supra la casa unni nasciu Santa Teresa di Gesù. È nu tempiu barròccu carmelitanu a pianta a cruci latina cu cappeddi laterali, canusciutu pi la so facciata comu na pala d'autari cu l'immàggini dâ santa e stemmi familiari." },
+            { title: "Cattidrali di Ávila 🏛", content: "La Cattidrali di Ávila, cuminciannu nto XII sèculu, è la prima cattidrali gòtica di Spagna e macari na furtizza 'ntegrata nnâ muraglia, chi si distingui pi la so àbsidi difensiva e la so mischianza di stili rumànicu e gòticu." },
             { title: "Porta dû Alcázar 🛡", content: "Ntranzata monumentali ô centru storicu" },
-            { title: "Piazza dû Mercatu Nicu 🏘", content: "Cori municipali dû Mediuevu" },
-            { title: "Piazza dû Mercatu Granni 🌟", content: "Granni spianata di fieri e riunioni" },
-            { title: "Quattru Pusti 🌅", content: "Miradori ô caliduni" }
+            { title: "Piazza dû Mercatu Nicu 🏘", content: "Tradizionalmenti nu centru di cummèrciu e 'ncuntru nnâ città medievali, spicialimenti pi prudutti lucali e artigianatu." },
+            { title: "Piazza dû Mercatu Granni 🌟", content: "Sirvìa comu epicentru di li fieri e mercati majuri di Ávila nto Mediuevu. Oji è nu locu vivu e friquentatu, chi manteni la so funzioni di spazzu pupblicu unni si celèbranu eventi culturali e mercatini." },
+            { title: "Quattru Pusti 🌅", content: "Munumentu emblèmaticu cunsisti 'n quattru pilastri chi sustèninu na piccola cruci. È nu locu di riposu e riflessioni pi piligrini e visitaturi, di unni si otteni na vista panoràmica dû ricinta muratu di Ávila." }
           ]
         }
       },
@@ -430,24 +436,24 @@ const Avila = () => {
         title: "Storia e Memoria",
         sections: {
           fuero: {
-            title: "⚖️ U fuoru",
-            content: "Liggì e privìligi ri lu rè: autunumìa giudiziaria, scansiuni fiscali e autugovernu dû cunsigghiu pi 'mpupari a citati."
+            title: "⚖️ U fuoru medievali",
+            content: "Cuncissu dû re Alfonso VII duranti la ricunquista nto 1256, fu nu 'nsemi di liggì e privilègi riali doppu lu ripupulamientu: autunamìa giudiziaria lucali, esenziuni fiscali e autugovirnu dû cunsigghiu. Stu pattu cimentau la libirtà, l'autugovirnu e lu status privileggiatu di li so cavaleri e vicini, sustinennu la so 'mpurtanza stratègica e la so autunamìa dû Mediuevu."
           },
           farsa: {
             title: "🎭 Farsa di Ávila (1465)",
-            content: "Atto pupblicu: 'nni càvanu a Enrico IV 'n effiggi e fìciru rè Alfonso."
+            content: "Ávila fu la prima tistimònia di granni canci nnâ storia. Unu di sti avvenimenti fu la cusì chiamata Farsa di Ávila, nto 1465. Stu fu n'attu pulìticu cilebbratu vicinu â mura di Ávila, unni na cualizzioni di nòbbili castigliani, contra lu re Enrico IV di Castiglia ('lu 'Mpotenti'), lu diposiru simbolicamenti ô gritu di 'ô sulu, bastardu!', attraversu na cirimònia carca di rituali e tiatiralità."
           },
           guerra: {
             title: "⚔️ Guerra di li Cumunità (1520–1521)",
-            content: "Ribbillioni di cità contra Carlu V: di tassi a muvimentu di ceti mischiati pi guvernu cchiù rapprisintativu; vista comu antinati di rivuluzioni muderni."
+            content: "N'autru avvenimentu chi ebbi li so primi passi 'n Ávila. La Guerra di li Cumunità fu na rivulta armata tra lu 1520 e lu 1522, duranti lu regnu di Carlu V. Lu cunflittu nasciu comu riazzioni ô criscenti scuntientu suciali e pulìticu versu lu re, chi vinni di li Fiandri cu na corti stranera, cunfruntannusi cu so matri Giovanna e appena parlannu castiglanu."
           },
           suarez: {
-            title: "🇪🇸 Adolfo Suárez",
-            content: "Di Cebreros (Ávila): primu prisidenti dâ dimucrazia, architettu dâ Transición."
+            title: "🇪🇸 Adolfo Suárez, figghiu illustri",
+            content: "Nasciutu 'n Cebreros (Ávila). Primu prisidenti dâ dimucrazìa e architettu dâ Transizioni spagnola. Adolfo Suárez fu lu muturi pulìticu dâ Transizioni spagnola, cunducennu lu passaggiu di nu règimi autùritariu a na dimucrazìa plurali e custituziunali."
           },
           ximena: {
             title: "Ximena de Ávila",
-            content: "Prutagunista di na difisa liggendaria dâ città duranti lu XII sèculu, nti tempi turbulinzi di custanti scontri tra musulmani e cristiani. Nâ assenza di l'omini dâ città, urganizzau fimmini e ancianu pi simulari na grandi difisa di li mura e accussì evitari n'attaccu musulmanu. Poi visitari la so statua cummimuratìva nâ Calle San Miguel."
+            content: "Prutagunista di na ligendaria difisa dâ città duranti lu XII sèculu, nti tempi turbulinzi di custanti scontri tra musulmani e cristiani. Nâ assenza di l'omini dâ città, urganizzau fimmini e ancianu pi simulari na granni difisa di li mura e accussì evitari n'attaccu musulmanu. Poi visitari la so statua cummimuratìva nâ Calle San Miguel."
           }
         }
       },
