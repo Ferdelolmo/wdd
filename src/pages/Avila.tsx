@@ -17,9 +17,9 @@ const Avila = () => {
           title: "Historia Milenaria",
           content: "Ávila, conocida como la 'Ciudad de las Murallas', es una joya medieval situada en Castilla y León. Sus murallas del siglo XI son las mejor conservadas de España y fueron declaradas Patrimonio de la Humanidad por la UNESCO en 1985.",
           details: [
-            { title: "Fundación", content: "Fundada en el siglo XI por orden del rey Alfonso VI tras la reconquista cristiana." },
-            { title: "Santa Teresa", content: "Cuna de Santa Teresa de Jesús (1515-1582), mística y doctora de la Iglesia." },
-            { title: "Patrimonio UNESCO", content: "Declarada Patrimonio de la Humanidad en 1985 por su valor histórico único." }
+            { title: "Fundación", content: "Fundada en el siglo XI por orden del rey Alfonso VI tras la reconquista cristiana, se erigió como ciudad fortificada para defender la frontera del Reino de Castilla frente a los musulmanes. Sus murallas, levantadas en esa época, reflejan su carácter militar y estratégico. Su legado medieval sigue vivo en cada rincón de la ciudad amurallada." },
+            { title: "Santa Teresa", content: "Cuna de Santa Teresa de Jesús (1515-1582), mística, escritora y reformadora de la orden carmelita. Su influencia espiritual traspasó fronteras y hoy es considerada Doctora de la Iglesia, un título único para su tiempo." },
+            { title: "Patrimonio UNESCO", content: "En 1985, la Ciudad Vieja de Ávila y sus iglesias extramuros fueron declaradas Patrimonio de la Humanidad por la UNESCO. La muralla románica, sus templos y conventos, junto con el trazado medieval de la ciudad, representan un ejemplo excepcional de la arquitectura defensiva y religiosa de la Edad Media en España." }
           ]
         },
         walls: {
