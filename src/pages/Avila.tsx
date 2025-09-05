@@ -191,7 +191,7 @@ const Avila = () => {
           },
           farsa: {
             title: "🎭 Farce of Ávila (1465)",
-            content: "Ávila has been the first witness to great changes throughout history. One of these events was the so-called Farce of Ávila, in the year 1465. This was a political act held near the walls of Ávila, in which a coalition of Castilian nobles, opposed to King Henry IV of Castile ('the Impotent'), symbolically deposed him to the cry of 'to the ground, bastard!', through a ceremony charged with rituals and theatricality. It was not a battle, but a controversial and well-remembered staging."
+            content: "Ávila has been the first witness to great changes throughout history. One of these events was the so-called Farce of Ávila, in the year 1465. This was a political act held near the walls of Ávila, in which a coalition of Castilian nobles, opposed to King Henry IV of Castile ('the Impotent'), symbolically deposed him to the cry of <a href=\"https://www.youtube.com/watch?v=lyzNt7e4PRQ\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"text-primary underline hover:text-primary/80\">\"¡al suelo puto!\"</a>, through a ceremony charged with rituals and theatricality. It was not a battle, but a controversial and well-remembered staging."
           },
           guerra: {
             title: "⚔️ War of the Communities (1520–1521)",
@@ -316,11 +316,11 @@ const Avila = () => {
           },
           farsa: {
             title: "🎭 La Farsa di Ávila (1465)",
-            content: "Ávila è stata la prima testimone di grandi cambiamenti nella storia. Uno di questi eventi fu la cosiddetta Farsa di Ávila, nell'anno 1465. Questo fu un atto politico celebrato vicino alle mura di Ávila, in cui una coalizione di nobili castigliani, contraria al re Enrico IV di Castiglia ('l'Impotente'), lo depose simbolicamente al grido di 'a terra bastardo!', attraverso una cerimonia carica di rituali e teatralità. Non si trattò di una battaglia, ma di una messa in scena controversa e molto ricordata."
+            content: "Ávila è stata la prima testimone di grandi cambiamenti nella storia. Uno di questi eventi fu la cosiddetta Farsa di Ávila, nell'anno 1465. Questo fu un atto politico celebrato vicino alle mura di Ávila, in cui una coalizione di nobili castigliani, contraria al re Enrico IV di Castiglia ('l'Impotente'), lo depose simbolicamente al grido di <a href=\"https://www.youtube.com/watch?v=lyzNt7e4PRQ\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"text-primary underline hover:text-primary/80\">\"¡al suelo puto!\"</a>, attraverso una cerimonia carica di rituali e teatralità. Non si trattò di una battaglia, ma di una messa in scena controversa e molto ricordata."
           },
           guerra: {
             title: "⚔️ Guerra delle Comunità (1520–1521)",
-            content: "Un altro evento che ebbe i suoi primi passi ad Ávila, dove si costituì la Santa Sede. La Guerra delle Comunità fu un sollevamento armato avvenuto tra il 1520 e il 1522, durante il regno di Carlo V del Sacro Romano Impero. Il conflitto sorse come reazione al crescente malcontento sociale e politico verso il re Carlo V, che arrivò dalle Fiandre con una corte straniera, in conflitto con sua madre Giovanna e parlando appena il castigliano, il che generò sospetti nella nobiltà e negli stati sociali locali. Il sollevamento, nonostante avesse riunito diversi stati e strati sociali, influenzati dalle idee umanistiche dell'Università di Salamanca, fallì e i suoi leader Bravo, Padilla, Francisco e Javier de Maldonado furono giustiziati dopo la sconfitta di Villalar. Il 23 aprile è una data segnata tra i castigliani, perché anche se significò la sconfitta da parte dell'esercito imperiale, commemora lo spirito di ribellione e coraggio contro le ingiustizie, che causarono un arduo mal di testa all'imperatore."
+            content: "Un altro evento che ebbe i suoi primi passi ad Ávila, dove si costituì la Santa Sede. <a href=\"https://youtu.be/zIp6y0GvgxQ?si=NnNCjat0Qzluq1yb\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"text-primary underline hover:text-primary/80\">La Guerra delle Comunità</a> fu un sollevamento armato avvenuto tra il 1520 e il 1522, durante il regno di Carlo V del Sacro Romano Impero. Il conflitto sorse come reazione al crescente malcontento sociale e politico verso il re Carlo V, che arrivò dalle Fiandre con una corte straniera, in conflitto con sua madre Giovanna e parlando appena il castigliano, il che generò sospetti nella nobiltà e negli stati sociali locali. Il sollevamento, nonostante avesse riunito diversi stati e strati sociali, influenzati dalle idee umanistiche dell'Università di Salamanca, fallì e i suoi leader Bravo, Padilla, Francisco e Javier de Maldonado furono giustiziati dopo la sconfitta di Villalar. Il 23 aprile è una data segnata tra i castigliani, perché anche se significò la sconfitta da parte dell'esercito imperiale, commemora lo spirito di ribellione e coraggio contro le ingiustizie, che causarono un arduo mal di testa all'imperatore."
           },
           suarez: {
             title: "🇪🇸 Adolfo Suárez, figlio illustre",
@@ -441,11 +441,11 @@ const Avila = () => {
           },
           farsa: {
             title: "🎭 Farsa di Ávila (1465)",
-            content: "Ávila fu la prima tistimònia di granni canci nnâ storia. Unu di sti avvenimenti fu la cusì chiamata Farsa di Ávila, nto 1465. Stu fu n'attu pulìticu cilebbratu vicinu â mura di Ávila, unni na cualizzioni di nòbbili castigliani, contra lu re Enrico IV di Castiglia ('lu 'Mpotenti'), lu diposiru simbolicamenti ô gritu di 'ô sulu, bastardu!', attraversu na cirimònia carca di rituali e tiatiralità."
+            content: "Ávila fu la prima tistimònia di granni canci nnâ storia. Unu di sti avvenimenti fu la cusì chiamata Farsa di Ávila, nto 1465. Stu fu n'attu pulìticu cilebbratu vicinu â mura di Ávila, unni na cualizzioni di nòbbili castigliani, contra lu re Enrico IV di Castiglia ('lu 'Mpotenti'), lu diposiru simbolicamenti ô gritu di <a href=\"https://www.youtube.com/watch?v=lyzNt7e4PRQ\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"text-primary underline hover:text-primary/80\">\"¡al suelo puto!\"</a>, attraversu na cirimònia carca di rituali e tiatiralità."
           },
           guerra: {
             title: "⚔️ Guerra di li Cumunità (1520–1521)",
-            content: "N'autru avvenimentu chi ebbi li so primi passi 'n Ávila. La Guerra di li Cumunità fu na rivulta armata tra lu 1520 e lu 1522, duranti lu regnu di Carlu V. Lu cunflittu nasciu comu riazzioni ô criscenti scuntientu suciali e pulìticu versu lu re, chi vinni di li Fiandri cu na corti stranera, cunfruntannusi cu so matri Giovanna e appena parlannu castiglanu."
+            content: "N'autru avvenimentu chi ebbi li so primi passi 'n Ávila. <a href=\"https://youtu.be/zIp6y0GvgxQ?si=NnNCjat0Qzluq1yb\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"text-primary underline hover:text-primary/80\">La Guerra di li Cumunità</a> fu na rivulta armata tra lu 1520 e lu 1522, duranti lu regnu di Carlu V. Lu cunflittu nasciu comu riazzioni ô criscenti scuntientu suciali e pulìticu versu lu re, chi vinni di li Fiandri cu na corti stranera, cunfruntannusi cu so matri Giovanna e appena parlannu castiglanu. Lu livamentu, macari ca ebbi juntatu diversi strati suciali, 'nfluinzati di l'idei umanisti di l'Università di Salamanca, falliu e li so capi Bravo, Padilla, Francisco e Javier de Maldonado furunu giustiziati doppu la scunfitta di Villalar. Lu 23 d'aprili è na data signata ntra li castigliani, picchì macari chi significau la scunfitta pi l'esèrcitu imperiali, rimmìmbira lu spiritu di ribellioni e coraggiu contra li 'ngiustizie."
           },
           suarez: {
             title: "🇪🇸 Adolfo Suárez, figghiu illustri",
@@ -460,29 +460,29 @@ const Avila = () => {
       mustSee: {
         title: "🗺 Così ca nun ti poi pèrdiri",
         places: [
-          { name: "Mura 🏰", description: "Passiaggìata e vista di tutti li lati" },
-          { name: "Munasteru di Santu Tomasu ⛪", description: "Chiostri gotici; sepulcru dû Prìncipi Juan" },
-          { name: "Basilica di San Vinçenzu 🕍", description: "Capulavuru dû rumanicu spagnolu" },
-          { name: "Basilica di Santa Teresa ✝", description: "Supra la casa unni nasciu" },
-          { name: "Cattidrali di Ávila 🏛", description: "Prima gotica di Spagna, ntâ muraglia" },
+          { name: "Mura di Ávila 🏰", description: "Passiaggìata e vista di tutti li lati" },
+          { name: "Munasteru di Santu Tomasu ⛪", description: "È Patrimoniu di l'Umanità e na gioia dû patrimoniu abulensi. Fu scigghiutu di li Re Cattòlici comu residenza estiva e locu di sippillitura dû prìncipi Juan, lu so figghiu mortu. Si distingui pi li so tri chiostri e la so pala d'autari di Pedro Berruguete, e òspita nu Museu d'Arti Orientali." },
+          { name: "Basilica di San Vinçenzu 🕍", description: "È nu tempiu rumànicu-gòticu dû XII sèculu dicatu â màrtiri Vicente, Sabina e Cristeta, famusu pi lu so cenotafiu policròmu e la so 'mpunenti architettura 'n petra caleña, parti dû Patrimoniu di l'Umanità." },
+          { name: "Basilica di Santa Teresa ✝", description: "Fu custruita nto XVII sèculu supra la casa unni nasciu Santa Teresa di Gesù. È nu tempiu barròccu carmelitanu a pianta a cruci latina cu cappeddi laterali, canusciutu pi la so facciata comu na pala d'autari cu l'immàggini dâ santa e stemmi familiari." },
+          { name: "Cattidrali di Ávila 🏛", description: "La Cattidrali di Ávila, cuminciannu nto XII sèculu, è la prima cattidrali gòtica di Spagna e macari na furtizza 'ntegrata nnâ muraglia, chi si distingui pi la so àbsidi difensiva e la so mischianza di stili rumànicu e gòticu." },
           { name: "Porta dû Alcázar 🛡", description: "Ntranzata monumentali ô centru storicu" },
-          { name: "Piazza dû Mercatu Nicu 🏘", description: "Cori municipali dû Mediuevu" },
-          { name: "Piazza dû Mercatu Granni 🌟", description: "Granni spianata di fieri e riunioni" },
-          { name: "Quattru Pusti 🌅", description: "Miradori ô caliduni" }
+          { name: "Piazza dû Mercatu Nicu 🏘", description: "Tradizionalmenti nu centru di cummèrciu e 'ncuntru nnâ città medievali, spicialimenti pi prudutti lucali e artigianatu." },
+          { name: "Piazza dû Mercatu Granni 🌟", description: "Sirvìa comu epicentru di li fieri e mercati majuri di Ávila nto Mediuevu. Oji è nu locu vivu e friquentatu, chi manteni la so funzioni di spazzu pupblicu unni si celèbranu eventi culturali e mercatini." },
+          { name: "Quattru Pusti 🌅", description: "Munumentu emblèmaticu cunsisti 'n quattru pilastri chi sustèninu na piccola cruci. È nu locu di riposu e riflessioni pi piligrini e visitaturi, di unni si otteni na vista panoràmica dû ricinta muratu di Ávila." }
         ]
       },
       restaurants: {
         title: "🍽 Assaggia 'a cucina",
         content: "Na cosa ca ti maravigghierà di Ávila è ca quannu addumanni na vivanda, ti portanu nu pinchu senza averlu addumandatu. Sì, avemu sta cultura comu autri città di Spagna, accussì approfittanu! 😋",
         places: [
-          { name: "El Pórtico 🍲", description: "Zuppa castigliana, patati revolconas, sparaci" },
-          { name: "Venus Café Bar 🥘", description: "Purziuni gennerusi; trippa" },
-          { name: "La Oca Cocktail Bar 🍸", description: "Gastru-cocktail; tapa \"Cod&Pop\"" },
+          { name: "El Pórtico 🍲", description: "Locu chi si distingui pi li so tapas varii, ntra cui: Cumbinatu, lonzu marrinatu o funghi, 'nzè mu lu so paninu cu calamari." },
+          { name: "Venus Café Bar 🥘", description: "Si distingui pi lu so pinchu sicretu e lu so picculu calamari" },
+          { name: "La Oca Cocktail Bar 🍸", description: "Gastru cocktail e tapas varii" },
           { name: "La Rotonda dû Àncila 🥟", description: "Cruchetti, classici beni fatti" },
-          { name: "Palacio di li Sofraga 🍖", description: "Bistecca, risotti; vicinu â muraglia" },
+          { name: "Palacio di li Sofraga 🍖", description: "Si distingui cchiù pi lu so locu e li so visti â muraglia" },
           { name: "La Lola Gastrobar 🍤", description: "Tapas casalinghi cu toccu mudernu" },
-          { name: "El Almacén 🥚", description: "Ova fritti cu scampi; cucina creiativa" },
-          { name: "Bococo 🥩", description: "Fasola grandi, revolconas, bistecca" },
+          { name: "El Almacén 🥚", description: "Sta già parrannu di ristoranti, ccà trovi nu pruduttu di qualità a prezzi nun eccessivamenti auti. Assai racumandàbbili" },
+          { name: "Bococo 🥩", description: "Unu di li posti cchiù populari ultimamenti, cu na cucina chi mischia tradizioni e 'nnovazioni" },
           { name: "Los Candiles 🍗", description: "Tradizioni castigliana curata" }
         ]
       },
@@ -588,9 +588,9 @@ const Avila = () => {
                       <AccordionTrigger className="text-left font-medium">
                         {section.title}
                       </AccordionTrigger>
-                      <AccordionContent className="text-muted-foreground leading-relaxed">
-                        {section.content}
-                      </AccordionContent>
+                       <AccordionContent className="text-muted-foreground leading-relaxed">
+                         <div dangerouslySetInnerHTML={{ __html: section.content }} />
+                       </AccordionContent>
                     </AccordionItem>
                   ))}
                 </Accordion>
@@ -772,6 +772,34 @@ const Avila = () => {
                 {language === 'es' ? '1.131 metros sobre el nivel del mar' :
                  language === 'en' ? '1,131 meters above sea level' :
                  language === 'it' ? '1.131 metri sul livello del mare' : '1.131 metri supra lu livellu dû mari'}
+              </p>
+            </Card>
+
+            {/* Interactive Map */}
+            <Card className="p-6 bg-wedding-cream shadow-soft border-0">
+              <h3 className="font-serif text-xl text-primary mb-4 text-center flex items-center gap-2 justify-center">
+                <MapPin className="h-5 w-5" />
+                {language === 'es' ? 'Puntos de Interés' :
+                 language === 'en' ? 'Points of Interest' :
+                 language === 'it' ? 'Punti di Interesse' : 'Punti d\'Interessi'}
+              </h3>
+              <div className="w-full h-64 bg-gradient-to-br from-primary/5 to-primary/10 rounded-lg flex items-center justify-center mb-4">
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3016.7166847725723!2d-4.699243!3d40.6561!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd4093e2f77b5943%3A0x402d5383cd22c40!2s%C3%81vila%2C%20Spain!5e0!3m2!1sen!2sus!4v1699000000000!5m2!1sen!2sus&markers=color:red%7C40.656682,-4.699831%7C40.656%2C-4.7019%7C40.6538%2C-4.6988%7C40.6569%2C-4.6992%7C40.6558%2C-4.6971%7C40.6574%2C-4.6975%7C40.6532%2C-4.7026"
+                  width="100%"
+                  height="100%"
+                  style={{ border: 0, borderRadius: '8px' }}
+                  allowFullScreen
+                  loading="lazy"
+                  referrerPolicy="no-referrer-when-downgrade"
+                  title="Ávila Points of Interest Map"
+                ></iframe>
+              </div>
+              <p className="text-xs text-muted-foreground text-center">
+                {language === 'es' ? 'Haz clic en el mapa para explorar los principales monumentos y lugares de interés de Ávila' :
+                 language === 'en' ? 'Click on the map to explore the main monuments and points of interest in Ávila' :
+                 language === 'it' ? 'Clicca sulla mappa per esplorare i principali monumenti e luoghi di interesse di Ávila' :
+                 'Clicca supra la mappa pi spluràri li principali munumenti e lochi d\'interessi di Ávila'}
               </p>
             </Card>
           </div>
