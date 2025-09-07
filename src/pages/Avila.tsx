@@ -779,27 +779,103 @@ const Avila = () => {
             <Card className="p-6 bg-wedding-cream shadow-soft border-0">
               <h3 className="font-serif text-xl text-primary mb-4 text-center flex items-center gap-2 justify-center">
                 <MapPin className="h-5 w-5" />
-                {language === 'es' ? 'Puntos de Interés' :
-                 language === 'en' ? 'Points of Interest' :
-                 language === 'it' ? 'Punti di Interesse' : 'Punti d\'Interessi'}
+                {language === 'es' ? 'Puntos de Interés - Patrimonio Cultural' :
+                 language === 'en' ? 'Points of Interest - Cultural Heritage' :
+                 language === 'it' ? 'Punti di Interesse - Patrimonio Culturale' : 'Punti d\'Interessi - Patrimoniu Culturali'}
               </h3>
-              <div className="w-full h-64 bg-gradient-to-br from-primary/5 to-primary/10 rounded-lg flex items-center justify-center mb-4">
+              
+              {/* Map */}
+              <div className="w-full h-80 bg-gradient-to-br from-primary/5 to-primary/10 rounded-lg flex items-center justify-center mb-6">
                 <iframe
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3016.7166847725723!2d-4.699243!3d40.6561!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd4093e2f77b5943%3A0x402d5383cd22c40!2s%C3%81vila%2C%20Spain!5e0!3m2!1sen!2sus!4v1699000000000!5m2!1sen!2sus&markers=color:red%7C40.656682,-4.699831%7C40.656%2C-4.7019%7C40.6538%2C-4.6988%7C40.6569%2C-4.6992%7C40.6558%2C-4.6971%7C40.6574%2C-4.6975%7C40.6532%2C-4.7026"
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6032.3!2d-4.7015!3d40.6565!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m4!4e1!5m2!1sen!2sus&markers=color:red|label:C|40.6558,-4.6992|color:blue|label:S|40.6538,-4.6988|color:green|label:V|40.6574,-4.6975|color:orange|label:T|40.6547,-4.7012|color:purple|label:A|40.6566,-4.6971|color:yellow|label:P1|40.6569,-4.6980|color:pink|label:P2|40.6532,-4.7005|color:brown|label:4P|40.6598,-4.7026"
                   width="100%"
                   height="100%"
                   style={{ border: 0, borderRadius: '8px' }}
                   allowFullScreen
                   loading="lazy"
                   referrerPolicy="no-referrer-when-downgrade"
-                  title="Ávila Points of Interest Map"
+                  title="Ávila Cultural Heritage Points of Interest Map"
                 ></iframe>
               </div>
+
+              {/* Legend */}
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 mb-4">
+                <div className="space-y-2">
+                  <div className="flex items-center gap-2 text-sm">
+                    <div className="w-4 h-4 bg-red-500 rounded-full flex items-center justify-center text-white text-xs font-bold">C</div>
+                    <span className="text-muted-foreground">
+                      {language === 'es' ? 'Catedral de Ávila' :
+                       language === 'en' ? 'Ávila Cathedral' :
+                       language === 'it' ? 'Cattedrale di Ávila' : 'Cattidrali di Ávila'}
+                    </span>
+                  </div>
+                  <div className="flex items-center gap-2 text-sm">
+                    <div className="w-4 h-4 bg-blue-500 rounded-full flex items-center justify-center text-white text-xs font-bold">S</div>
+                    <span className="text-muted-foreground">
+                      {language === 'es' ? 'Monasterio Santo Tomás' :
+                       language === 'en' ? 'Santo Tomás Monastery' :
+                       language === 'it' ? 'Monastero Santo Tomás' : 'Munasteru Santu Tomás'}
+                    </span>
+                  </div>
+                  <div className="flex items-center gap-2 text-sm">
+                    <div className="w-4 h-4 bg-green-500 rounded-full flex items-center justify-center text-white text-xs font-bold">V</div>
+                    <span className="text-muted-foreground">
+                      {language === 'es' ? 'Basílica San Vicente' :
+                       language === 'en' ? 'San Vicente Basilica' :
+                       language === 'it' ? 'Basilica San Vicente' : 'Basilica San Vicenzu'}
+                    </span>
+                  </div>
+                  <div className="flex items-center gap-2 text-sm">
+                    <div className="w-4 h-4 bg-orange-500 rounded-full flex items-center justify-center text-white text-xs font-bold">T</div>
+                    <span className="text-muted-foreground">
+                      {language === 'es' ? 'Basílica Santa Teresa' :
+                       language === 'en' ? 'Santa Teresa Basilica' :
+                       language === 'it' ? 'Basilica Santa Teresa' : 'Basilica Santa Tirisa'}
+                    </span>
+                  </div>
+                </div>
+                
+                <div className="space-y-2">
+                  <div className="flex items-center gap-2 text-sm">
+                    <div className="w-4 h-4 bg-purple-500 rounded-full flex items-center justify-center text-white text-xs font-bold">A</div>
+                    <span className="text-muted-foreground">
+                      {language === 'es' ? 'Puerta del Alcázar' :
+                       language === 'en' ? 'Alcázar Gate' :
+                       language === 'it' ? 'Porta dell\'Alcázar' : 'Porta di l\'Alcázar'}
+                    </span>
+                  </div>
+                  <div className="flex items-center gap-2 text-sm">
+                    <div className="w-4 h-4 bg-yellow-600 rounded-full flex items-center justify-center text-white text-xs font-bold">P1</div>
+                    <span className="text-muted-foreground">
+                      {language === 'es' ? 'Plaza Mercado Chico' :
+                       language === 'en' ? 'Small Market Square' :
+                       language === 'it' ? 'Piazza del Mercato Piccolo' : 'Chiazza dû Mircatu Nicu'}
+                    </span>
+                  </div>
+                  <div className="flex items-center gap-2 text-sm">
+                    <div className="w-4 h-4 bg-pink-500 rounded-full flex items-center justify-center text-white text-xs font-bold">P2</div>
+                    <span className="text-muted-foreground">
+                      {language === 'es' ? 'Plaza Mercado Grande' :
+                       language === 'en' ? 'Large Market Square' :
+                       language === 'it' ? 'Piazza del Mercato Grande' : 'Chiazza dû Mircatu Granni'}
+                    </span>
+                  </div>
+                  <div className="flex items-center gap-2 text-sm">
+                    <div className="w-4 h-4 bg-amber-700 rounded-full flex items-center justify-center text-white text-xs font-bold">4P</div>
+                    <span className="text-muted-foreground">
+                      {language === 'es' ? 'Cuatro Postes' :
+                       language === 'en' ? 'Four Posts Viewpoint' :
+                       language === 'it' ? 'Quattro Pilastri' : 'Quattru Pilastri'}
+                    </span>
+                  </div>
+                </div>
+              </div>
+
               <p className="text-xs text-muted-foreground text-center">
-                {language === 'es' ? 'Haz clic en el mapa para explorar los principales monumentos y lugares de interés de Ávila' :
-                 language === 'en' ? 'Click on the map to explore the main monuments and points of interest in Ávila' :
-                 language === 'it' ? 'Clicca sulla mappa per esplorare i principali monumenti e luoghi di interesse di Ávila' :
-                 'Clicca supra la mappa pi spluràri li principali munumenti e lochi d\'interessi di Ávila'}
+                {language === 'es' ? 'Haz clic en el mapa para explorar los principales monumentos del Patrimonio Cultural de Ávila. Cada color representa un punto de interés diferente.' :
+                 language === 'en' ? 'Click on the map to explore the main monuments of Ávila\'s Cultural Heritage. Each color represents a different point of interest.' :
+                 language === 'it' ? 'Clicca sulla mappa per esplorare i principali monumenti del Patrimonio Culturale di Ávila. Ogni colore rappresenta un punto di interesse diverso.' :
+                 'Clicca supra la mappa pi spluràri li principali munumenti dû Patrimoniu Culturali di Ávila. Ogni culuri riprisenta nu puntu d\'interessi diversu.'}
               </p>
             </Card>
           </div>
