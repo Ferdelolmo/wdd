@@ -787,7 +787,7 @@ const Avila = () => {
               {/* Map */}
               <div className="w-full h-80 bg-gradient-to-br from-primary/5 to-primary/10 rounded-lg flex items-center justify-center mb-6">
                 <iframe
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6032.3!2d-4.7015!3d40.6565!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m4!4e1!5m2!1sen!2sus&markers=color:red|label:C|40.6558,-4.6992|color:blue|label:S|40.6538,-4.6988|color:green|label:V|40.6574,-4.6975|color:orange|label:T|40.6547,-4.7012|color:purple|label:A|40.6566,-4.6971|color:yellow|label:P1|40.6569,-4.6980|color:pink|label:P2|40.6532,-4.7005|color:brown|label:4P|40.6598,-4.7026"
+                  src={`https://www.google.com/maps/embed/v1/place?key=AIzaSyBFw0Qbyq9zTFTd-tUY6dkmhRAuHtdUuSI&q=Ávila,Spain&zoom=15&center=40.6565,-4.7015&maptype=roadmap&language=${language === 'es' ? 'es' : language === 'en' ? 'en' : 'it'}&markers=color:red%7Clabel:C%7C40.6558,-4.6992%7Ccolor:blue%7Clabel:S%7C40.6538,-4.6988%7Ccolor:green%7Clabel:V%7C40.6574,-4.6975%7Ccolor:orange%7Clabel:T%7C40.6547,-4.7012%7Ccolor:purple%7Clabel:A%7C40.6566,-4.6971%7Ccolor:yellow%7Clabel:P1%7C40.6569,-4.6980%7Ccolor:pink%7Clabel:P2%7C40.6532,-4.7005%7Ccolor:brown%7Clabel:4P%7C40.6598,-4.7026`}
                   width="100%"
                   height="100%"
                   style={{ border: 0, borderRadius: '8px' }}
