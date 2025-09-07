@@ -4,6 +4,7 @@ import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from '@/
 import { MapPin, Mountain, Clock, Camera, Utensils, Church, Crown, TreePine } from 'lucide-react';
 import LanguageSelector from '@/components/LanguageSelector';
 import avilaHeroImg from '@/assets/avila-hero-new.jpg';
+import AvilaMap from '@/components/AvilaMap';
 
 const Avila = () => {
   const { language } = useLanguage();
@@ -786,16 +787,7 @@ const Avila = () => {
               
               {/* Map */}
               <div className="w-full h-80 bg-gradient-to-br from-primary/5 to-primary/10 rounded-lg flex items-center justify-center mb-6">
-                <iframe
-                  src={`https://www.google.com/maps/embed/v1/place?key=AIzaSyBFw0Qbyq9zTFTd-tUY6dkmhRAuHtdUuSI&q=Ávila,Spain&zoom=15&center=40.6565,-4.7015&maptype=roadmap&language=${language === 'es' ? 'es' : language === 'en' ? 'en' : 'it'}&markers=color:red%7Clabel:C%7C40.6558,-4.6992%7Ccolor:blue%7Clabel:S%7C40.6538,-4.6988%7Ccolor:green%7Clabel:V%7C40.6574,-4.6975%7Ccolor:orange%7Clabel:T%7C40.6547,-4.7012%7Ccolor:purple%7Clabel:A%7C40.6566,-4.6971%7Ccolor:yellow%7Clabel:P1%7C40.6569,-4.6980%7Ccolor:pink%7Clabel:P2%7C40.6532,-4.7005%7Ccolor:brown%7Clabel:4P%7C40.6598,-4.7026`}
-                  width="100%"
-                  height="100%"
-                  style={{ border: 0, borderRadius: '8px' }}
-                  allowFullScreen
-                  loading="lazy"
-                  referrerPolicy="no-referrer-when-downgrade"
-                  title="Ávila Cultural Heritage Points of Interest Map"
-                ></iframe>
+                <AvilaMap className="w-full h-full" />
               </div>
 
               {/* Legend */}
