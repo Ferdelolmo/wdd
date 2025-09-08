@@ -4,6 +4,7 @@ import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from '@/
 import { MapPin, Waves, Sun, Utensils, Mountain, Palette, Crown } from 'lucide-react';
 import sicilyEtnaImage from '@/assets/sicily-etna.jpg';
 import sicilyCuisineImage from '@/assets/sicily-cuisine.jpg';
+import WeddingFooter from '@/components/WeddingFooter';
 
 const Sicilia = () => {
   const { language } = useLanguage();
@@ -506,6 +507,7 @@ const Sicilia = () => {
           </div>
         </div>
       </div>
+      <WeddingFooter />
     </div>
   );
 };

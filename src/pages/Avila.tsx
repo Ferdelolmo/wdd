@@ -5,6 +5,7 @@ import { MapPin, Mountain, Clock, Camera, Utensils, Church, Crown, TreePine } fr
 import LanguageSelector from '@/components/LanguageSelector';
 import avilaHeroImg from '@/assets/avila-hero-new.jpg';
 import AvilaMap from '@/components/AvilaMap';
+import WeddingFooter from '@/components/WeddingFooter';
 
 const Avila = () => {
   const { language } = useLanguage();
@@ -870,9 +871,11 @@ const Avila = () => {
                  'Clicca supra la mappa pi spluràri li principali munumenti dû Patrimoniu Culturali di Ávila. Ogni culuri riprisenta nu puntu d\'interessi diversu.'}
               </p>
             </Card>
-          </div>
         </div>
       </div>
+      <WeddingFooter />
+    </div>
+      <WeddingFooter />
     </div>
   );
 };

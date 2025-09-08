@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import WeddingNav from '@/components/WeddingNav';
 import SectionNavigator from '@/components/SectionNavigator';
+import WeddingFooter from '@/components/WeddingFooter';
 import AboutSection from '@/components/sections/AboutSection';
 import VenueSection from '@/components/sections/VenueSection';
 import StorySection from '@/components/sections/StorySection';
@@ -43,6 +44,7 @@ const Index = () => {
         currentSection={activeSection}
         onSectionChange={setActiveSection}
       />
+      <WeddingFooter />
     </div>
   );
 };
