@@ -2,7 +2,8 @@ import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 import { useLanguage } from '@/contexts/LanguageContext';
 import { translations } from '@/translations';
-import { FileText, Utensils, Volume2, Download, ExternalLink } from 'lucide-react';
+import { FileText, Utensils, Volume2, Download, ExternalLink, Home } from 'lucide-react';
+import { Link } from 'react-router-dom';
 
 const More = () => {
   const { language } = useLanguage();
@@ -35,6 +36,19 @@ const More = () => {
 
   return (
     <div className="min-h-screen bg-gradient-romantic py-20">
+      {/* Home Navigation */}
+      <div className="fixed top-4 left-4 z-50">
+        <Link to="/">
+          <Button variant="outline" size="sm" className="bg-background/80 backdrop-blur-sm">
+            <Home className="w-4 h-4 mr-2" />
+            {language === 'es' ? 'Inicio' : 
+             language === 'it' ? 'Home' : 
+             language === 'scn' ? 'Casa' : 
+             'Home'}
+          </Button>
+        </Link>
+      </div>
+
       <div className="container mx-auto px-4">
         {/* Header */}
         <div className="text-center mb-16">

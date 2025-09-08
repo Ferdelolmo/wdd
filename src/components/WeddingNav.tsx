@@ -1,9 +1,10 @@
 import { useState } from 'react';
-import { Heart, Menu, X } from 'lucide-react';
+import { Heart, Menu, X, MapPin, Camera, Plus } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { useLanguage } from '@/contexts/LanguageContext';
 import { translations } from '@/translations';
 import LanguageSelector from '@/components/LanguageSelector';
+import { Link } from 'react-router-dom';
 
 interface WeddingNavProps {
   activeSection: string;
@@ -24,6 +25,24 @@ const WeddingNav = ({ activeSection, onSectionChange }: WeddingNavProps) => {
     { id: 'gallery', label: t.nav.gallery }
   ];
 
+  const newSections = [
+    { 
+      href: '/Avila', 
+      label: language === 'es' ? 'Ávila' : language === 'it' ? 'Ávila' : language === 'scn' ? 'Ávila' : 'Ávila',
+      icon: MapPin 
+    },
+    { 
+      href: '/Sicilia', 
+      label: language === 'es' ? 'Sicilia' : language === 'it' ? 'Sicilia' : language === 'scn' ? 'Sicilia' : 'Sicily',
+      icon: Camera 
+    },
+    { 
+      href: '/more', 
+      label: language === 'es' ? 'Más' : language === 'it' ? 'Altro' : language === 'scn' ? 'Autu' : 'More',
+      icon: Plus 
+    }
+  ];
+
   return (
     <>
       {/* Desktop Navigation */}
@@ -40,7 +59,7 @@ const WeddingNav = ({ activeSection, onSectionChange }: WeddingNavProps) => {
             </div>
 
             {/* Desktop Navigation */}
-            <div className="flex items-center gap-8">
+            <div className="flex items-center gap-6">
               {sections.map((section) => (
                 <button
                   key={section.id}
@@ -51,6 +70,16 @@ const WeddingNav = ({ activeSection, onSectionChange }: WeddingNavProps) => {
                 >
                   {section.label}
                 </button>
+              ))}
+              {newSections.map((section) => (
+                <Link
+                  key={section.href}
+                  to={section.href}
+                  className="text-sm font-medium transition-colors duration-200 hover:text-primary text-muted-foreground flex items-center gap-1"
+                >
+                  <section.icon className="w-4 h-4" />
+                  {section.label}
+                </Link>
               ))}
               <LanguageSelector />
             </div>
@@ -75,7 +104,7 @@ const WeddingNav = ({ activeSection, onSectionChange }: WeddingNavProps) => {
           </div>
 
           {/* Mobile Navigation Buttons */}
-          <div className="grid grid-cols-3 gap-2">
+          <div className="grid grid-cols-3 gap-2 mb-3">
             {sections.map((section) => (
               <Button
                 key={section.id}
@@ -86,6 +115,22 @@ const WeddingNav = ({ activeSection, onSectionChange }: WeddingNavProps) => {
               >
                 {section.label}
               </Button>
+            ))}
+          </div>
+          
+          {/* New Sections */}
+          <div className="grid grid-cols-3 gap-2">
+            {newSections.map((section) => (
+              <Link key={section.href} to={section.href}>
+                <Button
+                  variant="outline"
+                  size="sm"
+                  className="w-full justify-center text-xs font-medium h-9 flex items-center gap-1"
+                >
+                  <section.icon className="w-3 h-3" />
+                  {section.label}
+                </Button>
+              </Link>
             ))}
           </div>
         </div>

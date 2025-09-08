@@ -1,8 +1,10 @@
 import { useLanguage } from '@/contexts/LanguageContext';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from '@/components/ui/accordion';
-import { MapPin, Mountain, Clock, Camera, Utensils, Church, Crown, TreePine } from 'lucide-react';
+import { MapPin, Mountain, Clock, Camera, Utensils, Church, Crown, TreePine, Home } from 'lucide-react';
 import LanguageSelector from '@/components/LanguageSelector';
+import { Button } from '@/components/ui/button';
+import { Link } from 'react-router-dom';
 import avilaHeroImg from '@/assets/avila-hero-new.jpg';
 import AvilaMap from '@/components/AvilaMap';
 import WeddingFooter from '@/components/WeddingFooter';
@@ -517,6 +519,19 @@ const Avila = () => {
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-background to-background/50">
+      {/* Home Navigation */}
+      <div className="fixed top-4 left-4 z-50">
+        <Link to="/">
+          <Button variant="outline" size="sm" className="bg-background/80 backdrop-blur-sm">
+            <Home className="w-4 h-4 mr-2" />
+            {language === 'es' ? 'Inicio' : 
+             language === 'it' ? 'Home' : 
+             language === 'scn' ? 'Casa' : 
+             'Home'}
+          </Button>
+        </Link>
+      </div>
+
       {/* Hero Section */}
       <div className="relative h-96 overflow-hidden">
         <img 
