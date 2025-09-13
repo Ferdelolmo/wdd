@@ -66,23 +66,23 @@ const Avila = () => {
         sections: {
           fuero: {
             title: "⚖️ Fuero Medieval",
-            content: "Concedido por el rey Alfonso VII durante la reconquista en 1256 fue un conjunto de leyes y privilegios reales tras la repoblación: autonomía judicial local, franquicias fiscales y autogobierno concejil. Este pacto, cimentó la libertad, el autogobierno y el estatus privilegiado de sus caballeros y vecinos, sustentando su importancia estratégica y su autonomía desde la Edad Media."
+            content: "Concedido por el rey Alfonso VII durante la reconquista en 1256 fue un <strong>conjunto de leyes y privilegios reales</strong> tras la repoblación: autonomía judicial local, franquicias fiscales y autogobierno concejil. Este pacto, <strong>cimentó la libertad, el autogobierno y el estatus privilegiado de sus caballeros y vecinos</strong>, sustentando su importancia estratégica y su autonomía desde la Edad Media."
           },
           farsa: {
             title: "🎭 Farsa de Ávila (1465)",
-            content: "Avila ha sido primer testigo de grandes cambios a lo largo de la historia. Uno de estos acontecimientos fue la llamada Farsa de Ávila, en el año 1465. Esto fue un acto político celebrado cerca de las murallas de Ávila, en el que una coalición de nobles castellanos, enfrentados al rey Enrique IV de Castilla (“el Impotente”), lo depusieron simbólicamente al grito de <a href=\"https://www.youtube.com/watch?v=lyzNt7e4PRQ\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"text-primary underline hover:text-primary/80\">\"¡al suelo puto!\"</a>, mediante una ceremonia cargada de rituales y teatralidad. No se trató de una batalla, sino de una puesta en escena polémica y muy recordada."
+            content: "Avila ha sido primer testigo de grandes cambios a lo largo de la historia. Uno de estos acontecimientos fue la llamada <strong>Farsa de Ávila</strong>, en el año 1465. Esto fue un <strong>acto político</strong> celebrado cerca de las murallas de Ávila, en el que una <strong>coalición de nobles castellanos, enfrentados al rey Enrique IV de Castilla (“el Impotente”), lo depusieron simbólicamente al grito de</strong> <a href=\"https://www.youtube.com/watch?v=lyzNt7e4PRQ\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"text-primary underline hover:text-primary/80\"><strong>\"¡al suelo puto!\"</strong></a>, mediante una ceremonia cargada de rituales y teatralidad. No se trató de una batalla, sino de una puesta en escena polémica y muy recordada."
           },
           guerra: {
             title: "⚔️ Guerra de las Comunidades (1520–1521)",
-            content: "Otro evento que tuvo sus primeros pasos en Ávila, donde se consituyó la Santa Sede. <a href='https://youtu.be/zIp6y0GvgxQ?si=NnNCjat0Qzluq1yb' target='_blank' rel='noopener noreferrer' class='text-primary hover:underline font-semibold'>La Guerra de las Comunidades</a> fue un levantamiento armado ocurrido entre 1520 y 1522, durante el reinado de Carlos V del Sacro Imperio Romano Germánico. El conflicto surgió como reacción al creciente descontento social y político hacia el rey Carlos V, quien llegó desde Flandes con una corte extranjera, enfrentado a su madre Juana y apenas hablando el castellano, lo que generó recelos en la nobleza y los estamentos sociales locales. El levantamiento, a pesar de haber juntado a diversos estamentos y estratos sociales, influenciados por las ideas humanistas de la Universidad de Salamanca, fracasó y sus líderes Bravo, Padilla, Francisco y Javier de Maldonado fueron ejecutados tras la derrota de Villalar. El 23 de Abril, es una fecha marcado entre los castellanos, pues aunque supuso la derrota por el ejército imperial, rememora el espíritu de rebeldía y de valentía frente a las injusticias, que supusieron un árduo dolor de cabeza para el emperador."
+            content: "Otro evento que tuvo sus primeros pasos en Ávila, donde se consituyó la Santa Sede. <a href='https://youtu.be/zIp6y0GvgxQ?si=NnNCjat0Qzluq1yb' target='_blank' rel='noopener noreferrer' class='text-primary hover:underline font-semibold'><strong>La Guerra de las Comunidades</strong></a> fue un <strong>levantamiento armado</strong> ocurrido entre 1520 y 1522, durante el reinado de Carlos V del Sacro Imperio Romano Germánico. El conflicto surgió como <strong>reacción al creciente descontento social y político hacia el rey Carlos V</strong>, quien llegó desde Flandes con una corte extranjera, enfrentado a su madre Juana y apenas hablando el castellano, lo que generó recelos en la nobleza y los estamentos sociales locales. <strong>El levantamiento</strong>, a pesar de haber juntado a diversos estamentos y estratos sociales, influenciados por las ideas humanistas de la Universidad de Salamanca, <strong>fracasó</strong> y sus líderes Bravo, Padilla, Francisco y Javier de Maldonado fueron ejecutados tras la <strong>derrota de Villalar</strong>. El 23 de Abril, es una fecha marcado entre los castellanos, pues aunque supuso la derrota por el ejército imperial, rememora el espíritu de rebeldía y de valentía frente a las injusticias. <strong>Este levantamiento supuso un árduo dolor de cabeza para el emperador</strong>."
           },
           suarez: {
             title: "🇪🇸 Adolfo Suárez, hijo ilustre",
-            content: "Nacido en Cebreros (Ávila). Primer presidente de la democracia y artífice de la Transición española. Adolfo Suárez fue el motor político de la Transición española, conduciendo el paso de un régimen autoritario a una democracia plural y constitucional en un período breve pero lleno de retos, logrando una transición pacífica y consensuada que aún hoy es referencia histórica."
+            content: "Nacido en Cebreros (Ávila). <strong>Primer presidente de la democracia y artífice de la Transición española</strong>. Adolfo Suárez fue el motor político de la Transición española, conduciendo el paso de un régimen autoritario a una democracia plural y constitucional en un período breve pero lleno de retos, logrando una transición pacífica y consensuada que aún hoy es referencia histórica."
           },
           ximena: {
             title: "🦸🏻‍♀️ Ximena de Ávila",
-            content: "Protagonista de una legendaria defensa de la ciudad durante el siglo XII, en tiempos convulsos de constantes enfrentamientos entre musulmanes y cristianos. Ante la ausencia de los hombres de la ciudad, organizó a mujeres y ancianos para simular una gran defensa desde las murallas y así evitar un ataque musulmán. Puedes visitar su estatua homenaje en la Calle San Miguel."
+            content: "<strong>Protagonista de una legendaria defensa de la ciudad</strong> durante el siglo XII, en tiempos convulsos de constantes enfrentamientos entre musulmanes y cristianos. Ante la ausencia de los hombres de la ciudad, organizó a mujeres y ancianos para simular una gran defensa desde las murallas y así <strong>evitar un ataque musulmán</strong>. Puedes visitar su estatua homenaje en la Calle San Miguel."
           }
         }
       },
@@ -195,11 +195,11 @@ const Avila = () => {
           },
           farsa: {
             title: "🎭 Farce of Ávila (1465)",
-            content: "Ávila has been the first witness to great changes throughout history. One of these events was the so-called Farce of Ávila, in the year 1465. This was a political act held near the walls of Ávila, in which a coalition of Castilian nobles, opposed to King Henry IV of Castile ('the Impotent'), symbolically deposed him to the cry of <a href=\"https://www.youtube.com/watch?v=lyzNt7e4PRQ\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"text-primary underline hover:text-primary/80\">\"¡al suelo puto!\"</a>, through a ceremony charged with rituals and theatricality. It was not a battle, but a controversial and well-remembered staging."
+            content: "Ávila has been the first witness to great changes throughout history. One of these events was the so-called <strong>Farce of Ávila</strong>, in the year 1465. This was a political act held near the walls of Ávila, in which a coalition of Castilian nobles, opposed to King Henry IV of Castile ('the Impotent'), symbolically deposed him to the cry of <a href=\"https://www.youtube.com/watch?v=lyzNt7e4PRQ\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"text-primary underline hover:text-primary/80\"><strong>\"¡al suelo puto!\"</strong></a>, through a ceremony charged with rituals and theatricality. It was not a battle, but a controversial and well-remembered staging."
           },
           guerra: {
             title: "⚔️ War of the Communities (1520–1521)",
-            content: "Another event that had its first steps in Ávila, where the Holy See was established. <a href=\"https://youtu.be/zIp6y0GvgxQ?si=NnNCjat0Qzluq1yb\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"text-primary underline hover:text-primary/80\">The War of the Communities</a> was an armed uprising that occurred between 1520 and 1522, during the reign of Charles V of the Holy Roman Empire. The conflict arose as a reaction to growing social and political discontent towards King Charles V, who came from Flanders with a foreign court, confronted with his mother Juana and barely speaking Castilian, which generated suspicions in the nobility and local social estates. The uprising, despite having brought together various estates and social strata, influenced by humanist ideas from the University of Salamanca, failed and its leaders Bravo, Padilla, Francisco and Javier de Maldonado were executed after the defeat of Villalar. April 23 is a marked date among Castilians, because although it meant defeat by the imperial army, it commemorates the spirit of rebellion and courage against injustices, which caused an arduous headache for the emperor."
+            content: "Another event that had its first steps in Ávila, where the Holy See was established. <a href=\"https://youtu.be/zIp6y0GvgxQ?si=NnNCjat0Qzluq1yb\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"text-primary underline hover:text-primary/80\"><strong>The War of the Communities</strong></a> was an armed uprising that occurred between 1520 and 1522, during the reign of Charles V of the Holy Roman Empire. The conflict arose as a reaction to growing social and political discontent towards King Charles V, who came from Flanders with a foreign court, confronted with his mother Juana and barely speaking Castilian, which generated suspicions in the nobility and local social estates. The uprising, despite having brought together various estates and social strata, influenced by humanist ideas from the University of Salamanca, failed and its leaders Bravo, Padilla, Francisco and Javier de Maldonado were executed after the defeat of Villalar. April 23 is a marked date among Castilians, because although it meant defeat by the imperial army, it commemorates the spirit of rebellion and courage against injustices, which caused an arduous headache for the emperor."
           },
           suarez: {
             title: "🇪🇸 Adolfo Suárez, illustrious son",
@@ -320,11 +320,11 @@ const Avila = () => {
           },
           farsa: {
             title: "🎭 La Farsa di Ávila (1465)",
-            content: "Ávila è stata la prima testimone di grandi cambiamenti nella storia. Uno di questi eventi fu la cosiddetta Farsa di Ávila, nell'anno 1465. Questo fu un atto politico celebrato vicino alle mura di Ávila, in cui una coalizione di nobili castigliani, contraria al re Enrico IV di Castiglia ('l'Impotente'), lo depose simbolicamente al grido di <a href=\"https://www.youtube.com/watch?v=lyzNt7e4PRQ\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"text-primary underline hover:text-primary/80\">\"¡al suelo puto!\"</a>, attraverso una cerimonia carica di rituali e teatralità. Non si trattò di una battaglia, ma di una messa in scena controversa e molto ricordata."
+            content: "Ávila è stata la prima testimone di grandi cambiamenti nella storia. Uno di questi eventi fu la cosiddetta <strong>Farsa di Ávila</strong>, nell'anno 1465. Questo fu un atto politico celebrato vicino alle mura di Ávila, in cui una coalizione di nobili castigliani, contraria al re Enrico IV di Castiglia ('l'Impotente'), lo depose simbolicamente al grido di <a href=\"https://www.youtube.com/watch?v=lyzNt7e4PRQ\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"text-primary underline hover:text-primary/80\"><strong>\"¡al suelo puto!\"</strong></a>, attraverso una cerimonia carica di rituali e teatralità. Non si trattò di una battaglia, ma di una messa in scena controversa e molto ricordata."
           },
           guerra: {
             title: "⚔️ Guerra delle Comunità (1520–1521)",
-            content: "Un altro evento che ebbe i suoi primi passi ad Ávila, dove si costituì la Santa Sede. <a href=\"https://youtu.be/zIp6y0GvgxQ?si=NnNCjat0Qzluq1yb\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"text-primary underline hover:text-primary/80\">La Guerra delle Comunità</a> fu un sollevamento armato avvenuto tra il 1520 e il 1522, durante il regno di Carlo V del Sacro Romano Impero. Il conflitto sorse come reazione al crescente malcontento sociale e politico verso il re Carlo V, che arrivò dalle Fiandre con una corte straniera, in conflitto con sua madre Giovanna e parlando appena il castigliano, il che generò sospetti nella nobiltà e negli stati sociali locali. Il sollevamento, nonostante avesse riunito diversi stati e strati sociali, influenzati dalle idee umanistiche dell'Università di Salamanca, fallì e i suoi leader Bravo, Padilla, Francisco e Javier de Maldonado furono giustiziati dopo la sconfitta di Villalar. Il 23 aprile è una data segnata tra i castigliani, perché anche se significò la sconfitta da parte dell'esercito imperiale, commemora lo spirito di ribellione e coraggio contro le ingiustizie, che causarono un arduo mal di testa all'imperatore."
+            content: "Un altro evento che ebbe i suoi primi passi ad Ávila, dove si costituì la Santa Sede. <a href=\"https://youtu.be/zIp6y0GvgxQ?si=NnNCjat0Qzluq1yb\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"text-primary underline hover:text-primary/80\"><strong>La Guerra delle Comunità</strong></a> fu un sollevamento armato avvenuto tra il 1520 e il 1522, durante il regno di Carlo V del Sacro Romano Impero. Il conflitto sorse come reazione al crescente malcontento sociale e politico verso il re Carlo V, che arrivò dalle Fiandre con una corte straniera, in conflitto con sua madre Giovanna e parlando appena il castigliano, il che generò sospetti nella nobiltà e negli stati sociali locali. Il sollevamento, nonostante avesse riunito diversi stati e strati sociali, influenzati dalle idee umanistiche dell'Università di Salamanca, fallì e i suoi leader Bravo, Padilla, Francisco e Javier de Maldonado furono giustiziati dopo la sconfitta di Villalar. Il 23 aprile è una data segnata tra i castigliani, perché anche se significò la sconfitta da parte dell'esercito imperiale, commemora lo spirito di ribellione e coraggio contro le ingiustizie, che causarono un arduo mal di testa all'imperatore."
           },
           suarez: {
             title: "🇪🇸 Adolfo Suárez, figlio illustre",
@@ -445,11 +445,11 @@ const Avila = () => {
           },
           farsa: {
             title: "🎭 Farsa di Ávila (1465)",
-            content: "Ávila fu la prima tistimònia di granni canci nnâ storia. Unu di sti avvenimenti fu la cusì chiamata Farsa di Ávila, nto 1465. Stu fu n'attu pulìticu cilebbratu vicinu â mura di Ávila, unni na cualizzioni di nòbbili castigliani, contra lu re Enrico IV di Castiglia ('lu 'Mpotenti'), lu diposiru simbolicamenti ô gritu di <a href=\"https://www.youtube.com/watch?v=lyzNt7e4PRQ\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"text-primary underline hover:text-primary/80\">\"¡al suelo puto!\"</a>, attraversu na cirimònia carca di rituali e tiatiralità."
+            content: "Ávila fu la prima tistimònia di granni canci nnâ storia. Unu di sti avvenimenti fu la cusì chiamata <strong>Farsa di Ávila</strong>, nto 1465. Stu fu n'attu pulìticu cilebbratu vicinu â mura di Ávila, unni na cualizzioni di nòbbili castigliani, contra lu re Enrico IV di Castiglia ('lu 'Mpotenti'), lu diposiru simbolicamenti ô gritu di <a href=\"https://www.youtube.com/watch?v=lyzNt7e4PRQ\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"text-primary underline hover:text-primary/80\"><strong>\"¡al suelo puto!\"</strong></a>, attraversu na cirimònia carca di rituali e tiatiralità."
           },
           guerra: {
             title: "⚔️ Guerra di li Cumunità (1520–1521)",
-            content: "N'autru avvenimentu chi ebbi li so primi passi 'n Ávila. <a href=\"https://youtu.be/zIp6y0GvgxQ?si=NnNCjat0Qzluq1yb\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"text-primary underline hover:text-primary/80\">La Guerra di li Cumunità</a> fu na rivulta armata tra lu 1520 e lu 1522, duranti lu regnu di Carlu V. Lu cunflittu nasciu comu riazzioni ô criscenti scuntientu suciali e pulìticu versu lu re, chi vinni di li Fiandri cu na corti stranera, cunfruntannusi cu so matri Giovanna e appena parlannu castiglanu. Lu livamentu, macari ca ebbi juntatu diversi strati suciali, 'nfluinzati di l'idei umanisti di l'Università di Salamanca, falliu e li so capi Bravo, Padilla, Francisco e Javier de Maldonado furunu giustiziati doppu la scunfitta di Villalar. Lu 23 d'aprili è na data signata ntra li castigliani, picchì macari chi significau la scunfitta pi l'esèrcitu imperiali, rimmìmbira lu spiritu di ribellioni e coraggiu contra li 'ngiustizie."
+            content: "N'autru avvenimentu chi ebbi li so primi passi 'n Ávila. <a href=\"https://youtu.be/zIp6y0GvgxQ?si=NnNCjat0Qzluq1yb\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"text-primary underline hover:text-primary/80\"><strong>La Guerra di li Cumunità</strong></a> fu na rivulta armata tra lu 1520 e lu 1522, duranti lu regnu di Carlu V. Lu cunflittu nasciu comu riazzioni ô criscenti scuntientu suciali e pulìticu versu lu re, chi vinni di li Fiandri cu na corti stranera, cunfruntannusi cu so matri Giovanna e appena parlannu castiglanu. Lu livamentu, macari ca ebbi juntatu diversi strati suciali, 'nfluinzati di l'idei umanisti di l'Università di Salamanca, falliu e li so capi Bravo, Padilla, Francisco e Javier de Maldonado furunu giustiziati doppu la scunfitta di Villalar. Lu 23 d'aprili è na data signata ntra li castigliani, picchì macari chi significau la scunfitta pi l'esèrcitu imperiali, rimmìmbira lu spiritu di ribellioni e coraggiu contra li 'ngiustizie."
           },
           suarez: {
             title: "🇪🇸 Adolfo Suárez, figghiu illustri",
@@ -672,8 +672,9 @@ const Avila = () => {
               </Card>
             )}
 
-            {/* Gastronomía Abulense */}
-            <Card className="hover:shadow-lg transition-shadow bg-card/80 backdrop-blur-sm">
+            {/* 7. Gastronomia tradicional */}
+            {currentContent.traditionalDishes && (
+              <Card className="hover:shadow-lg transition-shadow bg-card/80 backdrop-blur-sm">
               <div className="overflow-hidden">
                 <img 
                   src="https://i.imgur.com/7VByEbi.png" 
@@ -681,26 +682,6 @@ const Avila = () => {
                   className="w-full h-48 object-cover object-top"
                 />
               </div>
-              <CardHeader>
-                <CardTitle className="flex items-center gap-2">
-                  <Utensils className="h-5 w-5 text-primary" />
-                  {language === 'es' ? 'Gastronomía Abulense' : 
-                   language === 'en' ? 'Abulense Cuisine' :
-                   language === 'it' ? 'Cucina Abulense' : 'Cucina Abulensi'}
-                </CardTitle>
-              </CardHeader>
-              <CardContent>
-                <p className="text-muted-foreground leading-relaxed">
-                  {language === 'es' ? 'Descubre los sabores únicos de la cocina tradicional de Ávila.' :
-                   language === 'en' ? 'Discover the unique flavors of Ávila\'s traditional cuisine.' :
-                   language === 'it' ? 'Scopri i sapori unici della cucina tradizionale di Ávila.' : 'Scopri li sapuri unici dâ cucina tradiziunali di Ávila.'}
-                </p>
-              </CardContent>
-            </Card>
-
-            {/* 7. Gastronomia tradicional */}
-            {currentContent.traditionalDishes && (
-              <Card className="hover:shadow-lg transition-shadow bg-card/80 backdrop-blur-sm">
                 <CardHeader>
                   <CardTitle className="flex items-center gap-2">
                     <Utensils className="h-5 w-5 text-primary" />

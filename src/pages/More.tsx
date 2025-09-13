@@ -11,24 +11,24 @@ const More = () => {
 
   const menuItems = {
     es: {
-      appetizers: ['Jamón ibérico con pan cristal', 'Queso manchego con membrillo', 'Croquetas de cocido madrileño'],
-      mains: ['Cochinillo asado', 'Bacalao al pil pil', 'Paella valenciana'],
-      desserts: ['Tarta de Santiago', 'Flan de huevo', 'Torrijas con helado']
+      appetizers: ['TBD'],
+      mains: ['TBD'],
+      desserts: ['TBD']
     },
     it: {
-      appetizers: ['Prosciutto iberico con pane', 'Formaggio manchego con cotognata', 'Crocchette di cocido madrileno'],
-      mains: ['Maialino arrosto', 'Baccalà al pil pil', 'Paella valenciana'],
-      desserts: ['Torta di Santiago', 'Flan alle uova', 'Torrijas con gelato']
+      appetizers: [''],
+      mains: [''],
+      desserts: ['']
     },
     scn: {
-      appetizers: ['Prosciuttu ibericu cu pani', 'Caciu manchego cu cutognata', 'Crocchetti di cucidu madrileñu'],
-      mains: ['Purcedduzzu arrustu', 'Baccalà â pil pil', 'Paella valenciana'],
-      desserts: ['Torta di Santiagu', 'Flan di ova', 'Torrijas cu gilatu']
+      appetizers: [''],
+      mains: [''],
+      desserts: ['TBD']
     },
     en: {
-      appetizers: ['Iberian ham with crystal bread', 'Manchego cheese with quince', 'Madrid-style cocido croquettes'],
-      mains: ['Roast suckling pig', 'Cod pil pil style', 'Valencian paella'],
-      desserts: ['Santiago cake', 'Egg flan', 'Torrijas with ice cream']
+      appetizers: [''],
+      mains: [''],
+      desserts: ['TBD']
     }
   };
 
@@ -145,7 +145,7 @@ const More = () => {
                 variant="outline" 
                 size="sm" 
                 className="w-full"
-                onClick={() => window.open('https://forms.gle/speechform', '_blank')}
+                onClick={() => window.open('https://form.typeform.com/to/hj7Tz81R', '_blank')}
               >
                 <ExternalLink className="w-4 h-4 mr-2" />
                 {language === 'es' ? 'Registrar Discurso' : 
@@ -184,24 +184,17 @@ const More = () => {
             <CardContent className="space-y-3">
               <Button variant="outline" size="sm" className="w-full justify-start">
                 <Download className="w-4 h-4 mr-2" />
-                {language === 'es' ? 'Programa Detallado' : 
-                 language === 'it' ? 'Programma Dettagliato' : 
-                 language === 'scn' ? 'Prugramma Dittagliatu' : 
-                 'Detailed Program'}
+                {language === 'es' ? 'Diccionario SC-ES-IT-EN' : 
+                 language === 'it' ? 'Dizionario SC-ES-IT-EN' : 
+                 language === 'scn' ? 'Dizzionariu SC-ES-IT-EN' : 
+                 'Diccionary SC-ES-IT-EN'}
               </Button>
               <Button variant="outline" size="sm" className="w-full justify-start">
                 <Download className="w-4 h-4 mr-2" />
-                {language === 'es' ? 'Mapa del Lugar' : 
-                 language === 'it' ? 'Mappa del Luogo' : 
-                 language === 'scn' ? 'Mappa dû Locu' : 
-                 'Venue Map'}
-              </Button>
-              <Button variant="outline" size="sm" className="w-full justify-start">
-                <Download className="w-4 h-4 mr-2" />
-                {language === 'es' ? 'Lista de Hoteles' : 
-                 language === 'it' ? 'Lista Hotel' : 
-                 language === 'scn' ? 'Lista Hotel' : 
-                 'Hotel List'}
+                {language === 'es' ? 'Discursos' : 
+                 language === 'it' ? 'Discorsi' : 
+                 language === 'scn' ? 'Discursi' : 
+                 'Speeches'}
               </Button>
             </CardContent>
           </Card>
@@ -226,7 +219,7 @@ const More = () => {
               </p>
               <Button 
                 className="w-full bg-primary hover:bg-primary/90"
-                onClick={() => window.open('https://forms.gle/musicrequest', '_blank')}
+                onClick={() => window.open('https://form.jotform.com/252126974853061', '_blank')}
               >
                 <ExternalLink className="w-4 h-4 mr-2" />
                 {language === 'es' ? 'Pedir Canción' : 
@@ -251,12 +244,12 @@ const More = () => {
               <div className="grid md:grid-cols-2 gap-4">
                 <div>
                   <h4 className="font-semibold text-foreground mb-2">Fernando</h4>
-                  <p className="text-sm text-muted-foreground">fernando@email.com</p>
-                  <p className="text-sm text-muted-foreground">+34 123 456 789</p>
+                  <p className="text-sm text-muted-foreground">weddingchiarafer@gmail.com</p>
+                  <p className="text-sm text-muted-foreground">+34 621 35 47 23</p>
                 </div>
                 <div>
                   <h4 className="font-semibold text-foreground mb-2">Chiara</h4>
-                  <p className="text-sm text-muted-foreground">chiara@email.com</p>
+                  <p className="text-sm text-muted-foreground">weddingchiarafer@gmail.com</p>
                   <p className="text-sm text-muted-foreground">+39 123 456 789</p>
                 </div>
               </div>
