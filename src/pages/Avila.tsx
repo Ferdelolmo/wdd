@@ -70,7 +70,7 @@ const Avila = () => {
           },
           farsa: {
             title: "🎭 Farsa de Ávila (1465)",
-            content: "Avila ha sido primer testigo de grandes cambios a lo largo de la historia. Uno de estos acontecimientos fue la llamada Farsa de Ávila, en el año 1465. Esto fue un acto político celebrado cerca de las murallas de Ávila, en el que una coalición de nobles castellanos, enfrentados al rey Enrique IV de Castilla (“el Impotente”), lo depusieron simbólicamente al grito de “¡al suelo puto!”, mediante una ceremonia cargada de rituales y teatralidad. No se trató de una batalla, sino de una puesta en escena polémica y muy recordada."
+            content: "Avila ha sido primer testigo de grandes cambios a lo largo de la historia. Uno de estos acontecimientos fue la llamada Farsa de Ávila, en el año 1465. Esto fue un acto político celebrado cerca de las murallas de Ávila, en el que una coalición de nobles castellanos, enfrentados al rey Enrique IV de Castilla (“el Impotente”), lo depusieron simbólicamente al grito de <a href=\"https://www.youtube.com/watch?v=lyzNt7e4PRQ\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"text-primary underline hover:text-primary/80\">\"¡al suelo puto!\"</a>, mediante una ceremonia cargada de rituales y teatralidad. No se trató de una batalla, sino de una puesta en escena polémica y muy recordada."
           },
           guerra: {
             title: "⚔️ Guerra de las Comunidades (1520–1521)",
@@ -81,7 +81,7 @@ const Avila = () => {
             content: "Nacido en Cebreros (Ávila). Primer presidente de la democracia y artífice de la Transición española. Adolfo Suárez fue el motor político de la Transición española, conduciendo el paso de un régimen autoritario a una democracia plural y constitucional en un período breve pero lleno de retos, logrando una transición pacífica y consensuada que aún hoy es referencia histórica."
           },
           ximena: {
-            title: "Ximena de Ávila",
+            title: "🦸🏻‍♀️ Ximena de Ávila",
             content: "Protagonista de una legendaria defensa de la ciudad durante el siglo XII, en tiempos convulsos de constantes enfrentamientos entre musulmanes y cristianos. Ante la ausencia de los hombres de la ciudad, organizó a mujeres y ancianos para simular una gran defensa desde las murallas y así evitar un ataque musulmán. Puedes visitar su estatua homenaje en la Calle San Miguel."
           }
         }
@@ -105,7 +105,7 @@ const Avila = () => {
         content: "Una de las cosas que te sorprenderán de Ávila, es que cuando pidas una bebida, te pondrán un pincho sin haberlo pedirlo. Sí, tenemos esta cultura como otras ciudades en España, así que aprovechalo 😋",
           places: [
             { name: "El Pórtico 🍲", description: "Lugar que destaca por sus tapas variadas, entre ellas: Combinado, lomo adobado o champiñón, además de su bocadillo de calamares." },
-            { name: "Venus Café Bar 🥘", description: "Destaca por su pincho de secreto y su chipirón" },
+            { name: "Bar La Oficina 🥘", description: "Destaca por su pincho de secreto" },
             { name: "La Oca Cocktail Bar 🍸", description: "Gastro coctelería y tapas variadas" },
             { name: "La Rotonda del Ancla 🥟", description: "Croquetas, clásicos bien hechos" },
             { name: "Palacio de los Sofraga 🍖", description: "Destaca más bien por su lugar y sus vistas a la muralla" },
@@ -199,14 +199,14 @@ const Avila = () => {
           },
           guerra: {
             title: "⚔️ War of the Communities (1520–1521)",
-            content: "Another event that had its first steps in Ávila, where the Holy See was established. The War of the Communities was an armed uprising that occurred between 1520 and 1522, during the reign of Charles V of the Holy Roman Empire. The conflict arose as a reaction to growing social and political discontent towards King Charles V, who came from Flanders with a foreign court, confronted with his mother Juana and barely speaking Castilian, which generated suspicions in the nobility and local social estates. The uprising, despite having brought together various estates and social strata, influenced by humanist ideas from the University of Salamanca, failed and its leaders Bravo, Padilla, Francisco and Javier de Maldonado were executed after the defeat of Villalar. April 23 is a marked date among Castilians, because although it meant defeat by the imperial army, it commemorates the spirit of rebellion and courage against injustices, which caused an arduous headache for the emperor."
+            content: "Another event that had its first steps in Ávila, where the Holy See was established. <a href=\"https://youtu.be/zIp6y0GvgxQ?si=NnNCjat0Qzluq1yb\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"text-primary underline hover:text-primary/80\">The War of the Communities</a> was an armed uprising that occurred between 1520 and 1522, during the reign of Charles V of the Holy Roman Empire. The conflict arose as a reaction to growing social and political discontent towards King Charles V, who came from Flanders with a foreign court, confronted with his mother Juana and barely speaking Castilian, which generated suspicions in the nobility and local social estates. The uprising, despite having brought together various estates and social strata, influenced by humanist ideas from the University of Salamanca, failed and its leaders Bravo, Padilla, Francisco and Javier de Maldonado were executed after the defeat of Villalar. April 23 is a marked date among Castilians, because although it meant defeat by the imperial army, it commemorates the spirit of rebellion and courage against injustices, which caused an arduous headache for the emperor."
           },
           suarez: {
             title: "🇪🇸 Adolfo Suárez, illustrious son",
             content: "Born in Cebreros (Ávila). First president of democracy and architect of the Spanish Transition. Adolfo Suárez was the political engine of the Spanish Transition, leading the transition from an authoritarian regime to a plural and constitutional democracy in a brief but challenging period, achieving a peaceful and consensual transition that is still a historical reference today."
           },
           ximena: {
-            title: "Ximena de Ávila",
+            title: "🦸🏻‍♀️ Ximena de Ávila",
             content: "Protagonist of a legendary defense of the city during the 12th century, in turbulent times of constant confrontations between Muslims and Christians. In the absence of the city's men, she organized women and elderly people to simulate a great defense from the walls and thus avoid a Muslim attack. You can visit her commemorative statue on Calle San Miguel."
           }
         }
@@ -229,14 +229,14 @@ const Avila = () => {
         title: "🍽 Taste Our Gastronomy",
         content: "When you order a drink in Ávila, you'll be surprised that they'll bring you a small tapa without asking for it. Yes, we have this culture like other cities in Spain, so enjoy it! 😋",
         places: [
-          { name: "El Pórtico 🍲", description: "Castilian soup, revolconas potatoes, asparagus" },
-          { name: "Venus Café Bar 🥘", description: "Generous portions; tripe" },
-          { name: "La Oca Cocktail Bar 🍸", description: "Gastro‑cocktails; \"Cod&Pop\" tapa" },
+          { name: "El Pórtico 🍲", description: "A place that stands out for its varied tapas, including: mixed platter, marinated pork loin, or mushrooms, as well as its calamari sandwich" },
+          { name: "Bar La Oficina 🥘", description: "Known for its pork secreto tapa" },
+          { name: "La Oca Cocktail Bar 🍸", description: "Gastro‑cocktails with assorted tapas" },
           { name: "La Rotonda del Ancla 🥟", description: "Croquettes, well-made classics" },
-          { name: "Palacio de los Sofraga 🍖", description: "T-bone steak, rice dishes; next to the wall" },
+          { name: "Palacio de los Sofraga 🍖", description: "Stands out more for its location and its views of the wall" },
           { name: "La Lola Gastrobar 🍤", description: "Homemade tapas with modern touch" },
-          { name: "El Almacén 🥚", description: "Fried eggs with prawns; creative cuisine" },
-          { name: "Bococo 🥩", description: "Large beans, revolconas, T-bone steak" },
+          { name: "El Almacén 🥚", description: "Now wer're talking about restaurants; here you'll find quality products at prices that are not excessively high" },
+          { name: "Bococo 🥩", description: "One of the most popular places in town lately, with cuisine that blends tradition and innovation" },
           { name: "Los Candiles 🍗", description: "Careful Castilian tradition" }
         ]
       },
@@ -331,7 +331,7 @@ const Avila = () => {
             content: "Nato a Cebreros (Ávila). Primo presidente della democrazia e architetto della Transizione spagnola. Adolfo Suárez fu il motore politico della Transizione spagnola, conducendo il passaggio da un regime autoritario a una democrazia plurale e costituzionale in un periodo breve ma pieno di sfide, ottenendo una transizione pacifica e consensuale che è ancora oggi un riferimento storico."
           },
           ximena: {
-            title: "Ximena de Ávila",
+            title: "🦸🏻‍♀️ Ximena de Ávila",
             content: "Protagonista di una leggendaria difesa della città durante il XII secolo, in tempi turbolenti di costanti scontri tra musulmani e cristiani. In assenza degli uomini della città, organizzò donne e anziani per simulare una grande difesa dalle mura e così evitare un attacco musulmano. Puoi visitare la sua statua commemorativa in Calle San Miguel."
           }
         }
@@ -355,7 +355,7 @@ const Avila = () => {
         content: "Una cosa che ti sorprenderà di Ávila è che quando ordini una bevanda, ti porteranno un pincho senza averlo chiesto. Sì, abbiamo questa cultura come altre città in Spagna, quindi approfittane! 😋",
         places: [
           { name: "El Pórtico 🍲", description: "Locale che si distingue per le sue tapas varie, tra cui: Combinado, lonza marinata o funghi, oltre al suo panino ai calamari." },
-          { name: "Venus Café Bar 🥘", description: "Si distingue per il suo pincho segreto e il suo piccolo calamaro" },
+          { name: "Bar La Oficina 🥘", description: "Si distingue per il suo pincho di segreto" },
           { name: "La Oca Cocktail Bar 🍸", description: "Gastro cocktail e tapas varie" },
           { name: "La Rotonda del Ancla 🥟", description: "Crocchette, classici ben fatti" },
           { name: "Palacio de los Sofraga 🍖", description: "Si distingue più per il suo luogo e le sue viste sulla muraglia" },
@@ -456,7 +456,7 @@ const Avila = () => {
             content: "Nasciutu 'n Cebreros (Ávila). Primu prisidenti dâ dimucrazìa e architettu dâ Transizioni spagnola. Adolfo Suárez fu lu muturi pulìticu dâ Transizioni spagnola, cunducennu lu passaggiu di nu règimi autùritariu a na dimucrazìa plurali e custituziunali."
           },
           ximena: {
-            title: "Ximena de Ávila",
+            title: "🦸🏻‍♀️ Ximena de Ávila",
             content: "Prutagunista di na ligendaria difisa dâ città duranti lu XII sèculu, nti tempi turbulinzi di custanti scontri tra musulmani e cristiani. Nâ assenza di l'omini dâ città, urganizzau fimmini e ancianu pi simulari na granni difisa di li mura e accussì evitari n'attaccu musulmanu. Poi visitari la so statua cummimuratìva nâ Calle San Miguel."
           }
         }
@@ -480,7 +480,7 @@ const Avila = () => {
         content: "Na cosa ca ti maravigghierà di Ávila è ca quannu addumanni na vivanda, ti portanu nu pinchu senza averlu addumandatu. Sì, avemu sta cultura comu autri città di Spagna, accussì approfittanu! 😋",
         places: [
           { name: "El Pórtico 🍲", description: "Locu chi si distingui pi li so tapas varii, ntra cui: Cumbinatu, lonzu marrinatu o funghi, 'nzè mu lu so paninu cu calamari." },
-          { name: "Venus Café Bar 🥘", description: "Si distingui pi lu so pinchu sicretu e lu so picculu calamari" },
+          { name: "Bar La Oficina 🥘", description: "Si distingui pi lu so pinchu di sicretu" },
           { name: "La Oca Cocktail Bar 🍸", description: "Gastru cocktail e tapas varii" },
           { name: "La Rotonda dû Àncila 🥟", description: "Cruchetti, classici beni fatti" },
           { name: "Palacio di li Sofraga 🍖", description: "Si distingui cchiù pi lu so locu e li so visti â muraglia" },
