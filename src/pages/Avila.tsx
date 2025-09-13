@@ -890,7 +890,6 @@ const Avila = () => {
       </div>
       <WeddingFooter />
     </div>
-      <WeddingFooter />
     </div>
   );
 };

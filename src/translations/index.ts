@@ -22,7 +22,7 @@ export const translations = {
       subtitle: 'El encanto palaciego',
       description: 'La Dehesa de Pedrosillo se encuentra en un encinar espectacular con vistas a la Sierra de Gredos. A 5 minutos de Ávila, se encuentra este oasis de tranquilidad y naturaleza. Sumérgete de lleno y disfruta de la historia, del encanto palaciego.',
       address: 'N-403, 05004, Ávila',
-      ceremony: 'Ceremonia: 16:00',
+      ceremony: 'Ceremonia: 15:00',
       getDirections: 'Obtener Direcciones',
       viewWebsite: 'Ver Sitio Web'
     },
@@ -65,8 +65,8 @@ export const translations = {
       schedule: {
         title: 'Programa',
         day1: '20 Junio 2026',
-        day1Event: '19:00 Preboda en',
-        day1Venue: 'Bendita Locura',
+        day1Event: '19:00 Preboda ',
+        day1Venue: ' ',
         day1Description: ', donde podremos juntarnos y conocernos todos antes de la boda',
         day2: '21 Junio 2026',
         day2Title: '',
@@ -85,7 +85,7 @@ export const translations = {
       },
       transportation: {
         title: 'Transporte',
-        description: 'Se proporcionará servicio de transporte desde Plaza Santa Ana y la Estación de Autobuses a las 14:00. También habrá autobuses cada hora saliendo hacia Ávila empezando a las 23:00.'
+        description: 'Se proporcionará servicio de transporte desde el Centro de Recepción de Visitantes y también en frente de la Estación de Autobuses a las 14:00. También habrá autobuses cada hora saliendo hacia Ávila empezando a las 23:00.'
       },
       attire: {
         title: 'Código de Vestimenta',
@@ -140,7 +140,7 @@ export const translations = {
         },
         accommodation: {
           question: '¿Dónde debería alojarme en Ávila?',
-          answer: 'Estos son sólo algunos de los hoteles céntricos, pero por supuesto hay más opciones que podrás fácilmente encontrar en los habituales sitios web: Exe Reina Isabel, Hotel ELE Mirador de Santa Ana, Hotel Don Carmelo, Sofrafa Palacio. Para beneficiarte de un descuento en los hoteles Exe Reina Isabel y Don Carmelo, utiliza el código de referencia "Boda Fernando y Chiara".'
+          answer: 'Estos son sólo algunos de los hoteles céntricos, pero por supuesto hay más opciones que podrás fácilmente encontrar en los habituales sitios web: Exe Reina Isabel, Hotel ELE Mirador de Santa Ana, Hotel Don Carmelo, Sofraga Palacio. Para beneficiarte de un descuento en los hoteles Exe Reina Isabel y Don Carmelo, utiliza el código de referencia "Boda Fernando y Chiara".'
         },
         speeches: {
           question: '¿Se aceptan discursos?',
@@ -154,7 +154,7 @@ export const translations = {
       funFacts: 'Datos Curiosos Sobre Nosotros',
       funFactsList: [
         'Una de nuestras habilidades es leernos el pensamiento del uno al otro sin mediar palabra',
-        'Tendremos un total de 150 invitados entre familiares y amigos',
+        'Tendremos un total de 29 nacionalidades diferentes en la boda entre familia y amigos',
         'Nuestro primer baile fue "More than this" de Roxy durante una noche de fiesta en Irlanda, bajo la lluvia en medio de la calle',
         'Las islas nos han perseguido durante nuestra vida y forman parte de nosotros, es tanto así que hemos visitado juntos 16 islas diferentes'
       ],
@@ -222,7 +222,7 @@ export const translations = {
       subtitle: 'U cantu palazzinu',
       description: 'A Dehesa de Pedrosillo si trova nta nu liccetu spittaculari cu visti â Sierra de Gredos. A 5 minuti di Ávila, si trova stu oasi di tranquillità e natura. Immèrgiti tuttu e gòditi a storia, dû cantu palazzinu.',
       address: 'N-403, 05004, Ávila',
-      ceremony: 'Cirimonia: 16:00',
+      ceremony: 'Cirimonia: 15:00',
       getDirections: 'Pigghia Dirizzioni',
       viewWebsite: 'Talìa Situ Web'
     },
@@ -266,8 +266,8 @@ export const translations = {
         title: 'Prugramma',
         day1: '20 Giugnu 2026',
         day1Event: '19:00 Festa prima du fistino',
-        day1Venue: 'Bendita Locura',
-        day1Description: ', unni putemu jùnciri e canùsciri tutti prima dâ boda',
+        day1Venue: ' ',
+        day1Description: ' ',
         day2: '21 Giugnu 2026',
         day2Title: '',
         pickup: '14:00 Acchianata nnû bus',
@@ -340,7 +340,7 @@ export const translations = {
         },
         accommodation: {
           question: 'Unni haju stari a Ávila?',
-          answer: 'Chisti sunnu sulu quarchi unu di li bbutì centralizzati, ma certu ca ci sù autri opzioni ca poi truvari facirmenti ntê siti web cchiù cunnuti: Exe Reina Isabel, Hotel ELE Mirador di Santa Ana, Hotel Don Carmelo, Sofrafa Palacio. Pì aviri nu scontu a l\'hotel Exe Reina Isabel e Don Carmelo, usa u còdici di rifirimentu "Boda Fernando y Chiara".'
+          answer: 'Chisti sunnu sulu quarchi unu di li bbutì centralizzati, ma certu ca ci sù autri opzioni ca poi truvari facirmenti ntê siti web cchiù cunnuti: Exe Reina Isabel, Hotel ELE Mirador di Santa Ana, Hotel Don Carmelo, Sofraga Palacio. Pì aviri nu scontu a l\'hotel Exe Reina Isabel e Don Carmelo, usa u còdici di rifirimentu "Boda Fernando y Chiara".'
         },
         speeches: {
           question: 'S\'accettanu discursi?',
@@ -354,7 +354,7 @@ export const translations = {
       funFacts: 'Fatti divertenti su di nuautri',
       funFactsList: [
         'Una di li nostri abilitati è liggiri li pinzeri l\'unu di l\'autru senza parrari',
-        'Avremu un totali di 150 nvitati ntra famigghiari e amici',
+        'Avremu n tutali di 29 nazziunalità diffirenti ntra famigghiari e amici',
         'U nostru primu ballu fu "More than this" di Roxy nta na notti di festa n\'Irlanda, sutta a chiuvuta nnâ menzzu dâ strada',
         'Li isuli ni ànnu pirsugutu durante a nostra vita e fannu parti di nui, è tantu accussì ca abbiamu visitatu nsemi 16 isuli divessi'
       ],
@@ -422,7 +422,7 @@ export const translations = {
       subtitle: 'Il fascino del palazzo',
       description: 'La Dehesa de Pedrosillo è immersa in un suggestivo bosco di lecci, con una splendida vista sulla Sierra de Gredos. A soli 5 minuti da Ávila, questa location rappresenta un\'oasi di pace e natura, dove poter vivere appieno la storia e il fascino di un palazzo unico.',
       address: 'N-403, 05004, Ávila',
-      ceremony: 'Cerimonia: 16:00',
+      ceremony: 'Cerimonia: 15:00',
       getDirections: 'Ottieni Indicazioni',
       viewWebsite: 'Visualizza Sito Web'
     },
@@ -433,7 +433,7 @@ export const translations = {
         firstMeet: {
           title: 'Come ci siamo incontrati',
           date: 'Giugno 2020',
-          description: 'I nostri percorsi si sono incrociati nell\'isola smeralda nel estate 2020. Dopo nostro primo appuntamento nel parco St.Stephen con un cannolo siciliano, siamo diventati inseparabili'
+          description: 'I nostri cammini si sono incrociati nella verde Dublino nell\'estate del 2020. Il nostro primo appuntamento è stato una passeggiata nel parco di St. Stephen\'s Green, sotto un cielo uggioso, con in mano un cannolo siciliano preso in un bar del centro. Da quel giorno, siamo diventati inseparabili.'
         },
         firstTrip: {
           title: 'Il Nostro Primo Viaggio Insieme',
@@ -453,7 +453,7 @@ export const translations = {
         proposal: {
           title: 'La Proposta',
           date: 'Giugno 2025',
-          description: 'Fernando approfitta dell\'occasione durante la celebrazione del 5° anniversario. Nonostante i nervi, durante un tramonto spettacolare in cima a Puebla de Sanabria, si è inginocchiato e titubante, ha fatto la proposta a Chiara. È stato un momento ideale e inaspettato per Chiara.'
+          description: 'Durante il nostro quinto anniversario, Fernando ha colto l\'occasione. Al tramonto, sulla cima di Puebla de Sanabria, con il cuore che batteva all\'impazzata, si è inginocchiato e, con emozione, ha chiesto a Chiara di sposarlo. Un momento perfetto e inaspettato, che porteremo nel cuore per sempre.'
         }
       },
       conclusion: 'Siamo pronti a dirci "Sì, lo voglio" e a continuare il nostro viaggio insieme. Grazie di cuore per essere parte della nostra storia!',
@@ -540,7 +540,7 @@ export const translations = {
         },
         accommodation: {
           question: 'Dove dovrei soggiornare a Ávila?',
-          answer: 'Questi sono solo alcuni degli hotel centrali, ma naturalmente ci sono molte altre opzioni che potrai facilmente trovare sui consueti siti di prenotazione: Exe Reina Isabel, Hotel ELE Mirador de Santa Ana, Hotel Don Carmelo, Sofrafa Palacio. Per ottenere uno sconto negli hotel Exe Reina Isabel e Don Carmelo, utilizza il codice di riferimento "Boda Fernando y Chiara".'
+          answer: 'Questi sono solo alcuni degli hotel centrali, ma naturalmente ci sono molte altre opzioni che potrai facilmente trovare sui consueti siti di prenotazione: Exe Reina Isabel, Hotel ELE Mirador de Santa Ana, Hotel Don Carmelo, Sofraga Palacio. Per ottenere uno sconto negli hotel Exe Reina Isabel e Don Carmelo, utilizza il codice di riferimento "Boda Fernando y Chiara".'
         },
         speeches: {
           question: 'Si accettano discorsi?',
@@ -554,7 +554,7 @@ export const translations = {
       funFacts: 'Curiosità su di noi',
       funFactsList: [
         'Una delle nostre abilità è leggerci il pensiero a vicenda senza dire una parola',
-        'Avremo un totale di 150 ospiti tra famiglia e amici',
+        'Al matrimonio ci saranno oltre 29 diverse nazionalità tra familiari e amici',
         'Il nostro primo ballo è stato "More than this" di Roxy durante una notte di festa in Irlanda, sotto la pioggia in mezzo alla strada',
         'Le isole ci hanno perseguito durante la nostra vita e fanno parte di noi, è così tanto che abbiamo visitato insieme 16 isole diverse'
       ],
@@ -622,7 +622,7 @@ export const translations = {
       subtitle: 'The palatial charm',
       description: 'Dehesa de Pedrosillo is located in a spectacular holm oak forest with views of the Sierra de Gredos. 5 minutes from Ávila, this oasis of tranquility and nature can be found. Immerse yourself fully and enjoy the history, the palatial charm.',
       address: 'N-403, 05004, Ávila',
-      ceremony: 'Ceremony: 4:00 PM',
+      ceremony: 'Ceremony: 3:00 PM',
       getDirections: 'Get Directions',
       viewWebsite: 'View Website'
     },
@@ -665,9 +665,9 @@ export const translations = {
         schedule: {
           title: 'Schedule',
           day1: 'June 20, 2026',
-          day1Event: '19:00 Pre-wedding at',
-          day1Venue: 'Bendita Locura',
-          day1Description: ', where we can all gather and get to know each other before the wedding',
+          day1Event: '19:00 Pre-wedding  ',
+          day1Venue: ' ',
+          day1Description: ' ',
         day2: 'June 21, 2026',
         day2Title: '',
           pickup: '14:00 Bus pickup',
@@ -740,7 +740,7 @@ export const translations = {
         },
         accommodation: {
           question: 'Where should I stay in Ávila?',
-          answer: 'These are just some of the central hotels, but of course there are more options that you can easily find on the usual booking websites: Exe Reina Isabel, Hotel ELE Mirador de Santa Ana, Hotel Don Carmelo, Sofrafa Palacio. To benefit from a discount at the Exe Reina Isabel and Don Carmelo hotels, use the reference code "Boda Fernando y Chiara".'
+          answer: 'These are just some of the central hotels, but of course there are more options that you can easily find on the usual booking websites: Exe Reina Isabel, Hotel ELE Mirador de Santa Ana, Hotel Don Carmelo, Sofraga Palacio. To benefit from a discount at the Exe Reina Isabel and Don Carmelo hotels, use the reference code "Boda Fernando y Chiara".'
         },
         speeches: {
           question: 'Are speeches accepted?',
@@ -754,7 +754,7 @@ export const translations = {
       funFacts: 'Fun facts about us',
       funFactsList: [
         'One of our skills is reading each other\'s minds without saying a word',
-        'We will have a total of 150 guests including family and friends',
+        'We will have a total of 29 different nationalities at the wedding among family and friends',
         'Our first dance was "More than this" by Roxy during a party night in Ireland, under the rain in the middle of the street',
         'Islands have followed us throughout our lives and are part of us, so much so that we have visited 16 different islands together'
       ],
