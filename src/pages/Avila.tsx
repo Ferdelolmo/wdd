@@ -8,9 +8,31 @@ import { Link } from 'react-router-dom';
 import avilaHeroImg from '@/assets/avila-hero-new.jpg';
 import AvilaMap from '@/components/AvilaMap';
 import WeddingFooter from '@/components/WeddingFooter';
+import SoundCloudPlayer from '@/components/SoundCloudPlayer';
 
 const Avila = () => {
   const { language } = useLanguage();
+
+  const soundCloudContent = {
+    es: {
+      title: 'Audio Guía',
+      src: '', // To be provided later
+    },
+    it: {
+      title: 'Audio Guida',
+      src: 'https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/2170562355&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true',
+    },
+    scn: {
+      title: 'Audio Guida',
+      src: 'https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/2170562355&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true',
+    },
+    en: {
+      title: 'Audio Guide',
+      src: 'https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/2170562532&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true',
+    },
+  };
+
+  const currentAudio = soundCloudContent[language];
 
   const content = {
     es: {
@@ -588,6 +610,10 @@ const Avila = () => {
                   </Accordion>
                 </CardContent>
               </Card>
+            )}
+
+            {currentAudio.src && (
+              <SoundCloudPlayer src={currentAudio.src} />
             )}
 
             {/* 2. Historia y memoria */}
