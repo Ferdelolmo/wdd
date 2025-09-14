@@ -524,10 +524,10 @@ const Avila = () => {
         <Link to="/">
           <Button variant="outline" size="sm" className="bg-background/80 backdrop-blur-sm">
             <Home className="w-4 h-4 mr-2" />
-            {language === 'es' ? 'Inicio' : 
-             language === 'it' ? 'Home' : 
-             language === 'scn' ? 'Casa' : 
-             'Home'}
+            {language === 'es' ? ' ' : 
+             language === 'it' ? ' ' : 
+             language === 'scn' ? ' ' : 
+             ' '}
           </Button>
         </Link>
       </div>
