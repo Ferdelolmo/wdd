@@ -4,6 +4,7 @@ import { useLanguage } from '@/contexts/LanguageContext';
 import { translations } from '@/translations';
 import { FileText, Utensils, Volume2, Download, ExternalLink, Home } from 'lucide-react';
 import { Link } from 'react-router-dom';
+import LanguageSelector from '@/components/LanguageSelector';
 
 const More = () => {
   const { language } = useLanguage();
@@ -49,6 +50,10 @@ const More = () => {
         </Link>
       </div>
 
+      <div className="fixed top-4 right-4 z-50">
+        <LanguageSelector />
+      </div>
+
       <div className="container mx-auto px-4">
         {/* Header */}
         <div className="text-center mb-16">
@@ -67,7 +72,7 @@ const More = () => {
         </div>
 
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
-          {/* Wedding Menu */}
+          {/*
           <Card className="bg-card/80 backdrop-blur-sm shadow-romantic border-0">
             <CardHeader>
               <CardTitle className="flex items-center gap-2 text-primary">
@@ -122,6 +127,7 @@ const More = () => {
               </div>
             </CardContent>
           </Card>
+          */}
 
           {/* Speeches */}
           <Card className="bg-card/80 backdrop-blur-sm shadow-romantic border-0">
@@ -182,20 +188,24 @@ const More = () => {
               </CardTitle>
             </CardHeader>
             <CardContent className="space-y-3">
-              <Button variant="outline" size="sm" className="w-full justify-start">
-                <Download className="w-4 h-4 mr-2" />
-                {language === 'es' ? 'Diccionario SC-ES-IT-EN' : 
-                 language === 'it' ? 'Dizionario SC-ES-IT-EN' : 
-                 language === 'scn' ? 'Dizzionariu SC-ES-IT-EN' : 
-                 'Diccionary SC-ES-IT-EN'}
-              </Button>
-              <Button variant="outline" size="sm" className="w-full justify-start">
-                <Download className="w-4 h-4 mr-2" />
-                {language === 'es' ? 'Discursos' : 
-                 language === 'it' ? 'Discorsi' : 
-                 language === 'scn' ? 'Discursi' : 
-                 'Speeches'}
-              </Button>
+              <Link to="/dictionary">
+                <Button variant="outline" size="sm" className="w-full justify-start">
+                  <Download className="w-4 h-4 mr-2" />
+                  {language === 'es' ? 'Diccionario 🍋 🇪🇸 🇬🇧 🇮🇹 ' : 
+                   language === 'it' ? 'Dizionario 🍋 🇪🇸 🇬🇧 🇮🇹 ' : 
+                   language === 'scn' ? 'Dizzionariu 🍋 🇪🇸 🇬🇧 🇮🇹 ' : 
+                   'Diccionary 🍋 🇪🇸 🇬🇧 🇮🇹 '}
+                </Button>
+              </Link>
+              <Link to="/speeches">
+                <Button variant="outline" size="sm" className="w-full justify-start">
+                  <Download className="w-4 h-4 mr-2" />
+                  {language === 'es' ? 'Discursos' : 
+                   language === 'it' ? 'Discorsi' : 
+                   language === 'scn' ? 'Discursi' : 
+                   'Speeches'}
+                </Button>
+              </Link>
             </CardContent>
           </Card>
 
@@ -243,14 +253,9 @@ const More = () => {
             <CardContent>
               <div className="grid md:grid-cols-2 gap-4">
                 <div>
-                  <h4 className="font-semibold text-foreground mb-2">Fernando</h4>
+                  <h4 className="font-semibold text-foreground mb-2"> </h4>
                   <p className="text-sm text-muted-foreground">weddingchiarafer@gmail.com</p>
                   <p className="text-sm text-muted-foreground">+34 621 35 47 23</p>
-                </div>
-                <div>
-                  <h4 className="font-semibold text-foreground mb-2">Chiara</h4>
-                  <p className="text-sm text-muted-foreground">weddingchiarafer@gmail.com</p>
-                  <p className="text-sm text-muted-foreground">+39 123 456 789</p>
                 </div>
               </div>
             </CardContent>

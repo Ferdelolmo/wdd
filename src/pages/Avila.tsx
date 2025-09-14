@@ -540,7 +540,7 @@ const Avila = () => {
           className="w-full h-full object-cover"
         />
         <div className="absolute inset-0 bg-black/40 flex items-center justify-center">
-          <div className="absolute top-4 right-4 z-10">
+          <div className="absolute top-4 right-4 z-10 bg-background/80 backdrop-blur-sm rounded-md">
             <LanguageSelector />
           </div>
           <div className="text-center text-white">

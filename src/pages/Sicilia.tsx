@@ -7,6 +7,7 @@ import { Link } from 'react-router-dom';
 import sicilyEtnaImage from '@/assets/sicily-etna.jpg';
 import sicilyCuisineImage from '@/assets/sicily-cuisine.jpg';
 import WeddingFooter from '@/components/WeddingFooter';
+import LanguageSelector from '@/components/LanguageSelector';
 
 const Sicilia = () => {
   const { language } = useLanguage();
@@ -137,7 +138,7 @@ const Sicilia = () => {
       funFacts: {
         title: "Fascinating Facts",
         facts: [
-          "Sicily is the largest island in the Mediterranean with 25,711 km².",
+          "Sicily is the largest island in the Mediterranean with 25.711 km².",
           "Etna is Europe's highest active volcano and is constantly active.",
           "The island has three points that give it a triangular shape: Cape Peloro, Cape Passero and Cape Lilibeo.",
           "Archimedes, the great mathematician, was born in Syracuse in 287 BC."
@@ -271,7 +272,7 @@ const Sicilia = () => {
           content: "Di li spiaggi durati dâ costa di livanti ê drammatici scugli di punenti, la Sicilia offri paisaggi incomparàbbili. Lu maestusu Etna dumina l'isula, mentri li Isuli Eolie ed Egadi cumplìtanu nu scenariu naturali di billizza impareggiàbbili.",
           details: [
             { title: "Munci Etna", content: "Lu vulcanu attivu cchiù autu d'Europa (3.329m), Patrimoniu di l'Umanità UNESCO." },
-            { title: "Isuli Eolie", content: "Arcipelagu vulcanicu cu Stromboli, lu 'Faru dû Mediterraneu', e l'eleganti Lipari." },
+            { title: "Isuli Eolie", content: "Arcipelagu vulcanicu cu Stromboli, il 'Faro dû Mediterraneu', e l'eleganti Lipari." },
             { title: "Spiaggi e Costa", content: "Di li spiaggi di rina durata di Taormina ê scugli dâ Scala dî Turchi." }
           ]
         },
@@ -359,6 +360,9 @@ const Sicilia = () => {
           className="w-full h-full object-cover"
         />
         <div className="absolute inset-0 bg-black/40 flex items-center justify-center">
+          <div className="absolute top-4 right-4 z-10 bg-background/80 backdrop-blur-sm rounded-md">
+            <LanguageSelector />
+          </div>
           <div className="text-center text-white">
             <h1 className="text-4xl md:text-6xl font-bold mb-4">
               {currentContent.title}
