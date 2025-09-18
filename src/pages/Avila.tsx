@@ -51,10 +51,10 @@ const Avila = () => {
         },
         walls: {
           title: "Las Murallas Medievales", 
-          content: "La muralla de Ávila, construida en el siglo XI, es uno de los recintos amurallados medievales mejor conservados de Europa. Rodea completamente el casco histórico con más de 2,5 km de perímetro, 88 torreones y 9 puertas monumentales. Declarada Patrimonio de la Humanidad por la UNESCO, es el símbolo indiscutible de la ciudad y un recordatorio de su importancia estratégica en la Edad Media.",
+          content: "La muralla de Ávila, construida en el siglo XI, es uno de los recintos amurallados medievales mejor conservados de Europa. Rodea completamente el casco histórico con más de 2,5 km de perímetro, 87 torreones y 9 puertas monumentales. Declarada Patrimonio de la Humanidad por la UNESCO, es el símbolo indiscutible de la ciudad y un recordatorio de su importancia estratégica en la Edad Media.",
           details: [
             { title: "Dimensiones", content: "2.516 metros de perímetro, 12 metros de altura media y 3 metros de grosor." },
-            { title: "Torres", content: "88 torres semicirculares que refuerzan la estructura defensiva." },
+            { title: "Torres", content: "87 torres semicirculares que refuerzan la estructura defensiva." },
             { title: "Puertas", content: "9 puertas históricas, siendo la del Alcázar y la de San Vicente las más emblemáticas." }
           ]
         },
@@ -124,7 +124,7 @@ const Avila = () => {
       },
       restaurants: {
         title: "🍽 Prueba nuestra gastronomía",
-        content: "Una de las cosas que te sorprenderán de Ávila, es que cuando pidas una bebida, te pondrán un pincho sin haberlo pedirlo. Sí, tenemos esta cultura como otras ciudades en España, así que aprovechalo 😋",
+        content: "Una de las cosas que te sorprenderán de Ávila, es que cuando pidas una bebida, te pondrán un pincho sin haberlo pedirlo. Sí, tenemos esta cultura como otras ciudades en España, así que aprovéchalo 😋",
           places: [
             { name: "El Pórtico 🍲", description: "Lugar que destaca por sus tapas variadas, entre ellas: Combinado, lomo adobado o champiñón, además de su bocadillo de calamares." },
             { name: "Bar La Oficina 🥘", description: "Destaca por su pincho de secreto" },
@@ -176,10 +176,10 @@ const Avila = () => {
         },
         walls: {
           title: "Medieval Walls",
-          content: "With more than 2.5 kilometers in length, Ávila's walls completely surround the historic center. Built between the 11th and 14th centuries, they feature 88 towers and 9 gates that have withstood the test of time.",
+          content: "With more than 2.5 kilometers in length, Ávila's walls completely surround the historic center. Built between the 11th and 14th centuries, they feature 87 towers and 9 gates that have withstood the test of time.",
           details: [
             { title: "Dimensions", content: "2,516 meters perimeter, 12 meters average height and 3 meters thick." },
-            { title: "Towers", content: "88 semicircular towers that reinforce the defensive structure." },
+            { title: "Towers", content: "87 semicircular towers that reinforce the defensive structure." },
             { title: "Gates", content: "9 historic gates, with Alcázar and San Vicente gates being the most emblematic." }
           ]
         },
@@ -301,10 +301,10 @@ const Avila = () => {
         },
         walls: {
           title: "Le Mura Medievali",
-          content: "La muraglia di Ávila, costruita nell'XI secolo, è uno dei recinti murari medievali meglio conservati d'Europa. Circonda completamente il centro storico con più di 2,5 km di perimetro, 88 torrioni e 9 porte monumentali. Dichiarata Patrimonio dell'Umanità dall'UNESCO, è il simbolo indiscusso della città e un ricordo della sua importanza strategica nel Medioevo.",
+          content: "La muraglia di Ávila, costruita nell'XI secolo, è uno dei recinti murari medievali meglio conservati d'Europa. Circonda completamente il centro storico con più di 2,5 km di perimetro, 87 torrioni e 9 porte monumentali. Dichiarata Patrimonio dell'Umanità dall'UNESCO, è il simbolo indiscusso della città e un ricordo della sua importanza strategica nel Medioevo.",
           details: [
             { title: "Dimensioni", content: "2.516 metri di perimetro, 12 metri di altezza media e 3 metri di spessore." },
-            { title: "Torri", content: "88 torri semicircolari che rafforzano la struttura difensiva." },
+            { title: "Torri", content: "87 torri semicircolari che rafforzano la struttura difensiva." },
             { title: "Porte", content: "9 porte storiche, con quelle dell'Alcázar e di San Vicente le più emblematiche." }
           ]
         },
@@ -426,10 +426,10 @@ const Avila = () => {
         },
         walls: {
           title: "Li Mura Medievali",
-          content: "La muraglia di Ávila, custruita nto XI sèculu, è unu di li ricinti murati medievali megghiu cunsirvati d'Europa. Circunda cumpletamenti lu centru storicu cu cchiù di 2,5 km di perimetru, 88 turriuni e 9 porti monumentali. Dichiarata Patrimoniu di l'Umanità di l'UNESCO, è lu sìmbulu 'ndiscutìbbili dâ città e nu ricordu dâ so 'mpurtanza stratègica nto Mediuevu.",
+          content: "La muraglia di Ávila, custruita nto XI sèculu, è unu di li ricinti murati medievali megghiu cunsirvati d'Europa. Circunda cumpletamenti lu centru storicu cu cchiù di 2,5 km di perimetru, 87 turriuni e 9 porti monumentali. Dichiarata Patrimoniu di l'Umanità di l'UNESCO, è lu sìmbulu 'ndiscutìbbili dâ città e nu ricordu dâ so 'mpurtanza stratègica nto Mediuevu.",
           details: [
             { title: "Dimensioni", content: "2.516 metri di perimetru, 12 metri di altizza media e 3 metri di spissuri." },
-            { title: "Turri", content: "88 turri semicirculari chi rinforzanu la struttura difensiva." },
+            { title: "Turri", content: "87 turri semicirculari chi rinforzanu la struttura difensiva." },
             { title: "Porti", content: "9 porti storici, cu chiddi di l'Alcázar e di San Vicente li cchiù emblematici." }
           ]
         },
