@@ -14,9 +14,6 @@ L.Icon.Default.mergeOptions({
   shadowUrl: markerShadow,
 });
 
-const AnyMapContainer: any = MapContainer;
-const AnyTileLayer: any = TileLayer;
-
 export type AvilaMapProps = {
   className?: string;
 };
@@ -48,8 +45,8 @@ const AvilaMap: React.FC<AvilaMapProps> = ({ className }) => {
       },
       {
         name: 'Puerta del Alcázar',
-        position: [40.6565, -4.7024] as [number, number], // approximate
-        url: 'https://maps.app.goo.gl/NRLvK2SbgHYV4xsC6',
+        position: [40.6544972222, -4.6972277778] as [number, number],
+        url: 'https://www.google.com/maps/search/?api=1&query=Puerta+del+Alcazar,+C.+Don+Gerónimo,+17,+05001+Ávila,+Spain',
       },
       {
         name: 'Plaza del Mercado Chico',
@@ -58,13 +55,14 @@ const AvilaMap: React.FC<AvilaMapProps> = ({ className }) => {
       },
       {
         name: 'Plaza del Mercado Grande',
-        position: [40.6557, -4.7029] as [number, number], // approximate
-        url: 'https://maps.app.goo.gl/bdA53PeCHU3FBPvV9',
+        // User provided coordinates.
+        position: [40.6544722222, -4.6965277778] as [number, number],
+        url: 'https://maps.app.goo.gl/4igCRXYJWcMc5aQn6',
       },
       {
         name: 'Los Cuatro Postes',
-        position: [40.6598, -4.7026] as [number, number], // approximate
-        url: 'https://maps.app.goo.gl/2Yd5DU1KTHbMosNX7',
+        position: [40.6592008, -4.7107829] as [number, number],
+        url: 'https://maps.app.goo.gl/y51pn2gpeJeeMFaJ9',
       },
     ],
     []
@@ -72,13 +70,13 @@ const AvilaMap: React.FC<AvilaMapProps> = ({ className }) => {
 
   return (
     <div className={className}>
-      <AnyMapContainer
+      <MapContainer
         center={center}
         zoom={15}
         scrollWheelZoom={false}
         className="w-full h-80 rounded-lg overflow-hidden"
       >
-        <AnyTileLayer
+        <TileLayer
           url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
         />
 
@@ -101,7 +99,7 @@ const AvilaMap: React.FC<AvilaMapProps> = ({ className }) => {
             </Popup>
           </Marker>
         ))}
-      </AnyMapContainer>
+      </MapContainer>
     </div>
   );
 };

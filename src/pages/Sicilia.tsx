@@ -8,9 +8,32 @@ import sicilyEtnaImage from '@/assets/sicily-etna.jpg';
 import sicilyCuisineImage from '@/assets/sicily-cuisine.jpg';
 import WeddingFooter from '@/components/WeddingFooter';
 import LanguageSelector from '@/components/LanguageSelector';
+import SoundCloudPlayer from '@/components/SoundCloudPlayer';
+
 
 const Sicilia = () => {
   const { language } = useLanguage();
+
+  const soundCloudContent = {
+    es: {
+      title: 'Audio Guía',
+      src: 'https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/2171713713&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true',
+    },
+    it: {
+      title: 'Audio Guida',
+      src: 'https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/2171146380&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true',
+    },
+    scn: {
+      title: 'Audio Guida',
+      src: 'https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/2171146380&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true',
+    },
+    en: {
+      title: 'Audio Guide',
+      src: 'https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/2170562532&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true',
+    },
+  };
+
+  const currentSoundCloudContent = soundCloudContent[language];
 
   const content = {
     es: {
