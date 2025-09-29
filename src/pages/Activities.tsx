@@ -13,7 +13,7 @@ const Activities: FC = () => {
           <div className="w-1/4 pr-8 relative">
             <div className="border-l-4 border-blue-500 absolute h-full top-0 left-2"></div>
             <div className="sticky top-1/2 -translate-y-1/2">
-              <div className="mb-32 flex items-center">
+              <div className="mb-96 flex items-center">
                 <div className="bg-blue-500 w-4 h-4 rounded-full z-10"></div>
                 <p className="ml-4 text-lg font-semibold">13:00</p>
               </div>
