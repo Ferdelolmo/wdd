@@ -102,7 +102,10 @@ const DetailsSection = () => {
                   <h4 className="text-lg font-bold text-white mb-2">{t.details.schedule.day1}</h4>
                   <div className="space-y-3 text-white/90">
                     <p className="ml-8">
-                      <span className="font-bold">19:00</span> {t.details.schedule.breakOutActivities}
+                      <span className="font-bold">19:00</span> 
+                      <a href="/activities" className="text-white hover:text-white/80 underline">
+                        {t.details.schedule.breakOutActivities}
+                      </a>
                     </p>
                   </div>
                 </div>
