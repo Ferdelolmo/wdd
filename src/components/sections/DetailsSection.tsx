@@ -82,7 +82,7 @@ const DetailsSection = () => {
               
               <div className="space-y-6">
                 <div>
-                  <h4 className="text-lg font-bold text-white mb-2">{t.details.schedule.day1}</h4>
+                  <h4 className="text-lg font-bold text-white mb-2">{t.details.schedule.day0}</h4>
                   <div className="space-y-3 text-white/90">
                     <p className="ml-8">
                       <span className="font-bold">{t.details.schedule.day1Event.split(' ')[0]}</span> {t.details.schedule.day1Event.substring(t.details.schedule.day1Event.indexOf(' ') + 1)}{' '}
@@ -95,6 +95,14 @@ const DetailsSection = () => {
                         {t.details.schedule.day1Venue}
                       </a>
                       {t.details.schedule.day1Description}
+                    </p>
+                  </div>
+                </div>
+                <div>
+                  <h4 className="text-lg font-bold text-white mb-2">{t.details.schedule.day1}</h4>
+                  <div className="space-y-3 text-white/90">
+                    <p className="ml-8">
+                      <span className="font-bold">19:00</span> {t.details.schedule.breakOutActivities}
                     </p>
                   </div>
                 </div>
