@@ -30,12 +30,12 @@ const Activities: FC = () => {
                 <AccordionTrigger className="text-3xl font-bold">13:00 - Walking and Eating Tour</AccordionTrigger>
                 <AccordionContent>
                   <Card className="overflow-hidden shadow-lg">
-                    <img src="https://i.imgur.com/41p9IdE.jpeg" alt="Walking and Eating Tour" className="w-full h-64 object-cover"/>
+                    <img src="https://i.imgur.com/8Fvntan.jpeg" alt="Walking and Eating Tour" className="w-full h-64 object-cover"/>
                     <CardHeader>
                       <CardTitle className="text-2xl font-bold">Walking and Eating Tour</CardTitle>
                     </CardHeader>
                     <CardContent>
-                      <p className="text-gray-600 mt-2">Discover the secrets of Avila with a free tour hosted by local expert Jose Angel. A journey through history, culture, and flavor.</p>
+                      <p className="text-gray-600 mt-2">Discover the secrets of Avila with a free tour hosted by local expert José Ángel. A journey through history, architecture, culture and flavor. This guided tour is offered in English, Spanish, and Italian to accommodate all visitors.</p>
                       <Button className="mt-6 w-full bg-blue-500 hover:bg-blue-600">Sign Up</Button>
                     </CardContent>
                   </Card>
