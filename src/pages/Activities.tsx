@@ -7,9 +7,9 @@ import { Button } from "@/components/ui/button";
 const Activities: FC = () => {
   return (
     <div className="bg-blue-50 min-h-screen">
-      <div className="container mx-auto px-4 py-16">
+      <div className="container mx-auto px-4 py-16 relative">
         <h1 className="text-5xl font-bold text-center mb-12 text-blue-900">June 19th Activities</h1>
-        <img src="https://i.imgur.com/BONFg6m.png" alt="Avila" className="w-full h-auto object-cover mb-12"/>
+        <img src="https://i.imgur.com/BONFg6m.png" alt="Avila" className="w-4/5 h-auto object-cover mb-12 ml-auto"/>
         <div className="flex">
           <div className="w-1/4 pr-8 relative">
             <div className="border-l-4 border-blue-500 absolute h-full top-0 left-2"></div>
