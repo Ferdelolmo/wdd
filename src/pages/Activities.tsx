@@ -40,44 +40,42 @@ const Activities: FC = () => {
                   </Card>
                 </AccordionContent>
               </AccordionItem>
-              <AccordionItem value="item-2">
-                <AccordionTrigger className="text-3xl font-bold">19:00 - Evening Activities</AccordionTrigger>
-                <AccordionContent>
-                  <Accordion type="single" collapsible className="w-full">
-                    <AccordionItem value="item-2-1">
-                      <AccordionTrigger className="text-xl font-bold">Paint and Wine Workshop</AccordionTrigger>
-                      <AccordionContent>
-                        <Card className="overflow-hidden shadow-lg">
-                          <img src="/placeholder.svg" alt="Paint and Wine Workshop" className="w-full h-64 object-cover"/>
-                          <CardHeader>
-                            <CardTitle className="text-2xl font-bold">Paint and Wine Workshop</CardTitle>
-                          </CardHeader>
-                          <CardContent>
-                            <p className="text-gray-600 mt-2">Unleash your inner artist with renowned local artist Ivan Gomez. Enjoy a glass of wine while creating your own masterpiece.</p>
-                            <Button className="mt-6 w-full bg-blue-500 hover:bg-blue-600">Sign Up</Button>
-                          </CardContent>
-                        </Card>
-                      </AccordionContent>
-                    </AccordionItem>
-                    <AccordionItem value="item-2-2">
-                      <AccordionTrigger className="text-xl font-bold">Petanca Match</AccordionTrigger>
-                      <AccordionContent>
-                        <Card className="overflow-hidden shadow-lg">
-                          <img src="/placeholder.svg" alt="Petanca Match" className="w-full h-64 object-cover"/>
-                          <CardHeader>
-                            <CardTitle className="text-2xl font-bold">Petanca Match</CardTitle>
-                          </CardHeader>
-                          <CardContent>
-                            <p className="text-gray-600 mt-2">Join a friendly petanca match arranged by Javier Jimenez. A game of skill, strategy, and fun for everyone.</p>
-                            <Button className="mt-6 w-full bg-blue-500 hover:bg-blue-600">Sign Up</Button>
-                          </CardContent>
-                        </Card>
-                      </AccordionContent>
-                    </AccordionItem>
-                  </Accordion>
-                </AccordionContent>
-              </AccordionItem>
             </Accordion>
+            <div className="mt-8">
+              <h2 className="text-3xl font-bold mb-4">19:00 - Evening Activities</h2>
+              <Accordion type="single" collapsible className="w-full">
+                <AccordionItem value="item-2-1">
+                  <AccordionTrigger className="text-xl font-bold">Paint and Wine Workshop</AccordionTrigger>
+                  <AccordionContent>
+                    <Card className="overflow-hidden shadow-lg">
+                      <img src="/placeholder.svg" alt="Paint and Wine Workshop" className="w-full h-64 object-cover"/>
+                      <CardHeader>
+                        <CardTitle className="text-2xl font-bold">Paint and Wine Workshop</CardTitle>
+                      </CardHeader>
+                      <CardContent>
+                        <p className="text-gray-600 mt-2">Unleash your inner artist with renowned local artist Ivan Gomez. Enjoy a glass of wine while creating your own masterpiece.</p>
+                        <Button className="mt-6 w-full bg-blue-500 hover:bg-blue-600">Sign Up</Button>
+                      </CardContent>
+                    </Card>
+                  </AccordionContent>
+                </AccordionItem>
+                <AccordionItem value="item-2-2">
+                  <AccordionTrigger className="text-xl font-bold">Petanca Match</AccordionTrigger>
+                  <AccordionContent>
+                    <Card className="overflow-hidden shadow-lg">
+                      <img src="/placeholder.svg" alt="Petanca Match" className="w-full h-64 object-cover"/>
+                      <CardHeader>
+                        <CardTitle className="text-2xl font-bold">Petanca Match</CardTitle>
+                      </CardHeader>
+                      <CardContent>
+                        <p className="text-gray-600 mt-2">Join a friendly petanca match arranged by Javier Jimenez. A game of skill, strategy, and fun for everyone.</p>
+                        <Button className="mt-6 w-full bg-blue-500 hover:bg-blue-600">Sign Up</Button>
+                      </CardContent>
+                    </Card>
+                  </AccordionContent>
+                </AccordionItem>
+              </Accordion>
+            </div>
           </div>
         </div>
       </div>
