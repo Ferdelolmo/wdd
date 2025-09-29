@@ -8,7 +8,7 @@ const Activities: FC = () => {
   return (
     <div className="bg-blue-50 min-h-screen">
       <div className="container mx-auto px-4 py-16 relative">
-        <h1 className="text-5xl font-bold text-center mb-12 text-blue-900">June 19th Activities</h1>
+        <h1 className="text-5xl font-bold text-center mb-12 text-blue-900">Saturday activities</h1>
         <img src="https://i.imgur.com/BONFg6m.png" alt="Avila" className="w-4/5 h-auto object-cover mb-12 ml-auto"/>
         <div className="flex">
           <div className="w-1/4 pr-8 relative">
@@ -30,7 +30,7 @@ const Activities: FC = () => {
                 <AccordionTrigger className="text-3xl font-bold">13:00 - Walking and Eating Tour</AccordionTrigger>
                 <AccordionContent>
                   <Card className="overflow-hidden shadow-lg">
-                    <img src="/placeholder.svg" alt="Walking and Eating Tour" className="w-full h-64 object-cover"/>
+                    <img src="https://i.imgur.com/41p9IdE.jpeg" alt="Walking and Eating Tour" className="w-full h-64 object-cover"/>
                     <CardHeader>
                       <CardTitle className="text-2xl font-bold">Walking and Eating Tour</CardTitle>
                     </CardHeader>
@@ -49,7 +49,7 @@ const Activities: FC = () => {
                   <AccordionTrigger className="text-xl font-bold">Paint and Wine Workshop</AccordionTrigger>
                   <AccordionContent>
                     <Card className="overflow-hidden shadow-lg">
-                      <img src="/placeholder.svg" alt="Paint and Wine Workshop" className="w-full h-64 object-cover"/>
+                      <img src="https://i.imgur.com/AZfcmqR.jpeg" alt="Paint and Wine Workshop" className="w-full h-64 object-cover"/>
                       <CardHeader>
                         <CardTitle className="text-2xl font-bold">Paint and Wine Workshop</CardTitle>
                       </CardHeader>
@@ -64,7 +64,7 @@ const Activities: FC = () => {
                   <AccordionTrigger className="text-xl font-bold">Petanca Match</AccordionTrigger>
                   <AccordionContent>
                     <Card className="overflow-hidden shadow-lg">
-                      <img src="/placeholder.svg" alt="Petanca Match" className="w-full h-64 object-cover"/>
+                      <img src="https://i.imgur.com/oeXSckw.jpeg" alt="Petanca Match" className="w-full h-64 object-cover"/>
                       <CardHeader>
                         <CardTitle className="text-2xl font-bold">Petanca Match</CardTitle>
                       </CardHeader>
