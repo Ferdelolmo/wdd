@@ -123,16 +123,6 @@ const teamMembers = [
     },
     image: "https://i.imgur.com/placeholder.png",
   },
-  {
-    name: "Placeholder Name 8",
-    role: {
-      en: "Dummy description 8",
-      es: "Descripción de prueba 8",
-      it: "Descrizione di prova 8",
-      scn: "Discrizzioni di prova 8",
-    },
-    image: "https://i.imgur.com/placeholder.png",
-  },
 ];
 
 const Team: FC = () => {
