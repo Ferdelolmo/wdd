@@ -1,9 +1,28 @@
-
 import { FC, useState } from "react";
 import { useLanguage } from "@/contexts/LanguageContext";
 import LanguageSelector from "@/components/LanguageSelector";
 
 const teamMembers = [
+  {
+    name: "Chiara",
+    role: {
+      en: "The Bride",
+      es: "La Novia",
+      it: "La Sposa",
+      scn: "A Zita",
+    },
+    image: "https://i.imgur.com/4d89bd0a-392c-4f23-be6c-96b30449cc7b.png",
+  },
+  {
+    name: "Fernando",
+    role: {
+      en: "The Groom",
+      es: "El Novio",
+      it: "Lo Sposo",
+      scn: "U Zitu",
+    },
+    image: "https://i.imgur.com/4f79c13f-f8db-484b-ab25-ac0576b61b61.png",
+  },
   {
     name: "Javier Jimenez",
     role: {
@@ -33,6 +52,86 @@ const teamMembers = [
       scn: "Artista dû Laburatoriu di pittura e vinu",
     },
     image: "https://i.imgur.com/AZfcmqR.jpeg",
+  },
+  {
+    name: "Placeholder Name 1",
+    role: {
+      en: "Dummy description 1",
+      es: "Descripción de prueba 1",
+      it: "Descrizione di prova 1",
+      scn: "Discrizzioni di prova 1",
+    },
+    image: "https://i.imgur.com/placeholder.png",
+  },
+  {
+    name: "Placeholder Name 2",
+    role: {
+      en: "Dummy description 2",
+      es: "Descripción de prueba 2",
+      it: "Descrizione di prova 2",
+      scn: "Discrizzioni di prova 2",
+    },
+    image: "https://i.imgur.com/placeholder.png",
+  },
+  {
+    name: "Placeholder Name 3",
+    role: {
+      en: "Dummy description 3",
+      es: "Descripción de prueba 3",
+      it: "Descrizione di prova 3",
+      scn: "Discrizzioni di prova 3",
+    },
+    image: "https://i.imgur.com/placeholder.png",
+  },
+  {
+    name: "Placeholder Name 4",
+    role: {
+      en: "Dummy description 4",
+      es: "Descripción de prueba 4",
+      it: "Descrizione di prova 4",
+      scn: "Discrizzioni di prova 4",
+    },
+    image: "https://i.imgur.com/placeholder.png",
+  },
+  {
+    name: "Placeholder Name 5",
+    role: {
+      en: "Dummy description 5",
+      es: "Descripción de prueba 5",
+      it: "Descrizione di prova 5",
+      scn: "Discrizzioni di prova 5",
+    },
+    image: "https://i.imgur.com/placeholder.png",
+  },
+  {
+    name: "Placeholder Name 6",
+    role: {
+      en: "Dummy description 6",
+      es: "Descripción de prueba 6",
+      it: "Descrizione di prova 6",
+      scn: "Discrizzioni di prova 6",
+    },
+    image: "https://i.imgur.com/placeholder.png",
+  },
+  {
+    name: "Placeholder Name 7",
+    role: {
+      en: "Dummy description 7",
+      es: "Descripción de prueba 7",
+      it: "Descrizione di prova 7",
+      scn: "Discrizzioni di prova 7",
+    },
+    image: "https://i.imgur.com/placeholder.png",
+  },
+  {
+    name: "Placeholder Name 8",
+    role: {
+      en: "Dummy description 8",
+      es: "Descripción de prueba 8",
+      it: "Descrizione di prova 8",
+      scn: "Discrizzioni di prova 8",
+    },
+    image: "https://i.imgur.com/placeholder.png",
   },
 ];
 
@@ -66,7 +165,7 @@ const Team: FC = () => {
         <h1 className="text-5xl font-bold text-center mb-12 text-blue-900">
           {t.title}
         </h1>
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
+        <div className="grid grid-cols-1 md:grid-cols-4 gap-12">
           {teamMembers.map((member, index) => (
             <div
               key={index}
@@ -101,4 +200,3 @@ const Team: FC = () => {
 };
 
 export default Team;
-
