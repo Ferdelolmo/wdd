@@ -51,7 +51,7 @@ const translations = {
   scn: {
     saturdayActivities: "Attività dû sabbatu",
     walkingTour: "Tour a pedi e gastronomicu",
-    walkingTourDesc: "Scopri i sicreti di Ávila cu nu tour gratuitu guidatu di l'espertu lucali José Ángel. Nu viaggiu attraversu a storia, l'architittura, a cultura e u sapuri. Stu tour guidatu è offrutu in ngrisi, spagnolu e talianu pi tutti i visitaturi.",
+    walkingTourDesc: "Scopri i sicreti di Ávila cu nu tour gratuitu guidatu di l'espertu lucali José Ángel. Nu viaggiu attraversu a storia, l'architittura, a cultura e u sapuri. Stu tour guidatu è offrutu in ngrisi, spagnolu e italianu pi tutti i visitaturi.",
     signUp: "Iscrìviti",
     eveningActivities: "19:00 - Attività dâ sira",
     paintWine: "Laburatoriu di pittura e vinu",
