@@ -13,6 +13,7 @@ import More from "./pages/More";
 import Dictionary from "./pages/Dictionary";
 import Speeches from "./pages/Speeches";
 import Activities from "./pages/Activities";
+import Team from "./pages/Team";
 
 const queryClient = new QueryClient();
 
@@ -32,6 +33,7 @@ const App = () => (
             <Route path="/dictionary" element={<Dictionary />} />
             <Route path="/speeches" element={<Speeches />} />
             <Route path="/activities" element={<Activities />} />
+            <Route path="/team" element={<Team />} />
             {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
             <Route path="*" element={<NotFound />} />
           </Routes>
