@@ -1,9 +1,12 @@
+
 import { FC } from "react";
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { useLanguage } from "@/contexts/LanguageContext";
 import LanguageSelector from "@/components/LanguageSelector";
+import { Link } from "react-router-dom";
+import { Home } from "lucide-react";
 
 const translations = {
   en: {
@@ -19,6 +22,7 @@ const translations = {
     time1: "13:00",
     time2: "19:00",
     walkingTourTime: "13:00 - Walking and Eating Tour",
+    home: "Home",
   },
   es: {
     saturdayActivities: "Actividades del sábado",
@@ -33,6 +37,7 @@ const translations = {
     time1: "13:00",
     time2: "19:00",
     walkingTourTime: "13:00 - Tour a pie y gastronómico",
+    home: "Inicio",
   },
   it: {
     saturdayActivities: "Attività del sabato",
@@ -47,6 +52,7 @@ const translations = {
     time1: "13:00",
     time2: "19:00",
     walkingTourTime: "13:00 - Tour a piedi e gastronomico",
+    home: "Home",
   },
   scn: {
     saturdayActivities: "Attività dû sabbatu",
@@ -61,6 +67,7 @@ const translations = {
     time1: "13:00",
     time2: "19:00",
     walkingTourTime: "13:00 - Tour a pedi e gastronomicu",
+    home: "Casa",
   }
 };
 
@@ -70,6 +77,14 @@ const Activities: FC = () => {
 
   return (
     <div className="bg-blue-50 min-h-screen">
+      <div className="fixed top-4 left-4 z-50">
+        <Link to="/">
+          <Button variant="outline" size="sm" className="bg-background/80 backdrop-blur-sm">
+            <Home className="w-4 h-4 mr-2" />
+            {t.home}
+          </Button>
+        </Link>
+      </div>
       <div className="container mx-auto px-4 py-16 relative">
         <div className="absolute top-4 right-4 z-10">
           <LanguageSelector />

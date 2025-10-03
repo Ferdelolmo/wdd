@@ -1,6 +1,10 @@
+
 import { FC, useState } from "react";
 import { useLanguage } from "@/contexts/LanguageContext";
 import LanguageSelector from "@/components/LanguageSelector";
+import { Link } from "react-router-dom";
+import { Home } from "lucide-react";
+import { Button } from "@/components/ui/button";
 
 const teamMembers = [
   {
@@ -11,7 +15,7 @@ const teamMembers = [
       it: "La Sposa",
       scn: "A Zita",
     },
-    image: "https://i.imgur.com/4d89bd0a-392c-4f23-be6c-96b30449cc7b.png",
+    image: "https://i.imgur.com/FVrBlim.png",
   },
   {
     name: "Fernando",
@@ -21,7 +25,7 @@ const teamMembers = [
       it: "Lo Sposo",
       scn: "U Zitu",
     },
-    image: "https://i.imgur.com/4f79c13f-f8db-484b-ab25-ac0576b61b61.png",
+    image: "https://i.imgur.com/A9c4bIQ.png",
   },
   {
     name: "Javier Jimenez",
@@ -132,15 +136,19 @@ const Team: FC = () => {
   const translations = {
     en: {
       title: "Our Team",
+      home: "Home",
     },
     es: {
       title: "Nuestro Equipo",
+      home: "Inicio",
     },
     it: {
       title: "Il Nostro Team",
+      home: "Home",
     },
     scn: {
       title: "U Nostru Team",
+      home: "Home",
     },
   };
 
@@ -148,6 +156,14 @@ const Team: FC = () => {
 
   return (
     <div className="bg-blue-50 min-h-screen">
+      <div className="fixed top-4 left-4 z-50">
+        <Link to="/">
+          <Button variant="outline" size="sm" className="bg-background/80 backdrop-blur-sm">
+            <Home className="w-4 h-4 mr-2" />
+            {t.home}
+          </Button>
+        </Link>
+      </div>
       <div className="container mx-auto px-4 py-16 relative">
         <div className="absolute top-4 right-4 z-10">
           <LanguageSelector />
@@ -190,3 +206,4 @@ const Team: FC = () => {
 };
 
 export default Team;
+

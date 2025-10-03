@@ -66,7 +66,7 @@ export const translations = {
         title: 'Programa',
         day0: '19 Junio 2026 ',
         day1: '20 Junio 2026 ',
-        day1Event: '19:00 Preboda en Centro de Exposiciones y Congresos Lienzo Norte',
+        day1Event: '19:00 Preboda en Palacio de Congresos Lienzo Norte',
         day1Venue: ' ',
         day1Description: ' ',
         day2: '21 Junio 2026',
