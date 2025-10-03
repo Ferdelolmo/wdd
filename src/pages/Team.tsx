@@ -55,7 +55,7 @@ const teamMembers = [
       it: "Artista del Laboratorio di pittura e vino",
       scn: "Artista dû Laburatoriu di pittura e vinu",
     },
-    image: "https://i.imgur.com/AZfcmqR.jpeg",
+    image: "https://i.imgur.com/Ul9SYhb.png",
   },
   {
     name: "Placeholder Name 1",
