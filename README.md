@@ -1,6 +1,6 @@
-# Big Day Pages
+# Wdd
 
-**Big Day Pages** is a web application designed to help users plan, organize, and celebrate important events. Whether you’re preparing for a wedding, birthday, graduation, or any special occasion, this platform provides tools for managing event details, sharing information with guests, and keeping everything on track.
+**wdd** is a web application designed to help users plan, organize, and celebrate important events. Whether you’re preparing for a wedding, birthday, graduation, or any special occasion, this platform provides tools for managing event details, sharing information with guests, and keeping everything on track.
 
 ## Features
 
@@ -15,8 +15,8 @@
 Clone the repository and follow the setup instructions to run the application locally.
 
 ```bash
-git clone https://github.com/Ferdelolmo/big-day-pages.git
-cd big-day-pages
+git clone https://github.com/Ferdelolmo/wdd.git
+cd wdd
 # Follow setup instructions based on your tech stack
 ```
 
