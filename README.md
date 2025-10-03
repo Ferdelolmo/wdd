@@ -1,73 +1,29 @@
-# Welcome to your Lovable project
+# Big Day Pages
 
-## Project info
+**Big Day Pages** is a web application designed to help users plan, organize, and celebrate important events. Whether you’re preparing for a wedding, birthday, graduation, or any special occasion, this platform provides tools for managing event details, sharing information with guests, and keeping everything on track.
 
-**URL**: https://lovable.dev/projects/8a895945-051e-45de-95c2-54092730177e
+## Features
 
-## How can I edit this code?
+- **Event Creation & Management:** Easily create events and manage key details such as date, location, and itinerary.
+- **Guest List Handling:** Add, edit, and track RSVPs to ensure everyone is accounted for.
+- **Custom Pages:** Build dedicated event pages for sharing schedules, gift registries, and more.
+- **Collaboration Tools:** Invite co-organizers and assign tasks to streamline planning.
+- **Mobile-Friendly Design:** Access your event plans from any device.
 
-There are several ways of editing your application.
+## Getting Started
 
-**Use Lovable**
+Clone the repository and follow the setup instructions to run the application locally.
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/8a895945-051e-45de-95c2-54092730177e) and start prompting.
-
-Changes made via Lovable will be committed automatically to this repo.
-
-**Use your preferred IDE**
-
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
-
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
+```bash
+git clone https://github.com/Ferdelolmo/big-day-pages.git
+cd big-day-pages
+# Follow setup instructions based on your tech stack
 ```
 
-**Edit a file directly in GitHub**
+## Contributing
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+Contributions are welcome! Please open issues or submit pull requests to help improve this project.
 
-**Use GitHub Codespaces**
+---
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/8a895945-051e-45de-95c2-54092730177e) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+_This summary is a template. Customize it with specific technologies, installation, and usage instructions based on your project's actual implementation._

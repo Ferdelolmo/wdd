@@ -1,5 +1,6 @@
 import React, { useMemo } from 'react';
 import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet';
+import type { LatLngExpression } from 'leaflet';
 import 'leaflet/dist/leaflet.css';
 import L from 'leaflet';
 
@@ -19,49 +20,48 @@ export type AvilaMapProps = {
 };
 
 const AvilaMap: React.FC<AvilaMapProps> = ({ className }) => {
-  const center: [number, number] = [40.6565, -4.7015];
+  const center: LatLngExpression = [40.6565, -4.7015];
 
   const places = useMemo(
     () => [
       {
         name: 'Monasterio de Santo Tomás',
-        position: [40.650261, -4.68885] as [number, number],
+        position: [40.650261, -4.68885] as LatLngExpression,
         url: 'https://maps.app.goo.gl/a2Dk21nhvyNtyFax9',
       },
       {
         name: 'Basílica de San Vicente',
-        position: [40.65778, -4.69694] as [number, number],
+        position: [40.65778, -4.69694] as LatLngExpression,
         url: 'https://maps.app.goo.gl/gbpwdkr3Bvpj9KUL9',
       },
       {
         name: 'Basílica de Santa Teresa',
-        position: [40.655419, -4.702712] as [number, number],
+        position: [40.655419, -4.702712] as LatLngExpression,
         url: 'https://maps.app.goo.gl/KTTndfF7rCZTc7BGA',
       },
       {
         name: 'Catedral de Ávila',
-        position: [40.6558, -4.6972] as [number, number],
+        position: [40.6558, -4.6972] as LatLngExpression,
         url: 'https://maps.app.goo.gl/ATD8mnvfHTiJfhr27',
       },
       {
         name: 'Puerta del Alcázar',
-        position: [40.6544972222, -4.6972277778] as [number, number],
+        position: [40.6544972222, -4.6972277778] as LatLngExpression,
         url: 'https://www.google.com/maps/search/?api=1&query=Puerta+del+Alcazar,+C.+Don+Gerónimo,+17,+05001+Ávila,+Spain',
       },
       {
         name: 'Plaza del Mercado Chico',
-        position: [40.656472, -4.70025] as [number, number],
+        position: [40.656472, -4.70025] as LatLngExpression,
         url: 'https://maps.app.goo.gl/HbzP8iGXSJPBtNeP8',
       },
       {
         name: 'Plaza del Mercado Grande',
-        // User provided coordinates.
-        position: [40.6544722222, -4.6965277778] as [number, number],
+        position: [40.6544722222, -4.6965277778] as LatLngExpression,
         url: 'https://maps.app.goo.gl/4igCRXYJWcMc5aQn6',
       },
       {
         name: 'Los Cuatro Postes',
-        position: [40.6592008, -4.7107829] as [number, number],
+        position: [40.6592008, -4.7107829] as LatLngExpression,
         url: 'https://maps.app.goo.gl/y51pn2gpeJeeMFaJ9',
       },
     ],
@@ -71,10 +71,12 @@ const AvilaMap: React.FC<AvilaMapProps> = ({ className }) => {
   return (
     <div className={className}>
       <MapContainer
-        center={center}
-        zoom={15}
-        scrollWheelZoom={false}
-        className="w-full h-80 rounded-lg overflow-hidden"
+        {...({
+          center,
+          zoom: 15,
+          scrollWheelZoom: false,
+          className: "w-full h-80 rounded-lg overflow-hidden"
+        } as any)}
       >
         <TileLayer
           url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"

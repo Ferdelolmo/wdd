@@ -87,7 +87,7 @@ const DetailsSection = () => {
                     <p className="ml-8">
                       <span className="font-bold">{t.details.schedule.day1Event.split(' ')[0]}</span> {t.details.schedule.day1Event.substring(t.details.schedule.day1Event.indexOf(' ') + 1)}{' '}
                       <a 
-                        href="https://maps.app.goo.gl/QwW7Gs1HeaWenFcz7" 
+                        href="https://maps.app.goo.gl/BcZ868rJU6Q9RSoW8" 
                         target="_blank" 
                         rel="noopener noreferrer"
                         className="text-white hover:text-white/80 underline"
