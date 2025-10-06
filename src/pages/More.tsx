@@ -254,7 +254,7 @@ const More = () => {
               <div className="grid md:grid-cols-2 gap-4">
                 <div>
                   <h4 className="font-semibold text-foreground mb-2"> </h4>
-                  <p className="text-sm text-muted-foreground">weddingchiarafer@gmail.com</p>
+                  <p className="text-sm text-muted-foreground">ciao@chiaraefer.com</p>
                   <p className="text-sm text-muted-foreground">+34 621 35 47 23</p>
                 </div>
               </div>
