@@ -134,6 +134,7 @@ const Avila = () => {
             { name: "La Lola Gastrobar 🍤", description: "Tapas caseras con toque moderno" },
             { name: "El Almacén 🥚", description: "Ya estamos hablando de restaurantes, aquí vas a encontrar un producto de calidad a precios no exageradamente altos. Muy recomendable" },
             { name: "Bococo 🥩", description: "Uno de los lugares más populares últimamente, con una cocina que mezcla tradición e innovación" },
+            { name: "El Jardín de la Abuela ☕", description: "El sitio perfecto para hacer brunch" },
             { name: "Los Candiles 🍗", description: "Tradición castellana cuidada" }
           ]
         },
@@ -259,6 +260,7 @@ const Avila = () => {
           { name: "La Lola Gastrobar 🍤", description: "Homemade tapas with modern touch" },
           { name: "El Almacén 🥚", description: "Now wer're talking about restaurants; here you'll find quality products at prices that are not excessively high" },
           { name: "Bococo 🥩", description: "One of the most popular places in town lately, with cuisine that blends tradition and innovation" },
+          { name: "El Jardín de la Abuela ☕", description: "Very nice and fancy place for brunch" },
           { name: "Los Candiles 🍗", description: "Careful Castilian tradition" }
         ]
       },
@@ -384,6 +386,7 @@ const Avila = () => {
           { name: "La Lola Gastrobar 🍤", description: "Tapas casalinghe con tocco moderno" },
           { name: "El Almacén 🥚", description: "Stiamo già parlando di ristoranti, qui troverai un prodotto di qualità a prezzi non eccessivamente alti. Molto raccomandabile" },
           { name: "Bococo 🥩", description: "Uno dei posti più popolari ultimamente, con una cucina che mescola tradizione e innovazione" },
+          { name: "El Jardín de la Abuela ☕", description: "Un posto molto popolare per fare brunch" },
           { name: "Los Candiles 🍗", description: "Tradizione castigliana curata" }
         ]
       },
@@ -509,6 +512,7 @@ const Avila = () => {
           { name: "La Lola Gastrobar 🍤", description: "Tapas casalinghi cu toccu mudernu" },
           { name: "El Almacén 🥚", description: "Sta già parrannu di ristoranti, ccà trovi nu pruduttu di qualità a prezzi nun eccessivamenti auti. Assai racumandàbbili" },
           { name: "Bococo 🥩", description: "Unu di li posti cchiù populari ultimamenti, cu na cucina chi mischia tradizioni e 'nnovazioni" },
+          { name: "El Jardín de la Abuela ☕", description: "U locu beddu ppi fare u brunch" },
           { name: "Los Candiles 🍗", description: "Tradizioni castigliana curata" }
         ]
       },

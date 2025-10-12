@@ -4,7 +4,7 @@ export const translations = {
       aboutUs: 'Sobre Nosotros',
       venue: 'Lugar',
       ourStory: 'Nuestra Historia',
-      weddingDetails: 'Detalles',
+      weddingDetails: 'Programa',
       gallery: 'Galería',
       faq: 'Preguntas'
     },
@@ -60,7 +60,7 @@ export const translations = {
       andNow: 'Y ahora...'
     },
     details: {
-      title: 'Detalles de la Boda',
+      title: 'Programa de la Boda',
       subtitle: 'Todo lo que necesitas saber sobre nuestro día especial',
       schedule: {
         title: 'Programa',
@@ -206,7 +206,7 @@ export const translations = {
       aboutUs: 'Di Nuiautri',
       venue: 'Locu',
       ourStory: 'Nostra Storia',
-      weddingDetails: 'Dittagli',
+      weddingDetails: 'Prugramma',
       gallery: 'Galleria',
       faq: 'Dimanndi'
     },
@@ -262,7 +262,7 @@ export const translations = {
       andNow: 'E ora...'
     },
     details: {
-      title: 'Dittagli dû Matrimoniu',
+      title: 'Prugramma dû Matrimoniu',
       subtitle: 'Tuttu chiddu ca vi servi pi sapiri suprà u nostru jornu spiciali',
       schedule: {
         title: 'Prugramma',
@@ -408,7 +408,7 @@ export const translations = {
       aboutUs: 'Chi Siamo',
       venue: 'Luogo',
       ourStory: 'Nostra Storia',
-      weddingDetails: 'Dettagli',
+      weddingDetails: 'Programma',
       gallery: 'Galleria',
       faq: 'Domande'
     },
@@ -464,7 +464,7 @@ export const translations = {
       andNow: 'E ora...'
     },
     details: {
-      title: 'Dettagli del Matrimonio',
+      title: 'Programma del Matrimonio',
       subtitle: 'Tutto quello che dovete sapere sul nostro giorno speciale',
         schedule: {
           title: 'Programma',
@@ -610,7 +610,7 @@ export const translations = {
       aboutUs: 'About Us',
       venue: 'Venue',
       ourStory: 'Our Story',
-      weddingDetails: 'Wedding Details',
+      weddingDetails: 'Wedding Schedule',
       gallery: 'Gallery',
       faq: 'FAQ'
     },
@@ -666,7 +666,7 @@ export const translations = {
       andNow: 'And now...'
     },
     details: {
-      title: 'Wedding Details',
+      title: 'Wedding Schedule',
       subtitle: 'Everything you need to know about our special day',
         schedule: {
           title: 'Schedule',

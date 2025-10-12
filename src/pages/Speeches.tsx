@@ -1,3 +1,4 @@
+
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from '@/components/ui/accordion';
 import { Button } from '@/components/ui/button';
 import { useLanguage } from '@/contexts/LanguageContext';
@@ -44,6 +45,12 @@ const Speeches = () => {
           <h1 className="font-script text-5xl md:text-7xl text-primary mb-4">
             {titles[language]}
           </h1>
+          <p className="text-muted-foreground text-lg">
+            {language === 'es' ? 'Aquí encontrarás los discursos después de la boda' :
+             language === 'it' ? 'Qui troverete i discorsi dopo il matrimonio' :
+             language === 'scn' ? 'Ccà truverete i discursi doppu u matrimoniu' :
+             'You will find the speeches here after the wedding'}
+          </p>
         </div>
         <div className="max-w-4xl mx-auto">
           <Accordion type="single" collapsible className="w-full">
