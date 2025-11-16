@@ -258,11 +258,10 @@ const DetailsSection = () => {
                           )}
                         </div>
                       ) : (
-                        <div className="text-muted-foreground text-sm leading-relaxed">
-                          {detail.description.split('\n').map((line, index) => (
-                            <div key={index}>{line}</div>
-                          ))}
-                        </div>
+                        <div
+                          className="text-muted-foreground text-sm leading-relaxed"
+                          dangerouslySetInnerHTML={{ __html: detail.description.replace(/\n/g, '<br />') }}
+                        />
                       )}
                     </div>
                   </div>
