@@ -91,7 +91,7 @@ export const translations = {
       },
       attire: {
         title: 'Código de Vestimenta',
-        description: 'Se solicita vestimenta semi-formal. Piensa en elegancia de fiesta en jardín - cómoda pero elegante para una celebración al aire libre.'
+        description: 'Se solicita vestimenta formal. Piensa en elegancia de fiesta en jardín - cómoda pero elegante para una celebración al aire libre.'
       },
       accommodation: {
         title: 'Alojamiento',
@@ -289,7 +289,7 @@ export const translations = {
       },
       attire: {
         title: 'Codici di Vistimutu',
-        description: 'Si richiedi vistimutu semi-furmali. Pinsati a eleganza di festa nti jardinu - còmodu ma eleganti pi na cilibrazzioni all\'aria aperta.'
+        description: 'Si richiedi vistimutu furmali. Pinsati a eleganza di festa nti jardinu - còmodu ma eleganti pi na cilibrazzioni all\'aria aperta.'
       },
       accommodation: {
         title: 'Alloggiu',
@@ -491,7 +491,7 @@ export const translations = {
         },
       attire: {
         title: 'Codice di Abbigliamento',
-        description: 'Abbigliamento semi-formale richiesto. Pensate a eleganza da festa in giardino - comodo ma elegante per una celebrazione all\'aperto.'
+        description: 'Abbigliamento formale richiesto. Pensate a eleganza da festa in giardino - comodo ma elegante per una celebrazione all\'aperto.'
       },
       accommodation: {
         title: 'Alloggio',
@@ -697,7 +697,7 @@ export const translations = {
       },
       attire: {
         title: 'Dress Code',
-        description: 'Semi-formal attire requested. Think garden party elegant - comfortable yet stylish for an outdoor celebration.'
+        description: 'Formal attire requested. Think garden party elegant - comfortable yet stylish for an outdoor celebration.'
       },
       accommodation: {
         title: 'Accommodation',

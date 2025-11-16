@@ -89,7 +89,7 @@ export const translations = {
       },
       attire: {
         title: 'Código de Vestimenta',
-        description: 'Se solicita vestimenta semi-formal. Piensa en elegancia de fiesta en jardín - cómoda pero elegante para una celebración al aire libre.'
+        description: 'Se solicita vestimenta formal. Piensa en elegancia de fiesta en jardín - cómoda pero elegante para una celebración al aire libre.'
       },
       accommodation: {
         title: 'Alojamiento',
