@@ -18,11 +18,13 @@ const dictionary = [
   { scn: 'Bocconcinu', es: 'Bocadito', it: 'Bocconcino', en: 'Small bite' },
   { scn: 'Bon jornu', es: 'Buenos días', it: 'Buongiorno', en: 'Good morning' },
   { scn: 'Bona sira', es: 'Buenas tardes', it: 'Buonasera', en: 'Good evening' },
+  { scn: 'Cacocciula', es: 'Alfachofa', it: 'Carcofi', en: 'Artichokes' },
   { scn: 'Camurria', es: 'Molestia', it: 'Scocciatura', en: 'Annoyance' },
   { scn: 'Capesante', es: 'Zamburiñas', it: 'Capesante', en: 'Scallops' },
   { scn: 'Capra', es: 'Cabra', it: 'Capra', en: 'Goat' },
   { scn: 'Caruso/a', es: 'Chico/a', it: 'Ragazzo/a', en: 'Boy/Girl' },
   { scn: 'Carvuni', es: 'Carbón', it: 'Carbone', en: 'Coal' },
+  { scn: 'Ciauru', es: 'Olor', it: 'Odore', en: 'Smell' },
   { scn: 'Ciau', es: 'Hola/Adiós', it: 'Ciao', en: 'Hello/Goodbye' },
   { scn: 'Cipudda', es: 'Cebolla', it: 'Cipolla', en: 'Onion' },
   { scn: 'Compa\' / \'Mbare', es: 'Compadre', it: 'Compare', en: 'Bro' },
@@ -33,13 +35,12 @@ const dictionary = [
   { scn: 'Favetti', es: 'Habitas', it: 'Favette', en: 'Fava beans' },
   { scn: 'Frutti di mare', es: 'Mariscos', it: 'Frutti di mare', en: 'Seafood' },
   { scn: 'Futtitinni', es: 'Pasa de todo', it: 'Fregatene', en: 'Don\'t worry about it' },
-  { scn: 'Grazzi', es: 'Gracias', it: 'Grazie', en: 'Thank you' },
   { scn: 'Jammiru', es: 'Camarón', it: 'Gambero', en: 'Shrimp' },
   { scn: 'Letto', es: 'Cama', it: 'Letto', en: 'Bed' },
-  { scn: 'Lima tonnu', es: 'Lata de atún', it: 'Scatoletta di tonno', en: 'Canned tuna' },
   { scn: 'Manciari', es: 'Comer', it: 'Mangiare', en: 'To eat' },
   { scn: 'Matruzza', es: '¡Madre mía!', it: 'Mamma mia', en: 'Oh my God' },
   { scn: 'Maunisa', es: 'Mayonesa', it: 'Maionese', en: 'Mayonnaise' },
+  { scn: 'Mbrogghiu', es: 'Lío', it: 'Confusione', en: 'Mess' },
   { scn: 'Mi scusassi', es: 'Disculpe/Perdón', it: 'Mi scusi', en: 'Excuse me/I\'m sorry' },
   { scn: 'Minchia', es: '¡Guau! / ¡Caramba!', it: 'Wow! / Accidenti!', en: 'Wow! / Damn!' },
   { scn: 'Mirruzzu', es: 'Merluza', it: 'Merluzzo', en: 'Hake' },
@@ -57,7 +58,6 @@ const dictionary = [
   { scn: 'Pumadoru', es: 'Tomate', it: 'Pomodoro', en: 'Tomato' },
   { scn: 'Purpu', es: 'Pulpo', it: 'Polpo', en: 'Octopus' },
   { scn: 'Quagghia', es: 'Codorniz', it: 'Quaglia', en: 'Quail' },
-  { scn: 'Quantu custa?', es: '¿Cuánto cuesta?', it: 'Quanto costa?', en: 'How much is this?' },
   { scn: 'Racina', es: 'Uva', it: 'Uva', en: 'Grape' },
   { scn: 'Risu', es: 'Arroz', it: 'Riso', en: 'Rice' },
   { scn: 'Salutamu', es: 'Hola', it: 'Salve / Ciao', en: 'Hello' },
@@ -72,19 +72,19 @@ const dictionary = [
   { scn: 'Tonnu', es: 'Atún', it: 'Tonno', en: 'Tuna' },
   { scn: 'Travagghiari', es: 'Trabajar', it: 'Lavorare', en: 'To work' },
   { scn: 'Tumazzu', es: 'Queso', it: 'Formaggio', en: 'Cheese' },
-  { scn: 'Unni è?', es: '¿Dónde está?', it: 'Dov\'è?', en: 'Where is it?' },
   { scn: 'Vanigghia', es: 'Vainilla', it: 'Vaniglia', en: 'Vanilla' },
   { scn: 'Viteddu', es: 'Ternera', it: 'Vitello', en: 'Veal' },
+  { scn: 'Zaurdo', es: 'Vulgar', it: 'Tamarro', en: 'Yob' },
 ];
 
 const Dictionary = () => {
   const { language } = useLanguage();
 
   const titles = {
-    es: 'Diccionario Catanese',
-    it: 'Dizionario Catanese',
-    scn: 'Dizziunariu Catanisi',
-    en: 'Catanese Dictionary',
+    es: 'Diccionario Siciliano',
+    it: 'Dizionario Siciliano',
+    scn: 'Dizziunariu Siculo',
+    en: 'Sicilian Dictionary',
   };
 
   return (
