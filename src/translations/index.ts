@@ -91,7 +91,9 @@ export const translations = {
       },
       attire: {
         title: 'Código de Vestimenta',
-        description: '<strong>Viernes – Preboda</strong>\n\nSemiformal: Un toque elegante sin ser demasiado formal: conjuntos de cóctel cuidados y cómodos para disfrutar de la noche.\n\n<strong>Domingo – Ceremonia y celebración</strong>\n\nFormal: Piensa en elegancia de fiesta en jardín - cómoda pero elegante para una celebración al aire libre.\n\nTendremos protectores de tacón, al igual que también zapatillas cómodas para bailar. Lo único recomendamos llevar un chal o abrigo ligero, ya que en Ávila refresca bastante por la noche.'
+        description1: '<strong>Viernes – Preboda</strong>\n\nSemiformal: Un toque elegante sin ser demasiado formal: conjuntos de cóctel cuidados y cómodos para disfrutar de la noche.\n\n<strong>Domingo – Ceremonia y celebración</strong>\n\nFormal: Piensa en elegancia de fiesta en jardín - cómoda pero elegante para una celebración al aire libre.\n\nTendremos ',
+        heelProtectors: 'protectores de tacón',
+        description2: ', al igual que también zapatillas cómodas para bailar. Lo único recomendamos llevar un chal o abrigo ligero, ya que en Ávila refresca bastante por la noche.'
       },
       accommodation: {
         title: 'Alojamiento',
@@ -162,7 +164,7 @@ export const translations = {
       ],
       sicilyFacts: {
         title: '🌟 Datos Curiosos Sobre Sicilia',
-        description: 'Aunque la ceremonia se celebrará en Ávila, no queremos olvidar el lugar de origen de Chiara y sus profundas raíces sicilianas. Aunque no estarán presentes los atardeceres rojos, los paisajes de naranjos y limoneros, la brisa mediterránea ni la gastronomía inolvidable, esperamos que disfrutes de los pequeños detalles sicilianos que hemos querido incluir con cariño.\nAun así, te animamos a visitar la isla y vivir una experiencia única en un lugar lleno de historia y tradición. Es una tierra que vive en el corazón de Chiara—y ahora también en el nuestro.',
+        description: 'Aunque la ceremonia se celebrará en Ávila, no queremos olvidar el lugar de origen de Chiara y sus profundas raíces sicilianas. Aunque no estarán presentes los atardeceres rojos, los paisajes de naranjos y limoneros, la brisa mediterránea ni la gastronomía inolvidable, esperamos que disfrutes de los pequeños detalles sicilianos que hemos querido incluir con cariño.\\nAun así, te animamos a visitar la isla y vivir una experiencia única en un lugar lleno de historia y tradición. Es una tierra que vive en el corazón de Chiara—y ahora también en el nuestro.',
         linkText: 'vivir una experiencia única en un lugar lleno de historia y tradición',
         items: [
           {
@@ -287,13 +289,15 @@ export const translations = {
           party: 'Ballu e Cilibrazzioni'
         }
       },
-      attire: {
+attire: {
         title: 'Codici di Vistimutu',
-        description: '<strong>Vinirdi – Prima dâ festa</strong>\n\nSemifurmali: Un tuccu eleganti senza èssiri troppu furmali: vistiti pi cocktail curati e còmidi pi gudìrisi a sirata.\n\n<strong>Duminica – Cirimonia e cilibbrazzioni</strong>\n\nFurmali: Pinsati a l\'eleganza di na festa n jardinu - còmoda ma cu stili pi na cilibbrazzioni all\'apertu.\n\nAvremo salvataccu, cchiù scarpi còmodi pi\' ballari. Suggeremu sulu di purtari un sciallu o \'na giacca ligera, picchì di notti ad Ávila si rinfresca assai.'
+        description1: '<strong>Vinirdi – Prima dâ festa</strong>\n\nSemifurmali: Un tuccu eleganti senza èssiri troppu furmali: vistiti pi cocktail curati e còmidi pi gudìrisi a sirata.\n\n<strong>Duminica – Cirimonia e cilibbrazzioni</strong>\n\nFurmali: Pinsati a l\'eleganza di na festa n jardinu - còmoda ma cu stili pi na cilibbrazzioni all\'apertu.\n\nAvremo ',
+        heelProtectors: 'salvataccu',
+        description2: ', cchiù scarpi còmodi pi\' ballari. Suggeremu sulu di purtari un sciallu o \'na giacca ligera, picchì di notti ad Ávila si rinfresca assai.'
       },
       accommodation: {
         title: 'Alloggiu',
-        description: 'Abbiamu riservatu càmmari nti hotel vicini. Pi favuri, talìati u nostru situ web pi dittagli di riservazzioni e sconti di gruppu.',
+        description: 'Abbiamu riservatu càmmari nti hotel vicini. Pi favuri talìati u nostru situ web pi dittagli di riservazzioni e sconti di gruppu.',
         viewDetails: 'Talìa Dittagli'
       },
       transportation: {
@@ -328,7 +332,7 @@ export const translations = {
         },
         parking: {
           question: 'C\'è parcheggiu dispunìbbili?',
-          answer: 'Sì, c\'è parcheggiu dispunìbbili ntu locu di l\'eventu, però damu nu sirvizu di trasportu dû centru città, accussì nun ti havi a prioccupari di guidari.'
+          answer: 'Sì, c\'è parcheggiu dispunìbbili ntu locu di l\'eventu, però damu nu sirviziu di trasportu dû centru città, accussì nun ti havi a prioccupari di guidari.'
         },
         dietary: {
           question: 'Aviti opzioni pi dieti spiciali?',
@@ -364,8 +368,8 @@ export const translations = {
       ],
       sicilyFacts: {
         title: '🌟 Fatti divertenti supra a Sicilia',
-        description: 'Pur si a cirimunìa si fa n\'Ávila, nun vulemu scurdarinni dâ terra natali di Chiara e di li so radichi siciliani. Forse nun ci sarà lu suli russu, li limunara, lu mari dû Mediterraneu o la cucina chi fa veniri l\'appititu, ma speramu ca vi piàcinu li picciuli tocchi di Sicilia ca mettimu cu amuri.\nN\'cugghiamu a tutti a fari \'na visita a l\'isula e a viviri st\'esperienza unica ntra \'na terra china di storia e tradizzioni. Sta terra è sempri n\'cori di Chiara—e ormai puru ntô nostru.',
-        linkText: 'viviri st\'esperienza unica ntra \'na terra china di storia e tradizzioni',
+        description: 'Pur si a cirimunìa si fa n\'Ávila, nun vulemu scurdarinni dâ terra natali di Chiara e di li so radichi siciliani. Forse nun ci sarà lu suli russu, li limunara, lu mari dû Mediterraneu o la cucina chi fa veniri l\'appititu, ma speramu ca vi piàcinu li picciuli tocchi di Sicilia ca mettimu cu amuri.\nN\'cugghiamu a tutti a fari \'na visita a l\'isula e a viviri st\'esperienza unica ntra \'na terra china di storia e tradizzioni. Sta terra è sempri n\'cori di Chiara—e ormai puru ntô nostro.',
+        linkText: 'vivir una experiencia única en un lugar lleno de historia y tradición',
         items: [
           {
             title: '🍋 I limuna spuntunu comu l\'erbaccia.',
@@ -373,10 +377,10 @@ export const translations = {
           },
           {
             title: '🌋 Teniri lu vulcanu attivu cchiù autu d\'Europa.',
-            content: 'L\'Etna nun è sulu na cosa bedda a taliari—è vivu e quarchi vota sputazza lava e cinniri, e pò fari firmari puru l\'aeroportu. Ma li siciliani ci tenunu rispiettu. Pi iddi, la Muntagna nun fa paura: è \'na forza ca cummanna, ma è bona. Fa parti di cui semu'
+            content: 'L\'Etna nun è sulu na cosa bedda a taliari—è vivu, e quarchi vota sputazza lava e cinniri, e pò fari firmari puru l\'aeroportu. Ma li siciliani ci tenunu rispiettu. Pi iddi, la \'Muntagna\' nun è na minaccia, ma na forza putenti e binivula, parti di l\'identità di l\'isula.'
           },
           {
-            title: '🏛️ È cchiù vecchia di l\'Italia.',
+            title: '🏛️ È cchiù vecchia di l\'Italia stessa.',
             content: 'Sicilia fu greca, rumana, araba, normanna… e stetti sutta l\'Aragunesi e li Spagnoli pi 321 anni. L\'influenza spagnola si vidi ancora ntê nomi, ntê sapuri, ntê chiesi e ntê tradizzioni.'
           },
           {
@@ -389,10 +393,10 @@ export const translations = {
           },
           {
             title: '🏺 Li Testi di Moro cuntunu \'na storia d\'amuri scura.',
-            content: 'Sti famusi vasi cu la facci, ca si vìdunu supra a li balconi, nascinu di \'na leggenda china d\'amuri, gelusia… e \'na testa tagghiata. Romànticu? Mah. Ma di sicuru cchiù d\'un Netflix.'
+            content: 'Sti famusi vasi cu la facci, ca si vìdunu supra a li balconi, nascinu di \'na leggenda fatta di amuri, gelusia… e decapitazione. Romànticu? Mah. Ma di sicuru cchiù d\'un Netflix.'
           },
           {
-            title: '🏛️ Sicilia era \'na ricchizza pi tutti.',
+            title: '🏛️ Un tempu era \'na ricchizza pi tutti.',
             content: 'Pusata ntra tri cuntinenti, Sicilia era na cruci vera di scambiu, putenza e cultura. Quannu succedia quacchi cosa ccà… u restu dû munnu si girava a taliari.'
           }
         ]
@@ -473,7 +477,7 @@ export const translations = {
           day1Event: '20:30 Pre-matrimonio a',
           day1Venue: 'Lienzo Norte',
           day1Description: ' ',
-        day2: '21 Giugno 2026',
+        day2: '21 Giugnu 2026',
         breakOutActivities: ' Attività di gruppo',
         day2Title: '',
           pickup: '14:00 Ritiro in autobus',
@@ -491,7 +495,9 @@ export const translations = {
         },
       attire: {
         title: 'Codice di Abbigliamento',
-        description: '<strong>Venerdi – Pre-matrimonio</strong>\n\nSemiformal: Un tocco elegante senza essere troppo formale: abiti da cocktail curati e comodi per godersi la serata.\n\n<strong>Domenica – Cerimonia e celebrazione</strong>\n\nFormale: Pensate all\'eleganza di una festa in giardino - comoda ma stilosa per una celebrazione all\'aperto.\n\n Metteremo a disposizione salvatacchi, così come scarpe comode per ballare. Raccomandiamo solo di portare uno scialle o una giacca leggera, perché di notte ad Ávila fa abbastanza fresco.'
+        description1: '<strong>Venerdi – Pre-matrimonio</strong>\n\nSemiformal: Un tocco elegante senza essere troppo formale: abiti da cocktail curati e comodi per godersi la serata.\n\n<strong>Domenica – Cerimonia e celebrazione</strong>\n\nFormale: Pensate all\'eleganza di una festa in giardino - comoda ma stilosa per una celebrazione all\'aperto.\n\n Metteremo a disposizione ',
+        heelProtectors: 'salvatacchi',
+        description2: ', così come scarpe comode per ballare. Raccomandiamo solo di portare uno scialle o una giacca leggera, perché di notte ad Ávila fa abbastanza fresco.'
       },
       accommodation: {
         title: 'Alloggio',
@@ -566,7 +572,7 @@ export const translations = {
       ],
       sicilyFacts: {
         title: '🌟 Curiosità sulla Sicilia',
-        description: 'Anche se la cerimonia si terrà ad Ávila, non vogliamo dimenticare la città natale di Chiara e le sue profonde radici siciliane. Anche se i tramonti rossi, i paesaggi di limoni, la brezza mediterranea e la cucina indimenticabile non saranno fisicamente presenti al matrimonio, speriamo che possiate apprezzare i piccoli tocchi di Sicilia che abbiamo voluto includere con affetto.\nVi invitiamo con il cuore a visitare quest\'isola e a vivere un\'esperienza unica in un luogo ricco di storia e fascino. È un luogo che vive nel cuore di Chiara—e ora anche nel nostro.',
+        description: 'Anche se la cerimonia si terrà ad Ávila, non vogliamo dimenticare la città natale di Chiara e le sue profonde radici siciliane. Anche se i tramonti rossi, i paesaggi di limoni, la brezza mediterranea e la cucina indimenticabile non saranno fisicamente presenti al matrimonio, speriamo che possiate apprezzare i piccoli tocchi di Sicilia che abbiamo voluto includere con affetto.\nVi invitiamo con il cuore a visitare quest\'isola e a vivere un\'esperienza unica in un luogo ricco di storia e fascino. È un luogo che vive nel cuore di Chiara—e ora, anche nel nostro.',
         linkText: 'vivere un\'esperienza unica in un luogo ricco di storia e fascino',
         items: [
           {
@@ -591,7 +597,7 @@ export const translations = {
           },
           {
             title: '🏺 Le Teste di Moro raccontano una storia d\'amore oscura.',
-            content: 'Queste iconiche teste di ceramica, presenti su balconi e nei giardini siciliani, nascono da una leggenda fatta di amore, gelosia… e decapitazione. Romantico? Forse. Affascinante? Sicuramente.'
+            content: 'Queste iconiche teste di ceramica, presenti su balconi e nei giardini siciliani, nascono da una leggenda fatta di amore, gelosia… e decapitazione. Romantico? Dibattibile. Affascinante? Assolutamente.'
           },
           {
             title: '🏛️ Un tempo era una delle terre più ricche al mondo.',
@@ -697,7 +703,9 @@ export const translations = {
       },
       attire: {
         title: 'Dress Code',
-        description: '<strong>Friday – Pre-wedding</strong>\n\nSemi-formal: An elegant touch without being too formal: smart and comfortable cocktail outfits to enjoy the evening.\n\n<strong>Sunday – Ceremony and celebration</strong>\n\nFormal: Think garden party elegance - comfortable yet stylish for an outdoor celebration.\n\nWe will have heel protectors, as well as comfy shoes for dancing. We only recommend bringing a shawl or light jacket, as it gets quite cool in Ávila at night.'
+        description1: '<strong>Friday – Pre-wedding</strong>\n\nSemi-formal: An elegant touch without being too formal: smart and comfortable cocktail outfits to enjoy the evening.\n\n<strong>Sunday – Ceremony and celebration</strong>\n\nFormal: Think garden party elegance - comfortable yet stylish for an outdoor celebration.\n\nWe will have ',
+        heelProtectors: 'heel protectors',
+        description2: ', as well as comfy shoes for dancing. We only recommend bringing a shawl or light jacket, as it gets quite cool in Ávila at night.'
       },
       accommodation: {
         title: 'Accommodation',
@@ -763,12 +771,12 @@ export const translations = {
       funFactsList: [
         'One of our skills is reading each other\'s minds without saying a word',
         'We will have a total of 29 different nationalities at the wedding among family and friends',
-        'Our first dance was "More than this" by Roxy during a party night in Ireland, under the rain in the middle of the street',
+        'Our first dance was "More than this" of Roxy during a party night in Ireland, under the rain in the middle of the street',
         'Islands have followed us throughout our lives and are part of us, so much so that we have visited 16 different islands together'
       ],
       sicilyFacts: {
         title: '🌟 Fun facts about Sicily',
-        description: 'While the ceremony will take place in Ávila, we don\'t want to forget Chiara\'s hometown and her deep Sicilian roots. Although the vibrant red sunsets, lemon-filled landscapes, Mediterranean breeze, and unforgettable cuisine won\'t be physically present at the wedding, we hope you\'ll enjoy the small touches of Sicily we\'ve lovingly included.\nThat said, we truly encourage you to visit the island and live the one-of-a-kind experience of this island with extensive heritage. It\'s a place that lives in Chiara\'s heart—and now, in ours too.',
+        description: 'While the ceremony will take place in Ávila, we don\'t want to forget Chiara\'s hometown and her deep Sicilian roots. Although the vibrant red sunsets, lemon-filled landscapes, Mediterranean breeze, and unforgettable cuisine won\'t be physically present at the wedding, we hope you\'ll enjoy the small touches of Sicily we\'ve lovingly included.\nWe truly encourage you to visit the island and live the one-of-a-kind experience of this island with extensive heritage. It\'s a place that lives in Chiara\'s heart—and now, in ours too.',
         linkText: 'one-of-a-kind experience of this island with extensive heritage',
         items: [
           {
@@ -785,11 +793,11 @@ export const translations = {
           },
           {
             title: '🍝 Arancini vs. arancine?',
-            content: 'Even Sicilians argue about the name of their famous fried rice balls. East says "arancini," west says "arancine." Either way—delicious.'
+            content: 'Even Sicilians argue about the name of their famous fried rice balls. East says "arancini", west says "arancine". Either way—delicious.'
           },
           {
             title: '🎭 Sicily has its own language.',
-            content: 'Sicilian isn\'t just a dialect—it\'s a full-fledged language with Arabic, Greek, Latin, and Spanish influence. (Yes, it\'s that old-school cool.)'
+            content: 'Sicilian isn\'t just a dialect: it\'s a full-fledged language with Arabic, Greek, Latin, and Spanish influence. (Yes, it\'s that old-school cool.)'
           },
           {
             title: '🏺 The "Teste di Moro" tell a dark love story.',

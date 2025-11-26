@@ -54,7 +54,7 @@ const DetailsSection = () => {
   }, {
     icon: Shirt,
     title: t.details.attire.title,
-    description: t.details.attire.description
+    description: ''
   }, {
     icon: Gift,
     title: t.details.gifts.title,
@@ -256,6 +256,19 @@ const DetailsSection = () => {
                               {' '}â 14:00. Ci sarannu puru autobùs ogni ora ca partunu versu Ávila ncuminzannu â 23:00.
                             </>
                           )}
+                        </div>
+                      ) : detail.title === t.details.attire.title ? (
+                        <div className="text-muted-foreground text-sm leading-relaxed">
+                          <span dangerouslySetInnerHTML={{ __html: t.details.attire.description1.replace(/\n/g, '<br />') }} />
+                          <a
+                            href="https://shoepifystore.com/cdn/shop/products/image_f6e9b57a-708d-474d-883d-8cbbdf9f4f07.jpg?v=1623140698&width=2048"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="text-primary hover:underline"
+                          >
+                            {t.details.attire.heelProtectors}
+                          </a>
+                          <span dangerouslySetInnerHTML={{ __html: t.details.attire.description2.replace(/\n/g, '<br />') }} />
                         </div>
                       ) : (
                         <div
