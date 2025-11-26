@@ -91,7 +91,7 @@ export const translations = {
       },
       attire: {
         title: 'Código de Vestimenta',
-        description: '<strong>Viernes – Preboda</strong>\n\nSemiformal: Un toque elegante sin ser demasiado formal: conjuntos de cóctel cuidados y cómodos para disfrutar de la noche.\n\n<strong>Domingo – Ceremonia y celebración</strong>\n\nFormal: Piensa en elegancia de fiesta en jardín - cómoda pero elegante para una celebración al aire libre.\n\nRecomendamos a las invitadas evitar tacones finos debido al césped y llevar un chal o abrigo ligero, ya que en Ávila refresca bastante por la noche.'
+        description: '<strong>Viernes – Preboda</strong>\n\nSemiformal: Un toque elegante sin ser demasiado formal: conjuntos de cóctel cuidados y cómodos para disfrutar de la noche.\n\n<strong>Domingo – Ceremonia y celebración</strong>\n\nFormal: Piensa en elegancia de fiesta en jardín - cómoda pero elegante para una celebración al aire libre.\n\nTendremos protectores de tacón, al igual que también zapatillas cómodas para bailar. Lo único recomendamos llevar un chal o abrigo ligero, ya que en Ávila refresca bastante por la noche.'
       },
       accommodation: {
         title: 'Alojamiento',
@@ -289,7 +289,7 @@ export const translations = {
       },
       attire: {
         title: 'Codici di Vistimutu',
-        description: '<strong>Vinirdi – Prima dâ festa</strong>\n\nSemifurmali: Un tuccu eleganti senza èssiri troppu furmali: vistiti pi cocktail curati e còmidi pi gudìrisi a sirata.\n\n<strong>Duminica – Cirimonia e cilibbrazzioni</strong>\n\nFurmali: Pinsati a l\'eleganza di na festa n jardinu - còmoda ma cu stili pi na cilibbrazzioni all\'apertu.\n\nRaccumannamu a l\'invitati fimmini d\'evitari tacchi fini pû pratu e di purtari nu sciallu o nu cappottu liggeru, picchì a sira a Ávila arrifrisca assai.'
+        description: '<strong>Vinirdi – Prima dâ festa</strong>\n\nSemifurmali: Un tuccu eleganti senza èssiri troppu furmali: vistiti pi cocktail curati e còmidi pi gudìrisi a sirata.\n\n<strong>Duminica – Cirimonia e cilibbrazzioni</strong>\n\nFurmali: Pinsati a l\'eleganza di na festa n jardinu - còmoda ma cu stili pi na cilibbrazzioni all\'apertu.\n\nAvremo salvataccu, cchiù scarpi còmodi pi\' ballari. Suggeremu sulu di purtari un sciallu o \'na giacca ligera, picchì di notti ad Ávila si rinfresca assai.'
       },
       accommodation: {
         title: 'Alloggiu',
@@ -491,7 +491,7 @@ export const translations = {
         },
       attire: {
         title: 'Codice di Abbigliamento',
-        description: '<strong>Venerdi – Pre-matrimonio</strong>\n\nSemiformal: Un tocco elegante senza essere troppo formale: abiti da cocktail curati e comodi per godersi la serata.\n\n<strong>Domenica – Cerimonia e celebrazione</strong>\n\nFormale: Pensate all\'eleganza di una festa in giardino - comoda ma stilosa per una celebrazione all\'aperto.\n\nRaccomandiamo alle invitate di evitare tacchi a spillo per via del prato e di portare uno scialle o un cappotto leggero, poiché la sera ad Ávila rinfresca parecchio.'
+        description: '<strong>Venerdi – Pre-matrimonio</strong>\n\nSemiformal: Un tocco elegante senza essere troppo formale: abiti da cocktail curati e comodi per godersi la serata.\n\n<strong>Domenica – Cerimonia e celebrazione</strong>\n\nFormale: Pensate all\'eleganza di una festa in giardino - comoda ma stilosa per una celebrazione all\'aperto.\n\n Metteremo a disposizione salvatacchi, così come scarpe comode per ballare. Raccomandiamo solo di portare uno scialle o una giacca leggera, perché di notte ad Ávila fa abbastanza fresco.'
       },
       accommodation: {
         title: 'Alloggio',
@@ -697,7 +697,7 @@ export const translations = {
       },
       attire: {
         title: 'Dress Code',
-        description: '<strong>Friday – Pre-wedding</strong>\n\nSemi-formal: An elegant touch without being too formal: smart and comfortable cocktail outfits to enjoy the evening.\n\n<strong>Sunday – Ceremony and celebration</strong>\n\nFormal: Think garden party elegance - comfortable yet stylish for an outdoor celebration.\n\nWe recommend that female guests avoid thin heels due to the grass and bring a shawl or light coat, as it gets quite cool in Ávila at night.'
+        description: '<strong>Friday – Pre-wedding</strong>\n\nSemi-formal: An elegant touch without being too formal: smart and comfortable cocktail outfits to enjoy the evening.\n\n<strong>Sunday – Ceremony and celebration</strong>\n\nFormal: Think garden party elegance - comfortable yet stylish for an outdoor celebration.\n\nWe will have heel protectors, as well as comfy shoes for dancing. We only recommend bringing a shawl or light jacket, as it gets quite cool in Ávila at night.'
       },
       accommodation: {
         title: 'Accommodation',
