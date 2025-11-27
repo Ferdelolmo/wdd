@@ -269,6 +269,15 @@ const DetailsSection = () => {
                             {t.details.attire.heelProtectors}
                           </a>
                           <span dangerouslySetInnerHTML={{ __html: t.details.attire.description2.replace(/\n/g, '<br />') }} />
+                          <a
+                            href="https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcTCi0cun4VK07LeSct79rY7IhKQFcSnzsGjl3FaXJg7gYfidS9pVXj132tMZyESZXZy-Y37ppax-zWGdQ6-xMk1qXXrTG-iPH-aH1qaL1ZiCjw3FRekUGmhNILl"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="text-primary hover:underline"
+                          >
+                            {t.details.attire.comfyShoes}
+                          </a>
+                          <span dangerouslySetInnerHTML={{ __html: t.details.attire.description3.replace(/\n/g, '<br />') }} />
                         </div>
                       ) : (
                         <div

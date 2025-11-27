@@ -93,7 +93,9 @@ export const translations = {
         title: 'Código de Vestimenta',
         description1: '<strong>Viernes – Preboda</strong>\n\nSemiformal: Un toque elegante sin ser demasiado formal: conjuntos de cóctel cuidados y cómodos para disfrutar de la noche.\n\n<strong>Domingo – Ceremonia y celebración</strong>\n\nFormal: Piensa en elegancia de fiesta en jardín - cómoda pero elegante para una celebración al aire libre.\n\nTendremos ',
         heelProtectors: 'protectores de tacón',
-        description2: ', al igual que también zapatillas cómodas para bailar. Lo único recomendamos llevar un chal o abrigo ligero, ya que en Ávila refresca bastante por la noche.'
+        description2: ', al igual que también ',
+        comfyShoes: 'zapatillas cómodas para bailar',
+        description3: '. Lo único recomendamos llevar un chal o abrigo ligero, ya que en Ávila refresca bastante por la noche.'
       },
       accommodation: {
         title: 'Alojamiento',
@@ -293,7 +295,9 @@ attire: {
         title: 'Codici di Vistimutu',
         description1: '<strong>Vinirdi – Prima dâ festa</strong>\n\nSemifurmali: Un tuccu eleganti senza èssiri troppu furmali: vistiti pi cocktail curati e còmidi pi gudìrisi a sirata.\n\n<strong>Duminica – Cirimonia e cilibbrazzioni</strong>\n\nFurmali: Pinsati a l\'eleganza di na festa n jardinu - còmoda ma cu stili pi na cilibbrazzioni all\'apertu.\n\nAvremo ',
         heelProtectors: 'salvataccu',
-        description2: ', cchiù scarpi còmodi pi\' ballari. Suggeremu sulu di purtari un sciallu o \'na giacca ligera, picchì di notti ad Ávila si rinfresca assai.'
+        description2: ', cchiù ',
+        comfyShoes: 'scarpi còmodi pi\' ballari',
+        description3: '. Suggeremu sulu di purtari un sciallu o \'na giacca ligera, picchì di notti ad Ávila si rinfresca assai.'
       },
       accommodation: {
         title: 'Alloggiu',
@@ -497,7 +501,9 @@ attire: {
         title: 'Codice di Abbigliamento',
         description1: '<strong>Venerdi – Pre-matrimonio</strong>\n\nSemiformal: Un tocco elegante senza essere troppo formale: abiti da cocktail curati e comodi per godersi la serata.\n\n<strong>Domenica – Cerimonia e celebrazione</strong>\n\nFormale: Pensate all\'eleganza di una festa in giardino - comoda ma stilosa per una celebrazione all\'aperto.\n\n Metteremo a disposizione ',
         heelProtectors: 'salvatacchi',
-        description2: ', così come scarpe comode per ballare. Raccomandiamo solo di portare uno scialle o una giacca leggera, perché di notte ad Ávila fa abbastanza fresco.'
+        description2: ', così come ',
+        comfyShoes: 'scarpe comode per ballare',
+        description3: '. Raccomandiamo solo di portare uno scialle o una giacca leggera, perché di notte ad Ávila fa abbastanza fresco.'
       },
       accommodation: {
         title: 'Alloggio',
@@ -705,7 +711,9 @@ attire: {
         title: 'Dress Code',
         description1: '<strong>Friday – Pre-wedding</strong>\n\nSemi-formal: An elegant touch without being too formal: smart and comfortable cocktail outfits to enjoy the evening.\n\n<strong>Sunday – Ceremony and celebration</strong>\n\nFormal: Think garden party elegance - comfortable yet stylish for an outdoor celebration.\n\nWe will have ',
         heelProtectors: 'heel protectors',
-        description2: ', as well as comfy shoes for dancing. We only recommend bringing a shawl or light jacket, as it gets quite cool in Ávila at night.'
+        description2: ', as well as ',
+        comfyShoes: 'comfy shoes for dancing',
+        description3: '. We only recommend bringing a shawl or light jacket, as it gets quite cool in Ávila at night.'
       },
       accommodation: {
         title: 'Accommodation',
