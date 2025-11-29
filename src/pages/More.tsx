@@ -42,10 +42,10 @@ const More = () => {
         <Link to="/">
           <Button variant="outline" size="sm" className="bg-background/80 backdrop-blur-sm">
             <Home className="w-4 h-4 mr-2" />
-            {language === 'es' ? 'Inicio' : 
-             language === 'it' ? 'Home' : 
-             language === 'scn' ? 'Casa' : 
-             'Home'}
+            {language === 'es' ? 'Inicio' :
+              language === 'it' ? 'Home' :
+                language === 'scn' ? 'Casa' :
+                  'Home'}
           </Button>
         </Link>
       </div>
@@ -58,16 +58,16 @@ const More = () => {
         {/* Header */}
         <div className="text-center mb-16">
           <h1 className="font-script text-5xl md:text-7xl text-primary mb-4">
-            {language === 'es' ? 'Más Información' : 
-             language === 'it' ? 'Più Informazioni' : 
-             language === 'scn' ? 'Cchiù Nfurmazzioni' : 
-             'More Information'}
+            {language === 'es' ? 'Más Información' :
+              language === 'it' ? 'Più Informazioni' :
+                language === 'scn' ? 'Cchiù Nfurmazzioni' :
+                  'More Information'}
           </h1>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            {language === 'es' ? 'Todo lo que necesitas para nuestro día especial' : 
-             language === 'it' ? 'Tutto quello che ti serve per il nostro giorno speciale' : 
-             language === 'scn' ? 'Tuttu chiddu ca ti servi pi u nostru jornu spiciali' : 
-             'Everything you need for our special day'}
+            {language === 'es' ? 'Todo lo que necesitas para nuestro día especial' :
+              language === 'it' ? 'Tutto quello che ti serve per il nostro giorno speciale' :
+                language === 'scn' ? 'Tuttu chiddu ca ti servi pi u nostru jornu spiciali' :
+                  'Everything you need for our special day'}
           </p>
         </div>
 
@@ -129,50 +129,26 @@ const More = () => {
           </Card>
           */}
 
-          {/* Speeches */}
+          {/* Soundtrack Promo */}
           <Card className="bg-card/80 backdrop-blur-sm shadow-romantic border-0">
             <CardHeader>
               <CardTitle className="flex items-center gap-2 text-primary">
                 <Volume2 className="w-5 h-5" />
-                {language === 'es' ? 'Discursos' : 
-                 language === 'it' ? 'Discorsi' : 
-                 language === 'scn' ? 'Discursi' : 
-                 'Speeches'}
+                {t.soundtrackPromo.title}
               </CardTitle>
             </CardHeader>
             <CardContent className="space-y-4">
               <p className="text-sm text-muted-foreground">
-                {language === 'es' ? '¿Quieres dar un discurso? ¡Háznoslo saber!' : 
-                 language === 'it' ? 'Vuoi fare un discorso? Faccelo sapere!' : 
-                 language === 'scn' ? 'Voi fari nu discursu? Fàccillu sapiri!' : 
-                 'Want to give a speech? Let us know!'}
+                {t.soundtrackPromo.description}
               </p>
-              <Button 
-                variant="outline" 
-                size="sm" 
-                className="w-full"
-                onClick={() => window.open('https://form.typeform.com/to/hj7Tz81R', '_blank')}
-              >
-                <ExternalLink className="w-4 h-4 mr-2" />
-                {language === 'es' ? 'Registrar Discurso' : 
-                 language === 'it' ? 'Registra Discorso' : 
-                 language === 'scn' ? 'Rijistra Discursu' : 
-                 'Register Speech'}
-              </Button>
-              <div className="pt-2 border-t">
-                <h4 className="font-semibold text-foreground mb-2">
-                  {language === 'es' ? 'Discursos Programados' : 
-                   language === 'it' ? 'Discorsi Programmati' : 
-                   language === 'scn' ? 'Discursi Prugrammati' : 
-                   'Scheduled Speeches'}
-                </h4>
-                <p className="text-sm text-muted-foreground">
-                  {language === 'es' ? 'Los discursos aparecerán aquí cuando se registren' : 
-                   language === 'it' ? 'I discorsi appariranno qui quando registrati' : 
-                   language === 'scn' ? 'I discursi cumpariranu ccà quannu rijistrali' : 
-                   'Speeches will appear here when registered'}
-                </p>
-              </div>
+              <Link to="/soundtrack" className="block w-full">
+                <Button
+                  className="w-full bg-primary hover:bg-primary/90"
+                >
+                  <ExternalLink className="w-4 h-4 mr-2" />
+                  {t.soundtrackPromo.button}
+                </Button>
+              </Link>
             </CardContent>
           </Card>
 
@@ -181,29 +157,29 @@ const More = () => {
             <CardHeader>
               <CardTitle className="flex items-center gap-2 text-primary">
                 <FileText className="w-5 h-5" />
-                {language === 'es' ? 'Documentos' : 
-                 language === 'it' ? 'Documenti' : 
-                 language === 'scn' ? 'Ducumenti' : 
-                 'Documents'}
+                {language === 'es' ? 'Documentos' :
+                  language === 'it' ? 'Documenti' :
+                    language === 'scn' ? 'Ducumenti' :
+                      'Documents'}
               </CardTitle>
             </CardHeader>
             <CardContent className="space-y-3">
               <Link to="/dictionary">
                 <Button variant="outline" size="sm" className="w-full justify-start">
                   <Download className="w-4 h-4 mr-2" />
-                  {language === 'es' ? 'Diccionario 🍋 🇪🇸 🇬🇧 🇮🇹 ' : 
-                   language === 'it' ? 'Dizionario 🍋 🇪🇸 🇬🇧 🇮🇹 ' : 
-                   language === 'scn' ? 'Dizzionariu 🍋 🇪🇸 🇬🇧 🇮🇹 ' : 
-                   'Diccionary 🍋 🇪🇸 🇬🇧 🇮🇹 '}
+                  {language === 'es' ? 'Diccionario 🍋 🇪🇸 🇬🇧 🇮🇹 ' :
+                    language === 'it' ? 'Dizionario 🍋 🇪🇸 🇬🇧 🇮🇹 ' :
+                      language === 'scn' ? 'Dizzionariu 🍋 🇪🇸 🇬🇧 🇮🇹 ' :
+                        'Dictionary 🍋 🇪🇸 🇬🇧 🇮🇹 '}
                 </Button>
               </Link>
               <Link to="/speeches">
                 <Button variant="outline" size="sm" className="w-full justify-start">
                   <Download className="w-4 h-4 mr-2" />
-                  {language === 'es' ? 'Discursos' : 
-                   language === 'it' ? 'Discorsi' : 
-                   language === 'scn' ? 'Discursi' : 
-                   'Speeches'}
+                  {language === 'es' ? 'Discursos' :
+                    language === 'it' ? 'Discorsi' :
+                      language === 'scn' ? 'Discursi' :
+                        'Speeches'}
                 </Button>
               </Link>
             </CardContent>
@@ -214,28 +190,28 @@ const More = () => {
             <CardHeader>
               <CardTitle className="flex items-center gap-2 text-primary">
                 <Volume2 className="w-5 h-5" />
-                {language === 'es' ? 'Peticiones Musicales' : 
-                 language === 'it' ? 'Richieste Musicali' : 
-                 language === 'scn' ? 'Richiesti Musicali' : 
-                 'Music Requests'}
+                {language === 'es' ? 'Peticiones Musicales' :
+                  language === 'it' ? 'Richieste Musicali' :
+                    language === 'scn' ? 'Richiesti Musicali' :
+                      'Music Requests'}
               </CardTitle>
             </CardHeader>
             <CardContent className="space-y-4">
               <p className="text-sm text-muted-foreground">
-                {language === 'es' ? '¿Tienes una canción especial? ¡El DJ la tocará!' : 
-                 language === 'it' ? 'Hai una canzone speciale? Il DJ la suonerà!' : 
-                 language === 'scn' ? 'Hai na canzuni spiciali? U DJ a sunarà!' : 
-                 'Have a special song? The DJ will play it!'}
+                {language === 'es' ? '¿Tienes una canción especial? ¡El DJ la tocará!' :
+                  language === 'it' ? 'Hai una canzone speciale? Il DJ la suonerà!' :
+                    language === 'scn' ? 'Hai na canzuni spiciali? U DJ a sunarà!' :
+                      'Have a special song? The DJ will play it!'}
               </p>
-              <Button 
+              <Button
                 className="w-full bg-primary hover:bg-primary/90"
                 onClick={() => window.open('https://form.jotform.com/252126974853061', '_blank')}
               >
                 <ExternalLink className="w-4 h-4 mr-2" />
-                {language === 'es' ? 'Pedir Canción' : 
-                 language === 'it' ? 'Richiedi Canzone' : 
-                 language === 'scn' ? 'Richiedi Canzuni' : 
-                 'Request Song'}
+                {language === 'es' ? 'Pedir Canción' :
+                  language === 'it' ? 'Richiedi Canzone' :
+                    language === 'scn' ? 'Richiedi Canzuni' :
+                      'Request Song'}
               </Button>
             </CardContent>
           </Card>
@@ -244,10 +220,10 @@ const More = () => {
           <Card className="bg-card/80 backdrop-blur-sm shadow-romantic border-0 md:col-span-2">
             <CardHeader>
               <CardTitle className="text-primary">
-                {language === 'es' ? 'Información de Contacto' : 
-                 language === 'it' ? 'Informazioni di Contatto' : 
-                 language === 'scn' ? 'Nfurmazzioni di Cuntattu' : 
-                 'Contact Information'}
+                {language === 'es' ? 'Información de Contacto' :
+                  language === 'it' ? 'Informazioni di Contatto' :
+                    language === 'scn' ? 'Nfurmazzioni di Cuntattu' :
+                      'Contact Information'}
               </CardTitle>
             </CardHeader>
             <CardContent>
