@@ -13,7 +13,11 @@ const translations = {
     saturdayActivities: "Saturday activities",
     eveningActivities: "19:00 - Evening Activities",
     paintWine: "Paint and Wine Workshop",
-    paintWineDesc: "Unleash your inner artist with renowned local artist Ivan Gomez. Enjoy a glass of wine while creating your own masterpiece.",
+    paintWineDesc: (
+      <>
+        Unleash your inner artist with renowned local artist <a href="https://www.instagram.com/ivangomezescultor/?hl=es" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">Iván Gómez</a>. Enjoy a glass of wine while creating your own masterpiece.
+      </>
+    ),
     petanca: "Petanca Match",
     petancaDesc: "Join a friendly petanca match arranged by Javier Jimenez. A game of skill, strategy, and fun for everyone.",
     time2: "19:00",
@@ -25,7 +29,11 @@ const translations = {
     saturdayActivities: "Actividades del sábado",
     eveningActivities: "19:00 - Actividades de la tarde",
     paintWine: "Taller de pintura y vino",
-    paintWineDesc: "Desata tu artista interior con el reconocido artista local Iván Gómez. Disfruta de una copa de vino mientras creas tu propia obra maestra.",
+    paintWineDesc: (
+      <>
+        Desata tu artista interior con el reconocido artista local <a href="https://www.instagram.com/ivangomezescultor/?hl=es" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">Iván Gómez</a>. Disfruta de una copa de vino mientras creas tu propia obra maestra.
+      </>
+    ),
     petanca: "Partida de petanca",
     petancaDesc: "Únete a una partida amistosa de petanca organizada por Javier Jiménez. Un juego de habilidad, estrategia y diversión para todos.",
     time2: "19:00",
@@ -37,7 +45,11 @@ const translations = {
     saturdayActivities: "Attività del sabato",
     eveningActivities: "19:00 - Attività serali",
     paintWine: "Laboratorio di pittura e vino",
-    paintWineDesc: "Libera il tuo artista interiore con il rinomato artista locale Ivan Gomez. Goditi un bicchiere di vino mentre crei il tuo capolavoro.",
+    paintWineDesc: (
+      <>
+        Libera il tuo artista interiore con il rinomato artista locale <a href="https://www.instagram.com/ivangomezescultor/?hl=es" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">Iván Gómez</a>. Goditi un bicchiere di vino mentre crei il tuo capolavoro.
+      </>
+    ),
     petanca: "Partita di petanca",
     petancaDesc: "Partecipa a una partita amichevole di petanca organizzata da Javier Jimenez. Un gioco di abilità, strategia e divertimento per tutti.",
     time2: "19:00",
@@ -49,7 +61,11 @@ const translations = {
     saturdayActivities: "Attività dû sabbatu",
     eveningActivities: "19:00 - Attività dâ sira",
     paintWine: "Laburatoriu di pittura e vinu",
-    paintWineDesc: "Libbira u to artistu nternu cu u famusu artista lucali Ivan Gomez. Gòditi nu biccheri di vinu mentri crei a to òpira d'arti.",
+    paintWineDesc: (
+      <>
+        Libbira u to artistu nternu cu u famusu artista lucali <a href="https://www.instagram.com/ivangomezescultor/?hl=es" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">Iván Gómez</a>. Gòditi nu biccheri di vinu mentri crei a to òpira d'arti.
+      </>
+    ),
     petanca: "Partita di petanca",
     petancaDesc: "Partècipa a na partita amichevuli di petanca organizzata di Javier Jimenez. Nu jocu di abilità, stratiggìa e divertimentu pi tutti.",
     time2: "19:00",
@@ -79,7 +95,7 @@ const Activities: FC = () => {
         </div>
         <h1 className="text-5xl font-bold text-center mb-12 text-blue-900">{t.saturdayActivities}</h1>
         <p className="text-lg text-center mb-12 text-gray-700">{t.saturdayIntro}</p>
-        <img src="https://i.imgur.com/BONFg6m.png" alt="Avila" className="w-4/5 h-auto object-cover mb-12 ml-auto"/>
+        <img src="https://i.imgur.com/BONFg6m.png" alt="Avila" className="w-4/5 h-auto object-cover mb-12 ml-auto" />
         <div className="flex">
           <div className="w-1/4 pr-8 relative">
             <div className="border-l-4 border-blue-500 absolute h-full top-0 left-2"></div>
@@ -98,7 +114,7 @@ const Activities: FC = () => {
                   <AccordionTrigger className="text-xl font-bold">{t.paintWine}</AccordionTrigger>
                   <AccordionContent>
                     <Card className="overflow-hidden shadow-lg">
-                      <img src="https://i.imgur.com/AZfcmqR.jpeg" alt={t.paintWine} className="w-full h-64 object-cover"/>
+                      <img src="https://i.imgur.com/AZfcmqR.jpeg" alt={t.paintWine} className="w-full h-64 object-cover" />
                       <CardHeader>
                         <CardTitle className="text-2xl font-bold">{t.paintWine}</CardTitle>
                       </CardHeader>
@@ -113,7 +129,7 @@ const Activities: FC = () => {
                   <AccordionTrigger className="text-xl font-bold">{t.petanca}</AccordionTrigger>
                   <AccordionContent>
                     <Card className="overflow-hidden shadow-lg">
-                      <img src="https://i.imgur.com/oeXSckw.jpeg" alt={t.petanca} className="w-full h-64 object-cover"/>
+                      <img src="https://i.imgur.com/oeXSckw.jpeg" alt={t.petanca} className="w-full h-64 object-cover" />
                       <CardHeader>
                         <CardTitle className="text-2xl font-bold">{t.petanca}</CardTitle>
                       </CardHeader>

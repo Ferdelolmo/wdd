@@ -2,7 +2,7 @@ import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 import { useLanguage } from '@/contexts/LanguageContext';
 import { translations } from '@/translations';
-import { Music, Home } from 'lucide-react';
+import { Music, Home, Volume2, ExternalLink } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import LanguageSelector from '@/components/LanguageSelector';
 
@@ -69,6 +69,33 @@ const Soundtrack = () => {
                                     className="max-w-full"
                                 ></iframe>
                             </div>
+                        </CardContent>
+                    </Card>
+                </div>
+
+                <div className="grid gap-8 max-w-4xl mx-auto mt-8">
+                    {/* Music Requests */}
+                    <Card className="bg-card/80 backdrop-blur-sm shadow-romantic border-0">
+                        <CardHeader>
+                            <CardTitle className="flex items-center gap-2 text-primary">
+                                <Volume2 className="w-5 h-5" />
+                                {language === 'es' ? '¿Tienes una canción especial?' :
+                                    language === 'it' ? 'Hai una canzone speciale?' :
+                                        language === 'scn' ? 'Hai na canzuni spiciali?' :
+                                            'Have a special song?'}
+                            </CardTitle>
+                        </CardHeader>
+                        <CardContent className="space-y-4">
+                            <Button
+                                className="w-full bg-primary hover:bg-primary/90"
+                                onClick={() => window.open('https://form.jotform.com/252126974853061', '_blank')}
+                            >
+                                <ExternalLink className="w-4 h-4 mr-2" />
+                                {language === 'es' ? 'Pedir Canción' :
+                                    language === 'it' ? 'Richiedi Canzone' :
+                                        language === 'scn' ? 'Richiedi Canzuni' :
+                                            'Request Song'}
+                            </Button>
                         </CardContent>
                     </Card>
                 </div>
