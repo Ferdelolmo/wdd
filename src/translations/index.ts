@@ -116,6 +116,13 @@ export const translations = {
       title: 'Galería',
       subtitle: 'Momentos especiales juntos'
     },
+    soundtrack: {
+      title: 'Nuestra Banda Sonora',
+      subtitle: 'Las canciones que cuentan nuestra historia',
+      spotifyTitle: 'Lista de Reproducción Spotify',
+      youtubeTitle: 'Lista de Reproducción YouTube',
+      description: 'La música siempre ha sido parte de nuestro viaje. Aquí compartimos algunas de nuestras canciones favoritas que nos han acompañado en el camino.'
+    },
     faq: {
       title: 'Preguntas Frecuentes',
       subtitle: '¿Tienes preguntas? ¡Tenemos respuestas!',
@@ -291,7 +298,7 @@ export const translations = {
           party: 'Ballu e Cilibrazzioni'
         }
       },
-attire: {
+      attire: {
         title: 'Codici di Vistimutu',
         description1: '<strong>Vinirdi – Prima dâ festa</strong>\n\nSemifurmali: Un tuccu eleganti senza èssiri troppu furmali: vistiti pi cocktail curati e còmidi pi gudìrisi a sirata.\n\n<strong>Duminica – Cirimonia e cilibbrazzioni</strong>\n\nFurmali: Pinsati a l\'eleganza di na festa n jardinu - còmoda ma cu stili pi na cilibbrazzioni all\'apertu.\n\nAvremo ',
         heelProtectors: 'salvataccu',
@@ -321,6 +328,13 @@ attire: {
     gallery: {
       title: 'Galleria',
       subtitle: 'Mumenti spiciali nsemi'
+    },
+    soundtrack: {
+      title: 'A Nostra Culonna Sunora',
+      subtitle: 'I canzuni ca cuntanu a nostra storia',
+      spotifyTitle: 'Lista di Riproduzzioni Spotify',
+      youtubeTitle: 'Lista di Riproduzzioni YouTube',
+      description: 'A musica havi sempri statu parti dû nostru viaggiu. Ccà spartemu qualchi una dî nostri canzuni prifiriti ca ni ànnu accumpagnatu ntô caminu.'
     },
     faq: {
       title: 'Dimanndi Frequenti',
@@ -474,29 +488,29 @@ attire: {
     details: {
       title: 'Programma del Matrimonio',
       subtitle: 'Tutto quello che dovete sapere sul nostro giorno speciale',
-        schedule: {
-          title: 'Programma',
-          day0: '19 Giugno 2026',
-          day1: '20 Giugno 2026',
-          day1Event: '20:30 Pre-matrimonio a',
-          day1Venue: 'Lienzo Norte',
-          day1Description: ' ',
+      schedule: {
+        title: 'Programma',
+        day0: '19 Giugno 2026',
+        day1: '20 Giugno 2026',
+        day1Event: '20:30 Pre-matrimonio a',
+        day1Venue: 'Lienzo Norte',
+        day1Description: ' ',
         day2: '21 Giugnu 2026',
         breakOutActivities: ' Attività di gruppo',
         day2Title: '',
-          pickup: '14:00 Ritiro in autobus',
-          ceremony: '15:00 Cerimonia di matrimonio',
-          cocktail: '16:00 Cocktail',
-          banquet: '18:00 Banchetto',
-          party: '20:00 Balli e festeggiamenti',
-          items: {
-            busHop: 'Salita sull\'Autobus',
-            ceremony: 'Cerimonia di Matrimonio',
-            cocktail: 'Cocktail',
-            reception: 'Ricevimento e Pranzo',
-            party: 'Ballo e Celebrazione'
-          }
-        },
+        pickup: '14:00 Ritiro in autobus',
+        ceremony: '15:00 Cerimonia di matrimonio',
+        cocktail: '16:00 Cocktail',
+        banquet: '18:00 Banchetto',
+        party: '20:00 Balli e festeggiamenti',
+        items: {
+          busHop: 'Salita sull\'Autobus',
+          ceremony: 'Cerimonia di Matrimonio',
+          cocktail: 'Cocktail',
+          reception: 'Ricevimento e Pranzo',
+          party: 'Ballo e Celebrazione'
+        }
+      },
       attire: {
         title: 'Codice di Abbigliamento',
         description1: '<strong>Venerdi – Pre-matrimonio</strong>\n\nSemiformal: Un tocco elegante senza essere troppo formale: abiti da cocktail curati e comodi per godersi la serata.\n\n<strong>Domenica – Cerimonia e celebrazione</strong>\n\nFormale: Pensate all\'eleganza di una festa in giardino - comoda ma stilosa per una celebrazione all\'aperto.\n\n Metteremo a disposizione ',
@@ -527,6 +541,13 @@ attire: {
     gallery: {
       title: 'Galleria',
       subtitle: 'Momenti speciali insieme'
+    },
+    soundtrack: {
+      title: 'La Nostra Colonna Sonora',
+      subtitle: 'Le canzoni che raccontano la nostra storia',
+      spotifyTitle: 'Playlist Spotify',
+      youtubeTitle: 'Playlist YouTube',
+      description: 'La musica è sempre stata parte del nostro viaggio. Qui condividiamo alcune delle nostre canzoni preferite che ci hanno accompagnato lungo il cammino.'
     },
     faq: {
       title: 'Domande Frequenti',
@@ -680,29 +701,29 @@ attire: {
     details: {
       title: 'Wedding Schedule',
       subtitle: 'Everything you need to know about our special day',
-        schedule: {
-          title: 'Schedule',
-          day0: 'June 19, 2026',
-          day1: 'June 20, 2026',
-          day1Event: '20:30 Pre-wedding at',
-          day1Venue: 'Lienzo Norte',
-          day1Description: ' ',
+      schedule: {
+        title: 'Schedule',
+        day0: 'June 19, 2026',
+        day1: 'June 20, 2026',
+        day1Event: '20:30 Pre-wedding at',
+        day1Venue: 'Lienzo Norte',
+        day1Description: ' ',
         day2: 'June 21, 2026',
         breakOutActivities: ' Break out activities',
         day2Title: '',
-          pickup: '14:00 Bus pickup',
-          ceremony: '15:00 Wedding ceremony',
-          cocktail: '16:00 Cocktail hour',
-          banquet: '18:00 Banquet',
-          party: '20:00 Dancing and celebration',
-          items: {
-            busHop: 'Bus Hop In',
-            ceremony: 'Wedding Ceremony',
-            cocktail: 'Cocktail',
-            reception: 'Reception & Lunch',
-            party: 'Dancing & Celebration'
-          }
-        },
+        pickup: '14:00 Bus pickup',
+        ceremony: '15:00 Wedding ceremony',
+        cocktail: '16:00 Cocktail hour',
+        banquet: '18:00 Banquet',
+        party: '20:00 Dancing and celebration',
+        items: {
+          busHop: 'Bus Hop In',
+          ceremony: 'Wedding Ceremony',
+          cocktail: 'Cocktail',
+          reception: 'Reception & Lunch',
+          party: 'Dancing & Celebration'
+        }
+      },
       transportation: {
         title: 'Transportation',
         description: 'Shuttle service will be provided from Plaza Santa Ana and the Bus Station at 14:00. There will also be hourly buses leaving to Ávila starting at 23:00.'
@@ -733,6 +754,13 @@ attire: {
     gallery: {
       title: 'Gallery',
       subtitle: 'Special moments together'
+    },
+    soundtrack: {
+      title: 'Our Soundtrack',
+      subtitle: 'The songs that tell our story',
+      spotifyTitle: 'Spotify Playlist',
+      youtubeTitle: 'YouTube Playlist',
+      description: 'Music has always been part of our journey. Here we share some of our favorite songs that have accompanied us along the way.'
     },
     faq: {
       title: 'Frequently Asked Questions',
