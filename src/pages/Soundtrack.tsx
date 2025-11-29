@@ -11,8 +11,7 @@ const Soundtrack = () => {
     const t = translations[language];
 
     // Placeholder IDs - User can replace these later
-    const spotifyPlaylistId = "37i9dQZF1DXcBWIGoYBM5M"; // Example: Today's Top Hits
-    const youtubePlaylistId = "PLMC9KNkIncKtPzgY-5rmhvj7fax8fdxoj"; // Example: Pop Music
+    const spotifyPlaylistId = "4GspsOYjqP6lkaWZeUt0KH"; // Updated with user's playlist
 
     return (
         <div className="min-h-screen bg-gradient-romantic py-20">
@@ -68,30 +67,6 @@ const Soundtrack = () => {
                                     allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
                                     loading="lazy"
                                     className="max-w-full"
-                                ></iframe>
-                            </div>
-                        </CardContent>
-                    </Card>
-
-                    {/* YouTube Embed (Optional) */}
-                    <Card className="bg-card/80 backdrop-blur-sm shadow-romantic border-0 overflow-hidden">
-                        <CardHeader>
-                            <CardTitle className="flex items-center gap-2 text-primary">
-                                <Music className="w-5 h-5" />
-                                {t.soundtrack.youtubeTitle}
-                            </CardTitle>
-                        </CardHeader>
-                        <CardContent className="p-0 sm:p-6">
-                            <div className="w-full aspect-video">
-                                <iframe
-                                    width="100%"
-                                    height="100%"
-                                    src={`https://www.youtube.com/embed/videoseries?list=${youtubePlaylistId}`}
-                                    title="YouTube video player"
-                                    frameBorder="0"
-                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                                    allowFullScreen
-                                    className="rounded-lg"
                                 ></iframe>
                             </div>
                         </CardContent>

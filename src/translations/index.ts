@@ -120,7 +120,6 @@ export const translations = {
       title: 'Nuestra Banda Sonora',
       subtitle: 'Las canciones que cuentan nuestra historia',
       spotifyTitle: 'Lista de Reproducción Spotify',
-      youtubeTitle: 'Lista de Reproducción YouTube',
       description: 'La música siempre ha sido parte de nuestro viaje. Aquí compartimos algunas de nuestras canciones favoritas que nos han acompañado en el camino.'
     },
     faq: {
@@ -333,7 +332,6 @@ export const translations = {
       title: 'A Nostra Culonna Sunora',
       subtitle: 'I canzuni ca cuntanu a nostra storia',
       spotifyTitle: 'Lista di Riproduzzioni Spotify',
-      youtubeTitle: 'Lista di Riproduzzioni YouTube',
       description: 'A musica havi sempri statu parti dû nostru viaggiu. Ccà spartemu qualchi una dî nostri canzuni prifiriti ca ni ànnu accumpagnatu ntô caminu.'
     },
     faq: {
@@ -546,7 +544,6 @@ export const translations = {
       title: 'La Nostra Colonna Sonora',
       subtitle: 'Le canzoni che raccontano la nostra storia',
       spotifyTitle: 'Playlist Spotify',
-      youtubeTitle: 'Playlist YouTube',
       description: 'La musica è sempre stata parte del nostro viaggio. Qui condividiamo alcune delle nostre canzoni preferite che ci hanno accompagnato lungo il cammino.'
     },
     faq: {
@@ -759,7 +756,6 @@ export const translations = {
       title: 'Our Soundtrack',
       subtitle: 'The songs that tell our story',
       spotifyTitle: 'Spotify Playlist',
-      youtubeTitle: 'YouTube Playlist',
       description: 'Music has always been part of our journey. Here we share some of our favorite songs that have accompanied us along the way.'
     },
     faq: {
