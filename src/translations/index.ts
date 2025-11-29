@@ -122,6 +122,11 @@ export const translations = {
       spotifyTitle: 'Lista de Reproducción Spotify',
       description: 'La música siempre ha sido parte de nuestro viaje. Aquí compartimos algunas de nuestras canciones favoritas que nos han acompañado en el camino.'
     },
+    soundtrackPromo: {
+      title: 'Nuestra Banda Sonora',
+      description: '¿Quieres probar nuestra banda sonora de boda? ¡Dale al play, relájate y larga vida al rock and roll 🎸🎶 !',
+      button: 'Escuchar Ahora'
+    },
     faq: {
       title: 'Preguntas Frecuentes',
       subtitle: '¿Tienes preguntas? ¡Tenemos respuestas!',
@@ -333,6 +338,11 @@ export const translations = {
       subtitle: 'I canzuni ca cuntanu a nostra storia',
       spotifyTitle: 'Lista di Riproduzzioni Spotify',
       description: 'A musica havi sempri statu parti dû nostru viaggiu. Ccà spartemu qualchi una dî nostri canzuni prifiriti ca ni ànnu accumpagnatu ntô caminu.'
+    },
+    soundtrackPromo: {
+      title: 'A Nostra Culonna Sunora',
+      description: 'Voi aviri un assaggiu dâ nostra culonna sunora di matrimoniu? Ascuta, rilassati e lunga vita al rock and roll 🎸🎶 !',
+      button: 'Ascuta Ora'
     },
     faq: {
       title: 'Dimanndi Frequenti',
@@ -546,6 +556,11 @@ export const translations = {
       spotifyTitle: 'Playlist Spotify',
       description: 'La musica è sempre stata parte del nostro viaggio. Qui condividiamo alcune delle nostre canzoni preferite che ci hanno accompagnato lungo il cammino.'
     },
+    soundtrackPromo: {
+      title: 'La Nostra Colonna Sonora',
+      description: 'Vuoi avere un assaggio della nostra colonna sonora di matrimonio? Ascolta, rilassati e viva il rock and roll 🎸🎶 !',
+      button: 'Ascolta Ora'
+    },
     faq: {
       title: 'Domande Frequenti',
       subtitle: 'Avete domande? Abbiamo le risposte!',
@@ -757,6 +772,11 @@ export const translations = {
       subtitle: 'The songs that tell our story',
       spotifyTitle: 'Spotify Playlist',
       description: 'Music has always been part of our journey. Here we share some of our favorite songs that have accompanied us along the way.'
+    },
+    soundtrackPromo: {
+      title: 'Our Soundtrack',
+      description: 'Do you want to get a taste of our wedding soundtrack? Listen in, relax and let the music rock and roll  🎸🎶 !',
+      button: 'Listen Now'
     },
     faq: {
       title: 'Frequently Asked Questions',
