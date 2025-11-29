@@ -125,7 +125,7 @@ export const translations = {
     soundtrackPromo: {
       title: 'Nuestra Banda Sonora',
       description: '¿Quieres probar nuestra banda sonora de boda? ¡Dale al play, relájate y larga vida al rock and roll 🎸🎶 !',
-      button: 'Escuchar Ahora'
+      button: '¡Dale al Play!'
     },
     faq: {
       title: 'Preguntas Frecuentes',
@@ -342,7 +342,7 @@ export const translations = {
     soundtrackPromo: {
       title: 'A Nostra Culonna Sunora',
       description: 'Voi aviri un assaggiu dâ nostra culonna sunora di matrimoniu? Ascuta, rilassati e lunga vita al rock and roll 🎸🎶 !',
-      button: 'Ascuta Ora'
+      button: 'Dammi un ciauru di musica!'
     },
     faq: {
       title: 'Dimanndi Frequenti',
@@ -559,7 +559,7 @@ export const translations = {
     soundtrackPromo: {
       title: 'La Nostra Colonna Sonora',
       description: 'Vuoi avere un assaggio della nostra colonna sonora di matrimonio? Ascolta, rilassati e viva il rock and roll 🎸🎶 !',
-      button: 'Ascolta Ora'
+      button: 'DJ, facci sognare!'
     },
     faq: {
       title: 'Domande Frequenti',
@@ -776,7 +776,7 @@ export const translations = {
     soundtrackPromo: {
       title: 'Our Soundtrack',
       description: 'Do you want to get a taste of our wedding soundtrack? Listen in, relax and let the music rock and roll  🎸🎶 !',
-      button: 'Listen Now'
+      button: 'Hang the DJ!'
     },
     faq: {
       title: 'Frequently Asked Questions',

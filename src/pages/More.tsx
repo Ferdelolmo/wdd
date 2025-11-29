@@ -141,11 +141,9 @@ const More = () => {
               <p className="text-sm text-muted-foreground">
                 {t.soundtrackPromo.description}
               </p>
-              <Link to="/soundtrack">
+              <Link to="/soundtrack" className="block w-full">
                 <Button
-                  variant="outline"
-                  size="sm"
-                  className="w-full"
+                  className="w-full bg-primary hover:bg-primary/90"
                 >
                   <ExternalLink className="w-4 h-4 mr-2" />
                   {t.soundtrackPromo.button}
