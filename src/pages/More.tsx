@@ -185,36 +185,7 @@ const More = () => {
             </CardContent>
           </Card>
 
-          {/* Music Requests */}
-          <Card className="bg-card/80 backdrop-blur-sm shadow-romantic border-0 md:col-span-2 lg:col-span-1">
-            <CardHeader>
-              <CardTitle className="flex items-center gap-2 text-primary">
-                <Volume2 className="w-5 h-5" />
-                {language === 'es' ? 'Peticiones Musicales' :
-                  language === 'it' ? 'Richieste Musicali' :
-                    language === 'scn' ? 'Richiesti Musicali' :
-                      'Music Requests'}
-              </CardTitle>
-            </CardHeader>
-            <CardContent className="space-y-4">
-              <p className="text-sm text-muted-foreground">
-                {language === 'es' ? '¿Tienes una canción especial? ¡El DJ la tocará!' :
-                  language === 'it' ? 'Hai una canzone speciale? Il DJ la suonerà!' :
-                    language === 'scn' ? 'Hai na canzuni spiciali? U DJ a sunarà!' :
-                      'Have a special song? The DJ will play it!'}
-              </p>
-              <Button
-                className="w-full bg-primary hover:bg-primary/90"
-                onClick={() => window.open('https://form.jotform.com/252126974853061', '_blank')}
-              >
-                <ExternalLink className="w-4 h-4 mr-2" />
-                {language === 'es' ? 'Pedir Canción' :
-                  language === 'it' ? 'Richiedi Canzone' :
-                    language === 'scn' ? 'Richiedi Canzuni' :
-                      'Request Song'}
-              </Button>
-            </CardContent>
-          </Card>
+
 
           {/* Contact Info */}
           <Card className="bg-card/80 backdrop-blur-sm shadow-romantic border-0 md:col-span-2">
