@@ -50,7 +50,7 @@ const Avila = () => {
           ]
         },
         walls: {
-          title: "Las Murallas Medievales", 
+          title: "Las Murallas Medievales",
           content: "La muralla de Ávila, construida en el siglo XI, es uno de los recintos amurallados medievales mejor conservados de Europa. Rodea completamente el casco histórico con más de 2,5 km de perímetro, 87 torreones y 9 puertas monumentales. Declarada Patrimonio de la Humanidad por la UNESCO, es el símbolo indiscutible de la ciudad y un recordatorio de su importancia estratégica en la Edad Media.",
           details: [
             { title: "Dimensiones", content: "2.516 metros de perímetro, 12 metros de altura media y 3 metros de grosor." },
@@ -125,41 +125,44 @@ const Avila = () => {
       restaurants: {
         title: "🍽 Prueba nuestra gastronomía",
         content: "Una de las cosas que te sorprenderán de Ávila, es que cuando pidas una bebida, te pondrán un pincho sin haberlo pedirlo. Sí, tenemos esta cultura como otras ciudades en España, así que aprovéchalo 😋",
-          places: [
-            { name: "El Pórtico 🍲", description: "Lugar que destaca por sus tapas variadas, entre ellas: Combinado, lomo adobado o champiñón, además de su bocadillo de calamares." },
-            { name: "Bar La Oficina 🥘", description: "Destaca por su pincho de secreto" },
-            { name: "La Oca Cocktail Bar 🍸", description: "Gastro coctelería y tapas variadas" },
-            { name: "La Rotonda del Ancla 🥟", description: "Croquetas, clásicos bien hechos" },
-            { name: "Palacio de los Sofraga 🍖", description: "Destaca más bien por su lugar y sus vistas a la muralla" },
-            { name: "La Lola Gastrobar 🍤", description: "Tapas caseras con toque moderno" },
-            { name: "El Almacén 🥚", description: "Ya estamos hablando de restaurantes, aquí vas a encontrar un producto de calidad a precios no exageradamente altos. Muy recomendable" },
-            { name: "Bococo 🥩", description: "Uno de los lugares más populares últimamente, con una cocina que mezcla tradición e innovación" },
-            { name: "El Jardín de la Abuela ☕", description: "El sitio perfecto para hacer brunch" },
-            { name: "Los Candiles 🍗", description: "Tradición castellana cuidada" }
-          ]
-        },
-        traditionalDishes: {
-          title: "🍽 Gastronomía Tradicional",
-          content: "La cocina abulense destaca por sus carnes de ternera y cordero, las judías del Barco de Ávila, y las famosas yemas de Santa Teresa. Los vinos de la región complementan perfectamente esta rica tradición culinaria.",
-          dishes: [
-            {
-              title: "Chuletón de Ávila 🥩",
-              content: "Marca emblema gastronómico de la ciudad. Carne de ternera de calidad excepcional de la zona."
-            },
-            {
-              title: "Patatas revolconas 🥔🔥", 
-              content: "Un puré de patatas con pimentón, ajo y coronado con torreznos crujientes. Plato humilde y típico de Ávila, perfecto para días fríos."
-            },
-            {
-              title: "Judías del Barco 🫘",
-              content: "Legumbres con Denominación de Origen, famosas por su textura y sabor únicos."
-            },
-            {
-              title: "Yemas de Santa Teresa 🍮",
-              content: "Dulce tradicional hecho con yema de huevo y azúcar desde el siglo XVI."
-            }
-          ]
-        }
+        places: [
+          { name: "Catacafé ☕", description: "Cafeteros, estáis de suerte. Este café de especialidad ofrece exactamente lo que buscas si eres exigente (como nosotros lo somos) con el café." },
+          { name: "El Jardín Secreto 🥐", description: "El sitio perfecto para hacer brunch" },
+          { name: "El Pórtico 🍲", description: "Lugar que destaca por sus tapas variadas, entre ellas: Combinado, lomo adobado o champiñón, además de su bocadillo de calamares." },
+          { name: "Palacio de los Sofraga 🍖", description: "Destaca más bien por su lugar y sus vistas a la muralla" },
+          { name: "La Lola Gastrobar 🍳", description: "Tapas caseras con toque moderno" },
+          { name: "Dvinos 🍷", description: "Local moderno especializado en vinos y tapas creativas con productos locales, ambiente ideal para picoteo nocturno." },
+          { name: "La Oca Cocktail Bar 🍸", description: "Gastro coctelería y tapas variadas" },
+          { name: "La Rotonda del Ancla 🥟", description: "Croquetas, clásicos bien hechos" },
+          { name: "El almacén 🍳", description: "Ya estamos hablando de restaurantes, aquí vas a encontrar un producto de calidad a precios no exageradamente altos. Muy recomendable" },
+          { name: "Surco 🥘", description: "Cocina castellana accesible y sabrosa en un antiguo almacén con vistas espectaculares a la muralla. Tiene fama por sus raviolis de conejo o sus ostras a la brasa." },
+          { name: "Vereda 🍅", description: "Cocina seria y honesta de producto local, destaca por platos como el socarrat de panceta, setas y codorniz." },
+          { name: "Bococo 🥩", description: "Uno de los lugares más populares últimamente, con una cocina que mezcla tradición e innovación" },
+          { name: "Los Candiles 🍗", description: "Tradición castellana cuidada" }
+        ]
+      },
+      traditionalDishes: {
+        title: "🍽 Gastronomía Tradicional",
+        content: "La cocina abulense destaca por sus carnes de ternera y cordero, las judías del Barco de Ávila, y las famosas yemas de Santa Teresa. Los vinos de la región complementan perfectamente esta rica tradición culinaria.",
+        dishes: [
+          {
+            title: "Chuletón de Ávila 🥩",
+            content: "Marca emblema gastronómico de la ciudad. Carne de ternera de calidad excepcional de la zona."
+          },
+          {
+            title: "Patatas revolconas 🥔🔥",
+            content: "Un puré de patatas con pimentón, ajo y coronado con torreznos crujientes. Plato humilde y típico de Ávila, perfecto para días fríos."
+          },
+          {
+            title: "Judías del Barco 🫘",
+            content: "Legumbres con Denominación de Origen, famosas por su textura y sabor únicos."
+          },
+          {
+            title: "Yemas de Santa Teresa 🍮",
+            content: "Dulce tradicional hecho con yema de huevo y azúcar desde el siglo XVI."
+          }
+        ]
+      }
     },
     en: {
       title: "Ávila - City of Walls",
@@ -252,22 +255,25 @@ const Avila = () => {
         title: "🍽 Taste Our Gastronomy",
         content: "When you order a drink in Ávila, you'll be surprised that they'll bring you a small tapa without asking for it. Yes, we have this culture like other cities in Spain, so enjoy it! 😋",
         places: [
+          { name: "Catacafé ☕", description: "Coffee lovers, you're in luck. This specialty coffee shop offers exactly what you're looking for if you're demanding (like us) about your coffee." },
+          { name: "El Jardín Secreto 🥐", description: "Very nice and fancy place for brunch" },
           { name: "El Pórtico 🍲", description: "A place that stands out for its varied tapas, including: mixed platter, marinated pork loin, or mushrooms, as well as its calamari sandwich" },
-          { name: "Bar La Oficina 🥘", description: "Known for its pork secreto tapa" },
+          { name: "Palacio de los Sofraga 🍖", description: "Stands out more for its location and its views of the wall" },
+          { name: "La Lola Gastrobar 🍳", description: "Homemade tapas with modern touch" },
+          { name: "Dvinos 🍷", description: "Modern venue specialized in wines and creative tapas with local products, ideal atmosphere for nighttime snacking." },
           { name: "La Oca Cocktail Bar 🍸", description: "Gastro‑cocktails with assorted tapas" },
           { name: "La Rotonda del Ancla 🥟", description: "Croquettes, well-made classics" },
-          { name: "Palacio de los Sofraga 🍖", description: "Stands out more for its location and its views of the wall" },
-          { name: "La Lola Gastrobar 🍤", description: "Homemade tapas with modern touch" },
           { name: "El Almacén 🥚", description: "Now wer're talking about restaurants; here you'll find quality products at prices that are not excessively high" },
+          { name: "Surco 🥘", description: "Accessible and tasty Castilian cuisine in an old warehouse with spectacular views of the walls. Famous for its rabbit ravioli or grilled oysters." },
+          { name: "Vereda 🍅", description: "Serious and honest local produce cooking, without tasting menus, in a manageable space run by a discreet chef. Stands out for dishes like \"socarrat\" with bacon, mushrooms, and quail." },
           { name: "Bococo 🥩", description: "One of the most popular places in town lately, with cuisine that blends tradition and innovation" },
-          { name: "El Jardín de la Abuela ☕", description: "Very nice and fancy place for brunch" },
           { name: "Los Candiles 🍗", description: "Careful Castilian tradition" }
         ]
       },
-        traditionalDishes: {
-          title: "🍽 Traditional Gastronomy", 
-          content: "Abulense cuisine stands out for its beef and lamb, the beans from Barco de Ávila, and the famous yemas de Santa Teresa. Regional wines perfectly complement this rich culinary tradition.",
-          dishes: [
+      traditionalDishes: {
+        title: "🍽 Traditional Gastronomy",
+        content: "Abulense cuisine stands out for its beef and lamb, the beans from Barco de Ávila, and the famous yemas de Santa Teresa. Regional wines perfectly complement this rich culinary tradition.",
+        dishes: [
           {
             title: "Ávila T-bone Steak 🥩",
             content: "Emblematic gastronomic brand of the city. Exceptional quality beef from the area."
@@ -378,22 +384,25 @@ const Avila = () => {
         title: "🍽 Assaggia la Nostra Gastronomia",
         content: "Una cosa che ti sorprenderà di Ávila è che quando ordini una bevanda, ti porteranno un pincho senza averlo chiesto. Sì, abbiamo questa cultura come altre città in Spagna, quindi approfittane! 😋",
         places: [
+          { name: "Catacafé ☕", description: "Amanti del caffè, siete fortunati. Questo caffè di specialità offre esattamente ciò che cercate se siete esigenti (come noi) con il caffè." },
+          { name: "El Jardín Secreto 🥐", description: "Un posto molto popolare per fare brunch" },
           { name: "El Pórtico 🍲", description: "Locale che si distingue per le sue tapas varie, tra cui: Combinado, lonza marinata o funghi, oltre al suo panino ai calamari." },
-          { name: "Bar La Oficina 🥘", description: "Si distingue per il suo pincho di segreto" },
+          { name: "Palacio de los Sofraga 🍖", description: "Si distingue più per il suo luogo e le sue viste sulla muraglia" },
+          { name: "La Lola Gastrobar 🍳", description: "Tapas casalinghe con tocco moderno" },
+          { name: "Dvinos 🍷", description: "Locale moderno specializzato in vini e tapas creative con prodotti locali, ambiente ideale per il picoteo notturno." },
           { name: "La Oca Cocktail Bar 🍸", description: "Gastro cocktail e tapas varie" },
           { name: "La Rotonda del Ancla 🥟", description: "Crocchette, classici ben fatti" },
-          { name: "Palacio de los Sofraga 🍖", description: "Si distingue più per il suo luogo e le sue viste sulla muraglia" },
-          { name: "La Lola Gastrobar 🍤", description: "Tapas casalinghe con tocco moderno" },
           { name: "El Almacén 🥚", description: "Stiamo già parlando di ristoranti, qui troverai un prodotto di qualità a prezzi non eccessivamente alti. Molto raccomandabile" },
+          { name: "Surco 🥘", description: "Cucina castigliana accessibile e gustosa in un antico magazzino con vista spettacolare sulle mura. Famoso per i ravioli di coniglio o le ostriche alla brace." },
+          { name: "Vereda 🍅", description: "Cucina seria e onesta di prodotto locale, si distingue per piatti come il \"socarrat\" di pancetta, funghi e quaglia." },
           { name: "Bococo 🥩", description: "Uno dei posti più popolari ultimamente, con una cucina che mescola tradizione e innovazione" },
-          { name: "El Jardín de la Abuela ☕", description: "Un posto molto popolare per fare brunch" },
           { name: "Los Candiles 🍗", description: "Tradizione castigliana curata" }
         ]
       },
-        traditionalDishes: {
-          title: "🍽 Gastronomia Tradizionale",
-          content: "La cucina abulense si distingue per le sue carni di vitello e agnello, i fagioli del Barco de Ávila, e i famosi yemas de Santa Teresa. I vini della regione completano perfettamente questa ricca tradizione culinaria.",
-          dishes: [
+      traditionalDishes: {
+        title: "🍽 Gastronomia Tradizionale",
+        content: "La cucina abulense si distingue per le sue carni di vitello e agnello, i fagioli del Barco de Ávila, e i famosi yemas de Santa Teresa. I vini della regione completano perfettamente questa ricca tradizione culinaria.",
+        dishes: [
           {
             title: "Bistecca di Ávila 🥩",
             content: "Emblema gastronomico della città. Carne bovina di qualità eccezionale della zona."
@@ -504,22 +513,25 @@ const Avila = () => {
         title: "🍽 Assaggia 'a cucina",
         content: "Na cosa ca ti maravigghierà di Ávila è ca quannu addumanni na vivanda, ti portanu nu pinchu senza averlu addumandatu. Sì, avemu sta cultura comu autri città di Spagna, accussì approfittanu! 😋",
         places: [
+          { name: "Catacafé ☕", description: "Amanti dû cafè, siti furtunati. Stu cafè spiciali offri esattamenti chiddu ca circati si siti esiggenti (comu semu nuatri) cû cafè." },
+          { name: "El Jardín Secreto 🥐", description: "U locu beddu ppi fare u brunch" },
           { name: "El Pórtico 🍲", description: "Locu chi si distingui pi li so tapas varii, ntra cui: Cumbinatu, lonzu marrinatu o funghi, 'nzè mu lu so paninu cu calamari." },
-          { name: "Bar La Oficina 🥘", description: "Si distingui pi lu so pinchu di sicretu" },
-          { name: "La Oca Cocktail Bar 🍸", description: "Gastru cocktail e tapas varii" },
-          { name: "La Rotonda dû Àncila 🥟", description: "Cruchetti, classici beni fatti" },
           { name: "Palacio di li Sofraga 🍖", description: "Si distingui cchiù pi lu so locu e li so visti â muraglia" },
-          { name: "La Lola Gastrobar 🍤", description: "Tapas casalinghi cu toccu mudernu" },
+          { name: "La Lola Gastrobar 🍳", description: "Tapas casalinghi cu toccu mudernu" },
+          { name: "Dvinos 🍷", description: "Luocu mudernu spetzjalizzatu nn vini e tapassi kreativi cu prututti locali, ambinte iddeale pi picutea notturna." },
+          { name: "La Oca Cocktail Bar 🍸", description: "Gastru cocktail e tapas varii" },
+          { name: "La Rotonda del Ancla 🥟", description: "Cruchetti, classici beni fatti" },
           { name: "El Almacén 🥚", description: "Sta già parrannu di ristoranti, ccà trovi nu pruduttu di qualità a prezzi nun eccessivamenti auti. Assai racumandàbbili" },
-          { name: "Bococo 🥩", description: "Unu di li posti cchiù populari ultimamenti, cu na cucina chi mischia tradizioni e 'nnovazioni" },
-          { name: "El Jardín de la Abuela ☕", description: "U locu beddu ppi fare u brunch" },
+          { name: "Surco 🥘", description: "Cucina castigliana accessìbili e sapurita 'n un anticu magazzinu cu visti spittaculari supra li mura. Famusu pi li ravioli di cunigghiu o l'ostriche â braci." },
+          { name: "Vereda 🍅", description: "Cucina seria e onesta di prututti locali, disaca pi piatti comu u \"socarrat\" di pancetta, fungghi e quaglija." },
+          { name: "Bococo 🥩", description: "Unu di li posti cchiù populari ultimamente, cu na cucina chi mischia tradizioni e 'nnovazioni" },
           { name: "Los Candiles 🍗", description: "Tradizioni castigliana curata" }
         ]
       },
-        traditionalDishes: {
-          title: "🍽 Gastronomia Tradiziunali", 
-          content: "La cucina abulensi si distingui pi li so carni di vitellu e agnellu, li fasola dû Barco de Ávila, e li famusi yemas de Santa Teresa. Li vini dâ riggioni cumplitanu perfettamenti sta ricca tradizioni culinaria.",
-          dishes: [
+      traditionalDishes: {
+        title: "🍽 Gastronomia Tradiziunali",
+        content: "La cucina abulensi si distingui pi li so carni di vitellu e agnellu, li fasola dû Barco de Ávila, e li famusi yemas de Santa Teresa. Li vini dâ riggioni cumplitanu perfettamenti sta ricca tradizioni culinaria.",
+        dishes: [
           {
             title: "Bistecca di Ávila 🥩",
             content: "Emblema gastronomicu dâ città. Carni di vitellu di qualità eccezziunali dâ zona."
@@ -550,19 +562,19 @@ const Avila = () => {
         <Link to="/">
           <Button variant="outline" size="sm" className="bg-background/80 backdrop-blur-sm">
             <Home className="w-4 h-4 mr-2" />
-            {language === 'es' ? ' ' : 
-             language === 'it' ? ' ' : 
-             language === 'scn' ? ' ' : 
-             ' '}
+            {language === 'es' ? ' ' :
+              language === 'it' ? ' ' :
+                language === 'scn' ? ' ' :
+                  ' '}
           </Button>
         </Link>
       </div>
 
       {/* Hero Section */}
       <div className="relative h-96 overflow-hidden">
-        <img 
-          src={avilaHeroImg} 
-          alt="Ávila Walls" 
+        <img
+          src={avilaHeroImg}
+          alt="Ávila Walls"
           className="w-full h-full object-cover"
         />
         <div className="absolute inset-0 bg-black/40 flex items-center justify-center">
@@ -635,9 +647,9 @@ const Avila = () => {
                       <AccordionTrigger className="text-left font-medium">
                         {section.title}
                       </AccordionTrigger>
-                       <AccordionContent className="text-muted-foreground leading-relaxed">
-                         <div dangerouslySetInnerHTML={{ __html: section.content }} />
-                       </AccordionContent>
+                      <AccordionContent className="text-muted-foreground leading-relaxed">
+                        <div dangerouslySetInnerHTML={{ __html: section.content }} />
+                      </AccordionContent>
                     </AccordionItem>
                   ))}
                 </Accordion>
@@ -705,13 +717,13 @@ const Avila = () => {
             {/* 7. Gastronomia tradicional */}
             {currentContent.traditionalDishes && (
               <Card className="hover:shadow-lg transition-shadow bg-card/80 backdrop-blur-sm">
-              <div className="overflow-hidden">
-                <img 
-                  src="https://i.imgur.com/7VByEbi.png" 
-                  alt="Gastronomía abulense - platos típicos de Ávila" 
-                  className="w-full h-48 object-cover object-top"
-                />
-              </div>
+                <div className="overflow-hidden">
+                  <img
+                    src="https://i.imgur.com/7VByEbi.png"
+                    alt="Gastronomía abulense - platos típicos de Ávila"
+                    className="w-full h-48 object-cover object-top"
+                  />
+                </div>
                 <CardHeader>
                   <CardTitle className="flex items-center gap-2">
                     <Utensils className="h-5 w-5 text-primary" />
@@ -788,18 +800,18 @@ const Avila = () => {
               <MapPin className="w-8 h-8 text-primary mx-auto mb-4" />
               <h3 className="font-serif text-lg text-primary mb-2">
                 {language === 'es' ? 'Ubicación' :
-                 language === 'en' ? 'Location' :
-                 language === 'it' ? 'Posizione' : 'Pusizioni'}
+                  language === 'en' ? 'Location' :
+                    language === 'it' ? 'Posizione' : 'Pusizioni'}
               </h3>
               <p className="text-sm text-muted-foreground">
                 {language === 'es' ? 'Castilla y León, España' :
-                 language === 'en' ? 'Castilla y León, Spain' :
-                 language === 'it' ? 'Castiglia e León, Spagna' : 'Castiglia e León, Spagna'}
+                  language === 'en' ? 'Castilla y León, Spain' :
+                    language === 'it' ? 'Castiglia e León, Spagna' : 'Castiglia e León, Spagna'}
               </p>
               <p className="text-sm text-muted-foreground mt-2">
                 {language === 'es' ? '1.131 metros sobre el nivel del mar' :
-                 language === 'en' ? '1,131 meters above sea level' :
-                 language === 'it' ? '1.131 metri sul livello del mare' : '1.131 metri supra lu livellu dû mari'}
+                  language === 'en' ? '1,131 meters above sea level' :
+                    language === 'it' ? '1.131 metri sul livello del mare' : '1.131 metri supra lu livellu dû mari'}
               </p>
             </Card>
 
@@ -808,10 +820,10 @@ const Avila = () => {
               <h3 className="font-serif text-xl text-primary mb-4 text-center flex items-center gap-2 justify-center">
                 <MapPin className="h-5 w-5" />
                 {language === 'es' ? 'Puntos de Interés - Patrimonio Cultural' :
-                 language === 'en' ? 'Points of Interest - Cultural Heritage' :
-                 language === 'it' ? 'Punti di Interesse - Patrimonio Culturale' : 'Punti d\'Interessi - Patrimoniu Culturali'}
+                  language === 'en' ? 'Points of Interest - Cultural Heritage' :
+                    language === 'it' ? 'Punti di Interesse - Patrimonio Culturale' : 'Punti d\'Interessi - Patrimoniu Culturali'}
               </h3>
-              
+
               {/* Map */}
               <div className="w-full h-80 bg-gradient-to-br from-primary/5 to-primary/10 rounded-lg flex items-center justify-center mb-6">
                 <AvilaMap className="w-full h-full" />
@@ -824,67 +836,67 @@ const Avila = () => {
                     <div className="w-4 h-4 bg-red-500 rounded-full flex items-center justify-center text-white text-xs font-bold">C</div>
                     <span className="text-muted-foreground">
                       {language === 'es' ? 'Catedral de Ávila' :
-                       language === 'en' ? 'Ávila Cathedral' :
-                       language === 'it' ? 'Cattedrale di Ávila' : 'Cattidrali di Ávila'}
+                        language === 'en' ? 'Ávila Cathedral' :
+                          language === 'it' ? 'Cattedrale di Ávila' : 'Cattidrali di Ávila'}
                     </span>
                   </div>
                   <div className="flex items-center gap-2 text-sm">
                     <div className="w-4 h-4 bg-blue-500 rounded-full flex items-center justify-center text-white text-xs font-bold">S</div>
                     <span className="text-muted-foreground">
                       {language === 'es' ? 'Monasterio Santo Tomás' :
-                       language === 'en' ? 'Santo Tomás Monastery' :
-                       language === 'it' ? 'Monastero Santo Tomás' : 'Munasteru Santu Tomás'}
+                        language === 'en' ? 'Santo Tomás Monastery' :
+                          language === 'it' ? 'Monastero Santo Tomás' : 'Munasteru Santu Tomás'}
                     </span>
                   </div>
                   <div className="flex items-center gap-2 text-sm">
                     <div className="w-4 h-4 bg-green-500 rounded-full flex items-center justify-center text-white text-xs font-bold">V</div>
                     <span className="text-muted-foreground">
                       {language === 'es' ? 'Basílica San Vicente' :
-                       language === 'en' ? 'San Vicente Basilica' :
-                       language === 'it' ? 'Basilica San Vicente' : 'Basilica San Vicenzu'}
+                        language === 'en' ? 'San Vicente Basilica' :
+                          language === 'it' ? 'Basilica San Vicente' : 'Basilica San Vicenzu'}
                     </span>
                   </div>
                   <div className="flex items-center gap-2 text-sm">
                     <div className="w-4 h-4 bg-orange-500 rounded-full flex items-center justify-center text-white text-xs font-bold">T</div>
                     <span className="text-muted-foreground">
                       {language === 'es' ? 'Basílica Santa Teresa' :
-                       language === 'en' ? 'Santa Teresa Basilica' :
-                       language === 'it' ? 'Basilica Santa Teresa' : 'Basilica Santa Tirisa'}
+                        language === 'en' ? 'Santa Teresa Basilica' :
+                          language === 'it' ? 'Basilica Santa Teresa' : 'Basilica Santa Tirisa'}
                     </span>
                   </div>
                 </div>
-                
+
                 <div className="space-y-2">
                   <div className="flex items-center gap-2 text-sm">
                     <div className="w-4 h-4 bg-purple-500 rounded-full flex items-center justify-center text-white text-xs font-bold">A</div>
                     <span className="text-muted-foreground">
                       {language === 'es' ? 'Puerta del Alcázar' :
-                       language === 'en' ? 'Alcázar Gate' :
-                       language === 'it' ? 'Porta dell\'Alcázar' : 'Porta di l\'Alcázar'}
+                        language === 'en' ? 'Alcázar Gate' :
+                          language === 'it' ? 'Porta dell\'Alcázar' : 'Porta di l\'Alcázar'}
                     </span>
                   </div>
                   <div className="flex items-center gap-2 text-sm">
                     <div className="w-4 h-4 bg-yellow-600 rounded-full flex items-center justify-center text-white text-xs font-bold">P1</div>
                     <span className="text-muted-foreground">
                       {language === 'es' ? 'Plaza Mercado Chico' :
-                       language === 'en' ? 'Small Market Square' :
-                       language === 'it' ? 'Piazza del Mercato Piccolo' : 'Chiazza dû Mircatu Nicu'}
+                        language === 'en' ? 'Small Market Square' :
+                          language === 'it' ? 'Piazza del Mercato Piccolo' : 'Chiazza dû Mircatu Nicu'}
                     </span>
                   </div>
                   <div className="flex items-center gap-2 text-sm">
                     <div className="w-4 h-4 bg-pink-500 rounded-full flex items-center justify-center text-white text-xs font-bold">P2</div>
                     <span className="text-muted-foreground">
                       {language === 'es' ? 'Plaza Mercado Grande' :
-                       language === 'en' ? 'Large Market Square' :
-                       language === 'it' ? 'Piazza del Mercato Grande' : 'Chiazza dû Mircatu Granni'}
+                        language === 'en' ? 'Large Market Square' :
+                          language === 'it' ? 'Piazza del Mercato Grande' : 'Chiazza dû Mircatu Granni'}
                     </span>
                   </div>
                   <div className="flex items-center gap-2 text-sm">
                     <div className="w-4 h-4 bg-amber-700 rounded-full flex items-center justify-center text-white text-xs font-bold">4P</div>
                     <span className="text-muted-foreground">
                       {language === 'es' ? 'Cuatro Postes' :
-                       language === 'en' ? 'Four Posts Viewpoint' :
-                       language === 'it' ? 'Quattro Pilastri' : 'Quattru Pilastri'}
+                        language === 'en' ? 'Four Posts Viewpoint' :
+                          language === 'it' ? 'Quattro Pilastri' : 'Quattru Pilastri'}
                     </span>
                   </div>
                 </div>
@@ -892,15 +904,15 @@ const Avila = () => {
 
               <p className="text-xs text-muted-foreground text-center">
                 {language === 'es' ? 'Haz clic en el mapa para explorar los principales monumentos del Patrimonio Cultural de Ávila. Cada color representa un punto de interés diferente.' :
-                 language === 'en' ? 'Click on the map to explore the main monuments of Ávila\'s Cultural Heritage. Each color represents a different point of interest.' :
-                 language === 'it' ? 'Clicca sulla mappa per esplorare i principali monumenti del Patrimonio Culturale di Ávila. Ogni colore rappresenta un punto di interesse diverso.' :
-                 'Clicca supra la mappa pi spluràri li principali munumenti dû Patrimoniu Culturali di Ávila. Ogni culuri riprisenta nu puntu d\'interessi diversu.'}
+                  language === 'en' ? 'Click on the map to explore the main monuments of Ávila\'s Cultural Heritage. Each color represents a different point of interest.' :
+                    language === 'it' ? 'Clicca sulla mappa per esplorare i principali monumenti del Patrimonio Culturale di Ávila. Ogni colore rappresenta un punto di interesse diverso.' :
+                      'Clicca supra la mappa pi spluràri li principali munumenti dû Patrimoniu Culturali di Ávila. Ogni culuri riprisenta nu puntu d\'interessi diversu.'}
               </p>
             </Card>
+          </div>
         </div>
+        <WeddingFooter />
       </div>
-      <WeddingFooter />
-    </div>
     </div>
   );
 };
