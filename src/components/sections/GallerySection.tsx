@@ -14,6 +14,10 @@ const gallery5 = 'https://i.imgur.com/tPV3MUZ.jpeg'; // Singapur
 const gallery6 = 'https://i.imgur.com/Q4kEVhH.jpeg'; // SuperIlla
 const gallery7 = 'https://i.imgur.com/q4vh5Li.jpeg'; // Lisboa
 const gallery8 = 'https://i.imgur.com/0Mmh0ij.jpeg'; // Madeira
+const gallery9 = 'https://i.imgur.com/KRNVCcc.jpeg'; // Tenerife
+const gallery10 = 'https://i.imgur.com/4OKB5L6.jpeg'; // Bromo
+const gallery11 = 'https://i.imgur.com/yWvHlpi.jpeg'; // Chauen
+const gallery12 = 'https://i.imgur.com/gZYajPN.jpeg'; // Madrid
 
 const GallerySection = () => {
   const { language } = useLanguage();
@@ -32,7 +36,11 @@ const GallerySection = () => {
     { src: gallery5, alt: 'City night views' },
     { src: gallery6, alt: 'Casual day together' },
     { src: gallery7, alt: 'European city exploration' },
-    { src: gallery8, alt: 'Traditional village visit' }
+    { src: gallery8, alt: 'Traditional village visit' },
+    { src: gallery9, alt: 'Tenerife' },
+    { src: gallery10, alt: 'Bromo' },
+    { src: gallery11, alt: 'Chauen' },
+    { src: gallery12, alt: 'Madrid' },
   ];
 
   const nextImage = () => {

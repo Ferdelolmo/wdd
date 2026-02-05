@@ -23,27 +23,27 @@ const DetailsSection = () => {
     window.open(googleCalendarUrl, '_blank');
   };
   const schedule = [{
-    time: "14:00",
+    time: "13:00",
     event: t.details.schedule.items.busHop,
     icon: Bus,
     description: ""
   }, {
-    time: "15:00",
+    time: "14:00",
     event: t.details.schedule.items.ceremony,
     icon: Heart,
     description: ""
   }, {
-    time: "16:00",
+    time: "15:00",
     event: t.details.schedule.items.cocktail,
     icon: Wine,
     description: ""
   }, {
-    time: "18:00",
+    time: "17:00",
     event: t.details.schedule.items.reception,
     icon: Utensils,
     description: ""
   }, {
-    time: "20:00",
+    time: "19:00",
     event: t.details.schedule.items.party,
     icon: Music,
     description: ""
@@ -188,7 +188,7 @@ const DetailsSection = () => {
                           >
                             lane in front of the bus station
                           </a>
-                          {' '}at 14:00. There will also be hourly buses leaving to Ávila starting at 23:00.
+                          {' '}at 13:00. There will also be hourly buses leaving to Ávila starting at 23:00.
                         </>
                       ) : language === 'es' ? (
                         <>
@@ -210,7 +210,7 @@ const DetailsSection = () => {
                           >
                             vía de servicio en frente de la Estación de Autobuses
                           </a>
-                          {' '}a las 14:00. También habrá autobuses cada hora saliendo hacia Ávila empezando a las 23:00.
+                          {' '}a las 13:00. También habrá autobuses cada hora saliendo hacia Ávila empezando a las 23:00.
                         </>
                       ) : language === 'it' ? (
                         <>
@@ -232,7 +232,7 @@ const DetailsSection = () => {
                           >
                             corsia di fronte alla Stazione degli Autobus
                           </a>
-                          {' '}alle 14:00. Ci saranno anche autobus ogni ora in partenza per Ávila a partire dalle 23:00.
+                          {' '}alle 13:00. Ci saranno anche autobus ogni ora in partenza per Ávila a partire dalle 23:00.
                         </>
                       ) : (
                         <>
@@ -254,7 +254,7 @@ const DetailsSection = () => {
                           >
                             corsia davanti a Stazzioni di Autobùs
                           </a>
-                          {' '}â 14:00. Ci sarannu puru autobùs ogni ora ca partunu versu Ávila ncuminzannu â 23:00.
+                          {' '}â 13:00. Ci sarannu puru autobùs ogni ora ca partunu versu Ávila ncuminzannu â 23:00.
                         </>
                       )}
                     </div>

@@ -70,11 +70,11 @@ export const translations = {
         day1Description: ', donde podremos juntarnos y conocernos todos antes de la boda',
         day2: '21 Junio 2026',
         day2Title: '',
-        pickup: '14:00 Recogida en autobús',
-        ceremony: '15:00 Ceremonia de boda',
-        cocktail: '16:00 Cóctel',
-        banquet: '18:00 Banquete',
-        party: '20:00 Baile y celebración',
+        pickup: '13:00 Recogida en autobús',
+        ceremony: '14:00 Ceremonia de boda',
+        cocktail: '15:00 Cóctel',
+        banquet: '17:00 Banquete',
+        party: '19:00 Baile y celebración',
         items: {
           busHop: 'Recogida en autobús',
           ceremony: 'Ceremonia de boda',
@@ -85,7 +85,7 @@ export const translations = {
       },
       transportation: {
         title: 'Transporte',
-        description: 'Se proporcionará servicio de transporte desde Plaza Santa Ana y la Estación de Autobuses a las 14:00. También habrá autobuses cada hora saliendo hacia Ávila empezando a las 23:00.'
+        description: 'Se proporcionará servicio de transporte desde Plaza Santa Ana y la Estación de Autobuses a las 13:00. También habrá autobuses cada hora saliendo hacia Ávila empezando a las 23:00.'
       },
       attire: {
         title: 'Código de Vestimenta',
@@ -270,11 +270,11 @@ export const translations = {
         day1Description: ', unni putemu jùnciri e canùsciri tutti prima dâ boda',
         day2: '21 Giugnu 2026',
         day2Title: '',
-        pickup: '14:00 Acchianata nnû bus',
-        ceremony: '15:00 Cirimonia dâ boda',
-        cocktail: '16:00 Cóctel',
-        banquet: '18:00 Banchittu',
-        party: '20:00 Ballata e cilibrazzioni',
+        pickup: '13:00 Acchianata nnû bus',
+        ceremony: '14:00 Cirimonia dâ boda',
+        cocktail: '15:00 Cóctel',
+        banquet: '17:00 Banchittu',
+        party: '19:00 Ballata e cilibrazzioni',
         items: {
           busHop: 'Pigghiata nnû autobùs',
           ceremony: 'Cirimonia di Matrimoniu',
@@ -294,7 +294,7 @@ export const translations = {
       },
       transportation: {
         title: 'Trasportu',
-        description: 'Sarà furnutu sirvizziu di trasportu di Plaza Santa Ana e a Stazzioni di Autobùs â 14:00. Ci sarannu puru autobùs ogni ora ca partunu versu Ávila ncuminzannu â 23:00.'
+        description: 'Sarà furnutu sirvizziu di trasportu di Plaza Santa Ana e a Stazzioni di Autobùs â 13:00. Ci sarannu puru autobùs ogni ora ca partunu versu Ávila ncuminzannu â 23:00.'
       },
       gifts: {
         title: 'Lista di Rigali',
@@ -462,27 +462,27 @@ export const translations = {
     details: {
       title: 'Dettagli del Matrimonio',
       subtitle: 'Tutto quello che dovete sapere sul nostro giorno speciale',
-        schedule: {
-          title: 'Programma',
-          day1: '20 Giugno 2026',
-          day1Event: '19:00 Pre-matrimonio presso',
-          day1Venue: 'Bendita Locura',
-          day1Description: ', dove potremo riunirci e conoscerci tutti prima del matrimonio',
+      schedule: {
+        title: 'Programma',
+        day1: '20 Giugno 2026',
+        day1Event: '19:00 Pre-matrimonio presso',
+        day1Venue: 'Bendita Locura',
+        day1Description: ', dove potremo riunirci e conoscerci tutti prima del matrimonio',
         day2: '21 Giugno 2026',
         day2Title: '',
-          pickup: '14:00 Ritiro in autobus',
-          ceremony: '15:00 Cerimonia di matrimonio',
-          cocktail: '16:00 Cocktail',
-          banquet: '18:00 Banchetto',
-          party: '20:00 Balli e festeggiamenti',
-          items: {
-            busHop: 'Salita sull\'Autobus',
-            ceremony: 'Cerimonia di Matrimonio',
-            cocktail: 'Cocktail',
-            reception: 'Ricevimento e Pranzo',
-            party: 'Ballo e Celebrazione'
-          }
-        },
+        pickup: '13:00 Ritiro in autobus',
+        ceremony: '14:00 Cerimonia di matrimonio',
+        cocktail: '15:00 Cocktail',
+        banquet: '17:00 Banchetto',
+        party: '19:00 Balli e festeggiamenti',
+        items: {
+          busHop: 'Salita sull\'Autobus',
+          ceremony: 'Cerimonia di Matrimonio',
+          cocktail: 'Cocktail',
+          reception: 'Ricevimento e Pranzo',
+          party: 'Ballo e Celebrazione'
+        }
+      },
       attire: {
         title: 'Codice di Abbigliamento',
         description: 'Abbigliamento semi-formale richiesto. Pensate a eleganza da festa in giardino - comodo ma elegante per una celebrazione all\'aperto.'
@@ -494,7 +494,7 @@ export const translations = {
       },
       transportation: {
         title: 'Trasporto',
-        description: 'Sarà fornito un servizio navetta da Plaza Santa Ana e la Stazione degli Autobus alle 14:00. Ci saranno anche autobus ogni ora in partenza per Ávila a partire dalle 23:00.'
+        description: 'Sarà fornito un servizio navetta da Plaza Santa Ana e la Stazione degli Autobus alle 13:00. Ci saranno anche autobus ogni ora in partenza per Ávila a partire dalle 23:00.'
       },
       gifts: {
         title: 'Lista Regali',
@@ -662,30 +662,30 @@ export const translations = {
     details: {
       title: 'Wedding Details',
       subtitle: 'Everything you need to know about our special day',
-        schedule: {
-          title: 'Schedule',
-          day1: 'June 20, 2026',
-          day1Event: '19:00 Pre-wedding at',
-          day1Venue: 'Bendita Locura',
-          day1Description: ', where we can all gather and get to know each other before the wedding',
+      schedule: {
+        title: 'Schedule',
+        day1: 'June 20, 2026',
+        day1Event: '19:00 Pre-wedding at',
+        day1Venue: 'Bendita Locura',
+        day1Description: ', where we can all gather and get to know each other before the wedding',
         day2: 'June 21, 2026',
         day2Title: '',
-          pickup: '14:00 Bus pickup',
-          ceremony: '15:00 Wedding ceremony',
-          cocktail: '16:00 Cocktail hour',
-          banquet: '18:00 Banquet',
-          party: '20:00 Dancing and celebration',
-          items: {
-            busHop: 'Bus Hop In',
-            ceremony: 'Wedding Ceremony',
-            cocktail: 'Cocktail',
-            reception: 'Reception & Lunch',
-            party: 'Dancing & Celebration'
-          }
-        },
+        pickup: '13:00 Bus pickup',
+        ceremony: '14:00 Wedding ceremony',
+        cocktail: '15:00 Cocktail hour',
+        banquet: '17:00 Banquet',
+        party: '19:00 Dancing and celebration',
+        items: {
+          busHop: 'Bus Hop In',
+          ceremony: 'Wedding Ceremony',
+          cocktail: 'Cocktail',
+          reception: 'Reception & Lunch',
+          party: 'Dancing & Celebration'
+        }
+      },
       transportation: {
         title: 'Transportation',
-        description: 'Shuttle service will be provided from Plaza Santa Ana and the Bus Station at 14:00. There will also be hourly buses leaving to Ávila starting at 23:00.'
+        description: 'Shuttle service will be provided from Plaza Santa Ana and the Bus Station at 13:00. There will also be hourly buses leaving to Ávila starting at 23:00.'
       },
       attire: {
         title: 'Dress Code',

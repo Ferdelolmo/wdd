@@ -72,11 +72,11 @@ export const translations = {
         day2: 'Domingo 21 Junio 2026',
         breakOutActivities: ' Actividades de grupo',
         day2Title: '',
-        pickup: '14:00 Recogida en autobús',
-        ceremony: '15:00 Ceremonia de boda',
-        cocktail: '16:00 Cóctel',
-        banquet: '18:00 Banquete',
-        party: '20:00 Baile y celebración',
+        pickup: '13:00 Recogida en autobús',
+        ceremony: '14:00 Ceremonia de boda',
+        cocktail: '15:00 Cóctel',
+        banquet: '17:00 Banquete',
+        party: '19:00 Baile y celebración',
         items: {
           busHop: 'Recogida en autobús',
           ceremony: 'Ceremonia de boda',
@@ -87,7 +87,7 @@ export const translations = {
       },
       transportation: {
         title: 'Transporte',
-        description: 'Se proporcionará servicio de transporte desde el Centro de Recepción de Visitantes y también en frente de la Estación de Autobuses a las 14:00. También habrá autobuses cada hora saliendo hacia Ávila empezando a las 23:00.'
+        description: 'Se proporcionará servicio de transporte desde el Centro de Recepción de Visitantes y también en frente de la Estación de Autobuses a las 13:00. También habrá autobuses cada hora saliendo hacia Ávila empezando a las 23:00.'
       },
       attire: {
         title: 'Código de Vestimenta',
@@ -214,6 +214,61 @@ export const translations = {
         title: '¡No Podemos Esperar!',
         message: 'Estamos muy emocionados de celebrar con todos vosotros. ¡Nos vemos el 21 de junio!'
       }
+    },
+    menu: {
+      title: 'Menú',
+      sections: [
+        {
+          title: 'Coctel',
+          items: [
+            'Lima de atún rojo con mayonesa de Chipotle',
+            'Coca de anchoa con guacamole y tumaca',
+            'Chupito de ensalada caprese',
+            'Cucurucho de mejillón en texturas',
+            'Daditos de calabaza al curry, queso y Kale crujiente',
+            'Lollipop de salmón Gravlax con mayonesa de Wasabi',
+            'Croquetas de boletus',
+            'Croquetas de chipirón',
+            'Brocheta de presa ibérica marinada con aliño de Tamari y trufa y almendras',
+            'Samosa de remolacha encurtida con cremoso de cabra y polvo de aceituna negra',
+            'Samosa de rabo de toro',
+            'Bombón Ferrero de morcilla con mermelada de tomate',
+            'Gyozas con mayonesa de mango',
+            'Crujiente de langostino con salsa de chili dulce',
+            'Pulpo con emulsión de patata y pimentón de la vera'
+          ]
+        },
+        {
+          title: 'Islas',
+          subsections: [
+            { title: 'Jamón Ibérico' },
+            { title: 'Pescado y marisco', items: ['Showcooking du tonnu russu e capesante'] },
+            { title: 'Arroces', items: ['Risottu di boletus e parmiggianu', 'Nìuru di sicci', 'Risu cu mojo picón e jammiru'] },
+            { title: 'Vermut', items: ['Vermut Siderit', 'Gilda de anchoa y boquerón'] }
+          ]
+        },
+        {
+          title: 'Entrante',
+          items: ['Salmorejo con helado parmesano']
+        },
+        {
+          title: 'Plato principal (en función de la elección)',
+          items: [
+            'Salmón marinado sobre cremoso de coliflor con alga Wakame',
+            'Solomillo de vaca nacional con salsa de Oporto y trufa negra'
+          ]
+        },
+        {
+          title: 'Postre (a elegir)',
+          items: ['Tarta árabe de limón', 'Jardín prohibido']
+        },
+        {
+          title: 'Vinos',
+          items: [
+            'Vino blanco Oinoz Verdejo D.O. Rueda',
+            'Vino tinto Pago di Marinacea Ecológico D.O. Toro']
+        }
+      ]
     }
   },
   scn: {
@@ -289,11 +344,11 @@ export const translations = {
         day2: 'Duminica 21 Giugnu 2026',
         breakOutActivities: ' Attività di gruppu',
         day2Title: '',
-        pickup: '14:00 Acchianata nnû bus',
-        ceremony: '15:00 Cirimonia dâ boda',
-        cocktail: '16:00 Cóctel',
-        banquet: '18:00 Banchittu',
-        party: '20:00 Ballata e cilibrazzioni',
+        pickup: '13:00 Acchianata nnû bus',
+        ceremony: '14:00 Cirimonia dâ boda',
+        cocktail: '15:00 Cóctel',
+        banquet: '17:00 Banchittu',
+        party: '19:00 Ballata e cilibrazzioni',
         items: {
           busHop: 'Pigghiata nnû autobùs',
           ceremony: 'Cirimonia di Matrimoniu',
@@ -317,7 +372,7 @@ export const translations = {
       },
       transportation: {
         title: 'Trasportu',
-        description: 'Sarà furnutu sirvizziu di trasportu di Plaza Santa Ana e a Stazzioni di Autobùs â 14:00. Ci sarannu puru autobùs ogni ora ca partunu versu Ávila ncuminzannu â 23:00.'
+        description: 'Sarà furnutu sirvizziu di trasportu di Plaza Santa Ana e a Stazzioni di Autobùs â 13:00. Ci sarannu puru autobùs ogni ora ca partunu versu Ávila ncuminzannu â 23:00.'
       },
       gifts: {
         title: 'Lista di Rigali',
@@ -431,6 +486,62 @@ export const translations = {
         title: 'Nun Putemu Aspittari!',
         message: 'Simu tantu cuntentu di cilbrari cu tutti vui. Ni videmu u 21 di giugnu!'
       }
+    },
+    menu: {
+      title: 'Menù',
+      sections: [
+        {
+          title: 'Cocktail',
+          items: [
+            'Lima di tunnu russu cu maionesi ô chipotle',
+            'Coca d’anciova cu guacamole e pumadoru',
+            'Shot di nzalata caprese',
+            'Cunocchiu di cozzula',
+            'Dadetti di cucuzza ô curry, casu e kale cruccanti',
+            'Lollipop di salmone gravlax cu maionesi ô wasabi',
+            'Crocchetti di funci porcini',
+            'Crocchetti di niru di sicci',
+            'Spidu di presa ibèrica marinata cu cunzata di Tamari, trufa e mennuli',
+            'Samosa di vastunaca cu crema di capra e aliva nìura',
+            'Samosa di cuda di tauru',
+            'Ferrero di sanguinazzu',
+            'Gyozas di porcu cu maunisa di mango e kimchi',
+            'Croccanti di jammiru cu sarsa di chili duci',
+            'Purpu cu emulsioni di patati e paprica di la Vera'
+          ]
+        },
+        {
+          title: 'Isole',
+          subsections: [
+            { title: 'Jamón Ibérico' },
+            { title: 'Frutti di mare', items: ['Showcooking du tonnu russu e capesante'] },
+            { title: 'Risu e risotti', items: ['Risottu di boletus e parmiggianu', 'Nìuru di sicci', 'Risu cu mojo picón e jammiru'] },
+            { title: 'Vermut', items: ['Vermut Siderit', 'Gilda'] }
+          ]
+        },
+        {
+          title: 'Antipastu',
+          items: ['Salmorejo cu gilatu di parmiggianu']
+        },
+        {
+          title: 'Piatta principali (a scelta già fatta)',
+          items: [
+            'Salmone marinatu supra crema di cavulifiuri cu alga wakame',
+            'Filettu di viteddu arrustutu ô carvuni cu sarsa di Oporto e tartuffu nìuru'
+          ]
+        },
+        {
+          title: 'Dulci (a scelta)',
+          items: ['Torta àrabba ô limuni', 'Giardinu prubbitu']
+        },
+        {
+          title: 'Vini',
+          items: [
+            'Vinu jancu Oinoz Verdejo D.O. Rueda',
+            'Vinu russu Pago di Marinacea ecològgicu D.O. Toro'
+          ]
+        }
+      ]
     }
   },
   it: {
@@ -506,11 +617,11 @@ export const translations = {
         day2: 'Domenica 21 Giugno 2026',
         breakOutActivities: ' Attività di gruppo',
         day2Title: '',
-        pickup: '14:00 Ritiro in autobus',
-        ceremony: '15:00 Cerimonia di matrimonio',
-        cocktail: '16:00 Cocktail',
-        banquet: '18:00 Banchetto',
-        party: '20:00 Balli e festeggiamenti',
+        pickup: '13:00 Ritiro in autobus',
+        ceremony: '14:00 Cerimonia di matrimonio',
+        cocktail: '15:00 Cocktail',
+        banquet: '17:00 Banchetto',
+        party: '19:00 Balli e festeggiamenti',
         items: {
           busHop: 'Salita sull\'Autobus',
           ceremony: 'Cerimonia di Matrimonio',
@@ -534,7 +645,7 @@ export const translations = {
       },
       transportation: {
         title: 'Trasporto',
-        description: 'Sarà fornito un servizio navetta da Plaza Santa Ana e la Stazione degli Autobus alle 14:00. Ci saranno anche autobus ogni ora in partenza per Ávila a partire dalle 23:00.'
+        description: 'Sarà fornito un servizio navetta da Plaza Santa Ana e la Stazione degli Autobus alle 13:00. Ci saranno anche autobus ogni ora in partenza per Ávila a partire dalle 23:00.'
       },
       gifts: {
         title: 'Lista Regali',
@@ -648,6 +759,62 @@ export const translations = {
         title: 'Non Vediamo L\'Ora!',
         message: 'Siamo così entusiasti di celebrare con tutti voi. Ci vediamo il 21 giugno!'
       }
+    },
+    menu: {
+      title: 'Menu',
+      sections: [
+        {
+          title: 'Cocktail',
+          items: [
+            'Lima di tonno rosso con maionese al chipotle',
+            'Coca di acciuga con guacamole e pomodoro',
+            'Shot di insalata caprese',
+            'Cono di cozze in diverse consistenze',
+            'Cubetti di zucca al curry, formaggio e kale croccante',
+            'Lollipop di salmone gravlax con maionese al wasabi',
+            'Crocchette di funghi porcini',
+            'Crocchette di calamaretti',
+            'Spiedino di presa iberica marinata al Tamari, tartufo e mandorle',
+            'Samosa di barbabietola marinata con cremoso di caprino e polvere di olive nere',
+            'Samosa di coda di toro',
+            'Bombon Ferrero di morcilla con marmellata di pomodoro',
+            'Gyoza con maionese al mango',
+            'Croccante di gambero con salsa chili dolce',
+            'Polpo con emulsione di patata e pimentón de la Vera'
+          ]
+        },
+        {
+          title: 'Isole',
+          subsections: [
+            { title: 'Jamón Ibérico' },
+            { title: 'Pesce e frutti di mare', items: ['Showcooking di tonno rosso e capesante'] },
+            { title: 'Risi e risotti', items: ['Risotto ai funghi porcini e parmigiano', 'Riso nero di seppia', 'Riso con mojo picón e gambero'] },
+            { title: 'Vermut', items: ['Vermut Siderit', 'Gilda'] }
+          ]
+        },
+        {
+          title: 'Antipasto',
+          items: ['Salmorejo con gelato al parmigiano']
+        },
+        {
+          title: 'Piatto principale (a scelta già fatta)',
+          items: [
+            'Salmone marinato su cremoso di cavolfiore con alga wakame',
+            'Filetto di manzo nazionale con salsa al Porto e tartufo nero'
+          ]
+        },
+        {
+          title: 'Dessert (a scelta)',
+          items: ['Torta araba al limone', 'Giardino proibito']
+        },
+        {
+          title: 'Vini',
+          items: [
+            'Vino bianco Oinoz Verdejo D.O. Rueda',
+            'Vino rosso Pago de Marinacea Biologico D.O. Toro'
+          ]
+        }
+      ]
     }
   },
   en: {
@@ -723,11 +890,11 @@ export const translations = {
         day2: 'Sunday, June 21, 2026',
         breakOutActivities: ' Break out activities',
         day2Title: '',
-        pickup: '14:00 Bus pickup',
-        ceremony: '15:00 Wedding ceremony',
-        cocktail: '16:00 Cocktail hour',
-        banquet: '18:00 Banquet',
-        party: '20:00 Dancing and celebration',
+        pickup: '13:00 Bus pickup',
+        ceremony: '14:00 Wedding ceremony',
+        cocktail: '15:00 Cocktail hour',
+        banquet: '17:00 Banquet',
+        party: '19:00 Dancing and celebration',
         items: {
           busHop: 'Bus Hop In',
           ceremony: 'Wedding Ceremony',
@@ -738,7 +905,7 @@ export const translations = {
       },
       transportation: {
         title: 'Transportation',
-        description: 'Shuttle service will be provided from Plaza Santa Ana and the Bus Station at 14:00. There will also be hourly buses leaving to Ávila starting at 23:00.'
+        description: 'Shuttle service will be provided from Plaza Santa Ana and the Bus Station at 13:00. There will also be hourly buses leaving to Ávila starting at 23:00.'
       },
       attire: {
         title: 'Dress Code',
@@ -865,6 +1032,62 @@ export const translations = {
         title: 'Can\'t Wait!',
         message: 'We\'re so excited to celebrate with all of you. See you on June 21st!'
       }
+    },
+    menu: {
+      title: 'Menu',
+      sections: [
+        {
+          title: 'Cocktail',
+          items: [
+            'Red tuna tartare with chipotle mayonnaise',
+            'Anchovy coca with guacamole and tomato',
+            'Caprese salad shot',
+            'Mussel cone in textures',
+            'Pumpkin cubes with curry, cheese and crispy kale',
+            'Gravlax salmon lollipop with wasabi mayonnaise',
+            'Mushroom croquettes',
+            'Squid ink croquettes',
+            'Marinated Iberian pork skewer with tamari dressing, truffle and almonds',
+            'Pickled beetroot samosa with creamy goat cheese and black olive powder',
+            'Oxtail samosa',
+            'Black pudding Ferrero with tomato jam',
+            'Gyozas with mango mayonnaise',
+            'Crispy prawn with sweet chili sauce',
+            'Octopus with potato emulsion and La Vera smoked paprika'
+          ]
+        },
+        {
+          title: 'Islands',
+          subsections: [
+            { title: 'Jamón Ibérico' },
+            { title: 'Fish and Seafood', items: ['Live showcooking of red tuna and scallops'] },
+            { title: 'Rices', items: ['Risotto', 'Squid ink rice', 'Rice with mojo picón and prawns'] },
+            { title: 'Vermut', items: ['Siderit Vermouth', 'Gilda'] }
+          ]
+        },
+        {
+          title: 'Starter',
+          items: ['Salmorejo with Parmesan ice cream']
+        },
+        {
+          title: 'Main Course (based on the selection you did)',
+          items: [
+            'Marinated salmon on creamy cauliflower with wakame seaweed',
+            'National beef sirloin with Port wine and black truffle sauce'
+          ]
+        },
+        {
+          title: 'Dessert (to choose)',
+          items: ['Arab lemon cake', 'Forbidden garden']
+        },
+        {
+          title: 'Wines',
+          items: [
+            'White wine: Oinoz Verdejo D.O. Rueda',
+            'Red wine: Pago de Marinacea Organic D.O. Toro'
+          ]
+        }
+      ]
     }
   }
 };
