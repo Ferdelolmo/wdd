@@ -4,6 +4,7 @@ import { TooltipProvider } from "@/components/ui/tooltip";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { LanguageProvider } from "@/contexts/LanguageContext";
+import { InstallPrompt } from "@/components/InstallPrompt";
 import Index from "./pages/Index";
 import NotFound from "./pages/NotFound";
 import Invitation from "./pages/Invitation";
@@ -25,6 +26,7 @@ const App = () => (
       <LanguageProvider>
         <Toaster />
         <Sonner />
+        <InstallPrompt />
         <BrowserRouter basename={import.meta.env.BASE_URL}>
           <Routes>
             <Route path="/" element={<Index />} />
