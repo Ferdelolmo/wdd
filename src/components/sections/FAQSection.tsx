@@ -10,9 +10,9 @@ const FAQSection = () => {
   } = useLanguage();
   const t = translations[language];
   // Helper function to render text with multiple links
-  const renderAnswerWithLinks = (answer: string, linkConfigs: {text: string, url: string}[]) => {
+  const renderAnswerWithLinks = (answer: string, linkConfigs: { text: string, url: string }[]) => {
     let parts: (string | React.ReactNode)[] = [answer];
-    
+
     linkConfigs.forEach((link, linkIndex) => {
       const newParts: (string | React.ReactNode)[] = [];
       parts.forEach((part, partIndex) => {
@@ -21,10 +21,10 @@ const FAQSection = () => {
           splitParts.forEach((splitPart, splitIndex) => {
             if (splitIndex > 0) {
               newParts.push(
-                <a 
+                <a
                   key={`${linkIndex}-${partIndex}-${splitIndex}`}
-                  href={link.url} 
-                  target="_blank" 
+                  href={link.url}
+                  target="_blank"
                   rel="noopener noreferrer"
                   className="text-primary hover:text-primary/80 underline"
                 >
@@ -42,7 +42,7 @@ const FAQSection = () => {
       });
       parts = newParts;
     });
-    
+
     return parts;
   };
 
@@ -96,6 +96,12 @@ const FAQSection = () => {
     hasLink: true,
     linkText: language === 'en' ? 'here' : (language === 'it' ? 'qui' : (language === 'scn' ? 'ccà' : 'por aquí')),
     linkUrl: 'https://form.jotform.com/252126974853061'
+  }, {
+    question: t.faq.items.taxi.question,
+    answer: t.faq.items.taxi.answer,
+    hasLink: true,
+    linkText: '+34 920 35 35 45',
+    linkUrl: 'tel:+34920353545'
   }];
   const funFacts = [
     { icon: Heart, fact: t.faq.funFactsList[0] },
@@ -104,106 +110,106 @@ const FAQSection = () => {
     { icon: Camera, fact: t.faq.funFactsList[3] }
   ];
   return <section className="min-h-screen bg-gradient-romantic py-20">
-      <div className="container mx-auto px-4">
-        <div className="text-center mb-16">
-          <h2 className="font-script text-5xl md:text-6xl text-primary mb-4">
-            {t.faq.title}
-          </h2>
-          <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            {t.faq.subtitle}
-          </p>
+    <div className="container mx-auto px-4">
+      <div className="text-center mb-16">
+        <h2 className="font-script text-5xl md:text-6xl text-primary mb-4">
+          {t.faq.title}
+        </h2>
+        <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
+          {t.faq.subtitle}
+        </p>
+      </div>
+
+      <div className="grid lg:grid-cols-3 gap-12 max-w-6xl mx-auto">
+        {/* FAQ */}
+        <div className="lg:col-span-2">
+          <Card className="p-8 bg-card/80 backdrop-blur-sm shadow-romantic border-0">
+            <div className="flex items-center gap-3 mb-6">
+              <HelpCircle className="w-6 h-6 text-primary" />
+              <h3 className="font-serif text-2xl text-primary">{t.faq.title}</h3>
+            </div>
+
+            <Accordion type="single" collapsible className="w-full">
+              {faqs.map((faq, index) => <AccordionItem key={index} value={`item-${index}`}>
+                <AccordionTrigger className="text-left font-medium">
+                  {faq.question}
+                </AccordionTrigger>
+                <AccordionContent className="text-muted-foreground leading-relaxed">
+                  {faq.hasLink ? (
+                    <>
+                      {faq.answer.split(faq.linkText!)[0]}
+                      <a
+                        href={faq.linkUrl}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-primary hover:text-primary/80 underline"
+                      >
+                        {faq.linkText}
+                      </a>
+                      {faq.answer.split(faq.linkText!)[1]}
+                    </>
+                  ) : faq.hasMultipleLinks ? (
+                    renderAnswerWithLinks(faq.answer, faq.links!)
+                  ) : (
+                    faq.answer
+                  )}
+                </AccordionContent>
+              </AccordionItem>)}
+            </Accordion>
+          </Card>
         </div>
 
-        <div className="grid lg:grid-cols-3 gap-12 max-w-6xl mx-auto">
-          {/* FAQ */}
-          <div className="lg:col-span-2">
-            <Card className="p-8 bg-card/80 backdrop-blur-sm shadow-romantic border-0">
-              <div className="flex items-center gap-3 mb-6">
-                <HelpCircle className="w-6 h-6 text-primary" />
-                <h3 className="font-serif text-2xl text-primary">{t.faq.title}</h3>
-              </div>
-              
-                <Accordion type="single" collapsible className="w-full">
-                {faqs.map((faq, index) => <AccordionItem key={index} value={`item-${index}`}>
-                    <AccordionTrigger className="text-left font-medium">
-                      {faq.question}
-                    </AccordionTrigger>
-                    <AccordionContent className="text-muted-foreground leading-relaxed">
-                      {faq.hasLink ? (
-                        <>
-                          {faq.answer.split(faq.linkText!)[0]}
-                          <a 
-                            href={faq.linkUrl} 
-                            target="_blank" 
-                            rel="noopener noreferrer"
-                            className="text-primary hover:text-primary/80 underline"
-                          >
-                            {faq.linkText}
-                          </a>
-                          {faq.answer.split(faq.linkText!)[1]}
-                        </>
-                      ) : faq.hasMultipleLinks ? (
-                        renderAnswerWithLinks(faq.answer, faq.links!)
-                      ) : (
-                        faq.answer
-                      )}
-                    </AccordionContent>
-                  </AccordionItem>)}
-              </Accordion>
-            </Card>
-          </div>
+        {/* Fun Facts & Contact */}
+        <div className="space-y-8">
+          <Card className="p-6 bg-wedding-cream shadow-soft border-0">
+            <h3 className="font-serif text-xl text-primary mb-6 text-center">{t.faq.funFacts}</h3>
+            <div className="space-y-4">
+              {funFacts.map((fact, index) => <div key={index} className="flex items-start gap-3">
+                <fact.icon className="w-5 h-5 text-primary mt-0.5 flex-shrink-0" />
+                <p className="text-sm text-muted-foreground">{fact.fact}</p>
+              </div>)}
+            </div>
+          </Card>
 
-          {/* Fun Facts & Contact */}
-          <div className="space-y-8">
-            <Card className="p-6 bg-wedding-cream shadow-soft border-0">
-              <h3 className="font-serif text-xl text-primary mb-6 text-center">{t.faq.funFacts}</h3>
-              <div className="space-y-4">
-                {funFacts.map((fact, index) => <div key={index} className="flex items-start gap-3">
-                    <fact.icon className="w-5 h-5 text-primary mt-0.5 flex-shrink-0" />
-                    <p className="text-sm text-muted-foreground">{fact.fact}</p>
-                  </div>)}
-              </div>
-            </Card>
+          <Card className="p-6 bg-wedding-cream shadow-soft border-0">
+            <h3 className="font-serif text-xl text-primary mb-6 text-center">{t.faq.sicilyFacts.title}</h3>
+            <div className="text-sm text-muted-foreground leading-relaxed mb-6">
+              {t.faq.sicilyFacts.description.split(t.faq.sicilyFacts.linkText)[0]}
+              <a
+                href="https://www.italia.it/es/sicilia"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-primary hover:text-primary/80 underline"
+              >
+                {t.faq.sicilyFacts.linkText}
+              </a>
+              {t.faq.sicilyFacts.description.split(t.faq.sicilyFacts.linkText)[1]}
+            </div>
 
-            <Card className="p-6 bg-wedding-cream shadow-soft border-0">
-              <h3 className="font-serif text-xl text-primary mb-6 text-center">{t.faq.sicilyFacts.title}</h3>
-              <div className="text-sm text-muted-foreground leading-relaxed mb-6">
-                {t.faq.sicilyFacts.description.split(t.faq.sicilyFacts.linkText)[0]}
-                <a 
-                  href="https://www.italia.it/es/sicilia" 
-                  target="_blank" 
-                  rel="noopener noreferrer"
-                  className="text-primary hover:text-primary/80 underline"
-                >
-                  {t.faq.sicilyFacts.linkText}
-                </a>
-                {t.faq.sicilyFacts.description.split(t.faq.sicilyFacts.linkText)[1]}
-              </div>
-              
-              <Accordion type="single" collapsible className="w-full">
-                {t.faq.sicilyFacts.items.map((item, index) => (
-                  <AccordionItem key={index} value={`sicily-${index}`}>
-                    <AccordionTrigger className="text-left font-medium text-sm">
-                      {item.title}
-                    </AccordionTrigger>
-                    <AccordionContent className="text-muted-foreground text-sm leading-relaxed">
-                      {item.content}
-                    </AccordionContent>
-                  </AccordionItem>
-                ))}
-              </Accordion>
-            </Card>
+            <Accordion type="single" collapsible className="w-full">
+              {t.faq.sicilyFacts.items.map((item, index) => (
+                <AccordionItem key={index} value={`sicily-${index}`}>
+                  <AccordionTrigger className="text-left font-medium text-sm">
+                    {item.title}
+                  </AccordionTrigger>
+                  <AccordionContent className="text-muted-foreground text-sm leading-relaxed">
+                    {item.content}
+                  </AccordionContent>
+                </AccordionItem>
+              ))}
+            </Accordion>
+          </Card>
 
-            <Card className="p-6 bg-wedding-gold text-center shadow-soft border-0">
-              
-              <p className="text-sm text-muted-foreground">
-                {t.faq.cantWait.message}
-              </p>
-              <Heart className="w-6 h-6 text-primary fill-primary mx-auto mt-4 animate-pulse" />
-            </Card>
-          </div>
+          <Card className="p-6 bg-wedding-gold text-center shadow-soft border-0">
+
+            <p className="text-sm text-muted-foreground">
+              {t.faq.cantWait.message}
+            </p>
+            <Heart className="w-6 h-6 text-primary fill-primary mx-auto mt-4 animate-pulse" />
+          </Card>
         </div>
       </div>
-    </section>;
+    </div>
+  </section>;
 };
 export default FAQSection;

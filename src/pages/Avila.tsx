@@ -1,9 +1,10 @@
 import { useLanguage } from '@/contexts/LanguageContext';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from '@/components/ui/accordion';
-import { MapPin, Mountain, Clock, Camera, Utensils, Church, Crown, TreePine, Home } from 'lucide-react';
+import { MapPin, Mountain, Clock, Camera, Utensils, Church, Crown, TreePine, Home, Map, ExternalLink } from 'lucide-react';
 import LanguageSelector from '@/components/LanguageSelector';
 import { Button } from '@/components/ui/button';
+import { translations } from '@/translations';
 import { Link } from 'react-router-dom';
 import avilaHeroImg from '@/assets/avila-hero-new.jpg';
 import AvilaMap from '@/components/AvilaMap';
@@ -12,6 +13,7 @@ import SoundCloudPlayer from '@/components/SoundCloudPlayer';
 
 const Avila = () => {
   const { language } = useLanguage();
+  const t = translations[language];
 
   const soundCloudContent = {
     es: {
@@ -599,6 +601,29 @@ const Avila = () => {
         <div className="grid lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
           {/* Main Content */}
           <div className="lg:col-span-2 space-y-8">
+            {/* Guide App Promo */}
+            <Card className="hover:shadow-lg transition-shadow bg-card/80 backdrop-blur-sm">
+              <CardHeader>
+                <CardTitle className="flex items-center gap-2 text-primary">
+                  <Map className="w-5 h-5" />
+                  {t.guideAppPromo.title}
+                </CardTitle>
+              </CardHeader>
+              <CardContent className="space-y-4">
+                <p className="text-muted-foreground leading-relaxed">
+                  {t.guideAppPromo.description}
+                </p>
+                <a href="https://guidehero.org" target="_blank" rel="noopener noreferrer" className="block w-full">
+                  <Button
+                    className="w-full bg-primary hover:bg-primary/90"
+                  >
+                    <ExternalLink className="w-4 h-4 mr-2" />
+                    {t.guideAppPromo.button}
+                  </Button>
+                </a>
+              </CardContent>
+            </Card>
+
             {/* 1. Historia milenaria */}
             {currentContent.sections.history && (
               <Card className="hover:shadow-lg transition-shadow bg-card/80 backdrop-blur-sm">
@@ -627,6 +652,7 @@ const Avila = () => {
                 </CardContent>
               </Card>
             )}
+
 
             {currentAudio.src && (
               <SoundCloudPlayer src={currentAudio.src} />

@@ -2,7 +2,7 @@ import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 import { useLanguage } from '@/contexts/LanguageContext';
 import { translations } from '@/translations';
-import { FileText, Utensils, Volume2, Download, ExternalLink, Home } from 'lucide-react';
+import { FileText, Utensils, Volume2, Download, ExternalLink, Home, Map } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import LanguageSelector from '@/components/LanguageSelector';
 
@@ -149,6 +149,36 @@ const More = () => {
                   {t.soundtrackPromo.button}
                 </Button>
               </Link>
+            </CardContent>
+          </Card>
+
+          {/* Guide App Promo */}
+          <Card className="bg-card/80 backdrop-blur-sm shadow-romantic border-0">
+            <CardHeader>
+              <CardTitle className="flex items-center gap-2 text-primary">
+                <Map className="w-5 h-5" />
+                {t.guideAppPromo.title}
+              </CardTitle>
+            </CardHeader>
+            <CardContent className="space-y-4">
+              <div className="flex justify-center mb-4">
+                <img
+                  src="https://i.imgur.com/yrZY7R3.png"
+                  alt="Guide App Preview"
+                  className="rounded-lg shadow-md max-h-32 object-contain w-auto mx-auto"
+                />
+              </div>
+              <p className="text-sm text-muted-foreground">
+                {t.guideAppPromo.description}
+              </p>
+              <a href="https://guidehero.org" target="_blank" rel="noopener noreferrer" className="block w-full">
+                <Button
+                  className="w-full bg-primary hover:bg-primary/90"
+                >
+                  <ExternalLink className="w-4 h-4 mr-2" />
+                  {t.guideAppPromo.button}
+                </Button>
+              </a>
             </CardContent>
           </Card>
 

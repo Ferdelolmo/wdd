@@ -132,6 +132,11 @@ export const guests: Guest[] = [
   { name: "Ali & Gabriela", language: "EN", slug: "ali", plusOne: "Gabriela" },
   { name: "Ari & Fran", language: "ES", slug: "ari", plusOne: "Fran" },
   { name: "Verka", language: "EN", slug: "verka" },
+  { name: "Webbo", language: "EN", slug: "webbo" },
+  { name: "Edward & Eli", language: "EN", slug: "edward", plusOne: "Eli" },
+  { name: "Roshni", language: "EN", slug: "roshni" },
+  { name: "Manu", language: "EN", slug: "manu" },
+  { name: "Miguel", language: "ES", slug: "miguelangel" },
   { name: "Enza & Orazio", language: "IT", slug: "enza", plusOne: "Orazio" }
 ];
 

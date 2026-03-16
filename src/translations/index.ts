@@ -127,6 +127,11 @@ export const translations = {
       description: '¿Quieres probar nuestra banda sonora de boda? ¡Dale al play, relájate y larga vida al rock and roll 🎸🎶 !',
       button: '¡Dale al Play!'
     },
+    guideAppPromo: {
+      title: 'App de Guía de la Ciudad',
+      description: '¿Planeando tu visita a la ciudad? Hemos creado una app con los mejores puntos de interés. Solo selecciona Ávila y relájate 😉',
+      button: 'Abrir Guía'
+    },
     faq: {
       title: 'Preguntas Frecuentes',
       subtitle: '¿Tienes preguntas? ¡Tenemos respuestas!',
@@ -166,6 +171,10 @@ export const translations = {
         music: {
           question: '¿Puedo pedir canciones para la boda?',
           answer: '¡Claro! Dínoslo por aquí y le haremos saber al DJ'
+        },
+        taxi: {
+          question: '¿Cómo puedo pedir un taxi?',
+          answer: 'Si necesitas un taxi durante tu estancia, puedes solicitar uno a demanda llamando a Radio Taxi al +34 920 35 35 45.'
         }
       },
       funFacts: 'Datos Curiosos Sobre Nosotros',
@@ -399,6 +408,11 @@ export const translations = {
       description: 'Voi aviri un assaggiu dâ nostra culonna sunora di matrimoniu? Ascuta, rilassati e lunga vita al rock and roll 🎸🎶 !',
       button: 'Dammi un ciauru di musica!'
     },
+    guideAppPromo: {
+      title: 'App Guida dâ Cità',
+      description: 'Avemu criatu n\'app cu li megghiu posti d\'intiressi. Scegghi sulu Ávila e arricampati 😉',
+
+    },
     faq: {
       title: 'Dimanndi Frequenti',
       subtitle: 'Aviti dimanndi? Avemu risposti!',
@@ -438,6 +452,10 @@ export const translations = {
         music: {
           question: 'Pozzu dumandari canzuna pâ boda?',
           answer: 'Sicuramenti! Dìtillu ccà e ni lu facemu sapiri ô DJ'
+        },
+        taxi: {
+          question: 'Comu pozzu chiamari un tassì?',
+          answer: 'Si t\'abbisogna un tassì duranti a to pirmanenza, poi chiamari u sirvizziu a richiesta. Cuntatta Radio Taxi ô nùmmiru +34 920 35 35 45.'
         }
       },
       funFacts: 'Fatti divertenti su di nuautri',
@@ -672,6 +690,11 @@ export const translations = {
       description: 'Vuoi avere un assaggio della nostra colonna sonora di matrimonio? Ascolta, rilassati e viva il rock and roll 🎸🎶 !',
       button: 'DJ, facci sognare!'
     },
+    guideAppPromo: {
+      title: 'App Guida della Città',
+      description: 'Stai pianificando la visita ad Ávila? Trova la nostra app con i luoghi imperdibili. Seleziona Ávila e rilassati 😉 ',
+      button: 'Apri Guida'
+    },
     faq: {
       title: 'Domande Frequenti',
       subtitle: 'Avete domande? Abbiamo le risposte!',
@@ -711,6 +734,10 @@ export const translations = {
         music: {
           question: 'Posso richiedere canzoni per il matrimonio?',
           answer: 'Certo! Dicci qui e lo faremo sapere al DJ'
+        },
+        taxi: {
+          question: 'Come posso chiamare un taxi?',
+          answer: 'Se hai bisogno di un taxi durante il tuo soggiorno, c\'è un servizio su richiesta. Puoi chiamare Radio Taxi al numero +34 920 35 35 45.'
         }
       },
       funFacts: 'Curiosità su di noi',
@@ -945,6 +972,11 @@ export const translations = {
       description: 'Do you want to get a taste of our wedding soundtrack? Listen in, relax and let the music rock and roll  🎸🎶 !',
       button: 'Hang the DJ!'
     },
+    guideAppPromo: {
+      title: 'City Guide App',
+      description: 'Planning your visit to the city? We\'ve built an interactive app, just select Avila and chill out 😉',
+      button: 'Open Guide'
+    },
     faq: {
       title: 'Frequently Asked Questions',
       subtitle: 'Got questions? We\'ve got answers!',
@@ -984,6 +1016,10 @@ export const translations = {
         music: {
           question: 'Can I request songs for the wedding?',
           answer: 'Of course! Tell us here and we will let the DJ know'
+        },
+        taxi: {
+          question: 'How can I get a taxi?',
+          answer: 'If you need a taxi during your stay, you can request one on demand. Just call Radio Taxi at +34 920 35 35 45.'
         }
       },
       funFacts: 'Fun facts about us',
