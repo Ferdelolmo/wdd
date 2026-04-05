@@ -15,6 +15,11 @@ export default defineConfig(({ mode }) => ({
     VitePWA({
       registerType: 'autoUpdate',
       includeAssets: ['favicon.ico', 'robots.txt', 'apple-touch-icon.png'],
+      workbox: {
+        navigateFallback: 'index.html',
+        navigateFallbackAllowlist: [/^\/(?!.*\.\w+$).*/],
+        cleanupOutdatedCaches: true,
+      },
       manifest: {
         name: 'Chiara e Fer',
         short_name: 'Chiara&Fer',
