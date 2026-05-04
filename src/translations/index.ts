@@ -138,7 +138,7 @@ export const translations = {
       items: {
         rsvp: {
           question: '¿Cuándo es la fecha límite para confirmar asistencia?',
-          answer: 'Por favor confirma tu asistencia antes del 29 de abril de 2026. Puedes responder a través de este enlace.'
+          answer: 'El plazo de confirmación ha pasado; no obstante, puedes ponerte en contacto con nosotros para intentar acomodarte'
         },
         weather: {
           question: '¿Qué tiempo hace en junio?',
@@ -419,7 +419,7 @@ export const translations = {
       items: {
         rsvp: {
           question: 'Quannu è a data lìmiti pi cunfirmari prisenza?',
-          answer: 'Pi favuri cunfirma a to prisenza prima di u 29 di aprili 2026. Poi rispònniri attraversu stu culligamentu.'
+          answer: 'Sciamunitu!U tèrmini pi cunfirmari è passau, macari contattaci e circaremu di sistemàriti.'
         },
         weather: {
           question: 'Chi tempu fici nta giugnu?',
@@ -701,7 +701,7 @@ export const translations = {
       items: {
         rsvp: {
           question: 'Quando è la scadenza per confermare la presenza?',
-          answer: 'Per favore conferma la tua presenza entro il 29 Aprile 2026. Puoi rispondere attraverso questo link.'
+          answer: 'Il termine di conferma è passato, ma puoi comunque contattarci e cercheremo di trovarti una soluzione'
         },
         weather: {
           question: 'Che tempo fa a giugno?',
@@ -983,7 +983,7 @@ export const translations = {
       items: {
         rsvp: {
           question: 'When is the RSVP deadline?',
-          answer: 'Please RSVP by April 29, 2026. You can respond through this link.'
+          answer: 'The RSVP deadline has passed; however, you can still contact us and we will try to accommodate you'
         },
         weather: {
           question: 'What\'s the weather like in June?',

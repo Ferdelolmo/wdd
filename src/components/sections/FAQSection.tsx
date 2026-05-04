@@ -48,10 +48,7 @@ const FAQSection = () => {
 
   const faqs = [{
     question: t.faq.items.rsvp.question,
-    answer: t.faq.items.rsvp.answer,
-    hasLink: true,
-    linkText: language === 'en' ? 'link' : (language === 'it' ? 'link' : (language === 'scn' ? 'culligamentu' : 'enlace')),
-    linkUrl: 'https://forms.gle/Pu5jfecVs7exJadh7'
+    answer: t.faq.items.rsvp.answer
   }, {
     question: t.faq.items.weather.question,
     answer: t.faq.items.weather.answer
@@ -137,7 +134,7 @@ const FAQSection = () => {
                 <AccordionContent className="text-muted-foreground leading-relaxed">
                   {faq.hasLink ? (
                     <>
-                      {faq.answer.split(faq.linkText!)[0]}
+                      <span dangerouslySetInnerHTML={{ __html: faq.answer.split(faq.linkText!)[0] }} />
                       <a
                         href={faq.linkUrl}
                         target="_blank"
@@ -146,12 +143,14 @@ const FAQSection = () => {
                       >
                         {faq.linkText}
                       </a>
-                      {faq.answer.split(faq.linkText!)[1]}
+                      <span dangerouslySetInnerHTML={{ __html: faq.answer.split(faq.linkText!)[1] }} />
                     </>
                   ) : faq.hasMultipleLinks ? (
-                    renderAnswerWithLinks(faq.answer, faq.links!)
+                    renderAnswerWithLinks(faq.answer, faq.links!).map((part, i) => 
+                      typeof part === 'string' ? <span key={i} dangerouslySetInnerHTML={{ __html: part }} /> : part
+                    )
                   ) : (
-                    faq.answer
+                    <span dangerouslySetInnerHTML={{ __html: faq.answer }} />
                   )}
                 </AccordionContent>
               </AccordionItem>)}
