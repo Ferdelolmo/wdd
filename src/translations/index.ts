@@ -104,7 +104,7 @@ export const translations = {
       },
       gifts: {
         title: 'Lista de Regalos',
-        description: 'Tu presencia es nuestro regalo, sin embargo, si deseas dar un obsequio, estos son los datos de nuestra cuenta bancaria:\nIBAN: ES74 1583 0001 1591 7297 2090\nBIC / SWIFT: REVOESM2',
+        description: 'Tu presencia es nuestro regalo, sin embargo, si deseas dar un obsequio, estos son los datos de nuestra cuenta bancaria:\nIBAN: ES74 1583 0001 1591 7297 2090\nBIC / SWIFT: REVOESM2 \nBeneficiaria: Chiara Cali',
         viewRegistry: 'Ver Lista'
       },
       rsvp: {
@@ -385,7 +385,7 @@ export const translations = {
       },
       gifts: {
         title: 'Lista di Rigali',
-        description: 'A vostra prisenza è u nostru rigalu, tuttavia si vuliti dari nu rigalu, chistu sunnu i dati du nostru cuntu bancario:\nIBAN: ES74 1583 0001 1591 7297 2090\nBIC / SWIFT: REVOESM2',
+        description: 'A vostra prisenza è u nostru rigalu, tuttavia si vuliti dari nu rigalu, chistu sunnu i dati du nostru cuntu bancario:\nIBAN: ES74 1583 0001 1591 7297 2090\nBIC / SWIFT: REVOESM2 \nBeneficiaria: Chiara Cali',
         viewRegistry: 'Talìa Lista'
       },
       rsvp: {
@@ -667,7 +667,7 @@ export const translations = {
       },
       gifts: {
         title: 'Lista Regali',
-        description: 'La vostra presenza è il nostro regalo, tuttavia se desiderate fare un dono, questi sono i dati del nostro conto bancario:\nIBAN: ES74 1583 0001 1591 7297 2090\nBIC / SWIFT: REVOESM2',
+        description: 'La vostra presenza è il nostro regalo, tuttavia se desiderate fare un dono, questi sono i dati del nostro conto bancario:\nIBAN: ES74 1583 0001 1591 7297 2090\nBIC / SWIFT: REVOESM2 \nBeneficiaria: Chiara Cali',
         viewRegistry: 'Visualizza Lista'
       },
       rsvp: {
@@ -949,7 +949,7 @@ export const translations = {
       },
       gifts: {
         title: 'Wedding Registry',
-        description: 'Your presence is our present, however if you wish to give a gift, these are our bank account details:\nIBAN: ES74 1583 0001 1591 7297 2090\nBIC / SWIFT: REVOESM2',
+        description: 'Your presence is our present, however if you wish to give a gift, these are our bank account details:\nIBAN: ES74 1583 0001 1591 7297 2090\nBIC / SWIFT: REVOESM2 \nBeneficiary: Chiara Cali',
         viewRegistry: 'View Registry'
       },
       rsvp: {
