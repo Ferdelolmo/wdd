@@ -138,7 +138,7 @@ export const translations = {
       items: {
         rsvp: {
           question: '¿Cuándo es la fecha límite para confirmar asistencia?',
-          answer: 'El plazo de confirmación ha pasado; no obstante, puedes ponerte en contacto con nosotros para intentar acomodarte'
+          answer: 'El plazo de confirmación ha pasado, pero puedes ponerte en contacto con nosotros para intentar acomodarte'
         },
         weather: {
           question: '¿Qué tiempo hace en junio?',
