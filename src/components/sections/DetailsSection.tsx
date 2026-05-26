@@ -23,12 +23,12 @@ const DetailsSection = () => {
     window.open(googleCalendarUrl, '_blank');
   };
   const schedule = [{
-    time: "13:00",
+    time: "12:30",
     event: t.details.schedule.items.busHop,
     icon: Bus,
     description: ""
   }, {
-    time: "14:00",
+    time: "13:45",
     event: t.details.schedule.items.ceremony,
     icon: Heart,
     description: ""
@@ -46,6 +46,11 @@ const DetailsSection = () => {
     time: "19:00",
     event: t.details.schedule.items.party,
     icon: Music,
+    description: ""
+  }, {
+    time: "23:00 / 00:00",
+    event: t.details.schedule.items.busBack,
+    icon: Bus,
     description: ""
   }];
   const details = [{
@@ -133,6 +138,10 @@ const DetailsSection = () => {
                     <Music className="w-5 h-5 text-white" />
                     <p><span className="font-bold">{t.details.schedule.party.split(' ')[0]}</span> {t.details.schedule.party.substring(t.details.schedule.party.indexOf(' ') + 1)}</p>
                   </div>
+                  <div className="flex items-center gap-3">
+                    <Bus className="w-5 h-5 text-white" />
+                    <p><span className="font-bold">{t.details.schedule.busBack.split(' ')[0]}</span> {t.details.schedule.busBack.substring(t.details.schedule.busBack.indexOf(' ') + 1)}</p>
+                  </div>
                 </div>
               </div>
             </div>
@@ -188,7 +197,7 @@ const DetailsSection = () => {
                           >
                             lane in front of the bus station
                           </a>
-                          {' '}at 13:00. There will also be hourly buses leaving to Ávila starting at 23:00.
+                          {' '}at 12:30. There will also be hourly buses leaving to Ávila starting at 23:00.
                         </>
                       ) : language === 'es' ? (
                         <>
@@ -210,7 +219,7 @@ const DetailsSection = () => {
                           >
                             vía de servicio en frente de la Estación de Autobuses
                           </a>
-                          {' '}a las 13:00. También habrá autobuses cada hora saliendo hacia Ávila empezando a las 23:00.
+                          {' '}a las 12:30. También habrá autobuses cada hora saliendo hacia Ávila empezando a las 23:00.
                         </>
                       ) : language === 'it' ? (
                         <>
@@ -232,7 +241,7 @@ const DetailsSection = () => {
                           >
                             corsia di fronte alla Stazione degli Autobus
                           </a>
-                          {' '}alle 13:00. Ci saranno anche autobus ogni ora in partenza per Ávila a partire dalle 23:00.
+                          {' '}alle 12:30. Ci saranno anche autobus ogni ora in partenza per Ávila a partire dalle 23:00.
                         </>
                       ) : (
                         <>
@@ -254,7 +263,7 @@ const DetailsSection = () => {
                           >
                             corsia davanti a Stazzioni di Autobùs
                           </a>
-                          {' '}â 13:00. Ci sarannu puru autobùs ogni ora ca partunu versu Ávila ncuminzannu â 23:00.
+                          {' '}â 12:30. Ci sarannu puru autobùs ogni ora ca partunu versu Ávila ncuminzannu â 23:00.
                         </>
                       )}
                     </div>
