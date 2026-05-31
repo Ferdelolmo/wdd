@@ -72,7 +72,7 @@ export const translations = {
         day2: 'Domingo 21 Junio 2026',
         breakOutActivities: ' Actividades de grupo',
         day2Title: '',
-        pickup: '12:30 Recogida en autobús',
+        pickup: '12:45 Recogida en autobús',
         ceremony: '13:45 Ceremonia de boda',
         cocktail: '15:00 Cóctel',
         banquet: '17:00 Banquete',
@@ -89,7 +89,7 @@ export const translations = {
       },
       transportation: {
         title: 'Transporte',
-        description: 'Se proporcionará servicio de transporte desde el Centro de Recepción de Visitantes y también en frente de la Estación de Autobuses a las 12:30. También habrá autobuses cada hora saliendo hacia Ávila empezando a las 23:00.'
+        description: 'Se proporcionará servicio de transporte desde el Centro de Recepción de Visitantes y también en frente de la Estación de Autobuses a las 12:45. También habrá autobuses cada hora saliendo hacia Ávila empezando a las 23:00.'
       },
       attire: {
         title: 'Código de Vestimenta',
@@ -355,7 +355,7 @@ export const translations = {
         day2: 'Duminica 21 Giugnu 2026',
         breakOutActivities: ' Attività di gruppu',
         day2Title: '',
-        pickup: '12:30 Acchianata nnû bus',
+        pickup: '12:45 Acchianata nnû bus',
         ceremony: '13:45 Cirimonia dâ boda',
         cocktail: '15:00 Cóctel',
         banquet: '17:00 Banchittu',
@@ -385,7 +385,7 @@ export const translations = {
       },
       transportation: {
         title: 'Trasportu',
-        description: 'Sarà furnutu sirvizziu di trasportu di Plaza Santa Ana e a Stazzioni di Autobùs â 12:30. Ci sarannu puru autobùs ogni ora ca partunu versu Ávila ncuminzannu â 23:00.'
+        description: 'Sarà furnutu sirvizziu di trasportu di Plaza Santa Ana e a Stazzioni di Autobùs â 12:45. Ci sarannu puru autobùs ogni ora ca partunu versu Ávila ncuminzannu â 23:00.'
       },
       gifts: {
         title: 'Lista di Rigali',
@@ -639,7 +639,7 @@ export const translations = {
         day2: 'Domenica 21 Giugno 2026',
         breakOutActivities: ' Attività di gruppo',
         day2Title: '',
-        pickup: '12:30 Ritiro in autobus',
+        pickup: '12:45 Ritiro in autobus',
         ceremony: '13:45 Cerimonia di matrimonio',
         cocktail: '15:00 Cocktail',
         banquet: '17:00 Banchetto',
@@ -669,7 +669,7 @@ export const translations = {
       },
       transportation: {
         title: 'Trasporto',
-        description: 'Sarà fornito un servizio navetta da Plaza Santa Ana e la Stazione degli Autobus alle 12:30. Ci saranno anche autobus ogni ora in partenza per Ávila a partire dalle 23:00.'
+        description: 'Sarà fornito un servizio navetta da Plaza Santa Ana e la Stazione degli Autobus alle 12:45. Ci saranno anche autobus ogni ora in partenza per Ávila a partire dalle 23:00.'
       },
       gifts: {
         title: 'Lista Regali',
@@ -923,7 +923,7 @@ export const translations = {
         day2: 'Sunday, June 21, 2026',
         breakOutActivities: ' Break out activities',
         day2Title: '',
-        pickup: '12:30 Bus pickup',
+        pickup: '12:45 Bus pickup',
         ceremony: '13:45 Wedding ceremony',
         cocktail: '15:00 Cocktail hour',
         banquet: '17:00 Banquet',
@@ -940,7 +940,7 @@ export const translations = {
       },
       transportation: {
         title: 'Transportation',
-        description: 'Shuttle service will be provided from Plaza Santa Ana and the Bus Station at 12:30. There will also be hourly buses leaving to Ávila starting at 23:00.'
+        description: 'Shuttle service will be provided from Plaza Santa Ana and the Bus Station at 12:45. There will also be hourly buses leaving to Ávila starting at 23:00.'
       },
       attire: {
         title: 'Dress Code',

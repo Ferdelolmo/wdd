@@ -23,7 +23,7 @@ const DetailsSection = () => {
     window.open(googleCalendarUrl, '_blank');
   };
   const schedule = [{
-    time: "12:30",
+    time: "12:45",
     event: t.details.schedule.items.busHop,
     icon: Bus,
     description: ""
@@ -197,7 +197,7 @@ const DetailsSection = () => {
                           >
                             lane in front of the bus station
                           </a>
-                          {' '}at 12:30. There will also be hourly buses leaving to Ávila starting at 23:00.
+                          {' '}at 12:45. There will also be hourly buses leaving to Ávila starting at 23:00.
                         </>
                       ) : language === 'es' ? (
                         <>
@@ -219,7 +219,7 @@ const DetailsSection = () => {
                           >
                             vía de servicio en frente de la Estación de Autobuses
                           </a>
-                          {' '}a las 12:30. También habrá autobuses cada hora saliendo hacia Ávila empezando a las 23:00.
+                          {' '}a las 12:45. También habrá autobuses cada hora saliendo hacia Ávila empezando a las 23:00.
                         </>
                       ) : language === 'it' ? (
                         <>
@@ -241,7 +241,7 @@ const DetailsSection = () => {
                           >
                             corsia di fronte alla Stazione degli Autobus
                           </a>
-                          {' '}alle 12:30. Ci saranno anche autobus ogni ora in partenza per Ávila a partire dalle 23:00.
+                          {' '}alle 12:45. Ci saranno anche autobus ogni ora in partenza per Ávila a partire dalle 23:00.
                         </>
                       ) : (
                         <>
@@ -263,7 +263,7 @@ const DetailsSection = () => {
                           >
                             corsia davanti a Stazzioni di Autobùs
                           </a>
-                          {' '}â 12:30. Ci sarannu puru autobùs ogni ora ca partunu versu Ávila ncuminzannu â 23:00.
+                          {' '}â 12:45. Ci sarannu puru autobùs ogni ora ca partunu versu Ávila ncuminzannu â 23:00.
                         </>
                       )}
                     </div>
