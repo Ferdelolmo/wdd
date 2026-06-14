@@ -20,6 +20,7 @@ const translations = {
     ),
     petanca: "Petanca Match",
     petancaDesc: "Join a friendly petanca match arranged by Javier Jimenez. A game of skill, strategy, and fun for everyone.",
+    petancaRules: "Petanca Rules",
     time2: "19:00",
     home: "Home",
     saturdayIntro: "We’ll take it easy as we prepare for the big day on Sunday. In the evening, we’ll host two relaxing activities — you can sign up for either one.",
@@ -36,6 +37,7 @@ const translations = {
     ),
     petanca: "Partida de petanca",
     petancaDesc: "Únete a una partida amistosa de petanca organizada por Javier Jiménez. Un juego de habilidad, estrategia y diversión para todos.",
+    petancaRules: "Reglas de la petanca",
     time2: "19:00",
     home: "Inicio",
     saturdayIntro: "Nos lo tomaremos con calma mientras nos preparamos para el gran día del domingo. Por la tarde, organizaremos dos actividades relajantes, puedes apuntarte a cualquiera de las dos.",
@@ -52,6 +54,7 @@ const translations = {
     ),
     petanca: "Partita di petanca",
     petancaDesc: "Partecipa a una partita amichevole di petanca organizzata da Javier Jimenez. Un gioco di abilità, strategia e divertimento per tutti.",
+    petancaRules: "Regole della petanca",
     time2: "19:00",
     home: "Home",
     saturdayIntro: "Ce la prenderemo comoda mentre ci prepariamo per il grande giorno di domenica. In serata, organizzeremo due attività rilassanti, potete iscrivervi a una delle due.",
@@ -68,6 +71,7 @@ const translations = {
     ),
     petanca: "Partita di petanca",
     petancaDesc: "Partècipa a na partita amichevuli di petanca organizzata di Javier Jimenez. Nu jocu di abilità, stratiggìa e divertimentu pi tutti.",
+    petancaRules: "Rèuli dâ petanca",
     time2: "19:00",
     home: "Casa",
     saturdayIntro: "Ni la pigghiamu cu comodu mentri ni priparamu pû jornu granni di duminica. A sira, organizzamu du' attività rilassanti, vi putiti iscrìviri a una di li dui.",
@@ -120,8 +124,8 @@ const Activities: FC = () => {
                       </CardHeader>
                       <CardContent>
                         <p className="text-gray-600 mt-2">{t.paintWineDesc}</p>
-                        <Button 
-                          className="mt-6 w-full bg-blue-500 hover:bg-blue-600" 
+                        <Button
+                          className="mt-6 w-full bg-blue-500 hover:bg-blue-600"
                           onClick={() => window.open('https://forms.gle/igbPa6KpdYoomeCp6', '_blank')}
                         >
                           {t.signUp}
@@ -140,8 +144,11 @@ const Activities: FC = () => {
                       </CardHeader>
                       <CardContent>
                         <p className="text-gray-600 mt-2">{t.petancaDesc}</p>
-                        <Button 
-                          className="mt-6 w-full bg-blue-500 hover:bg-blue-600" 
+                        <p className="text-gray-600 mt-2">
+                          <Link to="/activities/petanca" className="text-blue-500 hover:underline">{t.petancaRules}</Link>
+                        </p>
+                        <Button
+                          className="mt-6 w-full bg-blue-500 hover:bg-blue-600"
                           onClick={() => window.open('https://forms.gle/igbPa6KpdYoomeCp6', '_blank')}
                         >
                           {t.signUp}

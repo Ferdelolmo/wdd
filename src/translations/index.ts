@@ -285,15 +285,15 @@ export const translations = {
       title: 'Cómo jugar a la petanca',
       goal: { title: 'Objetivo', desc: 'Lanza tus bolas lo más cerca posible del boliche (la pequeña bola de madera).' },
       teams: { title: 'Equipos', desc: 'Se juega en equipos de 3 personas. Cada jugador tiene 2 bolas.' },
-      howItWorks: { 
-        title: 'Cómo se juega', 
+      howItWorks: {
+        title: 'Cómo se juega',
         steps: [
           'Un equipo lanza el boliche.',
           'Ese mismo equipo lanza la primera bola.',
           'El otro equipo intenta colocar una bola más cerca del boliche.',
           'El equipo que esté más lejos sigue lanzando hasta conseguir acercarse o quedarse sin bolas.',
           'Cuando todas las bolas se han jugado, se cuentan los puntos.'
-        ] 
+        ]
       },
       scoring: { title: 'Puntuación', desc: 'Solo un equipo puntúa en cada ronda. Gana tantos puntos como bolas tenga más cerca del boliche que la mejor bola del otro equipo.' },
       activity: { title: 'Para nuestra actividad', desc: 'Las partidas serán rápidas y el objetivo es divertirse. ¡No hace falta experiencia, solo ganas de jugar y pasarlo bien!' }
@@ -586,15 +586,15 @@ export const translations = {
       title: 'Comu si joca a petanca',
       goal: { title: 'Scopu', desc: 'Jetta li tò bùuli cchiù vicinu pussìbbili ô boccinu (a picciridda palla di lignu).' },
       teams: { title: 'Squatri', desc: 'Si joca a squatri di 3 pirsuni. Ogni jucaturi havi 2 bùuli.' },
-      howItWorks: { 
-        title: 'Comu funziona', 
+      howItWorks: {
+        title: 'Comu funziona',
         steps: [
           'Na squatra jetta u boccinu.',
           'A stissa squatra jetta a prima bùula.',
           "L'autra squatra prova a mittiri na bùula cchiù vicina ô boccinu.",
           'A squatra cchiù luntana cuntinua a jittari finu a quannu si avvicina o finisci li sò bùuli.',
           'Quannu tutti li bùuli sunnu stati jittati, si cuntanu li punti.'
-        ] 
+        ]
       },
       scoring: { title: 'Punteggiu', desc: "Sulu na squatra fa punti a ogni manu. Si guadagna un puntu pi ogni bùula cchiù vicina ô boccinu rispettu â megghiu bùula di l'avversari." },
       activity: { title: 'Â nostra attività', desc: 'Li partiti sarannu curti e fatti pi divirtìrisi. Nun servi spirienza: basta participari e passàrila beni!' }
@@ -887,15 +887,15 @@ export const translations = {
       title: 'Come si gioca a petanca',
       goal: { title: 'Obiettivo', desc: 'Lancia le tue bocce il più vicino possibile al boccino (la piccola pallina di legno).' },
       teams: { title: 'Squadre', desc: 'Si gioca in squadre di 3 persone. Ogni giocatore ha 2 bocce.' },
-      howItWorks: { 
-        title: 'Come funziona', 
+      howItWorks: {
+        title: 'Come funziona',
         steps: [
           'Una squadra lancia il boccino.',
           'La stessa squadra lancia la prima boccia.',
           "L'altra squadra cerca di avvicinarsi di più al boccino.",
           'La squadra più lontana continua a lanciare finché non si avvicina o termina le bocce.',
           'Quando tutte le bocce sono state giocate, si contano i punti.'
-        ] 
+        ]
       },
       scoring: { title: 'Punteggio', desc: 'Solo una squadra segna punti in ogni manche. Si ottiene un punto per ogni boccia più vicina al boccino rispetto alla migliore boccia degli avversari.' },
       activity: { title: 'Alla nostra attività', desc: 'Le partite saranno brevi e pensate per divertirsi. Non serve esperienza: basta partecipare e godersi il momento!' }
@@ -1188,15 +1188,15 @@ export const translations = {
       title: 'Petanca for dummies',
       goal: { title: 'Goal', desc: 'Throw your balls as close as possible to the jack (the small wooden target ball).' },
       teams: { title: 'Teams', desc: 'Games are played in teams of 3 players. Each player has 2 balls.' },
-      howItWorks: { 
-        title: 'How it works', 
+      howItWorks: {
+        title: 'How it works',
         steps: [
           'One team throws the jack.',
           'The same team throws the first ball.',
           'The other team tries to place a ball closer to the jack.',
           'The team that is farther away keeps throwing until they get closer or run out of balls.',
           'Once all balls have been thrown, the points are counted.'
-        ] 
+        ]
       },
       scoring: { title: 'Scoring', desc: "Only one team scores in each round. You score one point for every ball that is closer to the jack than your opponent's best ball." },
       activity: { title: 'At our activity', desc: 'Matches will be short and all about having fun. No experience needed—just join in and enjoy!' }
