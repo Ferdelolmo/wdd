@@ -26,7 +26,16 @@ const translations = {
       <>
         After the other activities, it's time to let loose, have some fun and break the ice on the dance floor!
         <br /><br />
-        We'll be joined by Timothée di Maria, professional salsa dancer and founder of Las Congas in Barcelona, who will lead a fun, relaxed salsa workshop for both complete beginners and seasoned dancers alike. You don't need to bring anything, just your energy and ganas de mover el esqueleto.
+        We'll be joined by Timothée di Maria, professional salsa dancer and founder of{" "}
+        <a
+          href="https://www.instagram.com/lascongas_bcn/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-blue-600 hover:underline"
+        >
+          Las Congas
+        </a>{" "}
+        in Barcelona, who will lead a fun, relaxed salsa workshop for both complete beginners and seasoned dancers alike. You don't need to bring anything, just your energy and ganas de mover el esqueleto.
         <br /><br />
         Whether you've never danced salsa before or already know your moves, come join us for some music, laughs and a chance to get everyone mixing before the big day 💃🕺
       </>
@@ -53,7 +62,16 @@ const translations = {
       <>
         Después de las otras actividades, ¡es hora de soltarse, divertirse y romper el hielo en la pista de baile!
         <br /><br />
-        Nos acompañará Timothée di Maria, apasionado de salsa y fundador de Las Congas en Barcelona, quien dirigirá un taller de salsa divertido y relajado, tanto para principiantes como para quienes ya saben algunos pasos. No tenéis que traer nada, solo vuestra energía y las ganas de hacer los pasos prohibidos.
+        Nos acompañará Timothée di Maria, apasionado de salsa y fundador de{" "}
+        <a
+          href="https://www.instagram.com/lascongas_bcn/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-blue-600 hover:underline"
+        >
+          Las Congas
+        </a>{" "}
+        en Barcelona, quien dirigirá un taller de salsa divertido y relajado, tanto para principiantes como para quienes ya saben algunos pasos. No tenéis que traer nada, solo vuestra energía y las ganas de hacer los pasos prohibidos.
         <br /><br />
         Tanto si nunca habéis bailado salsa como si ya os defendéis en la pista, venid a disfrutar de un rato de música, risas y una oportunidad para que todos nos mezclemos antes del gran día 💃🕺
       </>
@@ -80,7 +98,16 @@ const translations = {
       <>
         Dopo le altre attività, è il momento di rilassarsi, divertirsi e rompere il ghiaccio sulla pista da ballo!
         <br /><br />
-        Con noi ci sarà Timothée di Maria, ballerino di salsa e fondatore di Las Congas a Barcellona, che guiderà un workshop di salsa divertente e rilassato, adatto sia ai principianti sia a chi sa già muovere qualche passo. Non dovete portare nulla, solo la vostra energia e la voglia di muovere lo scheletro.
+        Con noi ci sarà Timothée di Maria, ballerino di salsa e fondatore di{" "}
+        <a
+          href="https://www.instagram.com/lascongas_bcn/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-blue-600 hover:underline"
+        >
+          Las Congas
+        </a>{" "}
+        a Barcellona, che guiderà un workshop di salsa divertente e rilassato, adatto sia ai principianti sia a chi sa già muovere qualche passo. Non dovete portare nulla, solo la vostra energia e la voglia di muovere lo scheletro.
         <br /><br />
         Che non abbiate mai ballato salsa o che conosciate già qualche passo, unitevi a noi per un po' di musica, risate e l'occasione di stare tutti insieme prima del grande giorno 💃🕺
       </>
@@ -107,7 +134,16 @@ const translations = {
       <>
         Dopu l'autri attività, è ura di rilassarisi, divirtìrisi e rumpiri lu ghiacciu supra la pista di ballu!
         <br /><br />
-        Cu nui ci sarà Timothée di Maria, ballaturu di salsa e funnaturi di Las Congas a Barcellona, ca guiderà nu workshop di salsa divertenti e rilassatu, pi principianti assoluti e pi cu già sapi quarchi passu. Nun aviti a purtari nenti, sulu l'energia.
+        Cu nui ci sarà Timothée di Maria, ballaturu di salsa e funnaturi di{" "}
+        <a
+          href="https://www.instagram.com/lascongas_bcn/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-blue-600 hover:underline"
+        >
+          Las Congas
+        </a>{" "}
+        a Barcellona, ca guiderà nu workshop di salsa divertenti e rilassatu, pi principianti assoluti e pi cu già sapi quarchi passu. Nun aviti a purtari nenti, sulu l'energia.
         <br /><br />
         Sia si nun aviti mai ballatu salsa, sia si già canusciti quarchi passu, vinìti a passari un pocu di tempu tra musica, risati e ballu, e a canuscirini megghiu prima dû granni jornu 💃🕺
       </>
@@ -201,7 +237,7 @@ const Activities: FC = () => {
                   <AccordionTrigger className="text-xl font-bold">{t.salsa}</AccordionTrigger>
                   <AccordionContent>
                     <Card className="overflow-hidden shadow-lg">
-                      <img src="https://images.unsplash.com/photo-1547153760-18fc86324498?auto=format&fit=crop&w=800&q=80" alt={t.salsa} className="w-full h-64 object-cover" />
+                      <img src="https://i.imgur.com/p71CU8a.png" />
                       <CardHeader>
                         <CardTitle className="text-2xl font-bold">{t.salsa}</CardTitle>
                       </CardHeader>
