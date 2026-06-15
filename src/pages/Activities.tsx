@@ -243,12 +243,6 @@ const Activities: FC = () => {
                       </CardHeader>
                       <CardContent>
                         <p className="text-gray-600 mt-2">{t.salsaDesc}</p>
-                        <Button
-                          className="mt-6 w-full bg-blue-500 hover:bg-blue-600"
-                          onClick={() => window.open('https://forms.gle/igbPa6KpdYoomeCp6', '_blank')}
-                        >
-                          {t.signUp}
-                        </Button>
                       </CardContent>
                     </Card>
                   </AccordionContent>
