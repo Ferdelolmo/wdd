@@ -237,7 +237,7 @@ const Activities: FC = () => {
                   <AccordionTrigger className="text-xl font-bold">{t.salsa}</AccordionTrigger>
                   <AccordionContent>
                     <Card className="overflow-hidden shadow-lg">
-                      <img src="https://i.imgur.com/p71CU8a.png" />
+                      <img src="https://i.imgur.com/CbWKqi7.png" />
                       <CardHeader>
                         <CardTitle className="text-2xl font-bold">{t.salsa}</CardTitle>
                       </CardHeader>
