@@ -21,6 +21,16 @@ const translations = {
     petanca: "Petanca Match",
     petancaDesc: "Join a friendly petanca match arranged by Javier Jimenez. A game of skill, strategy, and fun for everyone.",
     petancaRules: "Petanca Rules",
+    salsa: "Salsa Workshop",
+    salsaDesc: (
+      <>
+        After the other activities, it's time to let loose, have some fun and break the ice on the dance floor!
+        <br /><br />
+        We'll be joined by Timothée di Maria, professional salsa dancer and founder of Las Congas in Barcelona, who will lead a fun, relaxed salsa workshop for both complete beginners and seasoned dancers alike. You don't need to bring anything, just your energy and ganas de mover el esqueleto.
+        <br /><br />
+        Whether you've never danced salsa before or already know your moves, come join us for some music, laughs and a chance to get everyone mixing before the big day 💃🕺
+      </>
+    ),
     time2: "19:00",
     home: "Home",
     saturdayIntro: "We’ll take it easy as we prepare for the big day on Sunday. In the evening, we’ll host two relaxing activities — you can sign up for either one.",
@@ -38,6 +48,16 @@ const translations = {
     petanca: "Partida de petanca",
     petancaDesc: "Únete a una partida amistosa de petanca organizada por Javier Jiménez. Un juego de habilidad, estrategia y diversión para todos.",
     petancaRules: "Reglas de la petanca",
+    salsa: "Taller de salsa",
+    salsaDesc: (
+      <>
+        Después de las otras actividades, ¡es hora de soltarse, divertirse y romper el hielo en la pista de baile!
+        <br /><br />
+        Nos acompañará Timothée di Maria, apasionado de salsa y fundador de Las Congas en Barcelona, quien dirigirá un taller de salsa divertido y relajado, tanto para principiantes como para quienes ya saben algunos pasos. No tenéis que traer nada, solo vuestra energía y las ganas de hacer los pasos prohibidos.
+        <br /><br />
+        Tanto si nunca habéis bailado salsa como si ya os defendéis en la pista, venid a disfrutar de un rato de música, risas y una oportunidad para que todos nos mezclemos antes del gran día 💃🕺
+      </>
+    ),
     time2: "19:00",
     home: "Inicio",
     saturdayIntro: "Nos lo tomaremos con calma mientras nos preparamos para el gran día del domingo. Por la tarde, organizaremos dos actividades relajantes, puedes apuntarte a cualquiera de las dos.",
@@ -55,6 +75,16 @@ const translations = {
     petanca: "Partita di petanca",
     petancaDesc: "Partecipa a una partita amichevole di petanca organizzata da Javier Jimenez. Un gioco di abilità, strategia e divertimento per tutti.",
     petancaRules: "Regole della petanca",
+    salsa: "Workshop di salsa",
+    salsaDesc: (
+      <>
+        Dopo le altre attività, è il momento di rilassarsi, divertirsi e rompere il ghiaccio sulla pista da ballo!
+        <br /><br />
+        Con noi ci sarà Timothée di Maria, ballerino di salsa e fondatore di Las Congas a Barcellona, che guiderà un workshop di salsa divertente e rilassato, adatto sia ai principianti sia a chi sa già muovere qualche passo. Non dovete portare nulla, solo la vostra energia e la voglia di muovere lo scheletro.
+        <br /><br />
+        Che non abbiate mai ballato salsa o che conosciate già qualche passo, unitevi a noi per un po' di musica, risate e l'occasione di stare tutti insieme prima del grande giorno 💃🕺
+      </>
+    ),
     time2: "19:00",
     home: "Home",
     saturdayIntro: "Ce la prenderemo comoda mentre ci prepariamo per il grande giorno di domenica. In serata, organizzeremo due attività rilassanti, potete iscrivervi a una delle due.",
@@ -72,6 +102,16 @@ const translations = {
     petanca: "Partita di petanca",
     petancaDesc: "Partècipa a na partita amichevuli di petanca organizzata di Javier Jimenez. Nu jocu di abilità, stratiggìa e divertimentu pi tutti.",
     petancaRules: "Rèuli dâ petanca",
+    salsa: "Workshop di salsa",
+    salsaDesc: (
+      <>
+        Dopu l'autri attività, è ura di rilassarisi, divirtìrisi e rumpiri lu ghiacciu supra la pista di ballu!
+        <br /><br />
+        Cu nui ci sarà Timothée di Maria, ballaturu di salsa e funnaturi di Las Congas a Barcellona, ca guiderà nu workshop di salsa divertenti e rilassatu, pi principianti assoluti e pi cu già sapi quarchi passu. Nun aviti a purtari nenti, sulu l'energia.
+        <br /><br />
+        Sia si nun aviti mai ballatu salsa, sia si già canusciti quarchi passu, vinìti a passari un pocu di tempu tra musica, risati e ballu, e a canuscirini megghiu prima dû granni jornu 💃🕺
+      </>
+    ),
     time2: "19:00",
     home: "Casa",
     saturdayIntro: "Ni la pigghiamu cu comodu mentri ni priparamu pû jornu granni di duminica. A sira, organizzamu du' attività rilassanti, vi putiti iscrìviri a una di li dui.",
@@ -147,6 +187,26 @@ const Activities: FC = () => {
                         <p className="text-gray-600 mt-2">
                           <Link to="/activities/petanca" className="text-blue-500 hover:underline">{t.petancaRules}</Link>
                         </p>
+                        <Button
+                          className="mt-6 w-full bg-blue-500 hover:bg-blue-600"
+                          onClick={() => window.open('https://forms.gle/igbPa6KpdYoomeCp6', '_blank')}
+                        >
+                          {t.signUp}
+                        </Button>
+                      </CardContent>
+                    </Card>
+                  </AccordionContent>
+                </AccordionItem>
+                <AccordionItem value="item-2-3">
+                  <AccordionTrigger className="text-xl font-bold">{t.salsa}</AccordionTrigger>
+                  <AccordionContent>
+                    <Card className="overflow-hidden shadow-lg">
+                      <img src="https://images.unsplash.com/photo-1547153760-18fc86324498?auto=format&fit=crop&w=800&q=80" alt={t.salsa} className="w-full h-64 object-cover" />
+                      <CardHeader>
+                        <CardTitle className="text-2xl font-bold">{t.salsa}</CardTitle>
+                      </CardHeader>
+                      <CardContent>
+                        <p className="text-gray-600 mt-2">{t.salsaDesc}</p>
                         <Button
                           className="mt-6 w-full bg-blue-500 hover:bg-blue-600"
                           onClick={() => window.open('https://forms.gle/igbPa6KpdYoomeCp6', '_blank')}
