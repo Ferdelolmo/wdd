@@ -23,14 +23,11 @@ const AboutSection = () => {
           </p>
           <Card className="p-6 bg-wedding-rose text-center shadow-soft border-0 px-[22px] py-[22px] inline-block">
             <h4 className="font-serif text-xl text-primary mb-3">
-              {language === 'es' ? '📅 21 Junio 2026' : 
-               language === 'it' ? '📅 21 Giugno 2026' : 
-               language === 'scn' ? '📅 21 Giugnu 2026' : 
-               '📅 21 June 2026'}
+              {language === 'es' ? '📅 21 Junio 2026' :
+                language === 'it' ? '📅 21 Giugno 2026' :
+                  language === 'scn' ? '📅 21 Giugnu 2026' :
+                    '📅 21 June 2026'}
             </h4>
-            <Button className="bg-primary hover:bg-primary/90" onClick={() => window.open('https://forms.gle/Pu5jfecVs7exJadh7', '_blank')}>
-              {t.details.rsvp.buttonText}
-            </Button>
           </Card>
         </div>
 
@@ -39,8 +36,8 @@ const AboutSection = () => {
           {/* Main Photo */}
           <Card className="overflow-hidden shadow-romantic border-0">
             <div className="aspect-[4/3] relative">
-              <img 
-                src={heroCoupleImage} 
+              <img
+                src={heroCoupleImage}
                 alt="Sarah and James engagement photo"
                 className="w-full h-full object-cover"
               />
@@ -63,8 +60,8 @@ const AboutSection = () => {
 
             <Card className="overflow-hidden shadow-romantic border-0">
               <div className="aspect-square relative">
-                <img 
-                  src={coupleCasualImage} 
+                <img
+                  src={coupleCasualImage}
                   alt="Sarah and James casual photo"
                   className="w-full h-full object-cover"
                 />
