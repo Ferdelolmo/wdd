@@ -655,6 +655,46 @@ const Speeches = () => {
     }
   };
 
+  const joseAngelContent = (
+    <div className="space-y-4 whitespace-pre-wrap leading-relaxed">
+      <p>Conocí a Fernando cuando teníamos 4 años, mi primer día de colegio.</p>
+      <p>Aunque Ávila es una ciudad muy pequeña donde todos nos hemos visto, conocernos fue un tanto casualidad, porque dos semanas antes, no solo no iba a ir a ese colegio, sino que me mudaba de ciudad, casualidades y decisiones de la vida que hace que 30 años más tarde no me imagine cómo sería mi vida sin conocer a este tío.</p>
+      <p>Para aquellos que le habéis conocido años más tarde, Fernando siempre fue un chico tímido, estudioso, horriblemente malo en los deportes, era más bien gordito, de los que no le gustaba liderar ni dejarse ver mucho, pero era tan buen niño que en eso no le ganaba nadie, si se metía en algún lío, era porque estaba cerca de mí. Sí, Fernando, podríamos decir que te faltaba picardía y es que por aquella época todavía no sabías ubicar en el mapa Campobasso.</p>
+      <p>Fernando siempre tuvo un gran corazón y fue un tío muy sensible, como cuando un día con 5 años, nos encontrábamos haciendo un dibujo, nuestra profesora Teresa nos dijo que salía un momento al baño, pero Fernando no la escuchó. Al rato me pregunta, ¿Dónde está Teresa? Fernando, dice que nos portamos muy mal, que no nos aguanta que se iba a casa y que no iba a volver. El pobre niño empezó a llorar desconsolado y yo, pues bueno, seguí con mi dibujo. Al rato vino Teresa preguntando qué le pasaba, me miró y me dijo, ¿por qué me has engañado? Questa storia e una dimostrazione del grande cuore e sensibilità che lui sempre ha avuto, e de la buona combinazione che habiamo fatto sempre, lui sempre bravo e io un po rompe...</p>
+      <p>Una de las cosas buenas de Champi, como un desafortunado corte de pelo hizo que así le empezásemos a llamar todos hace más de 20 años, es que es alguien con el que siempre puedes contar. Siempre recordaré aquel 2010 en el que tú estudiabas en Valladolid, me tocaba ir de hospitales por allí y quedábamos a vernos antes, aunque no hablásemos de a qué iba, verte siempre me venía bien.</p>
+      <p>Pero llegó el día que aquel niño tímido, fue más valiente que ninguno, dejó todo atrás y se marchó a la aventura a Dublín, ciudad y decisión que le cambio la vida y donde conoció a nuestra Chiara. E guarda quanto hai cambiato, 15 anni fa volevi farti insegnare per me un po d `italiano e Ora si sapi puru parrari lu sicilianu.</p>
+      <p>Chiara, debo dirti che da cuando ti ho conosciuto, io sono diventato pazzo per te, se va bene non sono un ragazzo difficile da convincere ma di sempre mi hai piacuto amica. Sono stato degli ultimi amici di Fernando cha hai incontrato, ma sempre mi ricorderó il modo nel quale mi hai salutato, con un grande e bello sonriso, come sei tu, come quando vedi a un vero amico dopo tanto tempo.</p>
+      <p>Soltanto vorrei dirte che da quando ti conosco, pensó che voglio ancora di più al mio amico. E mi sembra difficile da trovare una copia cosi bella come voi due, magari percio e che mi piace cosi tanto passare tempo con voi.</p>
+      <p>Ricorda come sono stato un anno fa il primo a darte gli auguri in persona mentre Fer era Negli Satti Uniti, non poteva aspettare a darte gli auguri il lunedi dopo svegliarmi la domenica guardando questo (foto de la pedida)</p>
+      <p>Fernando, I have to tell you that you always will be my rock concert mate, You always will be my AC DC man, so now it´s time for</p>
+      <p>Living easy, lovin' free (highway to hell)<br />Don't need reason, don't need rhyme<br />Ain't nothin' that I’d rather do<br />Going down, party time<br />Cause your friends are gonna be there too</p>
+      <p>But today you are not going on the highway to hell<br />We don´t see the hells bells Cause You are TNT, (T.N.T)<br />And you should Shoot to thrill, and play to kill (Shoot to thrill)<br />now you back in black And You hit the sack<br />It's been too long, I'm glad you be back (back in black)</p>
+      <p>Chiara you have to know than Fernando:<br />Never had a woman (Whole lotta Rosie)<br />Never had a woman like you<br />Doin' all the things<br />Doin' all the things you do<br />You were the best damn woman that He had ever seen (You shook me all night long)<br />You had the sightless eyes, telling him no lies<br />Knocking him out with those Sicilian eyes<br />And finally you Shook him all night long</p>
+      <p>Fernando,<br />You were caught (Thunderstruck)<br />In the middle of a railroad track<br />you looked round<br />And you knew there was no turning back<br />your mind raced<br />And you thought what could I do<br />And You knew<br />There was no help, no help from you<br />Cause the day you met Chiara you have been, I don´t know how to say, You have been (pausa de tres segundos)</p>
+      <p>Fernando remember one last thing because this is very important, It´s a long way to the top if you wanna rock and roll, so if someday you need or you want blood…you got it</p>
+      <p>Fernando Chiara vi auguro una vita piena di felicità e soltanto spero di stare vicino a voi per guardare i belli momento que vi aspettano insieme</p>
+      <p>Cosi vi prego… non tornare Barcelona!!!</p>
+      <p>Aguri, complimenti, in bocca al lupo in questa nuova vita como sposi</p>
+      <p>Enjoy today and enjoy your whole life together, we love you</p>
+      <p>Se os quiere, muchas felicidades<br />E vi voglio tanto tanto tanto tanto bene<br />And for those about the wedding WE SALUTE YOU!!!</p>
+    </div>
+  );
+
+  const joseAngelSpeech = {
+    title: {
+      es: 'Discurso de José Ángel, amigo de Fer',
+      it: 'Discorso di José Ángel, amico di Fer',
+      en: 'Speech by José Ángel, friend of Fer',
+      scn: 'Discursu di José Ángel, amicu di Fer'
+    },
+    content: {
+      es: joseAngelContent,
+      it: joseAngelContent,
+      en: joseAngelContent,
+      scn: joseAngelContent
+    }
+  };
+
   const speeches = [
     {
       title: amparoSpeech.title[language as keyof typeof amparoSpeech.title] || amparoSpeech.title.en,
@@ -700,6 +740,11 @@ const Speeches = () => {
       title: emmanuelSpeech.title[language as keyof typeof emmanuelSpeech.title] || emmanuelSpeech.title.en,
       content: emmanuelSpeech.content[language as keyof typeof emmanuelSpeech.content] || emmanuelSpeech.content.en,
       image: 'https://i.imgur.com/NNaksa8.png'
+    },
+    {
+      title: joseAngelSpeech.title[language as keyof typeof joseAngelSpeech.title] || joseAngelSpeech.title.en,
+      content: joseAngelSpeech.content[language as keyof typeof joseAngelSpeech.content] || joseAngelSpeech.content.en,
+      image: 'https://i.imgur.com/T8cSFQ7.png'
     }
   ];
 
