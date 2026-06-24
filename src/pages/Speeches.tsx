@@ -658,39 +658,48 @@ const Speeches = () => {
   const speeches = [
     { 
       title: amparoSpeech.title[language as keyof typeof amparoSpeech.title] || amparoSpeech.title.en, 
-      content: amparoSpeech.content[language as keyof typeof amparoSpeech.content] || amparoSpeech.content.en 
+      content: amparoSpeech.content[language as keyof typeof amparoSpeech.content] || amparoSpeech.content.en,
+      image: ''
     },
     { 
       title: giusySpeech.title[language as keyof typeof giusySpeech.title] || giusySpeech.title.en, 
-      content: giusySpeech.content[language as keyof typeof giusySpeech.content] || giusySpeech.content.en 
+      content: giusySpeech.content[language as keyof typeof giusySpeech.content] || giusySpeech.content.en,
+      image: ''
     },
     { 
       title: fernandoSpeech.title[language as keyof typeof fernandoSpeech.title] || fernandoSpeech.title.en, 
-      content: fernandoSpeech.content[language as keyof typeof fernandoSpeech.content] || fernandoSpeech.content.en 
+      content: fernandoSpeech.content[language as keyof typeof fernandoSpeech.content] || fernandoSpeech.content.en,
+      image: ''
     },
     { 
       title: chiaraSpeech.title[language as keyof typeof chiaraSpeech.title] || chiaraSpeech.title.en, 
-      content: chiaraSpeech.content[language as keyof typeof chiaraSpeech.content] || chiaraSpeech.content.en 
+      content: chiaraSpeech.content[language as keyof typeof chiaraSpeech.content] || chiaraSpeech.content.en,
+      image: ''
     },
     { 
       title: mariPiliSpeech.title[language as keyof typeof mariPiliSpeech.title] || mariPiliSpeech.title.en, 
-      content: mariPiliSpeech.content[language as keyof typeof mariPiliSpeech.content] || mariPiliSpeech.content.en 
+      content: mariPiliSpeech.content[language as keyof typeof mariPiliSpeech.content] || mariPiliSpeech.content.en,
+      image: ''
     },
     { 
       title: alessiaSpeech.title[language as keyof typeof alessiaSpeech.title] || alessiaSpeech.title.en, 
-      content: alessiaSpeech.content[language as keyof typeof alessiaSpeech.content] || alessiaSpeech.content.en 
+      content: alessiaSpeech.content[language as keyof typeof alessiaSpeech.content] || alessiaSpeech.content.en,
+      image: ''
     },
     { 
       title: marziaSpeech.title[language as keyof typeof marziaSpeech.title] || marziaSpeech.title.en, 
-      content: marziaSpeech.content[language as keyof typeof marziaSpeech.content] || marziaSpeech.content.en 
+      content: marziaSpeech.content[language as keyof typeof marziaSpeech.content] || marziaSpeech.content.en,
+      image: ''
     },
     { 
       title: henarSoniaSpeech.title[language as keyof typeof henarSoniaSpeech.title] || henarSoniaSpeech.title.en, 
-      content: henarSoniaSpeech.content[language as keyof typeof henarSoniaSpeech.content] || henarSoniaSpeech.content.en 
+      content: henarSoniaSpeech.content[language as keyof typeof henarSoniaSpeech.content] || henarSoniaSpeech.content.en,
+      image: ''
     },
     { 
       title: emmanuelSpeech.title[language as keyof typeof emmanuelSpeech.title] || emmanuelSpeech.title.en, 
-      content: emmanuelSpeech.content[language as keyof typeof emmanuelSpeech.content] || emmanuelSpeech.content.en 
+      content: emmanuelSpeech.content[language as keyof typeof emmanuelSpeech.content] || emmanuelSpeech.content.en,
+      image: ''
     }
   ];
 
@@ -728,6 +737,13 @@ const Speeches = () => {
               <AccordionItem key={index} value={`item-${index}`}>
                 <AccordionTrigger className="text-xl font-medium">{speech.title}</AccordionTrigger>
                 <AccordionContent className="text-base text-muted-foreground">
+                  {speech.image ? (
+                    <img src={speech.image} alt={speech.title} className="mb-6 rounded-lg w-full object-cover max-h-96" />
+                  ) : (
+                    <div className="mb-6 rounded-lg border-2 border-dashed border-gray-300 flex items-center justify-center bg-gray-50 h-64">
+                      <span className="text-gray-400">Image placeholder</span>
+                    </div>
+                  )}
                   {speech.content}
                 </AccordionContent>
               </AccordionItem>

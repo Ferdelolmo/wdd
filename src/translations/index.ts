@@ -106,7 +106,7 @@ export const translations = {
       },
       gifts: {
         title: 'Lista de Regalos',
-        description: 'Tu presencia es nuestro regalo, sin embargo, si deseas dar un obsequio, estos son los datos de nuestra cuenta bancaria:\nIBAN: ES74 1583 0001 1591 7297 2090\nBIC / SWIFT: REVOESM2 \nBeneficiaria: Chiara Cali',
+        description: 'Tu presencia es nuestro regalo, sin embargo, si deseas dar un obsequio:\n\n<strong>Cuenta bancaria</strong>\nIBAN: ES74 1583 0001 1591 7297 2090\nBIC / SWIFT: REVOESM2 \nBeneficiaria: Chiara Cali\n\n<strong>O si prefieres:</strong>\n\n<strong>Revolut:</strong> @fernan9mn\n\n<strong>Paypal:</strong> fernandodelolmovelayos@gmail.com\n\n<strong>Bizum:</strong> 654969267',
         viewRegistry: 'Ver Lista'
       },
       rsvp: {
@@ -406,7 +406,7 @@ export const translations = {
       },
       gifts: {
         title: 'Lista di Rigali',
-        description: 'A vostra prisenza è u nostru rigalu, tuttavia si vuliti dari nu rigalu, chistu sunnu i dati du nostru cuntu bancario:\nIBAN: ES74 1583 0001 1591 7297 2090\nBIC / SWIFT: REVOESM2 \nBeneficiaria: Chiara Cali',
+        description: 'A vostra prisenza è u nostru rigalu, tuttavia si vuliti dari nu rigalu:\n\n<strong>Cuntu bancario</strong>\nIBAN: ES74 1583 0001 1591 7297 2090\nBIC / SWIFT: REVOESM2 \nBeneficiaria: Chiara Cali\n\n<strong>Oppuru si prifiriti:</strong>\n\n<strong>Revolut:</strong> @fernan9mn\n\n<strong>Paypal:</strong> fernandodelolmovelayos@gmail.com\n\n<strong>Bizum:</strong> 654969267',
         viewRegistry: 'Talìa Lista'
       },
       rsvp: {
@@ -707,7 +707,7 @@ export const translations = {
       },
       gifts: {
         title: 'Lista Regali',
-        description: 'La vostra presenza è il nostro regalo, tuttavia se desiderate fare un dono, questi sono i dati del nostro conto bancario:\nIBAN: ES74 1583 0001 1591 7297 2090\nBIC / SWIFT: REVOESM2 \nBeneficiaria: Chiara Cali',
+        description: 'La vostra presenza è il nostro regalo, tuttavia se desiderate fare un dono:\n\n<strong>Conto bancario</strong>\nIBAN: ES74 1583 0001 1591 7297 2090\nBIC / SWIFT: REVOESM2 \nBeneficiaria: Chiara Cali\n\n<strong>O se preferite:</strong>\n\n<strong>Revolut:</strong> @fernan9mn\n\n<strong>Paypal:</strong> fernandodelolmovelayos@gmail.com\n\n<strong>Bizum:</strong> 654969267',
         viewRegistry: 'Visualizza Lista'
       },
       rsvp: {
@@ -1008,7 +1008,7 @@ export const translations = {
       },
       gifts: {
         title: 'Wedding Registry',
-        description: 'Your presence is our present, however if you wish to give a gift, these are our bank account details:\nIBAN: ES74 1583 0001 1591 7297 2090\nBIC / SWIFT: REVOESM2 \nBeneficiary: Chiara Cali',
+        description: 'Your presence is our present, however if you wish to give a gift:\n\n<strong>Bank account</strong>\nIBAN: ES74 1583 0001 1591 7297 2090\nBIC / SWIFT: REVOESM2 \nBeneficiary: Chiara Cali\n\n<strong>Or if you prefer:</strong>\n\n<strong>Revolut:</strong> @fernan9mn\n\n<strong>Paypal:</strong> fernandodelolmovelayos@gmail.com\n\n<strong>Bizum:</strong> 654969267',
         viewRegistry: 'View Registry'
       },
       rsvp: {
