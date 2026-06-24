@@ -29,6 +29,9 @@ fi
 # Show remotes to confirm
 git remote -v
 
+echo "Pulling latest changes from remote to prevent conflicts..."
+git pull wdd main --rebase
+
 echo "Pushing to main on remote 'wdd'..."
 git push wdd main
 
