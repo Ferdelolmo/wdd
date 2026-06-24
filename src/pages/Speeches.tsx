@@ -396,6 +396,265 @@ const Speeches = () => {
     }
   };
 
+  const alessiaSpeech = {
+    title: {
+      es: 'Discurso de Alessia',
+      it: 'Discorso di Alessia',
+      en: 'Alessia’s Speech',
+      scn: 'Speech 6',
+    },
+    content: {
+      es: (
+        <div className="space-y-4 whitespace-pre-wrap leading-relaxed">
+          <p>Para quienes no me conocen, soy una de las personas que ha tenido el privilegio de acompañar la vida de Chiara durante muchos años. Y cuando digo muchos, me refiero de verdad a muchos.</p>
+          <p>Nos conocimos en los pupitres del colegio, en el instituto. Teníamos apenas catorce años y, como suele ocurrir a esa edad, no podíamos imaginar que ese encuentro se convertiría en una de las amistades más importantes de nuestras vidas.</p>
+          <p>Vivimos juntas los cinco años del bachillerato, esos que parecen eternos mientras los estás viviendo y que luego se convierten en algunos de los recuerdos más valiosos que guardas. Fueron años de estudio y esfuerzo, pero también de ligereza, de risas, de descubrimientos, de salidas con los amigos y de esas pequeñas travesuras que, con el tiempo, hacen sonreír todavía más. Años en los que crecimos juntas, aprendiendo poco a poco quiénes éramos y quiénes queríamos llegar a ser.</p>
+          <p>Luego llegó el momento de tomar caminos distintos. Ella a Trento, yo a Ferrara. Dos ciudades, nuevas experiencias, nuevas personas, nuevas vidas que empezaban a tomar forma.</p>
+          <p>Mucha gente cree que la distancia pone a prueba las amistades. Y en efecto, lo hace. Pero algunas amistades descubren precisamente en la distancia su fuerza más auténtica.</p>
+          <p>A pesar de los kilómetros, nunca nos perdimos de verdad. Nos contamos alegrías y miedos, éxitos y momentos difíciles. Y cada vez que conseguíamos reencontrarnos, ocurría algo maravilloso: era como si el tiempo no hubiera pasado y la distancia nunca hubiera existido.</p>
+          <p>Retomábamos nuestras conversaciones exactamente donde las habíamos dejado, con la misma complicidad de siempre.</p>
+          <p>Si hoy tuviera que describir lo que Chiara representa para mí, no hablaría solo de una amiga. Hablaría de una presencia constante. De una persona capaz de estar sin pedir nada a cambio. De alguien que sabe escuchar de verdad, que sabe dar consejos con inteligencia, sensibilidad y sinceridad. Una de esas personas raras que no te dicen lo que quieres oír, sino lo que necesitas escuchar, siempre con cuidado y con cariño.</p>
+          <p>En la vida somos afortunados si encontramos aunque sea unas pocas personas así. Yo tuve la suerte de encontrar una a los catorce años.</p>
+          <p>Y luego, en un momento dado, llegó Fernando, la persona que dejó huella en el corazón de Chiara. Y una de las cosas que más he valorado es que la llegada de Fernando nunca le restó nada a nuestra amistad. Al contrario, añadió. Trajo aún más alegría, más equilibrio y más amor a la vida de una persona a la que quiero inmensamente.</p>
+          <p>Fernando, gracias por hacer feliz a mi amiga y gracias porque a tu lado sigue siendo la persona extraordinaria que siempre ha sido.</p>
+          <p>Hoy, mirándoos aquí, no veo simplemente a dos personas que se casan. Veo a dos personas que se han elegido. Que cada día siguen eligiéndose. Que han decidido construir juntos un camino hecho de confianza, complicidad, respeto y amor.</p>
+          <p>Y entonces mi deseo para vosotros es sencillo. Que podáis conservar siempre esa luz que hoy brilla en vuestros ojos. Que podáis afrontar juntos los desafíos de la vida sin olvidar nunca reíros. Que podáis ser el uno para el otro refugio en los momentos difíciles y celebración en los bonitos. Y que podáis miraros dentro de muchos años con la misma emoción que todos vemos esta noche.</p>
+          <p>A ti, Chiara, gracias por haber estado en todos estos años. Gracias por tu amistad, por tu lealtad, por tu presencia. Eres una de las personas más valiosas de mi vida y hoy no podría ser más feliz de verte cumplir este sueño.</p>
+          <p>A vosotros dos, a vuestra historia y a todo lo que os espera.</p>
+          <p>¡Chin chin!</p>
+        </div>
+      ),
+      it: (
+        <div className="space-y-4 whitespace-pre-wrap leading-relaxed">
+          <p>Per chi non mi conoscesse, sono una delle persone che ha avuto il privilegio di accompagnare la vita di Chiara per molti anni. E quando dico molti, intendo davvero molti.</p>
+          <p>Ci siamo conosciute tra i banchi di scuola, al liceo. Avevamo appena quattordici anni e, come spesso accade a quell'età, non potevamo immaginare che quell'incontro si sarebbe trasformato in una delle amicizie più importanti delle nostre vite.</p>
+          <p>Abbiamo vissuto insieme i cinque anni del liceo, quelli che sembrano eterni mentre li stai vivendo e che poi diventano alcuni dei ricordi più preziosi che conservi. Sono stati anni di studio e impegno, ma anche di leggerezza, di risate, di scoperte, di uscite con gli amici e di quelle piccole marachelle che, con il tempo, fanno sorridere ancora di più. Anni in cui siamo cresciute insieme, imparando poco a poco chi eravamo e chi volevamo diventare.</p>
+          <p>Poi è arrivato il momento di prendere strade diverse. Lei a Trento, io a Ferrara. Due città, nuove esperienze, nuove persone, nuove vite che iniziavano a prendere forma.</p>
+          <p>Molta gente crede che la distanza metta alla prova le amicizie. E in effetti, lo fa. Ma alcune amicizie scoprono proprio nella distanza la loro forza più autentica.</p>
+          <p>Nonostante i chilometri, non ci siamo mai perse davvero. Ci siamo raccontate gioie e paure, successi e momenti difficili. E ogni volta che riuscivamo a ritrovarci, succedeva qualcosa di meraviglioso: era come se il tempo non fosse passato e la distanza non fosse mai esistita.</p>
+          <p>Riprendevamo le nostre conversazioni esattamente dove le avevamo lasciate, con la stessa complicità di sempre.</p>
+          <p>Se oggi dovessi descrivere cosa rappresenta Chiara per me, non parlerei solo di un'amica. Parlerei di una presenza costante. Di una persona capace di esserci senza chiedere nulla in cambio. Di qualcuno che sa ascoltare davvero, che sa dare consigli con intelligenza, sensibilità e sincerità. Una di quelle persone rare che non ti dicono quello che vuoi sentirti dire, ma quello che hai bisogno di ascoltare, sempre con cura e con affetto.</p>
+          <p>Nella vita siamo fortunati se troviamo anche solo poche persone così. Io ho avuto la fortuna di trovarne una a quattordici anni.</p>
+          <p>E poi, a un certo punto, è arrivato Fernando, la persona che ha lasciato il segno nel cuore di Chiara. E una delle cose che ho apprezzato di più è che l'arrivo di Fernando non ha mai tolto nulla alla nostra amicizia. Al contrario, ha aggiunto. Ha portato ancora più gioia, più equilibrio e più amore nella vita di una persona a cui voglio un bene immenso.</p>
+          <p>Fernando, grazie per aver reso felice la mia amica e grazie perché al tuo fianco continua a essere la persona straordinaria che è sempre stata.</p>
+          <p>Oggi, guardandovi qui, non vedo semplicemente due persone che si sposano. Vedo due persone che si sono scelte. Che ogni giorno continuano a scegliersi. Che hanno deciso di costruire insieme un percorso fatto di fiducia, complicità, rispetto e amore.</p>
+          <p>E allora il mio augurio per voi è semplice. Che possiate conservare sempre quella luce che oggi brilla nei vostri occhi. Che possiate affrontare insieme le sfide della vita senza mai dimenticare di ridere. Che possiate essere l'uno per l'altro rifugio nei momenti difficili e celebrazione in quelli belli. E che possiate guardarvi tra molti anni con la stessa emozione che tutti noi vediamo questa sera.</p>
+          <p>A te, Chiara, grazie per esserci stata in tutti questi anni. Grazie per la tua amicizia, per la tua lealtà, per la tua presenza. Sei una delle persone più preziose della mia vita e oggi non potrei essere più felice di vederti realizzare questo sogno.</p>
+          <p>A voi due, alla vostra storia e a tutto quello che vi aspetta.</p>
+          <p>Cin cin!</p>
+        </div>
+      ),
+      en: (
+        <div className="space-y-4 whitespace-pre-wrap leading-relaxed">
+          <p>For those who don't know me, I am one of the people who has had the privilege of accompanying Chiara's life for many years. And when I say many, I truly mean many.</p>
+          <p>We met at school, sitting at our desks in secondary school. We were barely fourteen years old and, as often happens at that age, we could never have imagined that this meeting would become one of the most important friendships of our lives.</p>
+          <p>We lived through five years of high school together — those years that feel endless while you are living them and then become some of the most precious memories you carry with you. They were years of studying and hard work, but also of lightness, laughter, discoveries, outings with friends, and those small acts of mischief that, with time, make you smile even more. Years in which we grew up together, gradually learning who we were and who we wanted to become.</p>
+          <p>Then came the moment to take different paths. She went to Trento, I went to Ferrara. Two cities, new experiences, new people, new lives beginning to take shape.</p>
+          <p>Many people think that distance puts friendships to the test. And indeed it does. But some friendships discover their most genuine strength precisely through distance.</p>
+          <p>Despite the kilometres, we never truly lost each other. We shared joys and fears, successes and difficult moments. And every time we managed to get back together, something wonderful happened: it was as though no time had passed and the distance had never existed. We picked up our conversations exactly where we had left them, with the same closeness as always.</p>
+          <p>If today I had to describe what Chiara means to me, I would not speak only of a friend. I would speak of a constant presence. Of a person capable of being there without asking for anything in return. Of someone who truly knows how to listen, who gives advice with intelligence, sensitivity and sincerity. One of those rare people who does not tell you what you want to hear, but what you need to hear — always with care and with affection.</p>
+          <p>In life we are fortunate if we meet even just a few people like that. I had the luck of finding one at the age of fourteen.</p>
+          <p>And then, at a certain point, Fernando arrived — the person who left his mark on Chiara's heart. And one of the things I have valued most is that Fernando's arrival never took anything away from our friendship. On the contrary, it added to it. He brought even more joy, more balance and more love into the life of someone I care about immensely.</p>
+          <p>Fernando, thank you for making my friend happy, and thank you because beside you she continues to be the extraordinary person she has always been.</p>
+          <p>Today, looking at you both here, I do not simply see two people getting married. I see two people who have chosen each other. Who every day keep choosing each other. Who have decided to build together a path made of trust, closeness, respect and love.</p>
+          <p>And so my wish for you is a simple one. May you always keep that light that shines in your eyes today. May you face life's challenges together without ever forgetting to laugh. May you be for each other a refuge in the difficult moments and a celebration in the beautiful ones. And may you look at each other many years from now with the same emotion that we all see tonight.</p>
+          <p>To you, Chiara, thank you for having been there through all these years. Thank you for your friendship, your loyalty, your presence. You are one of the most precious people in my life and today I could not be happier to see you living this dream.</p>
+          <p>To the two of you, to your story and to everything that awaits you.</p>
+          <p>Cheers!</p>
+        </div>
+      ),
+      scn: <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>,
+    }
+  };
+
+  const marziaSpeech = {
+    title: {
+      es: 'Discurso de Marzia, hermana de Chiara',
+      it: 'Discorso di Marzia, sorella di Chiara',
+      en: 'Marzia’s Speech, Chiara’s sister',
+      scn: 'Speech 7',
+    },
+    content: {
+      es: (
+        <div className="space-y-4 whitespace-pre-wrap leading-relaxed">
+          <p>Buenas tardes, Señoras y Señores,</p>
+          <p>Soy Marzia, la hermana menor de Chiara, y voy a compartir unas breves palabras.</p>
+          <p>Hoy estamos aquí reunidos para celebrar este precioso momento de alegría y felicidad, y me gustaría empezar dando las gracias a nuestros maravillosos anfitriones españoles por su cálida acogida. Es un honor celebrar este momento con vosotros.</p>
+          <p>Chiara,</p>
+          <p>Soy afortunada de tener una hermana especial como tú, que ahora está lista para vivir el día más bonito de su vida, junto a una persona maravillosa que está enamorada de ella.</p>
+          <p>Recuerdo a esta preciosa niña con muchísimos rizos, que estudiaba de la mañana a la noche, y para comer y cenar teníamos que llamarla muchas veces, porque tenía que terminar los estudios que estaba haciendo.</p>
+          <p>Mi hermana es una persona maravillosa, siempre dispuesta a ayudar no solo a mí y a la familia, sino también a los demás sin pedir nada a cambio.</p>
+          <p>Querida hermana mía, te deseo un futuro próspero y lleno de buenas novedades, ¡una vida serena junto a tu espléndido esposo!</p>
+          <p>¡Estoy orgullosa de ti!</p>
+          <p>Y para terminar, quiero darte la bienvenida, Fernando. Bienvenido a nuestra familia. Cuida siempre de mi hermana, que es un tesoro para nosotros.</p>
+          <p>¡Vivan los novios!</p>
+        </div>
+      ),
+      it: (
+        <div className="space-y-4 whitespace-pre-wrap leading-relaxed">
+          <p>Buon pomeriggio Signore e Signori,</p>
+          <p>Sono Marzia, la sorella minore di Chiara e condividerò alcune brevi parole.</p>
+          <p>Oggi, siamo qui riuniti per festeggiare questo bellissimo momento di gioia e di felicità, e mi piacerebbe iniziare ringraziando i nostri meravigliosi ospiti spagnoli per la loro accoglienza. È un onore celebrare questo momento con voi.</p>
+          <p>Chiara,</p>
+          <p>Sono fortunata ad avere una sorella speciale come te, che adesso è pronta a vivere il suo giorno più bello della vita, accanto ad una persona stupenda e innamorata di lei.</p>
+          <p>Ricordo questa bellissima ragazzina con tanti ma tanti capelli ricci, che studiava dalla mattina alla sera, e per pranzare e cenare la dovevamo chiamare tante volte, perché doveva finire lo studio che stava facendo.</p>
+          <p>Mia sorella è una persona meravigliosa, sempre pronta ad aiutare non solo me e la famiglia, ma anche gli altri senza chiedere nulla in cambio.</p>
+          <p>Cara sorella mia, ti auguro un futuro prosperoso e ricco di belle novità, una vita serena accanto al tuo splendido sposo!</p>
+          <p>Sono fiera di te!</p>
+          <p>E per finire, voglio darti il benvenuto, Fernando. Benvenuto nella nostra famiglia. Prenditi sempre cura di mia sorella, che è un tesoro per noi.</p>
+          <p>Viva gli sposi!</p>
+        </div>
+      ),
+      en: (
+        <div className="space-y-4 whitespace-pre-wrap leading-relaxed">
+          <p>Good afternoon, Ladies and Gentlemen.</p>
+          <p>I am Marzia, Chiara's younger sister, and I would like to share a few brief words.</p>
+          <p>Today we are gathered here to celebrate this precious moment of joy and happiness, and I would like to begin by thanking our wonderful Spanish hosts for their warm welcome. It is an honor to celebrate this moment with you.</p>
+          <p>Chiara,</p>
+          <p>I am lucky to have such a special sister like you, who is now ready to live the most beautiful day of her life, alongside a wonderful person who is deeply in love with her.</p>
+          <p>I remember this precious little girl with so many curls, who studied from morning to night, and at lunch and dinner time we had to call her over and over again, because she had to finish whatever she was studying.</p>
+          <p>My sister is a wonderful person, always ready to help not only me and the family, but also others, without asking for anything in return.</p>
+          <p>My dear sister, I wish you a prosperous future full of wonderful new things, and a peaceful life alongside your splendid husband!</p>
+          <p>I am so proud of you!</p>
+          <p>And finally, I want to welcome you, Fernando. Welcome to our family. Always take care of my sister, who is a treasure to us.</p>
+          <p>Long live the newlyweds!</p>
+        </div>
+      ),
+      scn: <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>,
+    }
+  };
+
+  const henarSoniaSpeech = {
+    title: {
+      es: 'Discurso de Henar y Sonia, primas de Fer',
+      it: 'Discorso di Henar e Sonia, cugine di Fer',
+      en: 'Henar & Sonia’s Speech, Fernando’s cousins',
+      scn: 'Speech 8',
+    },
+    content: {
+      es: (
+        <div className="space-y-4 whitespace-pre-wrap leading-relaxed">
+          <p><strong>Sonia:</strong> Hola a todos. Esperemos que estéis disfrutando de la comida y pasando un día de lo más agradable. Para quienes no nos conocen, somos las primas malinas y moñas del novio, “Henar la primogénita” y “Sonia la niña de Esther”.</p>
+          <p><strong>Henar:</strong> Fernan, Chiara es todo un honor poder estar presentes en este maravilloso día, poder acompañaros y ser cómplices del amor y respeto que os guardáis.</p>
+          <p><strong>Sonia:</strong> Un 9 de junio del 1988, llegó a la familia del Olmo Galicia; el tercer nieto de la Esperanza, uno de los favoritos: Amable, guapo, bueno, inteligente, con esos ojos y esa cara que conquistaba a todos, como para no ser de los favoritos también te digo.</p>
+          <p><strong>Henar:</strong> Ese pequeño me dio el título de prima mayor, al que paseaba en el carrito mientras levantaba la cabeza como un pollito y me sonreía, mi primo cómplice, con el que pasaba vacaciones en el pueblo y en Ávila junto con mi hermano, fueron llegando más primos a la familia y nos quitaban el protagonismo, pero no importaba, estábamos felices de encontrarnos y estar juntos, de pasar las navidades y esperar a que los reyes o Papá Noel llamaran a la puerta de la cancela.</p>
+          <p><strong>Sonia:</strong> Recuerdo como Fernan fue ese primo cómplice de trastadas con su primo mayor y con su hermano, que me encerraban a oscuras en el baño con apenas 2 años y me soplaban toda la decoración de una tarta de azúcar Glass en la cara.</p>
+          <p><strong>Henar:</strong> Fer siempre has sabido estar, pero no te has conformado, tu como Fernando Alonso tenías que cambiar de escudería (jaja) y te fuiste a Irlanda. ¡Qué sorpresa te tenía allí la vida!, además de crecer profesionalmente conociste al amor de tu vida: ¡Chiara!, tenías que ser tú. Desde que te conocimos nos conquistaste, no sabemos si por tu espectacular melena, por tu enorme sonrisa, tu dulzura, tu simpatía, por la luz que desprendes estés donde estés o porque gracias a ti la Befana nos trae chocolates, pero lo que sí sé; es que eres una más de la familia y que nos has dejado huella.</p>
+          <p><strong>Sonia:</strong> En conclusión, como diría el señor Burns una novia excelente.</p>
+          <p><strong>Henar:</strong> Juntos habéis viajado y conquistado medio mundo, a familiares y a amigos; habéis creado algo maravilloso.</p>
+          <p><strong>Lydia:</strong> Gracias por pasaros a vernos cada vez que veníais de Barcelona, me hacía muy feliz veros y que me dejarais notas en mi habitación.</p>
+          <p><strong>Sonia:</strong> Sois el claro ejemplo de conexión, de amor y no solo porque os complementáis, sino también porque os potenciáis y os elegís día a día. Hoy no sólo celebramos una boda, celebramos una historia de amor construida con cariño, paciencia, trabajo y mucha luz.</p>
+          <p><strong>Lydia:</strong> Sólo nos queda desearos que nunca perdáis esa manera de miraros, cuidaros y elegiros cada día. Os deseamos una vida llena de amor y felicidad.</p>
+          <p>Os queremos mucho.</p>
+          <p>Vuestra familia.</p>
+          <p>VIVAN LOS NOVIOS!</p>
+        </div>
+      ),
+      it: (
+        <div className="space-y-4 whitespace-pre-wrap leading-relaxed">
+          <p><strong>Sonia:</strong> Ciao a tutti. Speriamo che stiate gustando il cibo e trascorrendo una giornata davvero piacevole. Per chi non ci conosce, siamo le cugine birichine e romantiche dello sposo, "Henar, la primogenita" e "Sonia, la figlia di Esther".</p>
+          <p><strong>Henar:</strong> Fernan, Chiara, è un onore enorme poter essere presenti in questo meraviglioso giorno, potervi accompagnare ed essere complici dell'amore e del rispetto che vi portate.</p>
+          <p><strong>Sonia:</strong> Il 9 giugno 1988, arrivò nella famiglia del Olmo Galicia il terzo nipote della Esperanza, uno dei preferiti: Gentile, bello, buono, intelligente, con quegli occhi e quel viso che conquistava tutti — come per non essere tra i preferiti, te lo dico anch’io.</p>
+          <p><strong>Henar:</strong> Quel bambino mi ha dato il titolo di cugina maggiore; quello che portavo in carrozzina mentre alzava la testa come un pulcino e mi sorrideva, il mio cugino complice, con cui trascorrevo le vacanze in paese e ad Ávila insieme a mio fratello. Arrivarono altri cugini in famiglia e ci toglievano il protagonismo, ma non importava — eravamo felici di ritrovarci e stare insieme, di passare il Natale e aspettare che i Re Magi o Babbo Natale bussassero al cancello.</p>
+          <p><strong>Sonia:</strong> Ricordo come Fernan fosse quel cugino complice di birichinate con il suo cugino maggiore e suo fratello, che mi chiudevano al buio in bagno quando avevo appena 2 anni e mi soffiavano in faccia tutta la decorazione di zucchero a velo di una torta.</p>
+          <p><strong>Henar:</strong> Fer, hai sempre saputo esserci, ma non ti sei accontentato — tu, come Fernando Alonso, dovevi cambiare scuderia (haha) e te ne sei andato in Irlanda. Che sorpresa ti aveva riservato la vita là! Oltre a crescere professionalmente, hai conosciuto l'amore della tua vita: Chiara! Dovevi essere proprio tu. Da quando ti abbiamo conosciuta ci hai conquistati, non sappiamo se per la tua spettacolare chioma, per il tuo sorriso enorme, la tua dolcezza, la tua simpatia, per la luce che irradi ovunque tu sia, o perché grazie a te la Befana ci porta i cioccolatini — ma quello che so con certezza è che sei ormai una di famiglia e che ci hai lasciato un segno nel cuore.</p>
+          <p><strong>Sonia:</strong> In conclusione, come direbbe il Signor Burns: una sposa eccellente.</p>
+          <p><strong>Henar:</strong> Insieme avete viaggiato e conquistato mezzo mondo, familiari e amici; avete creato qualcosa di meraviglioso.</p>
+          <p><strong>Lydia:</strong> Grazie per essere passati a trovarci ogni volta che venivate da Barcellona — mi rendeva molto felice vedervi e trovare i vostri bigliettini nella mia stanza.</p>
+          <p><strong>Sonia:</strong> Siete il chiaro esempio di connessione e di amore — non solo perché vi completate, ma anche perché vi valorizzate e vi scegliete ogni giorno. Oggi non celebriamo solo un matrimonio, celebriamo una storia d'amore costruita con affetto, pazienza, impegno e tanta luce.</p>
+          <p><strong>Lydia:</strong> Ci resta solo da augurare che non perdiate mai quel modo di guardarvi, prendervi cura l'uno dell'altro e scegliervi ogni giorno. Vi auguriamo una vita piena di amore e felicità.</p>
+          <p>Vi vogliamo tanto bene.</p>
+          <p>La vostra famiglia.</p>
+          <p>VIVA GLI SPOSI!</p>
+        </div>
+      ),
+      en: (
+        <div className="space-y-4 whitespace-pre-wrap leading-relaxed">
+          <p><strong>Sonia:</strong> Hello everyone. We hope you are enjoying the food and having a most wonderful day. For those who don't know us, we are the groom's mischievous and sentimental cousins — "Henar, the firstborn" and "Sonia, Esther's daughter."</p>
+          <p><strong>Henar:</strong> Fernan, Chiara, it is a tremendous honor to be here on this wonderful day, to accompany you and be witnesses to the love and respect you have for each other.</p>
+          <p><strong>Sonia:</strong> On June 9th, 1988, the third grandchild of Esperanza arrived in the del Olmo Galicia family — one of the favorites: kind, handsome, good, intelligent, with those eyes and that face that won everyone over. No wonder he was one of the favorites, I have to say!</p>
+          <p><strong>Henar:</strong> That little boy gave me the title of oldest cousin. I used to push him in his pram while he lifted his head like a little chick and smiled at me — my partner-in-crime cousin, with whom I spent holidays in the village and in Ávila together with my brother. More cousins kept joining the family and would steal the spotlight from us, but it didn't matter — we were happy to find each other and be together, to spend Christmas and wait for the Three Kings or Father Christmas to knock at the gate.</p>
+          <p><strong>Sonia:</strong> I remember how Fernan was that partner-in-crime for pranks with his older cousin and his brother — they would lock me in the dark bathroom when I was barely 2 years old and blow an entire powdered sugar cake decoration right in my face.</p>
+          <p><strong>Henar:</strong> Fer, you have always known how to be there, but you were never one to settle — just like Fernando Alonso, you had to change teams (haha) and off you went to Ireland. What a surprise life had in store for you there! On top of growing professionally, you met the love of your life: Chiara! It could only have been you. From the moment we met you, you won us over — we're not sure if it was your spectacular hair, your enormous smile, your sweetness, your charm, the light you radiate wherever you are, or the fact that thanks to you the Befana now brings us chocolates. But what I do know for certain is that you are already one of the family and that you have left a mark on our hearts.</p>
+          <p><strong>Sonia:</strong> In short, as Mr. Burns would say: an excellent bride.</p>
+          <p><strong>Henar:</strong> Together you have traveled and won over half the world — family and friends alike. You have created something truly wonderful.</p>
+          <p><strong>Lydia:</strong> Thank you for stopping by to see us every time you came from Barcelona — it made me so happy to see you and to find your little notes in my room.</p>
+          <p><strong>Sonia:</strong> You are the perfect example of connection and love — not only because you complement each other, but because you bring out the best in one another and choose each other every single day. Today we are not just celebrating a wedding; we are celebrating a love story built with tenderness, patience, hard work, and so much light.</p>
+          <p><strong>Lydia:</strong> All that is left for us to say is this: may you never lose that way of looking at each other, caring for each other, and choosing each other every day. We wish you a life full of love and happiness.</p>
+          <p>We love you so much.</p>
+          <p>Your family.</p>
+          <p>LONG LIVE THE NEWLYWEDS!</p>
+        </div>
+      ),
+      scn: <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>,
+    }
+  };
+
+  const emmanuelSpeech = {
+    title: {
+      es: 'Discurso de Emmanuel',
+      it: 'Discorso di Emmanuel',
+      en: 'Emmanuel’s Speech',
+      scn: 'Speech 9',
+    },
+    content: {
+      es: (
+        <div className="space-y-4 whitespace-pre-wrap leading-relaxed">
+          <p>Buenas noches a todos. Soy Emmanuel y he tenido el privilegio de conocer a Fernando desde hace unos 10 años, desde que coincidimos en Dublín.</p>
+          <p>Sí, en Dublín — Fer estaba cansado de la buena comida y el sol de España. Sabemos que no tolera mucho el calor, así que se mudó a Irlanda por su clima más suave, por decirlo de alguna manera. Lo cual, seamos honestos, es la primera señal de que Fernando no siempre toma las decisiones más lógicas… Pero por suerte, elegir a Chiara fue definitivamente una de las mejores.</p>
+          <p>Aún recuerdo cuando nos conocimos. Ahí estaba Fernando, alias "Champi", como en champiñón, porque tenía un corte de pelo tan gracioso que parecía un champiñón… o un playmobil. Chiara, menos mal que él abandonó ese disparate de peinado un tiempo antes de conocerte. Todo el mundo sabe lo que es un playmobil, ¿verdad? Pues para los que no lo saben, resulta que tengo uno aquí en el bolsillo.</p>
+          <p>Y no exagero, de verdad que se parecía a esto. Por cierto, esta figurita representa a Superman y, en muchos sentidos, Fernando no es un héroe — tengo historias de noches que lo confirmarían, pero no vamos a entrar en eso aquí — pero sí es un ser humano extraordinario.</p>
+          <p>Es un hombre con una mente curiosa y muchos talentos: aprendió inglés en el colegio y lo habla muy bien, quizás es uno de los españoles que mejor inglés habla que he escuchado… mucho mejor que Mariano Rajoy, por cierto.</p>
+          <p>Aprendió francés por su cuenta y también lo habla muy bien (aunque con un acento gracioso), y como si no fuera suficiente, también aprendió italiano por su cuenta… ¡e incluso un dialecto! Tío, ¿tienes Asperger? Yo apenas soy capaz de montar un mueble de Ikea (un saludo a mi mujer, que lo hace ella) y él reformó un piso entero él solo. Eres un luchador, eres organizado (hojas de Excel para los viajes, maletas hechas con antelación — eso a Chiara le encanta)… chapeau, caranchoa.</p>
+          <p>Os complementáis muy bien. Entre otras cosas, Chiara aporta su espontaneidad y su bondad, y Fer le aporta a ella un poco más de estructura y organización (y Dios sabe que la necesita). Ahora bien, espero y rezo para que Chiara también pueda ayudarle en lo que respecta al baile. Sí, hermano, el baile del culo tiene que evolucionar un poco. Ah, perdón, algunos de vosotros no conocéis el baile del culo, ¿verdad? Pues es muy sencillo: es el único movimiento de baile de Fernando. Le he visto hacerlo infinidad de veces con reggaetón, con salsa, con música electrónica… Por favor, Chiara, ayúdale — tiene que desaparecer o mejorar, igual que su antiguo peinado de playmobil. Sabes que tengo razón, caranchoa.</p>
+          <p>Sabes que soy buen consejero, por eso me seguiste a Dublín (bueno, llegaste dos años después que yo — yo llegué primero), me mudé a Barcelona y me seguiste un año más tarde, y yo decidí casarme con una mujer maravillosa y ¿qué pasó? Tú también decidiste casarte con una mujer preciosa. Así que escúchame, hermano, escúchame cuando te doy estos dos consejos que harán tu matrimonio mucho más llevadero:</p>
+          <p>El primero ya lo escuchaste en Dublín: tu mujer siempre tiene razón.</p>
+          <p>El segundo, probablemente el más importante: pídele perdón a tu mujer aunque en tu cabeza no hayas hecho nada malo. En serio, yo le pido perdón continuamente — le pido perdón por cosas que ni siquiera he hecho, como la lluvia, que el bebé se despierte por la noche, o por haberle sido infiel en sus sueños. Y no es broma.</p>
+          <p>Hay mucho más que podría contaros sobre él, amigo mío, pero lo dejo aquí diciendo que estoy muy feliz de que hayas encontrado a tu persona, me alegra que sea esta Chiara (aunque no tenga voz ni voto en el asunto) y os deseo a los dos que crezcáis juntos hacia la mejor versión de vosotros mismos.</p>
+          <p>Un brindis por la pareja, ¡levantad las copas!</p>
+        </div>
+      ),
+      it: (
+        <div className="space-y-4 whitespace-pre-wrap leading-relaxed">
+          <p>Buonasera a tutti. Sono Emmanuel e ho avuto il privilegio di conoscere Fernando da circa 10 anni, da quando ci siamo incontrati a Dublino. Sì, a Dublino — a Fer aveva stancato il buon cibo e il sole della Spagna.</p>
+          <p>Sappiamo che non tollera molto il caldo, quindi si è trasferito in Irlanda per il suo clima più mite, per dirla gentilmente. Il che, siamo onesti, è il primo segnale che Fernando non prende sempre le decisioni più logiche… Ma per fortuna, scegliere Chiara è stata decisamente una delle migliori.</p>
+          <p>Ricordo ancora quando ci siamo conosciuti. Lì c'era Fernando, alias "Champi", come in champiñón, che in spagnolo significa fungo, perché aveva un taglio di capelli così buffo che sembrava un fungo… o un playmobil. Chiara, meno male che ha abbandonato quella follia di pettinatura un po' prima di conoscerti. Tutti sanno cos'è un playmobil, vero? Beh, per chi non lo sa, ho uno proprio qui in tasca. E non esagero, assomigliava davvero a questo. Tra l'altro, questa figurina rappresenta Superman e, per molti versi, Fernando non è un eroe — ho storie di serate che lo confermerebbero, ma non ci addentreremo in questo argomento qui — però è davvero un essere umano straordinario.</p>
+          <p>È un uomo con una mente curiosa e molti talenti: ha imparato l'inglese a scuola e lo parla molto bene, forse è uno degli spagnoli che parla meglio l'inglese che abbia mai sentito… molto meglio di Mariano Rajoy, tra l'altro.</p>
+          <p>Ha imparato il francese da solo e lo parla molto bene anche quello (anche se con un accento buffo), e come se non bastasse, ha imparato anche l'italiano da solo… e persino un dialetto! Amico, hai la sindrome di Asperger? Io riesco a malapena a montare un mobile dell'Ikea (un saluto a mia moglie che lo fa lei) e lui ha ristrutturato un intero appartamento da solo. Sei un combattente, sei organizzato (fogli Excel per i viaggi, valigie fatte in anticipo — questo a Chiara piace molto)… chapeau, caranchoa.</p>
+          <p>Vi completate molto bene. Tra le altre cose, Chiara porta la sua spontaneità e la sua gentilezza, e Fer le porta un po' più di struttura e organizzazione (e Dio sa che ne ha bisogno). Detto questo, spero e prego che Chiara possa aiutarlo anche in fatto di ballo. Sì, hermano, il "baile del culo" deve evolversi un po'. Ah, scusate, alcuni di voi non conoscono il "baile del culo", vero? È semplice: è l'unica mossa di ballo di Fernando. L'ho visto farlo infinite volte su reggaeton, su salsa, su musica elettronica… Per favore, Chiara, aiutalo — deve sparire o migliorare, proprio come il suo vecchio peinado da playmobil. Sai che ho ragione, caranchoa.</p>
+          <p>Sai che sono un buon consigliere, ecco perché mi hai seguito a Dublino (beh, sei arrivato due anni dopo di me — io sono arrivato primo), mi sono trasferito a Barcellona e mi hai seguito un anno dopo, ho deciso di sposare una donna meravigliosa e cosa è successo? Anche tu hai deciso di sposarti con una donna splendida. Quindi ascoltami, hermano, ascoltami quando ti do questi due consigli che renderanno il tuo matrimonio molto più sereno:</p>
+          <p>Il primo lo hai già sentito a Dublino: tua moglie ha sempre ragione.</p>
+          <p>Il secondo, probabilmente il più importante: chiedi scusa a tua moglie anche se nella tua testa non hai fatto nulla di sbagliato. Davvero, io le chiedo scusa continuamente — le chiedo scusa per cose che non ho nemmeno fatto, come la pioggia, il bambino che si sveglia di notte, o per averla tradita nei suoi sogni. E non scherzo.</p>
+          <p>C'è molto altro che potrei raccontarvi su di lui, amico mio, ma mi fermo qui dicendo che sono molto felice che tu abbia trovato la tua persona, sono contento che sia questa Chiara (anche se non ho voce in capitolo) e vi auguro a entrambi di crescere insieme verso la versione migliore di voi stessi.</p>
+          <p>Un brindisi per gli sposi, alzate i calici!</p>
+        </div>
+      ),
+      en: (
+        <div className="space-y-4 whitespace-pre-wrap leading-relaxed">
+          <p>Good evening everyone,</p>
+          <p>I’m Emmanuel and I’ve had the privilege of knowing Fernando for about 10 years now ever since me met in Dublin.</p>
+          <p>Dublin indeed, Fer had enough of the good food and the sunny weather in Spain, we know he doesn’t tolerate the heat much so he moved to Ireland for its milder weather to put i nicely.</p>
+          <p>Which let’s be honest, is the first sign that Fernando may not always make the most logical decisions…</p>
+          <p>But thankfully, choosing Chiara was definitely one of his better ones.</p>
+          <p>I still remember when we first met. There was Fernando aka Champi as in Champinon in Spanish which means mushroom because he had a funny haircut that made looked like a mushroom or a playmobil…yet Chiara you’re lucky he has dropped that hairstyle nonsense a while before you met him I think.</p>
+          <p>Everyone knows what a playmobil is right? Well, for those who don’t, it happens that I got one randomly in my pocket. And I’m not exaggerating, he really looked like that.</p>
+          <p>By the way, this little figurine is meant to be Superman and in many ways Fernando is not a hero, I have late night stories that would say so but we are not gonna get into those here aren’t we, but he is a Super Human.</p>
+          <p>He is a man with a curious mind and many talents: He learnt English at school and speaks it very well, maybe one of the Spaniard that speaks the best English I’ve heard..way better than Mariano Rajoy por cierto, he learnt French on his own and speaks it very well too (even if he has a funny accent) and as if it wasn’t enough, he learnt Italian on his own too and even one dialect….like man do you have Asperger?</p>
+          <p>I can barely mount an Ikea furniture (shoot out to my wife doing it) and he refurbished an entire flat on its own you’re a go getter, you’re organised (excel sheets for trips, early packing Chiara likes that)…hats off caranchoa.</p>
+          <p>You guys complement each other, among other things Chiara is bringing to the table her spontaneity, her kindness and Fer brings her a bit more structure and organisation (and God knows she needs it).</p>
+          <p>Now I hope, I pray that Chiara will be also able to help him in the dance department. Yes hermano, tu baile del culo has to evolve a bit. Oh sorry some of you don’t know el baile del culo right? Well it’s simple it’s Fernando’s one and only dance move: I saw him do it countless time on reaggateon, on salsa, on electronic music . Please Chiara, help, it has to go or be improved like his former Playmobil hairstyle!</p>
+          <p>You know I’m right caranchoa. You know I’m a good counselor, that’s why you followed me in Dublin (well you arrived 2 years after me I was there first), I moved to Barcelona and you followed me a year later and I decided to marry a gorgeous woman and guess what: you decided to marry a beautiful woman too.</p>
+          <p>So listen to me hermano, listen to me when I’m giving you these 2 pieces of advise that will make your marriage so much smoother:</p>
+          <p>First one, you heard it in Dublin, your wife is always right.</p>
+          <p>The second one, probably the most important one, apologise to your wife even if you haven’t done anything wrong in your mind: Seriously, I’m apologising to her all the time, I’m apologising for shits I haven’t even done such as the rain, the baby waking up at night, me cheating on her in her dream. (I ain’t joking).</p>
+          <p>There is so much more I could tell about him and tell you my friend but I’ll end here saying I’m super happy that you found your person, I’m glad that this Chiara (Not that I have a say in it) and wish you both to grow together in the best version of yourselves.</p>
+          <p>Un brindis para la pareja, raise your glasses!</p>
+        </div>
+      ),
+      scn: <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>,
+    }
+  };
+
   const speeches = [
     { 
       title: amparoSpeech.title[language as keyof typeof amparoSpeech.title] || amparoSpeech.title.en, 
@@ -416,6 +675,22 @@ const Speeches = () => {
     { 
       title: mariPiliSpeech.title[language as keyof typeof mariPiliSpeech.title] || mariPiliSpeech.title.en, 
       content: mariPiliSpeech.content[language as keyof typeof mariPiliSpeech.content] || mariPiliSpeech.content.en 
+    },
+    { 
+      title: alessiaSpeech.title[language as keyof typeof alessiaSpeech.title] || alessiaSpeech.title.en, 
+      content: alessiaSpeech.content[language as keyof typeof alessiaSpeech.content] || alessiaSpeech.content.en 
+    },
+    { 
+      title: marziaSpeech.title[language as keyof typeof marziaSpeech.title] || marziaSpeech.title.en, 
+      content: marziaSpeech.content[language as keyof typeof marziaSpeech.content] || marziaSpeech.content.en 
+    },
+    { 
+      title: henarSoniaSpeech.title[language as keyof typeof henarSoniaSpeech.title] || henarSoniaSpeech.title.en, 
+      content: henarSoniaSpeech.content[language as keyof typeof henarSoniaSpeech.content] || henarSoniaSpeech.content.en 
+    },
+    { 
+      title: emmanuelSpeech.title[language as keyof typeof emmanuelSpeech.title] || emmanuelSpeech.title.en, 
+      content: emmanuelSpeech.content[language as keyof typeof emmanuelSpeech.content] || emmanuelSpeech.content.en 
     }
   ];
 
