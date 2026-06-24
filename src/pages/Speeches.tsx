@@ -344,7 +344,7 @@ const Speeches = () => {
           <p>Hoy, me siento profundamente feliz de estar en vuestra presencia, rodeada de familiares y amigos, celebrando una vez más la unión de mi queridísimo sobrino y su radiante esposa, a quienes he visto contraer nupcias en Sicilia. Pero hoy, hoy me hace especial ilusión celebrar esta boda ¡a la española!</p>
           <p>Sería imposible para mí resumir todos los recuerdos que tengo con mi sobrino. Tantos momentos bonitos y divertidos; tantos momentos de la infancia en los que nos hizo tan felices. Fernando fue un niño bueno, obediente, alegre y sonriente. Y para nosotros, era el niño más guapo del mundo.</p>
           <p>¡Cómo no acordarme de los veranos en Benidorm! Se pasaba la hora de la siesta saltando y cantando:<br />
-          “Somos, somos las vedettes de los cabaretes del viejo París, París, París, París, Paríiiiis”.</p>
+            “Somos, somos las vedettes de los cabaretes del viejo París, París, París, París, Paríiiiis”.</p>
           <p>Os lo prometo, era un niño súper divertido. Y esos momentos siempre, siempre los llevaré en mi corazón.</p>
           <p>El tiempo continuó su curso y Fernando creció para convertirse en un chico estudioso, responsable; y su esfuerzo lo llevaría a graduarse en la Universidad de Valladolid, una ciudad que también le sirvió como base para su primer trabajo. Pero Valladolid se quedaría corta para los sueños de Fer, y como todos ya sabéis, sus ganas de comerse el mundo le llevaron hasta la lluviosa y bella Irlanda, donde conoció a muchos de vosotros.</p>
           <p>Y ahora estamos aquí, sobrino, en el día de tu boda, después de haber logrado conquistar todos los retos que te impuso Irlanda: una isla que forjó tu garra y tu carácter, pero que también te regaló amigos maravillosos, que celebran hoy contigo. Pero Irlanda no solo te dio triunfos y amigos, porque lo mejor que esta etapa te tenía reservado, fue conocer a Chiara, el amor de tu vida.</p>
@@ -363,7 +363,7 @@ const Speeches = () => {
           <p>Oggi mi sento profondamente felice di essere in vostra presenza, circondata da familiari e amici, celebrando ancora una volta l'unione del mio carissimo nipote e della sua radiosa sposa, che ho già visto sposarsi in Sicilia. Ma oggi, oggi mi fa un'emozione particolare celebrare questo matrimonio all'española!</p>
           <p>Mi sarebbe impossibile riassumere tutti i ricordi che ho con mio nipote. Tanti momenti belli e divertenti; tanti momenti dell'infanzia in cui ci ha reso così felici. Fernando era un bambino buono, obbediente, allegro e sorridente. E per noi era il bambino più bello del mondo.</p>
           <p>Come non ricordare le estati a Benidorm! Passava l'ora del riposino saltando e cantando:<br />
-          "Somos, somos las vedettes de los cabaretes del viejo París, París, París, París, Paríiiiis."</p>
+            "Somos, somos las vedettes de los cabaretes del viejo París, París, París, París, Paríiiiis."</p>
           <p>Ve lo giuro, era un bambino super divertente. E quei momenti li porterò sempre, sempre nel cuore. Il tempo ha continuato il suo corso e Fernando è cresciuto diventando un ragazzo studioso e responsabile; il suo impegno lo avrebbe portato a laurearsi all'Università di Valladolid, una città che gli è servita anche come base per il suo primo lavoro.</p>
           <p>Ma Valladolid sarebbe stata troppo piccola per i sogni di Fer, e come tutti già sapete, la sua voglia di conquistare il mondo lo ha portato fino alla piovosa e bella Irlanda, dove ha conosciuto molti di voi.</p>
           <p>Ed eccoci qui, nipote, nel giorno del tuo matrimonio, dopo aver superato tutte le sfide che l'Irlanda ti ha imposto: un'isola che ha forgiato la tua grinta e il tuo carattere, ma che ti ha anche regalato amici meravigliosi, che oggi festeggiano con te. Ma l'Irlanda non ti ha dato solo successi e amici, perché la cosa più bella che questa fase aveva in serbo per te è stata conoscere Chiara, l'amore della tua vita.</p>
@@ -381,7 +381,7 @@ const Speeches = () => {
           <p>Today I feel deeply happy to be in your presence, surrounded by family and friends, celebrating once again the union of my dearest nephew and his radiant bride, whom I already had the joy of watching get married in Sicily. But today — today it fills me with a particular thrill to celebrate this wedding the Spanish way!</p>
           <p>It would be impossible for me to summarise all the memories I have with my nephew. So many beautiful and fun moments; so many childhood moments in which he made us so happy. Fernando was a good, obedient, cheerful and smiling little boy. And to us, he was the most handsome child in the world.</p>
           <p>How could I forget the summers in Benidorm! He would spend the whole afternoon nap time jumping around and singing:<br />
-          "Somos, somos las vedettes de los cabaretes del viejo París, París, París, París, Paríiiiis."</p>
+            "Somos, somos las vedettes de los cabaretes del viejo París, París, París, París, Paríiiiis."</p>
           <p>I promise you, he was an incredibly fun child. And those moments I will carry in my heart always, always.</p>
           <p>Time moved on and Fernando grew into a studious, responsible young man; his hard work and dedication led him to graduate from the University of Valladolid, a city that also served as the base for his first job. But Valladolid would prove too small for Fer's dreams, and as you all know, his hunger to take on the world brought him all the way to rainy, beautiful Ireland, where he met many of you.</p>
           <p>And here we are, nephew, on your wedding day, after having overcome every challenge Ireland set before you: an island that forged your drive and your character, but that also gave you wonderful friends, who are here celebrating with you today. But Ireland didn't only give you success and friends — because the finest thing this chapter had in store for you was meeting Chiara, the love of your life.</p>
@@ -656,50 +656,50 @@ const Speeches = () => {
   };
 
   const speeches = [
-    { 
-      title: amparoSpeech.title[language as keyof typeof amparoSpeech.title] || amparoSpeech.title.en, 
+    {
+      title: amparoSpeech.title[language as keyof typeof amparoSpeech.title] || amparoSpeech.title.en,
       content: amparoSpeech.content[language as keyof typeof amparoSpeech.content] || amparoSpeech.content.en,
-      image: ''
+      image: 'https://i.imgur.com/3rMLXJ1.png'
     },
-    { 
-      title: giusySpeech.title[language as keyof typeof giusySpeech.title] || giusySpeech.title.en, 
+    {
+      title: giusySpeech.title[language as keyof typeof giusySpeech.title] || giusySpeech.title.en,
       content: giusySpeech.content[language as keyof typeof giusySpeech.content] || giusySpeech.content.en,
-      image: ''
+      image: 'https://i.imgur.com/xvAs8cC.png'
     },
-    { 
-      title: fernandoSpeech.title[language as keyof typeof fernandoSpeech.title] || fernandoSpeech.title.en, 
+    {
+      title: fernandoSpeech.title[language as keyof typeof fernandoSpeech.title] || fernandoSpeech.title.en,
       content: fernandoSpeech.content[language as keyof typeof fernandoSpeech.content] || fernandoSpeech.content.en,
-      image: ''
+      image: 'https://i.imgur.com/jkiSDBU.png'
     },
-    { 
-      title: chiaraSpeech.title[language as keyof typeof chiaraSpeech.title] || chiaraSpeech.title.en, 
+    {
+      title: chiaraSpeech.title[language as keyof typeof chiaraSpeech.title] || chiaraSpeech.title.en,
       content: chiaraSpeech.content[language as keyof typeof chiaraSpeech.content] || chiaraSpeech.content.en,
-      image: ''
+      image: 'https://i.imgur.com/2F6FoXz.png'
     },
-    { 
-      title: mariPiliSpeech.title[language as keyof typeof mariPiliSpeech.title] || mariPiliSpeech.title.en, 
+    {
+      title: mariPiliSpeech.title[language as keyof typeof mariPiliSpeech.title] || mariPiliSpeech.title.en,
       content: mariPiliSpeech.content[language as keyof typeof mariPiliSpeech.content] || mariPiliSpeech.content.en,
-      image: ''
+      image: 'https://i.imgur.com/375pfUy.png'
     },
-    { 
-      title: alessiaSpeech.title[language as keyof typeof alessiaSpeech.title] || alessiaSpeech.title.en, 
+    {
+      title: alessiaSpeech.title[language as keyof typeof alessiaSpeech.title] || alessiaSpeech.title.en,
       content: alessiaSpeech.content[language as keyof typeof alessiaSpeech.content] || alessiaSpeech.content.en,
-      image: ''
+      image: 'https://i.imgur.com/UjUzIVG.png'
     },
-    { 
-      title: marziaSpeech.title[language as keyof typeof marziaSpeech.title] || marziaSpeech.title.en, 
+    {
+      title: marziaSpeech.title[language as keyof typeof marziaSpeech.title] || marziaSpeech.title.en,
       content: marziaSpeech.content[language as keyof typeof marziaSpeech.content] || marziaSpeech.content.en,
-      image: ''
+      image: 'https://i.imgur.com/qhwieGQ.png'
     },
-    { 
-      title: henarSoniaSpeech.title[language as keyof typeof henarSoniaSpeech.title] || henarSoniaSpeech.title.en, 
+    {
+      title: henarSoniaSpeech.title[language as keyof typeof henarSoniaSpeech.title] || henarSoniaSpeech.title.en,
       content: henarSoniaSpeech.content[language as keyof typeof henarSoniaSpeech.content] || henarSoniaSpeech.content.en,
-      image: ''
+      image: 'https://i.imgur.com/ptymaZu.png'
     },
-    { 
-      title: emmanuelSpeech.title[language as keyof typeof emmanuelSpeech.title] || emmanuelSpeech.title.en, 
+    {
+      title: emmanuelSpeech.title[language as keyof typeof emmanuelSpeech.title] || emmanuelSpeech.title.en,
       content: emmanuelSpeech.content[language as keyof typeof emmanuelSpeech.content] || emmanuelSpeech.content.en,
-      image: ''
+      image: 'https://i.imgur.com/NNaksa8.png'
     }
   ];
 
@@ -709,10 +709,10 @@ const Speeches = () => {
         <Link to="/">
           <Button variant="outline" size="sm" className="bg-background/80 backdrop-blur-sm">
             <Home className="w-4 h-4 mr-2" />
-            {language === 'es' ? 'Inicio' : 
-             language === 'it' ? 'Home' : 
-             language === 'scn' ? 'Casa' : 
-             'Home'}
+            {language === 'es' ? 'Inicio' :
+              language === 'it' ? 'Home' :
+                language === 'scn' ? 'Casa' :
+                  'Home'}
           </Button>
         </Link>
       </div>
@@ -726,9 +726,9 @@ const Speeches = () => {
           </h1>
           <p className="text-muted-foreground text-lg">
             {language === 'es' ? 'Aquí encontrarás los discursos después de la boda' :
-             language === 'it' ? 'Qui troverete i discorsi dopo il matrimonio' :
-             language === 'scn' ? 'Ccà truverete i discursi doppu u matrimoniu' :
-             'You will find the speeches here after the wedding'}
+              language === 'it' ? 'Qui troverete i discorsi dopo il matrimonio' :
+                language === 'scn' ? 'Ccà truverete i discursi doppu u matrimoniu' :
+                  'You will find the speeches here after the wedding'}
           </p>
         </div>
         <div className="max-w-4xl mx-auto">
