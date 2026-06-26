@@ -16,6 +16,7 @@ const GALLERY_IMAGES = [
   { id: 7, src: 'https://i.imgur.com/XpAcVLw.jpeg', alt: 'Wedding moment 7' },
   { id: 8, src: 'https://i.imgur.com/aBSbUod.jpeg', alt: 'Wedding moment 8' },
   { id: 9, src: 'https://i.imgur.com/jpXdRy7.jpeg', alt: 'Wedding moment 9' },
+  { id: 10, src: 'https://i.imgur.com/KUecNJH.jpeg', alt: 'Wedding moment 10' },
 ];
 
 const Pictures = () => {
@@ -30,10 +31,10 @@ const Pictures = () => {
   };
 
   const descriptions: Record<string, string> = {
-    es: 'Aquí puedes ver y compartir los recuerdos de la boda',
-    it: 'Qui puoi vedere e condividere i ricordi del matrimonio',
-    scn: 'Ccà pôi vìdiri e spartìri li ricordi dû matrimoniu',
-    en: 'Here you can view and share the wedding memories',
+    es: 'Aquí puedes ver y compartir todos los momentos más especiales de nuestra boda',
+    it: 'Qui puoi vedere e condividere tutti i momenti più belli del nostro matrimonio',
+    scn: 'Ccà pôi vìdiri e spartìri tutti li mumenti cchiù belli dû nostru matrimoniu',
+    en: 'Here you can view and share all the most beautiful moments of our wedding',
   };
 
   const openLightbox = (index: number) => {
@@ -88,32 +89,43 @@ const Pictures = () => {
           </p>
 
           {/* External Album Links */}
-          <div className="flex justify-center items-center gap-8">
+          <div className="flex flex-col sm:flex-row justify-center items-center gap-4 mt-2">
             <a
               href="https://web.dotstheapp.com/a?group=2497410&dlBy=weddingchiarafer&code=qna9stjxJGoC"
               target="_blank"
               rel="noopener noreferrer"
-              className="hover:opacity-80 transition-opacity hover:scale-105 transform duration-200"
-              title="View Album 1"
+              className="flex items-center gap-3 bg-white/80 backdrop-blur-sm border border-white/40 shadow-md rounded-2xl px-5 py-3 hover:shadow-lg hover:scale-105 transition-all duration-200 w-full sm:w-auto max-w-xs"
             >
               <img
                 src="https://play-lh.googleusercontent.com/PUrfNOl2Oj-L-2bbKH1DBZxU1J6KaPbty-PkeVsrB4yLvpovppCoYxcpfa5dx5SPM1_1i9eJvTsH2eSZJHgRUg"
-                alt="Google Play Logo"
-                className="h-14 md:h-16 object-contain"
+                alt="Dots App"
+                className="h-10 w-10 object-contain rounded-xl flex-shrink-0"
               />
+              <div className="text-left">
+                <p className="text-xs text-muted-foreground font-medium uppercase tracking-wide">
+                  {language === 'es' ? 'Ver álbum en' : language === 'it' ? 'Vedi album su' : language === 'scn' ? 'Talia àlbum nta' : 'View album on'}
+                </p>
+                <p className="text-sm font-bold text-foreground">Dots App →</p>
+              </div>
             </a>
+
             <a
               href="https://photos.app.goo.gl/KbzzFF91UNkQKc9F9"
               target="_blank"
               rel="noopener noreferrer"
-              className="hover:opacity-80 transition-opacity hover:scale-105 transform duration-200"
-              title="View Album 2"
+              className="flex items-center gap-3 bg-white/80 backdrop-blur-sm border border-white/40 shadow-md rounded-2xl px-5 py-3 hover:shadow-lg hover:scale-105 transition-all duration-200 w-full sm:w-auto max-w-xs"
             >
               <img
                 src="https://logos-world.net/wp-content/uploads/2022/05/Google-Photos-Logo.png"
-                alt="Google Photos Logo"
-                className="h-10 md:h-12 object-contain"
+                alt="Google Photos"
+                className="h-8 w-auto object-contain flex-shrink-0"
               />
+              <div className="text-left">
+                <p className="text-xs text-muted-foreground font-medium uppercase tracking-wide">
+                  {language === 'es' ? 'Ver álbum en' : language === 'it' ? 'Vedi album su' : language === 'scn' ? 'Talia àlbum nta' : 'View album on'}
+                </p>
+                <p className="text-sm font-bold text-foreground">Google Photos →</p>
+              </div>
             </a>
           </div>
         </div>
