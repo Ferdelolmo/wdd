@@ -695,6 +695,72 @@ const Speeches = () => {
     }
   };
 
+  const adolfoSpeech = {
+    title: {
+      es: 'Discurso de Adolfo, amigo de Fernando',
+      it: 'Discorso di Adolfo, amico di Fernando',
+      en: "Adolfo's Speech, Fernando's friend",
+      scn: "Adolfo's Speech, Fernando's friend",
+    },
+    content: {
+      es: (
+        <div className="space-y-4 whitespace-pre-wrap leading-relaxed">
+          <p>Tengo dos minutos para hablarte de patria, de honor y de lealtad. Y no lo voy a hacer en términos militares, que de eso todavía tengo mucho que aprender...</p>
+          <p>Hoy vengo a hablar de una patria muy diferente y que los que estamos en esta mesa nos la sabemos al dedillo. Esta patria no tiene fronteras. Esta patria no se defiende con armas.</p>
+          <p>Un escritor español hablaba de la verdadera patria en el sentido de infancia, la verdadera patria; donde nos pinchamos con el punzon en prescolar y algún trozo de plastilina nos comíamos; cuando salimos pronto a la calle para pasarnos la tarde echando un rápido y al que perdiera reventarle a balonazos aunque fuera nuestro mejor amigo, la única misión era salir a la calle y pasarlo bien. O como pasar una semana fingiendo que no te duelen las rodillas tras haberte pegado un hostiazo con la bici y gracias a ese casco que nos permitió no quedar más tontos de lo que eramos. Y aquella época que saltábamos los plomos de la escuela de idiomas para no hacer los listening...que luego exportamos la gamberrada al instituto. Miguel Delibes afirmaba que 'la infancia es la patria común de todos los mortales'.</p>
+          <p>Y cuánta razón tenía. Qué fortuna la mía haber compartido esa gran patria con el grupo de amigos que hoy llena esta sala y en especial contigo.</p>
+          <p>La lealtad que siempre me has brindado y espero haberte devuelto de la misma forma, te convirtió hace años en mi confidente, y a mí en el tuyo. Algunos secretos que juramos nos llevaríamos a la tumba porque eran vida o muerte para chavales de 15 años. Si las cosas se ponían difíciles ahí fuera, nos defendíamos el uno al otro con razón o sin ella. Porque en nuestro código, la lealtad siempre estuvo por encima de cualquier circunstancia.</p>
+          <p>Por eso, para terminar, quiero hablar del honor. En mi profesión, el honor es una divisa que se lleva con orgullo, puedo decir sin miedo a equivocarme, que es un honor ser tú amigo y un orgullo tenerte.</p>
+        </div>
+      ),
+      it: (
+        <div className="space-y-4 whitespace-pre-wrap leading-relaxed">
+          <p>Ho due minuti per parlarti di patria, di onore e di lealtà. E non lo farò in termini militari, perché su questo ho ancora molto da imparare.</p>
+          <p>Oggi voglio parlare di una patria molto diversa, una patria che tutti noi seduti a questo tavolo conosciamo a memoria. Questa patria non ha confini. Questa patria non si difende con le armi.</p>
+          <p>Uno scrittore spagnolo parlava della vera patria come dell'infanzia. La nostra vera patria: il luogo dove all'asilo ci pungevamo le dita con il punteruolo e, ogni tanto, finivamo persino per mangiare un pezzetto di plastilina; quando uscivamo di corsa in strada per passare il pomeriggio giocando a pallone, e chi perdeva veniva preso a pallonate, anche se era il tuo migliore amico. L'unica missione era uscire e divertirsi.</p>
+          <p>Oppure quando passavamo una settimana intera facendo finta che le ginocchia non ci facessero male dopo una rovinosa caduta dalla bicicletta, ringraziando quel casco che ci aveva impedito di diventare ancora più sciocchi di quanto già fossimo. O quel periodo in cui marinavamo la scuola di lingue per evitare gli esercizi di ascolto... una piccola ribellione che poi abbiamo esportato anche al liceo.</p>
+          <p>Miguel Delibes affermava che: "L'infanzia è la patria comune di tutti i mortali."</p>
+          <p>E aveva davvero ragione.</p>
+          <p>Quanto sono stato fortunato ad aver condiviso quella grande patria con il gruppo di amici che oggi riempie questa sala, e soprattutto con te.</p>
+          <p>La lealtà che mi hai sempre dimostrato, e che spero di averti ricambiato allo stesso modo, ha fatto di te il mio confidente molti anni fa, e di me il tuo. Abbiamo condiviso segreti che ci siamo giurati di portare nella tomba, perché per due ragazzi di quindici anni erano davvero questioni di vita o di morte.</p>
+          <p>Quando le cose si mettevano male là fuori, ci difendevamo a vicenda, avessimo ragione oppure no. Perché nel nostro codice la lealtà è sempre stata al di sopra di qualsiasi circostanza.</p>
+          <p>Per concludere, vorrei parlare dell'onore.</p>
+          <p>Nella mia professione, l'onore è un valore che si porta con orgoglio. E posso dire, senza timore di sbagliarmi, che è un onore essere tuo amico e un immenso orgoglio averti nella mia vita.</p>
+        </div>
+      ),
+      en: (
+        <div className="space-y-4 whitespace-pre-wrap leading-relaxed">
+          <p>I have two minutes to talk to you about homeland, honor, and loyalty. And I'm not going to do it in military terms, because I still have a great deal to learn about that.</p>
+          <p>Today, I want to talk about a very different kind of homeland—one that everyone at this table knows by heart. This homeland has no borders. It isn't defended with weapons.</p>
+          <p>A Spanish writer once spoke about our true homeland as our childhood. Our real homeland: where we pricked our fingers with a punch tool in preschool and probably swallowed a bit of modeling clay along the way; where we rushed outside after school to spend the entire afternoon playing football, and whoever lost would get pelted with the ball—even if he was your best friend. The only mission was to get outside and have fun.</p>
+          <p>Or spending a whole week pretending your knees didn't hurt after a spectacular bike crash, grateful that your helmet kept you from ending up any sillier than we already were. Or those days when we skipped English language school just to avoid the listening exercises... a little act of rebellion that we later proudly exported to high school.</p>
+          <p>Miguel Delibes once said, "Childhood is the common homeland of all mortals."</p>
+          <p>And how right he was.</p>
+          <p>How fortunate I am to have shared that great homeland with the group of friends who fill this room today—and especially with you.</p>
+          <p>The loyalty you have always shown me, and which I hope I have returned in equal measure, made you my confidant years ago, and me yours. We shared secrets we swore would go with us to the grave because, to a couple of fifteen-year-old boys, they truly were matters of life and death.</p>
+          <p>Whenever things got tough out there, we stood up for each other, whether we were right or wrong. Because in our code, loyalty always came before any circumstance.</p>
+          <p>So, to finish, I'd like to talk about honor.</p>
+          <p>In my profession, honor is something you wear with pride. And I can say, without fear of being mistaken, that it is an honor to be your friend, and a source of immense pride to have you in my life.</p>
+        </div>
+      ),
+      scn: (
+        <div className="space-y-4 whitespace-pre-wrap leading-relaxed">
+          <p>I have two minutes to talk to you about homeland, honor, and loyalty. And I'm not going to do it in military terms, because I still have a great deal to learn about that.</p>
+          <p>Today, I want to talk about a very different kind of homeland—one that everyone at this table knows by heart. This homeland has no borders. It isn't defended with weapons.</p>
+          <p>A Spanish writer once spoke about our true homeland as our childhood. Our real homeland: where we pricked our fingers with a punch tool in preschool and probably swallowed a bit of modeling clay along the way; where we rushed outside after school to spend the entire afternoon playing football, and whoever lost would get pelted with the ball—even if he was your best friend. The only mission was to get outside and have fun.</p>
+          <p>Or spending a whole week pretending your knees didn't hurt after a spectacular bike crash, grateful that your helmet kept you from ending up any sillier than we already were. Or those days when we skipped English language school just to avoid the listening exercises... a little act of rebellion that we later proudly exported to high school.</p>
+          <p>Miguel Delibes once said, "Childhood is the common homeland of all mortals."</p>
+          <p>And how right he was.</p>
+          <p>How fortunate I am to have shared that great homeland with the group of friends who fill this room today—and especially with you.</p>
+          <p>The loyalty you have always shown me, and which I hope I have returned in equal measure, made you my confidant years ago, and me yours. We shared secrets we swore would go with us to the grave because, to a couple of fifteen-year-old boys, they truly were matters of life and death.</p>
+          <p>Whenever things got tough out there, we stood up for each other, whether we were right or wrong. Because in our code, loyalty always came before any circumstance.</p>
+          <p>So, to finish, I'd like to talk about honor.</p>
+          <p>In my profession, honor is something you wear with pride. And I can say, without fear of being mistaken, that it is an honor to be your friend, and a source of immense pride to have you in my life.</p>
+        </div>
+      ),
+    },
+  };
+
   const speeches = [
     {
       title: amparoSpeech.title[language as keyof typeof amparoSpeech.title] || amparoSpeech.title.en,
@@ -745,6 +811,11 @@ const Speeches = () => {
       title: joseAngelSpeech.title[language as keyof typeof joseAngelSpeech.title] || joseAngelSpeech.title.en,
       content: joseAngelSpeech.content[language as keyof typeof joseAngelSpeech.content] || joseAngelSpeech.content.en,
       image: 'https://i.imgur.com/T8cSFQ7.png'
+    },
+    {
+      title: adolfoSpeech.title[language as keyof typeof adolfoSpeech.title] || adolfoSpeech.title.en,
+      content: adolfoSpeech.content[language as keyof typeof adolfoSpeech.content] || adolfoSpeech.content.en,
+      image: 'https://i.imgur.com/gIghHPn.png'
     }
   ];
 
