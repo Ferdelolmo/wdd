@@ -19,6 +19,7 @@ import Soundtrack from "./pages/Soundtrack";
 import Menu from "./pages/Menu";
 import Petanca from "./pages/Petanca";
 import Pictures from "./pages/Pictures";
+import Gallery from "./pages/Gallery";
 
 const queryClient = new QueryClient();
 
@@ -44,6 +45,7 @@ const App = () => (
             <Route path="/menu" element={<Menu />} />
             <Route path="/activities/petanca" element={<Petanca />} />
             <Route path="/pictures" element={<Pictures />} />
+            <Route path="/gallery" element={<Gallery />} />
             {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
             <Route path="*" element={<NotFound />} />
           </Routes>

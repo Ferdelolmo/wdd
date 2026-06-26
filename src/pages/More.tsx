@@ -2,7 +2,7 @@ import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 import { useLanguage } from '@/contexts/LanguageContext';
 import { translations } from '@/translations';
-import { FileText, Utensils, Volume2, Download, ExternalLink, Home, Map } from 'lucide-react';
+import { FileText, Volume2, Download, ExternalLink, Home, Map, MapPin, Camera } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import LanguageSelector from '@/components/LanguageSelector';
 
@@ -129,6 +129,66 @@ const More = () => {
           </Card>
           */}
 
+          {/* Ávila */}
+          <Link to="/Avila" className="block">
+            <Card className="bg-card/80 backdrop-blur-sm shadow-romantic border-0 hover:shadow-xl hover:scale-[1.02] transition-all duration-300 cursor-pointer">
+              <CardHeader>
+                <CardTitle className="flex items-center gap-2 text-primary">
+                  <MapPin className="w-5 h-5" />
+                  {language === 'es' ? 'Ávila' : language === 'it' ? 'Ávila' : language === 'scn' ? 'Ávila' : 'Ávila'}
+                </CardTitle>
+              </CardHeader>
+              <CardContent>
+                <p className="text-sm text-muted-foreground">
+                  {language === 'es' ? 'Descubre la ciudad medieval donde celebramos nuestra boda.' :
+                    language === 'it' ? 'Scopri la città medievale dove celebriamo il nostro matrimonio.' :
+                      language === 'scn' ? 'Scupri la cità medievali unni festiggiamu lu nostru matrimoniu.' :
+                        'Discover the medieval city where we are celebrating our wedding.'}
+                </p>
+              </CardContent>
+            </Card>
+          </Link>
+
+          {/* Sicilia */}
+          <Link to="/Sicilia" className="block">
+            <Card className="bg-card/80 backdrop-blur-sm shadow-romantic border-0 hover:shadow-xl hover:scale-[1.02] transition-all duration-300 cursor-pointer">
+              <CardHeader>
+                <CardTitle className="flex items-center gap-2 text-primary">
+                  <Camera className="w-5 h-5" />
+                  {language === 'es' ? 'Sicilia' : language === 'it' ? 'Sicilia' : language === 'scn' ? 'Sicilia' : 'Sicily'}
+                </CardTitle>
+              </CardHeader>
+              <CardContent>
+                <p className="text-sm text-muted-foreground">
+                  {language === 'es' ? 'Explora la tierra natal de Chiara, la perla del Mediterráneo.' :
+                    language === 'it' ? 'Esplora la terra natale di Chiara, la perla del Mediterraneo.' :
+                      language === 'scn' ? 'Esplora la terra natali di Chiara, la perla dû Mediterraneu.' :
+                        "Explore Chiara's homeland, the pearl of the Mediterranean."}
+                </p>
+              </CardContent>
+            </Card>
+          </Link>
+
+          {/* Gallery */}
+          <Link to="/gallery" className="block">
+            <Card className="bg-card/80 backdrop-blur-sm shadow-romantic border-0 hover:shadow-xl hover:scale-[1.02] transition-all duration-300 cursor-pointer">
+              <CardHeader>
+                <CardTitle className="flex items-center gap-2 text-primary">
+                  <Camera className="w-5 h-5" />
+                  {language === 'es' ? 'Galería' : language === 'it' ? 'Galleria' : language === 'scn' ? 'Galleria' : 'Gallery'}
+                </CardTitle>
+              </CardHeader>
+              <CardContent>
+                <p className="text-sm text-muted-foreground">
+                  {language === 'es' ? 'Revive nuestros momentos más especiales juntos.' :
+                    language === 'it' ? 'Rivivete i nostri momenti più speciali insieme.' :
+                      language === 'scn' ? 'Rivivìti li nostri mumenti cchiù spiciali nzemi.' :
+                        'Relive our most special moments together.'}
+                </p>
+              </CardContent>
+            </Card>
+          </Link>
+
           {/* Soundtrack Promo */}
           <Card className="bg-card/80 backdrop-blur-sm shadow-romantic border-0">
             <CardHeader>
@@ -149,36 +209,6 @@ const More = () => {
                   {t.soundtrackPromo.button}
                 </Button>
               </Link>
-            </CardContent>
-          </Card>
-
-          {/* Guide App Promo */}
-          <Card className="bg-card/80 backdrop-blur-sm shadow-romantic border-0">
-            <CardHeader>
-              <CardTitle className="flex items-center gap-2 text-primary">
-                <Map className="w-5 h-5" />
-                {t.guideAppPromo.title}
-              </CardTitle>
-            </CardHeader>
-            <CardContent className="space-y-4">
-              <div className="flex justify-center mb-4">
-                <img
-                  src="https://i.imgur.com/yrZY7R3.png"
-                  alt="Guide App Preview"
-                  className="rounded-lg shadow-md max-h-32 object-contain w-auto mx-auto"
-                />
-              </div>
-              <p className="text-sm text-muted-foreground">
-                {t.guideAppPromo.description}
-              </p>
-              <a href="https://guidehero.org" target="_blank" rel="noopener noreferrer" className="block w-full">
-                <Button
-                  className="w-full bg-primary hover:bg-primary/90"
-                >
-                  <ExternalLink className="w-4 h-4 mr-2" />
-                  {t.guideAppPromo.button}
-                </Button>
-              </a>
             </CardContent>
           </Card>
 

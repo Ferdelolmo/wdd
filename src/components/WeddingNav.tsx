@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { Heart, Menu, X, MapPin, Camera, Plus } from 'lucide-react';
+import { Heart, Menu, X, Camera, Plus } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { useLanguage } from '@/contexts/LanguageContext';
 import { translations } from '@/translations';
@@ -22,20 +22,9 @@ const WeddingNav = ({ activeSection, onSectionChange }: WeddingNavProps) => {
     { id: 'story', label: t.nav.ourStory },
     { id: 'details', label: t.nav.weddingDetails },
     { id: 'faq', label: t.nav.faq },
-    { id: 'gallery', label: t.nav.gallery }
   ];
 
   const newSections = [
-    { 
-      href: '/Avila', 
-      label: language === 'es' ? 'Ávila' : language === 'it' ? 'Ávila' : language === 'scn' ? 'Ávila' : 'Ávila',
-      icon: MapPin 
-    },
-    { 
-      href: '/Sicilia', 
-      label: language === 'es' ? 'Sicilia' : language === 'it' ? 'Sicilia' : language === 'scn' ? 'Sicilia' : 'Sicily',
-      icon: Camera 
-    },
     { 
       href: '/pictures', 
       label: language === 'es' ? 'Fotos' : language === 'it' ? 'Foto' : language === 'scn' ? 'Foto' : 'Pictures',

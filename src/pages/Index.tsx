@@ -6,7 +6,6 @@ import AboutSection from '@/components/sections/AboutSection';
 import VenueSection from '@/components/sections/VenueSection';
 import StorySection from '@/components/sections/StorySection';
 import DetailsSection from '@/components/sections/DetailsSection';
-import GallerySection from '@/components/sections/GallerySection';
 import FAQSection from '@/components/sections/FAQSection';
 
 const Index = () => {
@@ -22,8 +21,6 @@ const Index = () => {
         return <StorySection />;
       case 'details':
         return <DetailsSection />;
-      case 'gallery':
-        return <GallerySection />;
       case 'faq':
         return <FAQSection />;
       default:
