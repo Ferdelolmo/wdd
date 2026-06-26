@@ -244,29 +244,6 @@ const More = () => {
               </Link>
             </CardContent>
           </Card>
-
-
-
-          {/* Contact Info */}
-          <Card className="bg-card/80 backdrop-blur-sm shadow-romantic border-0 md:col-span-2">
-            <CardHeader>
-              <CardTitle className="text-primary">
-                {language === 'es' ? 'Información de Contacto' :
-                  language === 'it' ? 'Informazioni di Contatto' :
-                    language === 'scn' ? 'Nfurmazzioni di Cuntattu' :
-                      'Contact Information'}
-              </CardTitle>
-            </CardHeader>
-            <CardContent>
-              <div className="grid md:grid-cols-2 gap-4">
-                <div>
-                  <h4 className="font-semibold text-foreground mb-2"> </h4>
-                  <p className="text-sm text-muted-foreground">ciao@chiaraefer.com</p>
-                  <p className="text-sm text-muted-foreground"></p>
-                </div>
-              </div>
-            </CardContent>
-          </Card>
         </div>
       </div>
     </div>
