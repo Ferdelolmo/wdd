@@ -37,6 +37,11 @@ const WeddingNav = ({ activeSection, onSectionChange }: WeddingNavProps) => {
       icon: Camera 
     },
     { 
+      href: '/pictures', 
+      label: language === 'es' ? 'Fotos' : language === 'it' ? 'Foto' : language === 'scn' ? 'Foto' : 'Pictures',
+      icon: Camera 
+    },
+    { 
       href: '/more', 
       label: language === 'es' ? 'Más' : language === 'it' ? 'Altro' : language === 'scn' ? 'Autu' : 'More',
       icon: Plus 
@@ -119,7 +124,7 @@ const WeddingNav = ({ activeSection, onSectionChange }: WeddingNavProps) => {
           </div>
           
           {/* New Sections */}
-          <div className="grid grid-cols-3 gap-2">
+          <div className="grid grid-cols-2 gap-2">
             {newSections.map((section) => (
               <Link key={section.href} to={section.href}>
                 <Button
