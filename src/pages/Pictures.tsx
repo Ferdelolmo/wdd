@@ -1,48 +1,26 @@
+import { useState } from 'react';
 import { Button } from '@/components/ui/button';
 import { useLanguage } from '@/contexts/LanguageContext';
-import { Home } from 'lucide-react';
+import { Home, X, ChevronLeft, ChevronRight } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import LanguageSelector from '@/components/LanguageSelector';
 
-import { useEffect, useRef } from 'react';
-
-// PLACEHOLDER: Paste your complete embed snippet here (e.g., the HTML code from publicalbum.org)
-const ALBUM_EMBED_SNIPPET = `
-  <script src="https://cdn.jsdelivr.net/npm/publicalbum@latest/embed-ui.min.js" async></script>
-<div class="pa-gallery-player-widget" style="width:100%; height:480px; display:none;"
-  data-link="https://photos.app.goo.gl/ncjNZS9WZQHmyFgU9"
-  data-title="Wedding · Saturday, Jun 20 📸"
-  data-description="Shared album · Tap to view!">
-  <object data="https://lh3.googleusercontent.com/pw/AP1GczOqj8X1GV1eoOn2sf9D0HUb-bUlNAwr0vO-CQQi2XA9V9QVqSUslOcPykrpTzPLWl2lke_bpXI0CZSbV4VfHpRBDWENZbcuXlllpSUOYnbhci5nLTo0=w1920-h1080"></object>
-</div>
-
-`;
-
-// Helper component to safely render HTML snippets that contain <script> tags (like PublicAlbum widgets)
-const EmbedContainer = ({ html }: { html: string }) => {
-  const containerRef = useRef<HTMLDivElement>(null);
-
-  useEffect(() => {
-    if (!containerRef.current) return;
-    // Inject HTML
-    containerRef.current.innerHTML = html;
-
-    // React's dangerouslySetInnerHTML doesn't execute <script> tags.
-    // We need to manually recreate and append them for widgets to work.
-    const scripts = containerRef.current.querySelectorAll('script');
-    scripts.forEach((oldScript) => {
-      const newScript = document.createElement('script');
-      Array.from(oldScript.attributes).forEach((attr) => newScript.setAttribute(attr.name, attr.value));
-      newScript.text = oldScript.innerHTML;
-      oldScript.parentNode?.replaceChild(newScript, oldScript);
-    });
-  }, [html]);
-
-  return <div ref={containerRef} className="w-full h-full flex-1 rounded-lg bg-gray-50/50 overflow-hidden" />;
-};
+// REPLACE THESE WITH YOUR ACTUAL CLOUDINARY URLS
+const GALLERY_IMAGES = [
+  { id: 1, src: 'https://i.imgur.com/HUJXAFf.jpeg', alt: 'Wedding moment 1' },
+  { id: 2, src: 'https://i.imgur.com/JdtoZzb.jpeg', alt: 'Wedding moment 2' },
+  { id: 3, src: 'https://i.imgur.com/LdNKreo.jpeg', alt: 'Wedding moment 3' },
+  { id: 4, src: 'https://i.imgur.com/lmB8K4X.jpeg', alt: 'Wedding moment 4' },
+  { id: 5, src: 'https://i.imgur.com/j7X6MMG.jpeg', alt: 'Wedding moment 5' },
+  { id: 6, src: 'https://i.imgur.com/AQGaHOV.jpeg', alt: 'Wedding moment 6' },
+  { id: 7, src: 'https://i.imgur.com/XpAcVLw.jpeg', alt: 'Wedding moment 7' },
+  { id: 8, src: 'https://i.imgur.com/aBSbUod.jpeg', alt: 'Wedding moment 8' },
+  { id: 9, src: 'https://i.imgur.com/jpXdRy7.jpeg', alt: 'Wedding moment 9' },
+];
 
 const Pictures = () => {
   const { language } = useLanguage();
+  const [selectedImageIndex, setSelectedImageIndex] = useState<number | null>(null);
 
   const titles: Record<string, string> = {
     es: 'Fotos',
@@ -58,9 +36,33 @@ const Pictures = () => {
     en: 'Here you can view and share the wedding memories',
   };
 
+  const openLightbox = (index: number) => {
+    setSelectedImageIndex(index);
+    document.body.style.overflow = 'hidden';
+  };
+
+  const closeLightbox = () => {
+    setSelectedImageIndex(null);
+    document.body.style.overflow = 'auto';
+  };
+
+  const showNext = (e: React.MouseEvent) => {
+    e.stopPropagation();
+    if (selectedImageIndex !== null) {
+      setSelectedImageIndex((selectedImageIndex + 1) % GALLERY_IMAGES.length);
+    }
+  };
+
+  const showPrev = (e: React.MouseEvent) => {
+    e.stopPropagation();
+    if (selectedImageIndex !== null) {
+      setSelectedImageIndex((selectedImageIndex - 1 + GALLERY_IMAGES.length) % GALLERY_IMAGES.length);
+    }
+  };
+
   return (
-    <div className="min-h-screen bg-gradient-romantic py-20 flex flex-col">
-      <div className="fixed top-4 left-4 z-50">
+    <div className="min-h-screen bg-gradient-romantic py-20 flex flex-col relative">
+      <div className="fixed top-4 left-4 z-40">
         <Link to="/">
           <Button variant="outline" size="sm" className="bg-background/80 backdrop-blur-sm">
             <Home className="w-4 h-4 mr-2" />
@@ -72,12 +74,12 @@ const Pictures = () => {
         </Link>
       </div>
 
-      <div className="fixed top-4 right-4 z-50">
+      <div className="fixed top-4 right-4 z-40">
         <LanguageSelector />
       </div>
 
-      <div className="container mx-auto px-4 flex-1 flex flex-col">
-        <div className="text-center mb-8">
+      <div className="container mx-auto px-4 flex-1 flex flex-col z-10">
+        <div className="text-center mb-12">
           <h1 className="font-script text-5xl md:text-7xl text-primary mb-4">
             {titles[language] || titles.en}
           </h1>
@@ -86,14 +88,78 @@ const Pictures = () => {
           </p>
         </div>
 
-        <div className="max-w-6xl mx-auto w-full flex-1 flex flex-col bg-white/50 backdrop-blur-sm rounded-xl shadow-romantic overflow-hidden border border-white/20 p-2 md:p-4 min-h-[60vh] md:min-h-[75vh]">
-          {/* 
-            Paste the snippet generated by an embed tool directly into the ALBUM_EMBED_SNIPPET constant above.
-            The EmbedContainer will handle executing any required widget scripts.
-          */}
-          <EmbedContainer html={ALBUM_EMBED_SNIPPET} />
+        {/* Masonry/Grid Gallery */}
+        <div className="max-w-6xl mx-auto w-full">
+          <div className="grid grid-cols-2 md:grid-cols-3 gap-4 md:gap-6">
+            {GALLERY_IMAGES.map((img, index) => (
+              <div
+                key={img.id}
+                className="relative aspect-square overflow-hidden rounded-xl shadow-romantic cursor-pointer group"
+                onClick={() => openLightbox(index)}
+              >
+                <img
+                  src={img.src}
+                  alt={img.alt}
+                  className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+                  loading="lazy"
+                />
+                <div className="absolute inset-0 bg-black/20 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+                  <span className="text-white bg-black/50 px-4 py-2 rounded-full text-sm font-medium backdrop-blur-sm">
+                    View
+                  </span>
+                </div>
+              </div>
+            ))}
+          </div>
         </div>
       </div>
+
+      {/* Lightbox / Slideshow */}
+      {selectedImageIndex !== null && (
+        <div
+          className="fixed inset-0 z-50 bg-black/95 backdrop-blur-sm flex items-center justify-center"
+          onClick={closeLightbox}
+        >
+          {/* Close Button */}
+          <button
+            className="absolute top-4 right-4 md:top-6 md:right-6 text-white/70 hover:text-white p-2 rounded-full hover:bg-white/10 transition-colors z-50"
+            onClick={closeLightbox}
+          >
+            <X className="w-8 h-8" />
+          </button>
+
+          {/* Previous Button */}
+          <button
+            className="absolute left-4 md:left-8 top-1/2 -translate-y-1/2 text-white/70 hover:text-white p-3 rounded-full hover:bg-white/10 transition-colors z-50"
+            onClick={showPrev}
+          >
+            <ChevronLeft className="w-10 h-10" />
+          </button>
+
+          {/* Main Image */}
+          <div className="w-full h-full p-4 md:p-12 flex items-center justify-center">
+            <img
+              src={GALLERY_IMAGES[selectedImageIndex].src}
+              alt={GALLERY_IMAGES[selectedImageIndex].alt}
+              className="max-w-full max-h-full object-contain drop-shadow-2xl select-none"
+              onClick={(e) => e.stopPropagation()} // Prevent clicking image from closing lightbox
+            />
+          </div>
+
+          {/* Next Button */}
+          <button
+            className="absolute right-4 md:right-8 top-1/2 -translate-y-1/2 text-white/70 hover:text-white p-3 rounded-full hover:bg-white/10 transition-colors z-50"
+            onClick={showNext}
+          >
+            <ChevronRight className="w-10 h-10" />
+          </button>
+
+          {/* Image Counter */}
+          <div className="absolute bottom-6 left-1/2 -translate-x-1/2 text-white/70 font-medium tracking-widest text-sm">
+            {selectedImageIndex + 1} / {GALLERY_IMAGES.length}
+          </div>
+        </div>
+      )}
     </div>
   );
 };
