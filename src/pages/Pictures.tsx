@@ -83,9 +83,39 @@ const Pictures = () => {
           <h1 className="font-script text-5xl md:text-7xl text-primary mb-4">
             {titles[language] || titles.en}
           </h1>
-          <p className="text-muted-foreground text-lg">
+          <p className="text-muted-foreground text-lg mb-6">
             {descriptions[language] || descriptions.en}
           </p>
+
+          {/* External Album Links */}
+          <div className="flex justify-center items-center gap-8">
+            <a
+              href="https://web.dotstheapp.com/a?group=2497410&dlBy=weddingchiarafer&code=qna9stjxJGoC"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:opacity-80 transition-opacity hover:scale-105 transform duration-200"
+              title="View Album 1"
+            >
+              <img
+                src="https://play-lh.googleusercontent.com/PUrfNOl2Oj-L-2bbKH1DBZxU1J6KaPbty-PkeVsrB4yLvpovppCoYxcpfa5dx5SPM1_1i9eJvTsH2eSZJHgRUg"
+                alt="Google Play Logo"
+                className="h-14 md:h-16 object-contain"
+              />
+            </a>
+            <a
+              href="https://photos.app.goo.gl/KbzzFF91UNkQKc9F9"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:opacity-80 transition-opacity hover:scale-105 transform duration-200"
+              title="View Album 2"
+            >
+              <img
+                src="https://logos-world.net/wp-content/uploads/2022/05/Google-Photos-Logo.png"
+                alt="Google Photos Logo"
+                className="h-10 md:h-12 object-contain"
+              />
+            </a>
+          </div>
         </div>
 
         {/* Masonry/Grid Gallery */}
