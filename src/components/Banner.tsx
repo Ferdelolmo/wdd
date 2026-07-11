@@ -9,7 +9,7 @@ export const Banner = () => {
   if (!t) return null;
 
   return (
-    <div className="w-full bg-primary text-primary-foreground py-4 px-6 text-center text-base md:text-lg shadow-lg font-medium">
+    <div className="w-full bg-primary text-primary-foreground py-4 px-6 text-center text-xl md:text-2xl shadow-lg font-medium">
       <span className="font-semibold">{t.movingTo}</span>{" "}
       <a
         href={link}
