@@ -34,7 +34,7 @@ const Index = () => {
         activeSection={activeSection} 
         onSectionChange={setActiveSection} 
       />
-      <main className="pt-16">
+      <main>
         {renderSection()}
       </main>
       <SectionNavigator 

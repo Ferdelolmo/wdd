@@ -40,7 +40,7 @@ const WeddingNav = ({ activeSection, onSectionChange }: WeddingNavProps) => {
   return (
     <>
       {/* Desktop Navigation */}
-      <nav className="hidden md:block fixed top-0 w-full bg-card/80 backdrop-blur-md border-b border-border z-50 shadow-soft">
+      <nav className="hidden md:block sticky top-0 w-full bg-card/80 backdrop-blur-md border-b border-border z-50 shadow-soft">
         <div className="container mx-auto px-4 py-4">
           <div className="flex items-center justify-between">
             {/* Logo */}

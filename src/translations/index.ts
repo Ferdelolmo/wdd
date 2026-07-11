@@ -1,5 +1,9 @@
 export const translations = {
   es: {
+    banner: {
+      movingTo: 'Nos mudamos a:',
+      bookmark: '¡Guárdalo en favoritos si quieres estar al tanto!'
+    },
     nav: {
       aboutUs: 'Sobre Nosotros',
       venue: 'Lugar',
@@ -300,6 +304,10 @@ export const translations = {
     }
   },
   scn: {
+    banner: {
+      movingTo: 'Nni trasfiremu a:',
+      bookmark: 'Sàrvatelu ntê prifiriti pi ristari aggiurnatu!'
+    },
     nav: {
       aboutUs: 'Di Nuiautri',
       venue: 'Locu',
@@ -601,6 +609,10 @@ export const translations = {
     }
   },
   it: {
+    banner: {
+      movingTo: 'Ci trasferiamo su:',
+      bookmark: 'Salvalo nei preferiti per rimanere aggiornato!'
+    },
     nav: {
       aboutUs: 'Chi Siamo',
       venue: 'Luogo',
@@ -902,6 +914,10 @@ export const translations = {
     }
   },
   en: {
+    banner: {
+      movingTo: 'We\'re moving everything to:',
+      bookmark: 'Please bookmark it if you want to stay in the loop!'
+    },
     nav: {
       aboutUs: 'About Us',
       venue: 'Venue',

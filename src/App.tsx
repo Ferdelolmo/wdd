@@ -21,6 +21,8 @@ import Petanca from "./pages/Petanca";
 import Pictures from "./pages/Pictures";
 import Gallery from "./pages/Gallery";
 
+import { Banner } from "@/components/Banner";
+
 const queryClient = new QueryClient();
 
 const App = () => (
@@ -31,7 +33,10 @@ const App = () => (
         <Sonner />
         <InstallPrompt />
         <BrowserRouter basename={import.meta.env.BASE_URL}>
-          <Routes>
+          <div className="flex flex-col min-h-screen">
+            <Banner />
+            <div className="flex-1">
+              <Routes>
             <Route path="/" element={<Index />} />
             <Route path="/invite/:slug" element={<Invitation />} />
             <Route path="/Avila" element={<Avila />} />
@@ -48,7 +53,9 @@ const App = () => (
             <Route path="/gallery" element={<Gallery />} />
             {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
             <Route path="*" element={<NotFound />} />
-          </Routes>
+              </Routes>
+            </div>
+          </div>
         </BrowserRouter>
       </LanguageProvider>
     </TooltipProvider>

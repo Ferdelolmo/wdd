@@ -63,7 +63,7 @@ const Pictures = () => {
 
   return (
     <div className="min-h-screen bg-gradient-romantic py-20 flex flex-col relative">
-      <div className="fixed top-4 left-4 z-40">
+      <div className="absolute top-4 left-4 z-40">
         <Link to="/">
           <Button variant="outline" size="sm" className="bg-background/80 backdrop-blur-sm">
             <Home className="w-4 h-4 mr-2" />
